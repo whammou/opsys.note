@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID: b2cb1dcc-73c9-4334-b55c-bacef1a99ba9
+:END:
+#+TITLE: Cloud Drives
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:REMOTE:DRIVE:
+#+HTML:<details>
+
+* DONE Cloud Drives :DOC:META:SYSTEM:REMOTE:DRIVE:
+CLOSED: [2025-06-10 Tue 01:10]
+#+HTML:</details>
+- *OBJECTIVE:* /Manage data in cloud drives/
+** PARTIAL Config rclone [100%] :RCLONE:
+CLOSED: [2025-06-01 Sun 23:02]
+- *OBJECTIVE:* /Config rclone to sync with google-drive/
+  - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
+- *References:* [[id:3700b025-3d42-4516-a17d-0eb37366d087][Working with rclone @Orgmode]]
+** DONE Obtain google-drive API key :GDRIVE:
+CLOSED: [2025-06-01 Sun 22:46]
+- *OBJECTIVE:* /Obtain gdrive API for rclone/
+- *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
+** DONE Quickly toggle drive :ROFI:
+CLOSED: [2025-06-10 Tue 01:10]
+- *OBJECTIVE:* /Write script to quickly toggle drive/
+- *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]

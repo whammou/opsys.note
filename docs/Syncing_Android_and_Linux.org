@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID: a08f1247-0137-4ea0-b10f-f33558de65b9
+:ROAM_ORIGIN: 0de1c55e-bc14-4f3c-b268-36ad6974f706
+:END:
+#+TITLE: Syncing Android and Linux
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:ANDROID:LINUX:SYNC:
+#+HTML:<details>
+
+* PARTIAL Syncing Android and Linux :DOC:META:SYSTEM:ANDROID:LINUX:SYNC:
+CLOSED: [2025-06-03 Tue 02:03]
+#+HTML:</details>
+- [ ] *OBJECTIVE:* /Android and linux sync-up workflow/ [%]
+  - [ ]  [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
+  - [ ]  [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
+- *Workaround:* Sync using cloud drives

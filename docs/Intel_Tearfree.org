@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID: cad7807a-82a1-4a66-8419-62358365d5d9
+:ROAM_ORIGIN: 0a3f8238-97cd-4aa2-a8dc-6ecea163efac
+:END:
+#+TITLE: Linux Screen Tear
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:INTEL:
+#+HTML:<details>
+
+* DONE Linux Screen Tear [100%] :DOC:META:SYSTEM:LINUX:INTEL:
+CLOSED: [2025-05-21 Wed 18:01]
+#+HTML:</details>
+- *Objective:* /Dicide to run with a ~compositor~ or without/
+  - *References:* 
+    - [[https://l.opnxng.com/r/archlinux/comments/bs1ban/compositor_or_no_compositor/][Compositor or not @Reddit]]
+    - [[https://www.dedoimedo.com/computers/linux-intel-graphics-video-tearing.html][Fix video tearing on linux @Blog]]
+** DONE TearFree feature :INTEL:
+CLOSED: [2025-05-20 Tue 16:34]
+:PROPERTIES:
+:ID:       263ea0db-b98c-4775-9628-220682a48918
+:END:
+- *Objective:* /Achieve Tearfree without using a ~compositor~/
+  - *References:* 
+    - [[https://bbs.archlinux.org/viewtopic.php?id=227609][TearFree doesn't work @Archforum]]
+    - [[https://wiki.archlinux.org/title/Intel_graphics#Tearing][Troubleshooting-tearing @Archwiki]]
+** DONE Fix kitty tear free :KITTY:
+CLOSED: [2025-05-20 Tue 16:33]
+- *Objective:* /Achieve tearless with kitty/
+  - *Config:* Add this to your config file: [[file:~/.config/kitty/kitty.conf][config @kitty]]
+  - *Run:* ~sync_to_monitor = yes~
+** DONE Fix qutebrowser tear free :QUTEBROWSER:
+CLOSED: [2025-05-21 Wed 18:01]
+- *Objective:* /Achieve tearless with qutebrowser/
+** DONE Fix mpv tear :MPV:
+CLOSED: [2025-05-21 Wed 18:15]
+- *Objective:* /Achieve flawless video playback/
+  - *Config:*
+    #+BEGIN_confini
+    video-sync=display-resample
+    interpolation=yes
+    #+END_confini

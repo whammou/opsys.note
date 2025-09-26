@@ -1,0 +1,18 @@
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+LATEX_HEADER: \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TITLE: System Incidental Tasks
+
+* List of Incidental Tasks :TASK:INCIDENTAL:SYSTEM:META:
+** PENDING Termux ssh :LINUX:TERMUX:
+- *Objective:* ssh to the server via Termux
+- *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
+** PENDING Automatic git sync :ORGMODE:
+- *Goal(s):* run automatic git sync on ~server~
+- *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
+** PENDING Control nvim instances
+- *Objective:* Control nvim instances from the ~terminal~ with ~command line~
+- *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
+** TODO Shareble documents content :PARA:
+- *OBJECTIVE:* Re-format docs file for friendly and quick export to share among peers
+- *Reference:* [[https://old.reddit.com/r/blender/comments/16qtuy0/2_questions_how_do_i_share_my_materials_and_how/][Sharable material and good workflow @Reddit-discussion]]

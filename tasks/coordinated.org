@@ -1,0 +1,6 @@
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+LATEX_HEADER: \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TITLE: System Coordinated Tasks
+
+* List of Coordinated Tasks :TASK:COORDINATED:SYSTEM:META:

@@ -1,0 +1,9 @@
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+LATEX_HEADER: \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TITLE: System Recurring Tasks
+
+* List of Recurring Tasks :TASK:RECURRING:SYSTEM:META:
+** PENDING Clean up $HOME :LINUX:
+- *Goal(s):* clean up $HOME dir
+- *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]

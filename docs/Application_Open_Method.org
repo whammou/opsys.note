@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID: ee480f7e-aaf0-4d6d-860c-3432099328ff
+:ROAM_ORIGIN: 0726776a-0cd6-4819-b5f6-cc36089bef79
+:END:
+#+TITLE: Application Open Method
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:
+#+HTML:<details>
+
+* DONE Application Open Method [100%] :DOC:META:SYSTEM:LINUX:
+CLOSED: [2025-05-24 Sat 01:20]
+:PROPERTIES:
+:ID:       0a3f8238-97cd-4aa2-a8dc-6ecea163efac
+:END:
+#+HTML:</details>
+- [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~
+  - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
+** DONE Open with handlr :HANDLR:
+CLOSED: [2025-04-22 Tue 03:09]
+:PROPERTIES:
+:ID:       670f557e-c6f4-4392-aa0c-be18d7ae49a9
+:END:
+- /A better xdg-utils/
+- *References* [[https://github.com/Anomalocaridid/handlr-regex][github.com@handlr-regex]]
+** ABORTED Open with mimeo :MIMEO:
+CLOSED: [2025-04-22 Tue 03:09]
+- /Open files in mime types using regular expression/
+  - *Project-link:* [[https://xyne.dev/projects/mimeo/][mineo documentation]]
+** DONE Integrate mpv youtube link :MPV:HANDLR:
+CLOSED: [2025-04-22 Tue 03:08]
+:PROPERTIES:
+:ID:       20071104-5e85-4d24-82a5-cf897074ac96
+:END:
+- [X] /Yank/ ~mpv~ /current file/ ~yt-url~ [100%]
+  - [X] [[https://github.com/raphaeltannous/mpv-copyStuff][mpv-yankstuff]]
+  - [X] ~xdg-open~ specific ~cmd~ to open specific ~url~:
+    - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/777237/open-specific-urls-in-certain-app][xdg-open limitations]]
+    - [[https://wiki.archlinux.org/title/Default_applications#mimeo][Archwiki#mimeo]]
+  - *Example:*
+    - [[https://www.youtube.com/watch?v=ryR2-jVjoeA&t=15][Trailer starts at 00:15]]
+    - [[https://www.youtube.com/watch?v=jv4pDOKe7OE&t=30][Test video starts at 00:30]]
+    - [[https://www.youtube.com/watch?v=jv4pDOKe7OE?start=53&end=59][Youtube link with start and end time]]
+- *Reference:* [[https://github.com/Anomalocaridid/handlr-regex?tab=readme-ov-file#setting-regex-handlers][Setting regex handlr @Github]]

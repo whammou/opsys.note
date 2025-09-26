@@ -1,0 +1,33 @@
+#+TITLE: System Document Drafts
+
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+FILETAGS: :DOC:DRAFT:SYSTEM:
+#+HTML:<details>
+
+* Document Drafts :DOC:DRAFT:SYSTEM:META:
+#+HTML:</details>
+
+#+NAME:Warning Message
+#+BEGIN_QUOTE
+[!WARNING]
+Draft items are subjected to change and refile!
+#+END_QUOTE
+** OUTLINE CPU and IRQ scheduler :PERFORMANCE:
+- /Setup CPU and IRQ scheduler/ ~daemon~
+** OUTLINE Select io scheduler :PERFORMANCE:
+- /Change/ ~udev~ /rules for io-scheduler/
+** OUTLINE Disable Coredump :TWEAKS:
+DEADLINE: <2025-09-26 Fri>
+/Documentation of disabling systemd coredump/
+** PENDING Managing A Nested Git Project :GIT:
+:PROPERTIES:
+:ID: 0ac3ce98-9f59-468f-acfd-c494c879986b
+:END:
+/Learn to create and manage git superproject (a nested git project)/
+- *Visit:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
+*** Git Submodules Approach
+/Using submodules as a branch for a nested project/
+*** Symlinks Approach
+/Using system symlinks as branch for a nested project/

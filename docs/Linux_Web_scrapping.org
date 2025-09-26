@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID: 0726776a-0cd6-4819-b5f6-cc36089bef79
+:END:
+#+TITLE: Linux Web-scrapping
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:
+#+HTML:<details>
+
+* PENDING Linux Web-scrapping :DOC:META:SYSTEM:LINUX:
+#+HTML:</details>
+- /Find linux web-scrapping methods/

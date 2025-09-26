@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID: 24ba5149-6f83-4106-a733-25a4b998c713
+:ROAM_ORIGIN: a08f1247-0137-4ea0-b10f-f33558de65b9
+:END:
+#+TITLE: Orgmode Configurations
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:ORGMODE:
+#+HTML:<details>
+
+* DONE Orgmode Configurations [100%] :DOC:META:SYSTEM:ORGMODE:
+CLOSED: [2024-11-07 Thu 06:08]
+#+HTML:</details>
+/Because =orgzly-android= is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
+** DONE Orgmode Include Files
+CLOSED: [2024-09-06 Fri 21:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: TODO
+:END:
+- *OBJECTIVE:* Include files from across org files
+- *Resources:* [[https://orgmode.org/manual/Include-Files.html][org manual]]
+** DONE Orgmode Search
+CLOSED: [2024-09-30 Mon 03:38]
+- *Goal(s):* Learn to search in orgmode repo
+tumble-upon:* [[https://www.orgzlyrevived.com/docs#search][orgzly-manual]]  [[https://orgmode.org/worg/org-tutorials/advanced-searching.html][nvim-orgmode]]
+
+/For now, =orgzly-android= does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
+** DONE Orgmode Hyperlink
+CLOSED: [2024-10-08 Tue 22:58]
+- *Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
+- *Note:* Cross file include
+** DONE Orgmode Tag
+CLOSED: [2024-10-01 Tue 06:03]
+- *Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline =tag=
+- *Suggestion:* Use [[./README.org][README]] to generate a list of =tags= and its =description=
+** DONE Orgmode PROPERTIES
+CLOSED: [2024-10-01 Tue 06:03]
+- *Goal(s):* Read [[https://orgmode.org/manual/Properties-and-Columns.html][PROPERTIES@orgmanual]] 
+*** Property Syntax
+A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name =:PROPERTIES:=, which has to located right below a headline, and its planning line
+B. Depend on the value of =org-use-property-inheritance=, a property set this way is associated either with a single entry, or with the subtree defined by the entry
+C. Properties can be inserted at the buffer level. That means they apply before the first headline and can be inherited by all entries in a file. Property blocks defined before the first headline must be at the top of the buffer with only comments above them
+   
+- /Note that a property can only have one try per drawer/
+  
+Property values set with the global variable =org-global-properties= can be inherited by all entries in all Org files
+*** Special Properties
+Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
+
+- =#+FILETAG: :FOO:BAR:=: notebook tag

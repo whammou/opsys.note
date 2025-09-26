@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID: 669e6ef5-592a-4e29-be9b-b147448a08fd
+:ROAM_ORIGIN: cad7807a-82a1-4a66-8419-62358365d5d9
+:END:
+#+TITLE: System Proxies and DNS
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PENDING(p) OUTLINE(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:NETWORK:
+#+HTML:<details>
+
+* PENDING System Proxies and DNS :DOC:META:SYSTEM:LINUX:NETWORK:
+#+HTML:</details>
+Access blocked websites via ~proxy~ or changeing ~DNS~
