@@ -29,5 +29,7 @@ DEADLINE: <2025-09-28 Sun>
 - *Visit:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
 *** Git Submodules Approach
 /Using submodules as a branch for a nested project/
+**** OUTLINE Pull From Remote
+/How to pull changes from a remote repo/
 *** Symlinks Approach
 /Using system symlinks as branch for a nested project/
