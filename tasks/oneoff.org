@@ -21,7 +21,7 @@
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
 - /Use advances search methods in search engines/
-** PENDING Auto commit repo :GIT:
+** PENDING Git Auto Commit :GIT:
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
