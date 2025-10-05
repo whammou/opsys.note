@@ -33,3 +33,6 @@ DEADLINE: <2025-10-05 Sun>
 /How to pull changes from a remote repo/
 *** Symlinks Approach
 /Using system symlinks as branch for a nested project/
+** OUTLINE Running Tasks in Parallel
+Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
+*** DOING GNU-parallel vs xargs
