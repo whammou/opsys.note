@@ -19,7 +19,7 @@ Draft items are subjected to change and refile!
 ** OUTLINE Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
 ** OUTLINE Disable Coredump :TWEAKS:
-DEADLINE: <2025-10-04 Sat>
+DEADLINE: <2025-10-05 Sun>
 /Documentation of disabling systemd coredump/
 ** OUTLINE Managing A Nested Git Project :GIT:
 :PROPERTIES:
