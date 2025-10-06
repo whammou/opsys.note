@@ -27,13 +27,10 @@ DEADLINE: <2025-10-06 Mon>
 :END:
 For an open-source organization, it can be tricky to achieve single-source =documentation= and =dependency management= for the community and the product. The =documentation= and =project= often end up fragmented and redundant, which makes them difficult to maintain
 
-#+name:git subtree
-#+begin_html html
-<details>
-  <summary>git subtree</summary>
-  [[https://opensource.com/article/20/5/git-submodules-subtrees][https://opensource.com/sites/default/files/subtree_0.png]]
-</details>
-#+end_html
+#+html:<details>
+#+html:<summary>git subtree</summary>
+[[https://opensource.com/article/20/5/git-submodules-subtrees][https://opensource.com/sites/default/files/subtree_0.png]]
+#+html:</details>
 
   + Git submodules and subtrees
 
