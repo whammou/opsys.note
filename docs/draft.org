@@ -21,7 +21,7 @@ Draft items are subjected to change and refile!
 ** OUTLINE Disable Coredump :TWEAKS:
 DEADLINE: <2025-10-06 Mon>
 /Documentation of disabling systemd coredump/
-** OUTLINE Managing A Nested Git Project :GIT:
+** WAITING Managing A Nested Git Project :GIT:
 :PROPERTIES:
 :ID: 0ac3ce98-9f59-468f-acfd-c494c879986b
 :END:
@@ -31,9 +31,9 @@ For an open-source organization, it can be tricky to achieve single-source =docu
 #+html:<summary>git subtree</summary>
 [[https://opensource.com/article/20/5/git-submodules-subtrees][https://opensource.com/sites/default/files/subtree_0.png]]
 #+html:</details>
-
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
-*** OUTLINE Git Submodules Approach
+*** DONE Git Submodules Approach
+CLOSED: [2025-10-06 Mon 16:56]
 - Git =submodules= are /git repositories/ within a /git repository/
   + The =submodule= are pointers which points to a *specific commit* of the /child repository/
   + =Submodule= can be /nested/ - meaning you can have a =submodule= of a =submodule=
@@ -42,9 +42,8 @@ For an open-source organization, it can be tricky to achieve single-source =docu
 #+NAME:Nested submodules pointers
 #+BEGIN_QUOTE markdown
 [!WARNING]
-`submodules` are pointer to s specific commit meaning having too many layers of them can obstruct workflow as you will have to update each `submodule` with its new pointers
+=submodules= are pointer to s specific commit meaning having too many layers of them can obstruct workflow as you will have to update each =submodule= along with its new pointers
 #+END_QUOTE
-
 
 **** OUTLINE Pull From Remote
 /How to pull changes from a remote repo/
