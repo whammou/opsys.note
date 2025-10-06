@@ -25,13 +25,24 @@ DEADLINE: <2025-10-06 Mon>
 :PROPERTIES:
 :ID: 0ac3ce98-9f59-468f-acfd-c494c879986b
 :END:
-/Learn to create and manage git superproject (a nested git project)/
-- *Visit:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
-*** Git Submodules Approach
+For an open-source organization, it can be tricky to achieve single-source =documentation= and =dependency management= for the community and the product. The =documentation= and =project= often end up fragmented and redundant, which makes them difficult to maintain
+
+#+name:git subtree
+#+begin_html html
+<details>
+  <summary>git subtree</summary>
+  [[https://opensource.com/article/20/5/git-submodules-subtrees][https://opensource.com/sites/default/files/subtree_0.png]]
+</details>
+#+end_html
+
+  + Git submodules and subtrees
+
+- *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
+*** OUTLINE Git Submodules Approach
 /Using submodules as a branch for a nested project/
 **** OUTLINE Pull From Remote
 /How to pull changes from a remote repo/
-*** Symlinks Approach
+*** OUTLINE Symlinks Approach
 /Using system symlinks as branch for a nested project/
 ** OUTLINE Running Tasks in Parallel
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
