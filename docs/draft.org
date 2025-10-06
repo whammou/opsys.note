@@ -32,11 +32,20 @@ For an open-source organization, it can be tricky to achieve single-source =docu
 [[https://opensource.com/article/20/5/git-submodules-subtrees][https://opensource.com/sites/default/files/subtree_0.png]]
 #+html:</details>
 
-  + Git submodules and subtrees
-
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
 *** OUTLINE Git Submodules Approach
-/Using submodules as a branch for a nested project/
+- Git =submodules= are /git repositories/ within a /git repository/
+  + The =submodule= are pointers which points to a *specific commit* of the /child repository/
+  + =Submodule= can be /nested/ - meaning you can have a =submodule= of a =submodule=
+- This approach meaning you can have a working tree of submodules as a working directory tree
+
+#+NAME:Nested submodules pointers
+#+BEGIN_QUOTE markdown
+[!WARNING]
+`submodules` are pointer to s specific commit meaning having too many layers of them can obstruct workflow as you will have to update each `submodule` with its new pointers
+#+END_QUOTE
+
+
 **** OUTLINE Pull From Remote
 /How to pull changes from a remote repo/
 *** OUTLINE Symlinks Approach
