@@ -21,7 +21,8 @@ Draft items are subjected to change and refile!
 ** OUTLINE Disable Coredump :TWEAKS:
 DEADLINE: <2025-10-06 Mon>
 /Documentation of disabling systemd coredump/
-** WAITING Managing A Nested Git Project :GIT:
+** PARTIAL Managing A Nested Git Project :GIT:
+DEADLINE: <2025-10-06 Mon> CLOSED: [2025-10-06 Mon 17:42]
 :PROPERTIES:
 :ID: 0ac3ce98-9f59-468f-acfd-c494c879986b
 :END:
@@ -32,8 +33,11 @@ For an open-source organization, it can be tricky to achieve single-source =docu
 [[https://opensource.com/article/20/5/git-submodules-subtrees][https://opensource.com/sites/default/files/subtree_0.png]]
 #+html:</details>
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/35534766/how-to-create-submodule-in-existing-repo][How to create a nested project @Overflow]]
-*** DONE Git Submodules Approach
-CLOSED: [2025-10-06 Mon 16:56]
+*** PARTIAL Git Submodules Approach
+DEADLINE: <2025-10-06 Mon> CLOSED: [2025-10-06 Mon 17:42]
+:PROPERTIES:
+:ID: 35ff8cc5-522d-423e-b9e1-0d4e067e737b
+:END:
 - Git =submodules= are /git repositories/ within a /git repository/
   + The =submodule= are pointers which points to a *specific commit* of the /child repository/
   + =Submodule= can be /nested/ - meaning you can have a =submodule= of a =submodule=
@@ -44,11 +48,37 @@ CLOSED: [2025-10-06 Mon 16:56]
 [!WARNING]
 =submodules= are pointer to s specific commit meaning having too many layers of them can obstruct workflow as you will have to update each =submodule= along with its new pointers
 #+END_QUOTE
+**** DONE Clone and Load Submodules
+DEADLINE: <2025-10-06 Mon> CLOSED: [2025-10-06 Mon 17:50]
+Downloading =submodules= sequentially can be a tedious task, so =clone= and =submodule update= will support the =--jobs= or =-j= parameter
 
-**** OUTLINE Pull From Remote
+#+NAME:Download submodules in parallel
+#+BEGIN_SRC bash
+git submodule update --init --recursive -j8
+git clone --recursive --jobs 8 <URL to git repo>
+#+END_SRC
+**** REVIEW Add Submodules
+DEADLINE: <2025-10-06 Mon> CLOSED: [2025-10-06 Mon 17:58]
+- To add a child repository to parent repository:
+  #+BEGIN_SRC bash
+  git submodule add <URL to Git repo>
+  #+END_SRC
+  + To create an empty repository on remote (using =github-cli=)
+    #+BEGIN_SRC bash
+    gh repo create <Repo name> --public
+    #+END_SRC
+- To Initialize an existing Git submodule
+  #+BEGIN_SRC bash
+  git submodule init
+  #+END_SRC
+**** DOING Pull and Push submodules
+DEADLINE: <2025-10-06 Mon>
+/How to pull and push submodules/
+**** NEXT Pull From Remote
+DEADLINE: <2025-10-06 Mon>
 /How to pull changes from a remote repo/
 *** OUTLINE Symlinks Approach
 /Using system symlinks as branch for a nested project/
 ** OUTLINE Running Tasks in Parallel
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
-*** DOING GNU-parallel vs xargs
+*** OUTLINE GNU-parallel vs xargs
