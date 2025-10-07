@@ -14,16 +14,6 @@
 #+HTML:</details>
 - *Objective:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
-** DONE Chroot from live USB
-CLOSED: [2025-04-19 Sat 07:58]
-- *Goal(s):* chroot from a live usb
-** DONE Arch Linux hibernation
-CLOSED: [2025-04-19 Sat 07:55] DEADLINE: <2025-01-06 Mon 03:00>
-- Note taken on [2025-01-06 Mon 01:48] \\
-  Hibernation for btrfs partitions
-  
-- *Goal(s):* setup ~hibernation~ for archlinux
-- *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
 ** DONE Update grub parameters
 CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* update grub boot parameters to splash ~screen~ and hide grub ~menu~

@@ -27,3 +27,12 @@ DEADLINE: <2025-10-07 Tue>
 :END:
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
 *** OUTLINE GNU-parallel vs xargs
+** OUTLINE Chroot from live USB
+/How to chroot from live USB stick/
+** OUTLINE Arch Linux hibernation
+DEADLINE: <2025-10-07 Tue 03:00>
+- Note taken on [2025-01-06 Mon 01:48] \\
+  Hibernation for btrfs partitions
+  
+- *Goal(s):* setup ~hibernation~ for archlinux
+- *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
