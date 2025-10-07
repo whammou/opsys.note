@@ -164,7 +164,7 @@ a. ~ca~ to amend the last commit
 b. ~cw~ to reword the last commit
 c. ~cf~ to create a fixup commit
 d. ~crc~ to revert the commit under the cursor
-*** PENDING Better nvim and git workflow
+*** PEND Better nvim and git workflow
 :PROPERTIES:
 :ID:       99f670ec-a946-4bb3-8aeb-80ecc09c6c5f
 :END:
@@ -284,34 +284,34 @@ CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
 *** DONE Systemd multiple triggers :SYSTEMD:
 CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
 - *Goal:* implement multiple triggers for a systemd service
-** ABORTED [#C] Config xfcit5
+** ABRT [#C] Config xfcit5
 CLOSED: [2024-11-27 Wed 12:03] DEADLINE: <2024-11-13 Wed 20:00>
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-12-14 Sat 11:10
 :ARCHIVE_FILE: /home/whammou/notes/computer/computer_main.org
 :ARCHIVE_OLPATH: Description
 :ARCHIVE_CATEGORY: computer_main
-:ARCHIVE_TODO: ABORTED
+:ARCHIVE_TODO: ABRT
 :END:
 - *Goal:* rebind keys and adjust theme
-** ABORTED Config lazy.nvim
+** ABRT Config lazy.nvim
 CLOSED: [2024-12-04 Wed 15:16]
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-12-14 Sat 11:12
 :ARCHIVE_FILE: /home/whammou/notes/computer/computer_main.org
 :ARCHIVE_OLPATH: Description/Terminal rework
 :ARCHIVE_CATEGORY: computer_main
-:ARCHIVE_TODO: ABORTED
+:ARCHIVE_TODO: ABRT
 :END:
 - *Goal(s):* rewrite config init in lua
-** ABORTED Orgzly android comments
+** ABRT Orgzly android comments
 CLOSED: [2024-09-29 Sun 22:07]
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-12-14 Sat 11:12
 :ARCHIVE_FILE: /home/whammou/notes/computer/orgmode.org
 :ARCHIVE_OLPATH: Description/Orgmode Manual
 :ARCHIVE_CATEGORY: orgmode
-:ARCHIVE_TODO: ABORTED
+:ARCHIVE_TODO: ABRT
 :END:
 ** DONE [#B] Dual boot :SYSTEM:
 CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>
@@ -329,14 +329,14 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Goal(s):* implement ripgrep for faster documentation search
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
-** ABORTED Dunst config :LINUX:
+** ABRT Dunst config :LINUX:
 CLOSED: [2025-01-27 Mon 22:11]
 - *Goal(s):* config dunst volume and brightness slider
   - [ ] volume slider
   - [ ] brightness slider
 
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
-** ABORTED Unbind fishshell keys :FISH:
+** ABRT Unbind fishshell keys :FISH:
 CLOSED: [2025-01-27 Mon 22:16]
 - Note taken on [2025-01-27 Mon 22:15] \\
   - Not possible due to $TERM
@@ -435,7 +435,7 @@ CLOSED: [2025-04-23 Wed 23:03]
 CLOSED: [2025-05-23 Fri 17:49]
 - *Goal:* /Dicover how github interprets orgmode/
 - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]
-** ABORTED Config nvim-supertab and nvim-cmp :NVIM:
+** ABRT Config nvim-supertab and nvim-cmp :NVIM:
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 ** DONE Integrate lazygit [100%] :GIT:
@@ -448,14 +448,14 @@ CLOSED: [2025-04-19 Sat 17:50]
 **** DONE Add git-deff method
 CLOSED: [2025-04-19 Sat 17:50]
 /insert use methods here/
-** ABORTED [#B] Self-host AI [100%] :LINUX:AI:
+** ABRT [#B] Self-host AI [100%] :LINUX:AI:
 CLOSED: [2025-04-19 Sat 17:51]
 - /GTX 1050 ti AI self-host models/
-*** ABORTED Linux-Windows dual boot
+*** ABRT Linux-Windows dual boot
 CLOSED: [2025-04-19 Sat 17:51]
 - /Dual boot Windows and Linux on the same system/
 - *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
-*** ABORTED Self-host AI with Nvidia card
+*** ABRT Self-host AI with Nvidia card
 CLOSED: [2025-04-19 Sat 17:51]
 - Note taken on [2025-03-28 Fri 22:13] \\
   Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
@@ -463,7 +463,7 @@ CLOSED: [2025-04-19 Sat 17:51]
 - *Visit:*
   - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
   - [[https://ollama.com/search][Ollama models]]
-*** ABORTED Integrate AI into shell
+*** ABRT Integrate AI into shell
 CLOSED: [2025-04-19 Sat 17:52]
 - Note taken on [2025-03-28 Fri 21:57] \\
   Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
@@ -489,10 +489,10 @@ CLOSED: [2025-04-09 Wed 17:46]
   - [x] No support for av1 codec profile 0
   - [x] yt-dl [[file:~/.config/ytdl/conf][config]]
   - [x] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
-** ABORTED Systemd config :SYSTEMD:
+** ABRT Systemd config :SYSTEMD:
 CLOSED: [2025-05-24 Sat 01:13]
 - *Goal:* /Config systemd/
-*** ABORTED Setup systemd user-config
+*** ABRT Setup systemd user-config
 CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 - /Successfully translate current services to user-services/
   - *Visit:* 
@@ -531,7 +531,7 @@ CLOSED: [2025-06-08 Sun 05:17]
 ** DONE Test github render [100%] :GITHUB:
 CLOSED: [2025-06-12 Thu 05:01]
 - /*Objective:* Test github orgmode render capability for math equations/
-*** ABORTED Render math equations :LATEX:
+*** ABRT Render math equations :LATEX:
 CLOSED: [2025-06-11 Wed 16:21]
 - /*Objective:* See Github render orgmode latex fragment/
 $$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
@@ -589,7 +589,7 @@ CLOSED: [2025-06-09 Mon 23:53]
 - *Reference:*
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
-** ABORTED Qutebrowser edit-text :QUTEBROWSER:
+** ABRT Qutebrowser edit-text :QUTEBROWSER:
 CLOSED: [2025-06-14 Sat 21:23] DEADLINE: <2025-06-14 Sat 21:21>
 :LOGBOOK:
 CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
@@ -598,7 +598,7 @@ CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
 - *Reference:*
   - [[qute://help/settings.html#bindings.commands][Qutebrowser binding commend documentation @Qute]]
   - [[https://l.opnxng.com/r/qutebrowser/comments/jdu8co/use_case_of_open_editor/][Edit-txt does not work parameter @Reddit]]
-** ABORTED Treesitter highlight :NVIM:
+** ABRT Treesitter highlight :NVIM:
 CLOSED: [2025-06-16 Mon 01:36]
 :PROPERTIES:
 :ID:       8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
@@ -642,19 +642,19 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 ** DONE Learn nvim-orgmode_capture :NVIM:
 CLOSED: [2025-05-23 Fri 01:43]
 - *Objective:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
-** ABORTED Orgzly nerdfont :ORGMODE:
+** ABRT Orgzly nerdfont :ORGMODE:
 CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 :PROPERTIES:
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
 :END:
 - /Test nerdfont on Orgzly/
-** ABORTED Openai API :SYSTEM:
+** ABRT Openai API :SYSTEM:
 CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :PROPERTIES:
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4
 :END:
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
-** ABORTED DNS speed test :DNS:
+** ABRT DNS speed test :DNS:
 CLOSED: [2025-06-24 Tue 22:51]
 :PROPERTIES:
 :ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
@@ -665,7 +665,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 CLOSED: [2025-07-14 Mon 23:51]
 - *OBJECTIVE:* Record terminal session for demonstrations
 - *Visit:* [[https://github.com/asciinema/asciinema][Terminal recording asciinema @Github]]
-** PARTIAL Repo Root Dir :PACKAGES:GIT:ORGZlY:PLATFORM:GITHUB:
+** PRTL Repo Root Dir :PACKAGES:GIT:ORGZlY:PLATFORM:GITHUB:
 DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Issue:* Conflict between *system* and *github* relative path detection e.g running =xdg= in =pwd= return file not found
@@ -674,7 +674,7 @@ DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
   - [[https://github.com/Kaiser-Yang/blink-cmp-git][blink-cmp-git @Github]]
   - [[https://github.com/Saghen/blink.cmp/discussions/952][Path completion source for root dir @Discuss-blink]]
   - [[https://cmp.saghen.dev/configuration/reference.html#providers][Providers configuration @Blink.cmp-DOC]]
-*** PARTIAL Solve relative path conflict
+*** PRTL Solve relative path conflict
 CLOSED: [2025-07-17 Thu 05:38] DEADLINE: <2025-07-18 Fri>
 - [X] *OBJECTIVE:* Solve path conflicts on =github=, =orgzly= and =system=
 - *Issue:* Orgzly [[https://github.com/orgzly-revived/orgzly-android-revived/pull/130#issuecomment-2852859882][does not support rendering image from url]]

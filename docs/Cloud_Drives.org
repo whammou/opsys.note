@@ -13,7 +13,7 @@
 CLOSED: [2025-06-10 Tue 01:10]
 #+HTML:</details>
 - *OBJECTIVE:* /Manage data in cloud drives/
-** PARTIAL Config rclone [100%] :RCLONE:
+** PRTL Config rclone [100%] :RCLONE:
 CLOSED: [2025-06-01 Sun 23:02]
 - *OBJECTIVE:* /Config rclone to sync with google-drive/
   - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]

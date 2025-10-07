@@ -10,6 +10,6 @@
 #+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:NETWORK:
 #+HTML:<details>
 
-* PENDING System Proxies and DNS :DOC:META:SYSTEM:LINUX:NETWORK:
+* PEND System Proxies and DNS :DOC:META:SYSTEM:LINUX:NETWORK:
 #+HTML:</details>
 Access blocked websites via ~proxy~ or changeing ~DNS~

@@ -10,7 +10,7 @@
 #+FILETAGS: :DOC:PROJECT:SYSTEM:ANDROID:LINUX:SYNC:
 #+HTML:<details>
 
-* PARTIAL Syncing Android and Linux :DOC:META:SYSTEM:ANDROID:LINUX:SYNC:
+* PRTL Syncing Android and Linux :DOC:META:SYSTEM:ANDROID:LINUX:SYNC:
 CLOSED: [2025-06-03 Tue 02:03]
 #+HTML:</details>
 - [ ] *OBJECTIVE:* /Android and linux sync-up workflow/ [%]

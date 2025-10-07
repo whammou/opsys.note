@@ -14,22 +14,22 @@
 [!WARNING]
 Draft items are subjected to change and refile!
 #+END_QUOTE
-** OUTLINE CPU and IRQ scheduler :PERFORMANCE:
+** OUTL CPU and IRQ scheduler :PERFORMANCE:
 - /Setup CPU and IRQ scheduler/ ~daemon~
-** OUTLINE Select io scheduler :PERFORMANCE:
+** OUTL Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
-** OUTLINE Disable Coredump :TWEAKS:
+** OUTL Disable Coredump :TWEAKS:
 DEADLINE: <2025-10-07 Tue>
 /Documentation of disabling systemd coredump/
-** OUTLINE Running Tasks in Parallel
+** OUTL Running Tasks in Parallel
 :PROPERTIES:
 :ID: 2b964774-683a-4eaa-882d-a8f5e5dc714d
 :END:
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
-*** OUTLINE GNU-parallel vs xargs
-** OUTLINE Chroot from live USB
+*** OUTL GNU-parallel vs xargs
+** OUTL Chroot from live USB
 /How to chroot from live USB stick/
-** OUTLINE Arch Linux hibernation
+** OUTL Arch Linux hibernation
 DEADLINE: <2025-10-07 Tue 03:00>
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions

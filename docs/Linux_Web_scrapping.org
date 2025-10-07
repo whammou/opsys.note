@@ -9,6 +9,6 @@
 #+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:
 #+HTML:<details>
 
-* PENDING Linux Web-scrapping :DOC:META:SYSTEM:LINUX:
+* PEND Linux Web-scrapping :DOC:META:SYSTEM:LINUX:
 #+HTML:</details>
 - /Find linux web-scrapping methods/

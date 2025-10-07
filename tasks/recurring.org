@@ -4,6 +4,6 @@
 #+TITLE: System Recurring Tasks
 
 * List of Recurring Tasks :TASK:RECURRING:SYSTEM:META:
-** PENDING Clean up $HOME :LINUX:
+** PEND Clean up $HOME :LINUX:
 - *Goal(s):* clean up $HOME dir
 - *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]

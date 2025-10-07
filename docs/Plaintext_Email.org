@@ -9,7 +9,7 @@
 #+FILETAGS: :DOC:PROJECT:EMAIL:
 #+HTML:<details>
 
-* OUTLINE Plaintext Email :DOC:META:EMAIL:
+* OUTL Plaintext Email :DOC:META:EMAIL:
 #+HTML:</details>
 /Setup an plaintext email workflow/
 + *Reference:* [[https://old.reddit.com/r/neovim/comments/1cuvd5k/can_anyone_share_experience_using_neomutt/][Experience using neomutt @Reddit]]

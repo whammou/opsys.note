@@ -25,7 +25,7 @@ CLOSED: [2025-04-22 Tue 03:09]
 :END:
 - /A better xdg-utils/
 - *References* [[https://github.com/Anomalocaridid/handlr-regex][github.com@handlr-regex]]
-** ABORTED Open with mimeo :MIMEO:
+** ABRT Open with mimeo :MIMEO:
 CLOSED: [2025-04-22 Tue 03:09]
 - /Open files in mime types using regular expression/
   - *Project-link:* [[https://xyne.dev/projects/mimeo/][mineo documentation]]

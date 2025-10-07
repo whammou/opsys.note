@@ -4,13 +4,13 @@
 #+TITLE: System Incidental Tasks
 
 * List of Incidental Tasks :TASK:INCIDENTAL:SYSTEM:META:
-** PENDING Termux ssh :LINUX:TERMUX:
+** PEND Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
-** PENDING Automatic git sync :ORGMODE:
+** PEND Automatic git sync :ORGMODE:
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
-** PENDING Control nvim instances
+** PEND Control nvim instances
 - *Objective:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
 ** TODO Shareble documents content :PARA:

@@ -4,24 +4,24 @@
 #+TITLE: System Oneoff Tasks
 
 * List of Oneoff Tasks :TASK:ONEOFF:SYSTEM:META:
-** PENDING Open-source application :LINUX:
+** PEND Open-source application :LINUX:
 - /List of FOSS AI/
-** PENDING Qtile ssh-tmux method :LINUX:
+** PEND Qtile ssh-tmux method :LINUX:
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
-** PENDING Notification through ssh :LINUX:
+** PEND Notification through ssh :LINUX:
 - /Pipe notification socket through ssh/
 ** NEXT Backup systemd services :SYSTEMD:
 - *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
-** PENDING Plain text music playlist :LINUX:
+** PEND Plain text music playlist :LINUX:
 **Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
-** PENDING Search more efficiently :LINUX:
+** PEND Search more efficiently :LINUX:
 :PROPERTIES:
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
 - /Use advances search methods in search engines/
-** PENDING Git Auto Commit :GIT:
+** PEND Git Auto Commit :GIT:
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -31,21 +31,21 @@
   - [ ] Auto pushing
 - *Objective:* /Auto commit repo via external packages/
   - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
-** ABORTED System file-tag :LINUX:
+** ABRT System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
 - *Objective:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
-** ABORTED Markdown folding :NVIM:MARKDOWN:
+** ABRT Markdown folding :NVIM:MARKDOWN:
 CLOSED: [2025-05-12 Mon 09:04]
 - *Objective:* /Markdown folding folds incorrectly when in a list/
   - *References:*
     - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sub-lists instead of lists in markdown @Github-issue]]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
-** PENDING Toggle program :BASH:
+** PEND Toggle program :BASH:
 - *Objective:* /Toggle command using bash script/
 - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
-** PENDING Magic Tape sessions :MAGICTAPE:
+** PEND Magic Tape sessions :MAGICTAPE:
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
@@ -56,18 +56,18 @@ CLOSED: [2025-09-17 Wed 08:37]
   - [X] Adding ~TASK~ tag (including all type of tasks)
   - [X] Adding ~LIB~ and remove ~Archives~ headline
   - [X] Create new template
-** PENDING Re-write smb-mount command
+** PEND Re-write smb-mount command
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
-** PENDING Json database :JSON:
+** PEND Json database :JSON:
 :PROPERTIES:
 :ID:       27fdd8c2-5435-466b-9856-407ade06d893
 :END:
 - *Objective:* /Learn json database syntax/
-** PENDING Learn Docker :DOCKER:
+** PEND Learn Docker :DOCKER:
 CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/
-** PENDING Windows software on linux :WINDOWS:LINUX:
+** PEND Windows software on linux :WINDOWS:LINUX:
 - *OBJECTIVE:* Running windows exclusive software on linux e.g., cad, offices, pts/
 *** Running Virtual machines :VM:
 - *Keypoint:* /Virutal machine on linux/
@@ -83,7 +83,7 @@ CLOSED: [2025-05-24 Sat 01:19]
 - *Reference:*
   - [[https://l.opnxng.com/r/linux4noobs/comments/148dko9/looking_for_remote_software_for_linux_laptop_to/][Remote software for linux desktop @Reddit]]
   - [[https://www.youtube.com/watch?v=EXL8mMUXs88#__preview][Remote desktops foss @Youtube-preview]]
-** PARTIAL Config system notification [50%] :NOTIFICATION:
+** PRTL Config system notification [50%] :NOTIFICATION:
 CLOSED: [2025-06-28 Sat 22:43] DEADLINE: <2025-06-28 Sat>
 - *OBJECTIVE:* /Config system notifications with dunst/
   - *Run:* =man dunst=
@@ -97,15 +97,15 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *References:*
   - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
   - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
-*** PENDING Notification colorscheme
+*** PEND Notification colorscheme
 :PROPERTIES:
 :ID:       f8ffc50b-03a6-4be9-842a-2c6278a62b86
 :END:
 - *OBJECTIVE:* Create a comprehensive colorscheme to notifications/
-** PENDING Config terminal app titles :UI:
+** PEND Config terminal app titles :UI:
 - *OBJECTIVE:* /Config terminal app titles/
   - Config title to look the same: =<content> - <appname>=
-** PENDING Pacman lock-file :PACMAN:BACKUP:
+** PEND Pacman lock-file :PACMAN:BACKUP:
 - *OBJECTIVE:* /Create pacman lock-file/
 ** NEXT Org2ical [0%] :DATA:ORGMODE:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
@@ -114,15 +114,15 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *OBJECTIVE:* /Successfully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
-**** PENDING Config vdirsyncer :VDIRSYNCER:
+**** PEND Config vdirsyncer :VDIRSYNCER:
 - *OBJECTIVE:* /Config vdirsyncer to work sync calendar to google cal/
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
-** PENDING Orgmode quicknote script :ORGMODE:
+** PEND Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
-** PENDING Orgmode toggle archived items :ORGMODE:
+** PEND Orgmode toggle archived items :ORGMODE:
 - *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
 - *Reference:* [[https://nvim-orgmode.github.io/configuration#org_agenda_archive][Archiving in nvim-orgmode @Doc-orgmode]]
-** PENDING Run wind-apps via RDP :RDP:
+** PEND Run wind-apps via RDP :RDP:
 :PROPERTIES:
 :ID:       d0f420d8-78e9-4545-b022-9edc0e4b3cb4
 :END:
@@ -130,11 +130,11 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *Reference:*
   - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
   - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
-** PENDING Redirect URL :QUTEBROWSER:
+** PEND Redirect URL :QUTEBROWSER:
 - *OBJECTIVE:* /Redirect URL via user-scripts/
   - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
   - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-** PARTIAL Prettify orgmode documents [100%] :PACKAGES:ORGMODE:GITHUB:
+** PRTL Prettify orgmode documents [100%] :PACKAGES:ORGMODE:GITHUB:
 CLOSED: [2025-07-12 Sat 07:41]
 - *OBJECTIVE:* Prettify my org documents
 - *Reference:* [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
@@ -148,14 +148,14 @@ CLOSED: [2025-06-19 Thu 23:36]
 *** Org-ruby document config [0/1]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
-** PENDING Spreadsheet data visualize :DATA:DOC:
+** PEND Spreadsheet data visualize :DATA:DOC:
 :PROPERTIES:
 :CUSTOM_ID: visidata
 :END:
 - *Goal(s):* implement .csv for data tracking
 - *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
 - *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
-** PENDING Zathura Doc :ZATHURA:
+** PEND Zathura Doc :ZATHURA:
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-09-11 Wed 04:59
 :ARCHIVE_FILE: /home/whammou/notes/personal.org
@@ -164,11 +164,11 @@ CLOSED: [2025-06-19 Thu 23:36]
 :END:
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
-** PENDING Config Neomutt :NEOMUTT:
+** PEND Config Neomutt :NEOMUTT:
 - *Goal(s):* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
-** PENDING Github workflow doc :GITHUB:
+** PEND Github workflow doc :GITHUB:
 - *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
-** PENDING Refactor dotfiles@github :GITHUB:
+** PEND Refactor dotfiles@github :GITHUB:
 - *Goal:* re flow [[https://github.com/whammou/dotfiles][dotfiles-repo]] to work with my client and server
 *** Fork repos
 Fork [[https://github.com/whammou/dotfiles][dotfiles-main]] to another repo and use that repo for server configs, then merge arch-branch to main repo and use as client configs
@@ -176,10 +176,10 @@ Fork [[https://github.com/whammou/dotfiles][dotfiles-main]] to another repo and 
 Merge arch to main branch
 *** Develop install script
 - *Goal:* Develop install script for [[https://github.com/whammou/dotfiles][dotfiles]]
-** PENDING View vim-dap :NVIM:
+** PEND View vim-dap :NVIM:
 - *Goal:* Take a look at vim
 - [[https://github.com/mfussenegger/nvim-dap][documentation]]
-** PENDING Github search query :GITHUB:
+** PEND Github search query :GITHUB:
 - *Goal(s):* Learn github search queries
 ** NEXT Resolve boot partition is full :ARCH:
 - *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
@@ -192,15 +192,15 @@ DEADLINE: <2025-07-14 Mon>
 - *Reference:*
   - [[https://www.orgzly.com/docs#search][Advanced searchh in orgzly @Doc-orgzly]]
   - [[https://nvim-orgmode.github.io/configuration#advanced-search][Advanced search in nvim-orgmmode @Doc-nvim-orgmode]]
-** PENDING Bluetooth sound quality :BLUETOOTH:
+** PEND Bluetooth sound quality :BLUETOOTH:
 - *OBJECTIVE:* Fix sound quality on bluetooth headset
 - *Reference:* [[https://old.reddit.com/r/archlinux/comments/wa3lhs/extremely_low_quality_sound_from_bluetooth/][Low quality on bluetooth headset @Reddit]]
-** PENDING Notification actions :NOTIFICATION:DUNST:
+** PEND Notification actions :NOTIFICATION:DUNST:
 - *OBJECTIVE:* Create actionable notifications
 - *Reference:*
   - [[https://wiki.archlinux.org/title/Dunst#Actions][Dunst action @Archwiki]]
   - [[https://www.youtube.com/embed/LxQXLJdZ2mM?start=34m6s#__preview][Advenced dunst setup @Youtube]]
-** ABORTED Fonts in different context :FONT:
+** ABRT Fonts in different context :FONT:
 CLOSED: [2025-08-24 Sun 20:47]
 - *OBJECTIVE:* Determine when to use which fonts
 ** DONE Backup system packages :BACKUP:PACMAN:
@@ -219,7 +219,7 @@ CLOSED: [2025-08-04 Mon 20:44] DEADLINE: <2025-08-04 Mon>
 CLOSED: [2025-08-04 Mon 20:44] DEADLINE: <2025-08-04 Mon>
 - *OBJECTIVE:* List install packages on archlinux system
 - *Reference:* [[https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#List_of_installed_packages][List of installed packages @Archwiki]]
-** ABORTED Implement Plaintext Systray :SYSTRAY:FCITX:QTILE:
+** ABRT Implement Plaintext Systray :SYSTRAY:FCITX:QTILE:
 CLOSED: [2025-09-06 Sat 14:32]
 - *OBJECTIVE:* Implement a plaintext systray for fcitx using qtile =widget.TextBox=
 - *Reference:* [[https://github.com/qtile/qtile][Qtile textbox widget @Qtile-doc]]
@@ -227,16 +227,16 @@ CLOSED: [2025-09-06 Sat 14:32]
 CLOSED: [2025-08-24 Sun 20:51] DEADLINE: <2025-08-24 Sun>
 + *OBJECTIVE:* Change TTY (/Linux Console/)
 + *Reference:* [[https://wiki.archlinux.org/title/Linux_console#fonts][About fonts in linux console @Archwiki]]
-*** ABORTED Convert ttf font to psf fonts
+*** ABRT Convert ttf font to psf fonts
 CLOSED: [2025-08-25 Mon 21:24] DEADLINE: <2025-08-25 Mon>
 + *OBJECTIVE:* Convert ttf fonts to psf font for tty
 + *Reference:* [[https://old.reddit.com/r/linuxquestions/comments/7st7hz/any_way_to_convert_ttf_files_to_psf_files/][Convert ttf fonts to psf @Reddit]]
-** PENDING Create a Plaintext Email Workflow :EMAIL:
+** PEND Create a Plaintext Email Workflow :EMAIL:
 + *OBJECTIVE:* Create and config an email workflow that can integrate with =orgmode= and =nvim=
 + *Reference:*
   * [[https://github.com/neomutt/samples][Neomutt sample config @Github]]
   * [[id:864c42ee-c003-4d4b-8e7e-ba65c7e8815f][Plaintext Email @Org]]
-** PENDING Config Clean Up :HOUSEKEEPING:
+** PEND Config Clean Up :HOUSEKEEPING:
 - *OBJECTIVE:* Clean up configs
   + [ ] =neovim= config
   + [ ] =qtile= config
@@ -255,7 +255,7 @@ CLOSED: [2025-09-25 Thu 13:55]
 - *[NOTE]* taken on [2025-09-25 13:54]: \\
   =termux= is a good and effective way to manage =git= projects on android
 -----
-** PENDING Implement Open File With :FILE:HANDLR:
+** PEND Implement Open File With :FILE:HANDLR:
 - *OBJECTIVE:* Open =mime-type= with =applications=
 -----
 - *[NOTE]* taken on [2025-09-12 05:27]: \\
@@ -265,7 +265,7 @@ CLOSED: [2025-09-25 Thu 13:55]
 ** DONE Rework Browser Open Script :QUTEBROWSER:FILE:
 CLOSED: [2025-09-13 Sat 09:43] DEADLINE: <2025-09-13 Sat>
 - *OBJECTIVE:* Rework [[file:/home/whammou/dotfiles/scripts/qutebrowser_quick][qutebrowser_quick]] script
-** PENDING Add VPN to System :ARCHLINUX:VPN:
+** PEND Add VPN to System :ARCHLINUX:VPN:
 - *OBJECTIVE:* Get =VPN= to work on current system
 - *Reference:* [[https://wiki.archlinux.org/title/OpenVPN][OpenVPN Guide @Archwiki]]
 ** DONE Identify USB drive :DRIVE:
