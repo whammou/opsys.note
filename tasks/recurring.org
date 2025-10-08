@@ -1,4 +1,4 @@
-#+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
+#+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) RECR(l) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+LATEX_HEADER: \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: System Recurring Tasks
