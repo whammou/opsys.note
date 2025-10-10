@@ -19,7 +19,6 @@ Draft items are subjected to change and refile!
 ** OUTL Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
 ** OUTL Disable Coredump :TWEAKS:
-DEADLINE: <2025-10-09 Thu>
 /Documentation of disabling systemd coredump/
 ** OUTL Running Tasks in Parallel
 :PROPERTIES:
@@ -30,7 +29,6 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 ** OUTL Chroot from live USB
 /How to chroot from live USB stick/
 ** OUTL Arch Linux hibernation
-DEADLINE: <2025-10-09 Thu 03:00>
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions
   
