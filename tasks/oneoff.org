@@ -4,9 +4,6 @@
 #+TITLE: System Oneoff Tasks
 
 * List of Oneoff Tasks :TASK:ONEOFF:SYSTEM:META:
-:PROPERTIES:
-:CATEGORY: system
-:END:
 ** PEND Open-source application :LINUX:
 - /List of FOSS AI/
 ** PEND Qtile ssh-tmux method :LINUX:
@@ -24,16 +21,18 @@
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
 - /Use advances search methods in search engines/
-** PEND Git Auto Commit :GIT:
+** DONE Git Auto Commit :GIT:notesync:
+DEADLINE: <2025-10-11 Sat> CLOSED: [2025-10-11 Sat 22:18]
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
-- *Objective:* /Write scripts for:/
-  - [ ] Write auto commit message
-  - [ ] Auto pulling
-  - [ ] Auto pushing
-- *Objective:* /Auto commit repo via external packages/
-  - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
+- [X] *Objective:* /Write scripts for:/
+  + [X] Write auto commit message
+  + [X] Auto pulling
+  + [X] Auto pushing
+- *Checkout:* [[id:35ff8cc5-522d-423e-b9e1-0d4e067e737b][Git Submodules Approach @Org]]
+- +[ ] *Objective:* /Auto commit repo via external packages/+
+- *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
 ** ABRT System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
 - *Objective:* /Assign attribute to a file/
@@ -296,7 +295,7 @@ DEADLINE: <2025-10-11 Sat>
   *Issue:* =make= install parameter cannot access =/usr/local/bin= on =termux=
 -----
 - *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
-** DOIN Open Port :INTERNET:
+** NEXT Open Port :INTERNET:
 DEADLINE: <2025-10-11 Sat>
 - *OBJECTIVE:* Open port at home
 - *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
