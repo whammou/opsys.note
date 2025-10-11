@@ -4,6 +4,9 @@
 #+TITLE: System Oneoff Tasks
 
 * List of Oneoff Tasks :TASK:ONEOFF:SYSTEM:META:
+:PROPERTIES:
+:CATEGORY: system
+:END:
 ** PEND Open-source application :LINUX:
 - /List of FOSS AI/
 ** PEND Qtile ssh-tmux method :LINUX:
@@ -293,6 +296,7 @@ DEADLINE: <2025-10-11 Sat>
   *Issue:* =make= install parameter cannot access =/usr/local/bin= on =termux=
 -----
 - *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
-** TODO Open Port
+** DOIN Open Port :INTERNET:
 DEADLINE: <2025-10-11 Sat>
 - *OBJECTIVE:* Open port at home
+- *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
