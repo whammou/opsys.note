@@ -269,7 +269,7 @@ CLOSED: [2025-09-13 Sat 09:43] DEADLINE: <2025-09-13 Sat>
 - *OBJECTIVE:* Get =VPN= to work on current system
 - *Reference:* [[https://wiki.archlinux.org/title/OpenVPN][OpenVPN Guide @Archwiki]]
 ** DONE Identify USB drive :DRIVE:
-DEADLINE: <2025-09-19 Fri> CLOSED: [2025-09-19 Fri 13:56]
+CLOSED: [2025-09-19 Fri 13:56] DEADLINE: <2025-09-19 Fri>
 - *OBJECTIVE:* How to identify and mount a /USB drive/ on =archlinux=
 - *Reference:* [[https://ejmastnak.com/tutorials/arch/usb/][Achlinux USB @Blog]]
 ** PEND Run Termux Command from Home-screen :ANDROID:TERMUX:
@@ -279,5 +279,6 @@ DEADLINE: <2025-09-19 Fri> CLOSED: [2025-09-19 Fri 13:56]
 - *OBJECTIVE:* How to run =archlinux= on =termux=
 - *Reference:* [[https://github.com/SDRausty/termux-arch][Termux-archlinux @Github]]
 ** DOIN Install Nerdfont on Termux :FONT:TERMUX:
+DEADLINE: <2025-10-11 Sat>
 - *OBJECTIVE:* Install =nerdfont= on =termux=
 - *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
