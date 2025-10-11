@@ -278,7 +278,17 @@ CLOSED: [2025-09-19 Fri 13:56] DEADLINE: <2025-09-19 Fri>
 ** PEND Archlinux on Termux :TERMUX:ARCHLINUX:
 - *OBJECTIVE:* How to run =archlinux= on =termux=
 - *Reference:* [[https://github.com/SDRausty/termux-arch][Termux-archlinux @Github]]
-** DOIN Install Nerdfont on Termux :FONT:TERMUX:
+** WAIT Install Nerdfont on Termux :FONT:TERMUX:
 DEADLINE: <2025-10-11 Sat>
 - *OBJECTIVE:* Install =nerdfont= on =termux=
-- *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
+- *Reference:*
+  + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
+  + [[https://gist.github.com/barbarbar338/895d79413e56819c498aa6a39ca9e531][Install nerdfont via termux-nerd-install @Github]]
+  + [[https://github.com/notflawffles/termux-nerd-install][Termux-nerd-install.git @Github]]
+*** TODO Termux Make Permission
+DEADLINE: <2025-10-11 Sat>
+- *OBJECTIVE:* Run =make= on =termux=
+-----
+- *[NOTE]* taken on [2025-10-11 16:47]: \\
+  *Issue:* =make= install parameter cannot access =/usr/local/bin= on =termux=
+-----
