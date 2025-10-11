@@ -292,3 +292,7 @@ DEADLINE: <2025-10-11 Sat>
 - *[NOTE]* taken on [2025-10-11 16:47]: \\
   *Issue:* =make= install parameter cannot access =/usr/local/bin= on =termux=
 -----
+- *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
+** TODO Open Port
+DEADLINE: <2025-10-11 Sat>
+- *OBJECTIVE:* Open port at home
