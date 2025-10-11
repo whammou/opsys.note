@@ -282,3 +282,6 @@ CLOSED: [2025-09-19 Fri 13:56] DEADLINE: <2025-09-19 Fri>
 DEADLINE: <2025-10-11 Sat>
 - *OBJECTIVE:* Install =nerdfont= on =termux=
 - *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
+** TODO Open Port
+DEADLINE: <2025-10-11 Sat>
+- *OBJECTIVE:* Open port at home
