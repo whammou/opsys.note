@@ -3,7 +3,7 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: System Oneoff Tasks
 
-* List of Oneoff Tasks :TASK:ONEOFF:SYSTEM:META:
+* List of Oneoff Tasks :TASK:ONEOFF:OPSYS:META:
 ** PEND Open-source application :LINUX:
 - /List of FOSS AI/
 ** PEND Qtile ssh-tmux method :LINUX:

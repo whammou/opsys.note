@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:ORGMODE:
+#+FILETAGS: :DOC:PROJECT:OPSYS:ORGMODE:
 #+HTML:<details>
 
-* DONE Orgmode Configurations [100%] :DOC:META:SYSTEM:ORGMODE:
+* DONE Orgmode Configurations [100%] :DOC:META:OPSYS:ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
 #+HTML:</details>
 /Because =orgzly-android= is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]

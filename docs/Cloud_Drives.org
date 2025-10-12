@@ -6,10 +6,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:REMOTE:DRIVE:
+#+FILETAGS: :DOC:PROJECT:OPSYS:REMOTE:DRIVE:
 #+HTML:<details>
 
-* DONE Cloud Drives :DOC:META:SYSTEM:REMOTE:DRIVE:
+* DONE Cloud Drives :DOC:META:OPSYS:REMOTE:DRIVE:
 CLOSED: [2025-06-10 Tue 01:10]
 #+HTML:</details>
 - *OBJECTIVE:* /Manage data in cloud drives/

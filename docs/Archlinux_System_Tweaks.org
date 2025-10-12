@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:ARCH:TWEAKS:
+#+FILETAGS: :DOC:PROJECT:OPSYS:ARCH:TWEAKS:
 #+HTML:<details>
 
-* Archlinux System Tweaks :DOC:META:SYSTEM:ARCH:TWEAKS:
+* Archlinux System Tweaks :DOC:META:OPSYS:ARCH:TWEAKS:
 #+HTML:</details>
 - *Objective:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]

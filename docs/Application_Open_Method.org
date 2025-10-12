@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:
+#+FILETAGS: :DOC:PROJECT:OPSYS:LINUX:
 #+HTML:<details>
 
-* DONE Application Open Method [100%] :DOC:META:SYSTEM:LINUX:
+* DONE Application Open Method [100%] :DOC:META:OPSYS:LINUX:
 CLOSED: [2025-05-24 Sat 01:20]
 :PROPERTIES:
 :ID:       0a3f8238-97cd-4aa2-a8dc-6ecea163efac

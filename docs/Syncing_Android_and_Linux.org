@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:ANDROID:LINUX:SYNC:
+#+FILETAGS: :DOC:PROJECT:OPSYS:ANDROID:LINUX:SYNC:
 #+HTML:<details>
 
-* PRTL Syncing Android and Linux :DOC:META:SYSTEM:ANDROID:LINUX:SYNC:
+* PRTL Syncing Android and Linux :DOC:META:OPSYS:ANDROID:LINUX:SYNC:
 CLOSED: [2025-06-03 Tue 02:03]
 #+HTML:</details>
 - [ ] *OBJECTIVE:* /Android and linux sync-up workflow/ [%]

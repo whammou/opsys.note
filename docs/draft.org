@@ -3,10 +3,10 @@
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
-#+FILETAGS: :DOC:DRAFT:SYSTEM:
+#+FILETAGS: :DOC:DRAFT:OPSYS:
 #+HTML:<details>
 
-* Document Drafts :DOC:DRAFT:SYSTEM:META:
+* Document Drafts :DOC:DRAFT:OPSYS:META:
 #+HTML:</details>
 
 #+NAME:Warning Message

@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:LINUX:INTEL:
+#+FILETAGS: :DOC:PROJECT:OPSYS:LINUX:INTEL:
 #+HTML:<details>
 
-* DONE Linux Screen Tear [100%] :DOC:META:SYSTEM:LINUX:INTEL:
+* DONE Linux Screen Tear [100%] :DOC:META:OPSYS:LINUX:INTEL:
 CLOSED: [2025-05-21 Wed 18:01]
 #+HTML:</details>
 - *Objective:* /Dicide to run with a ~compositor~ or without/
