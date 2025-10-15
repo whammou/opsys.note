@@ -134,8 +134,17 @@ CLOSED: [2025-06-04 Wed 09:07]
   - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
 ** PEND Redirect URL :QUTEBROWSER:
 - *OBJECTIVE:* /Redirect URL via user-scripts/
-  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
+#+html:<details>
+#+html:<summary>LOGBOOK</summary>
+-----
+:LOGBOOK:
+- Note taken on [2025-10-15 Wed 21:55] \\
+  Do *not* redirect =url= as =mutated-url= likely get outdated compares to =original links=
+:END:
+-----
+#+html:</details>
+- *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+- *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
 ** PRTL Prettify orgmode documents [100%] :PACKAGES:ORGMODE:GITHUB:
 CLOSED: [2025-07-12 Sat 07:41]
 - *OBJECTIVE:* Prettify my org documents
@@ -299,3 +308,9 @@ DEADLINE: <2025-10-15 Wed>
 DEADLINE: <2025-10-15 Wed> CLOSED: [2025-10-15 Wed 04:28]
 - *OBJECTIVE:* Open port at home
 - *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
+** TODO Setup DDNS service :DNS:homelabsetup:
+DEADLINE: <2025-10-15 Wed>
+- *OBJECTIVE:* Setup a DDNS service with =duckdns=
+- *Reference:*
+  + [[https://www.duckdns.org/why.jsp][Why Duck DNS @Blog]]
+  + [[https://www.reddit.com/r/homeassistant/comments/5o74ps/guide_setting_up_duckdns_ssl_and_push/][DuckDNS Guide @Reddit]]
