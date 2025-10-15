@@ -132,14 +132,14 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *Reference:*
   - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
   - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
-** PEND Redirect URL :QUTEBROWSER:
+** ABRT Redirect URL :QUTEBROWSER:
+CLOSED: [2025-10-15 Wed 22:13]
 - *OBJECTIVE:* /Redirect URL via user-scripts/
-#+html:<details>
-#+html:<summary>LOGBOOK</summary>
+#+html:<details><summary>LOGBOOK</summary>
 -----
 :LOGBOOK:
 - Note taken on [2025-10-15 Wed 21:55] \\
-  Do *not* redirect =url= as =mutated-url= likely get outdated compares to =original links=
+  Do *not* redirect =url= as =mutated-url= likely get outdated as opposed to =original-link=
 :END:
 -----
 #+html:</details>
