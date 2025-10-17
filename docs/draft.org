@@ -34,7 +34,3 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
   
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
-** TODO Setup DDNS service :DNS:homelabsetup:
-DEADLINE: <2025-10-15 Wed>
-- *OBJECTIVE:* Setup a DDNS service with =duckdns=
-- *Reference:* [[https://www.duckdns.org/why.jsp][Why Duck DNS @Blog]]
