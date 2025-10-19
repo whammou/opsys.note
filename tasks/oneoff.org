@@ -289,8 +289,8 @@ CLOSED: [2025-09-19 Fri 13:56] DEADLINE: <2025-09-19 Fri>
 ** PEND Archlinux on Termux :TERMUX:ARCHLINUX:
 - *OBJECTIVE:* How to run =archlinux= on =termux=
 - *Reference:* [[https://github.com/SDRausty/termux-arch][Termux-archlinux @Github]]
-** WAIT Install Nerdfont on Termux :FONT:TERMUX:
-DEADLINE: <2025-10-20 Mon>
+** DONE Install Nerdfont on Termux :FONT:TERMUX:
+DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:06]
 - *OBJECTIVE:* Install =nerdfont= on =termux=
 - *Reference:*
   + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
@@ -303,14 +303,26 @@ DEADLINE: <2025-10-20 Mon>
 - *[NOTE]* taken on [2025-10-11 16:47]: \\
   *Issue:* =make= install parameter cannot access =/usr/local/bin= on =termux=
 -----
-- *Reference:* [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
+- *Reference:*
+  + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
+  + [[https://www.reddit.com/r/termux/comments/1bioon1/accessing_termux_usrbin_from_other_apps_terminal/][Termux bin @Reddit]]
 ** DONE Open Port :INTERNET:
 DEADLINE: <2025-10-15 Wed> CLOSED: [2025-10-15 Wed 04:28]
 - *OBJECTIVE:* Open port at home
 - *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
-** TODO Setup DDNS service :DNS:homelabsetup:
-DEADLINE: <2025-10-20 Mon>
+** DONE Setup DDNS service :DNS:homelabsetup:
+DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:13]
 - *OBJECTIVE:* Setup a DDNS service with =duckdns=
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-10-20 Mon 00:08] \\
+  Forward =DDNS= using =DuckDNS= script
+  #+BEGIN_SRC bash
+  echo url="https://www.duckdns.org/update?domains=whamarchlab&token=beade41c-245a-48da-9ae8-b29b6b2356b4&ip=" | curl --silent -k -o ~/projects/duckdns/duck.log -K -
+  #+END_SRC
+:END:
+#+html:</details>
 - *Reference:*
   + [[https://www.duckdns.org/why.jsp][Why Duck DNS @Blog]]
   + [[https://www.reddit.com/r/homeassistant/comments/5o74ps/guide_setting_up_duckdns_ssl_and_push/][DuckDNS Guide @Reddit]]
