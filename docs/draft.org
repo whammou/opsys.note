@@ -34,3 +34,7 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
   
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
+** OUTL Notification Forwarding :NOTIFICATION:
+/How to forward notification between machines/
+- *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
+- *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
