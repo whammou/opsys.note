@@ -297,7 +297,7 @@ DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:06]
   + [[https://gist.github.com/barbarbar338/895d79413e56819c498aa6a39ca9e531][Install nerdfont via termux-nerd-install @Github]]
   + [[https://github.com/notflawffles/termux-nerd-install][Termux-nerd-install.git @Github]]
 *** TODO Termux Make Permission
-DEADLINE: <2025-10-23 Thu>
+DEADLINE: <2025-10-24 Fri>
 - *OBJECTIVE:* Run =make= on =termux=
 -----
 - *[NOTE]* taken on [2025-10-11 16:47]: \\
