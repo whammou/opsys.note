@@ -8,3 +8,7 @@
 DEADLINE: <2025-10-24 Fri>
 - *OBJECTIVE:* Install =tiny11= on server
 - *Reference:* [[https://github.com/ntdevlabs/tiny11builder#instructions][Tiny 11 Script @Github]]
+** DONE Connect Windows Samba :SAMBA:WINDOWS:DRIVE:
+CLOSED: [2025-10-25 Sat 03:27] DEADLINE: <2025-10-25 Sat>
+- *OBJECTIVE:* Mount Shared drive on Windows
+- *Reference:* [[https://www.linuxfordevices.com/tutorials/setup-and-mount-samba-share-on-windows][Mount Samba on Windows @Redhat]]
