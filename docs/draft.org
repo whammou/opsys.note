@@ -38,3 +38,7 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 /How to forward notification between machines/
 - *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
 - *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
+** OUTL System Swap and Swappiness :ARCH:SWAP:
+DEADLINE: <2025-10-31 Fri>
+/What are swap and swappiness and how to increase system performance by adjusting swappiness value/
+- *goto:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
