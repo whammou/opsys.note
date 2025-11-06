@@ -206,11 +206,14 @@ DEADLINE: <2025-07-14 Mon>
 ** PEND Bluetooth sound quality :BLUETOOTH:
 - *OBJECTIVE:* Fix sound quality on bluetooth headset
 - *Reference:* [[https://old.reddit.com/r/archlinux/comments/wa3lhs/extremely_low_quality_sound_from_bluetooth/][Low quality on bluetooth headset @Reddit]]
-** PEND Notification actions :NOTIFICATION:DUNST:
+** NEXT Notification actions :NOTIFICATION:DUNST:
+DEADLINE: <2025-11-06 Thu>
 - *OBJECTIVE:* Create actionable notifications
 - *Reference:*
-  - [[https://wiki.archlinux.org/title/Dunst#Actions][Dunst action @Archwiki]]
-  - [[https://www.youtube.com/embed/LxQXLJdZ2mM?start=34m6s#__preview][Advenced dunst setup @Youtube]]
+  + [[https://wiki.archlinux.org/title/Dunst#Actions][Dunst action @Archwiki]]
+  + [[https://www.youtube.com/embed/LxQXLJdZ2mM?start=34m6s#__preview][Advanced dunst setup @Youtube]]
+  + [[https://github.com/dunst-project/dunst/discussions/1251][Dunst notification example @Github-issue]]
+- *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
 ** ABRT Fonts in different context :FONT:
 CLOSED: [2025-08-24 Sun 20:47]
 - *OBJECTIVE:* Determine when to use which fonts
