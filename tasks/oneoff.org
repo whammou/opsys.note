@@ -206,8 +206,8 @@ DEADLINE: <2025-07-14 Mon>
 ** PEND Bluetooth sound quality :BLUETOOTH:
 - *OBJECTIVE:* Fix sound quality on bluetooth headset
 - *Reference:* [[https://old.reddit.com/r/archlinux/comments/wa3lhs/extremely_low_quality_sound_from_bluetooth/][Low quality on bluetooth headset @Reddit]]
-** NEXT Notification actions :NOTIFICATION:DUNST:
-DEADLINE: <2025-11-06 Thu>
+** DONE Notification actions :NOTIFICATION:DUNST:
+DEADLINE: <2025-11-07 Fri> CLOSED: [2025-11-07 Fri 05:02]
 - *OBJECTIVE:* Create actionable notifications
 - *Reference:*
   + [[https://wiki.archlinux.org/title/Dunst#Actions][Dunst action @Archwiki]]

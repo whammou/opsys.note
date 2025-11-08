@@ -14,4 +14,8 @@ CLOSED: [2025-10-25 Sat 03:27] DEADLINE: <2025-10-25 Sat>
 ** PEND Notifications Sync :NOTIFICATION:notificationsync:
 - *OBJECTIVE:* Sync notifications across platforms
 - *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
-  
+** PEND Debugging System High Memory Usage :MEMORY:
+:PROPERTIES:
+:ID: 42edd3e3-33eb-4cb3-8038-46eabec2a86c
+:END:
+- *OBJECTIVE:* High memory usage after =hibernation=
