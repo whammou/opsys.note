@@ -11,11 +11,23 @@
 CLOSED: [2025-10-25 Sat 03:27] DEADLINE: <2025-10-25 Sat>
 - *OBJECTIVE:* Mount Shared drive on Windows
 - *Reference:* [[https://www.linuxfordevices.com/tutorials/setup-and-mount-samba-share-on-windows][Mount Samba on Windows @Redhat]]
-** PEND Notifications Sync :NOTIFICATION:notificationsync:
+** DONE Notifications Sync :NOTIFICATION:notificationsync:
+CLOSED: [2025-11-09 Sun 21:34]
 - *OBJECTIVE:* Sync notifications across platforms
 - *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
-** PEND Debugging System High Memory Usage :MEMORY:
+** FDBK Debugging System High Memory Usage :MEMORY:
 :PROPERTIES:
 :ID: 42edd3e3-33eb-4cb3-8038-46eabec2a86c
 :END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-11-09 Sun 21:34] \\
+  High =memory= /RAM and SWAP/ likely due to misconfigured =qutebrowser-daemon= when using =daemon= package
+:END:
+#+html:</details>
 - *OBJECTIVE:* High memory usage after =hibernation=
+** TODO Categorize Notifications :NOTIFICATION:notificationsync:
+DEADLINE: <2025-11-10 Mon>
+- *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
+- *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
