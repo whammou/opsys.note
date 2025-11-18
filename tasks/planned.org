@@ -28,6 +28,9 @@ CLOSED: [2025-11-09 Sun 21:34]
 #+html:</details>
 - *OBJECTIVE:* High memory usage after =hibernation=
 ** TODO Categorize Notifications :NOTIFICATION:notificationsync:
-DEADLINE: <2025-11-12 Wed>
 - *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
 - *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
+** TODO Get Notify When Systemd Service Failed :NOTIFICATION:SYSTEMD:systemmanage:
+DEADLINE: <2025-11-18 Tue 22:00>
+- *OBJECTIVE:* Get =notification= on systemd =service= failed
+- *Reference:* [[https://www.baeldung.com/linux/systemd-service-fail-notification][Systemd Service Fail Notification @Blog]]

@@ -116,7 +116,7 @@ Generation of fall =initramfs= can lead to full =boot= drive and thus unable to 
 + Update your boot loader configuration: =mkinicpio -P=
   
 #+NAME:Deprive Boot option when default fails
-#+BEGIN_QUOTE
+#+BEGIN_QUOTE markdown
 [!CAUTION]
 Disabling all fallback initramfs generation will leads to booting problems when the default image fails. Make sure you have to bootable installation medium for rescue purposes
 #+END_QUOTE
