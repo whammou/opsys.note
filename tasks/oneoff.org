@@ -328,3 +328,6 @@ DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:13]
 - *Reference:*
   + [[https://www.duckdns.org/why.jsp][Why Duck DNS @Blog]]
   + [[https://www.reddit.com/r/homeassistant/comments/5o74ps/guide_setting_up_duckdns_ssl_and_push/][DuckDNS Guide @Reddit]]
+** TODO Merging With Org Feature with main
+DEADLINE: <2025-11-19 Wed 16:00>
+- *OBJECTIVE:* Merging =org_env= with =arch= branch
