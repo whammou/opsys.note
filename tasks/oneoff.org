@@ -22,7 +22,7 @@
 :END:
 - /Use advances search methods in search engines/
 ** DONE Git Auto Commit :GIT:notesync:
-DEADLINE: <2025-10-11 Sat> CLOSED: [2025-10-11 Sat 22:18]
+CLOSED: [2025-10-11 Sat 22:18] DEADLINE: <2025-10-11 Sat>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -207,7 +207,7 @@ DEADLINE: <2025-07-14 Mon>
 - *OBJECTIVE:* Fix sound quality on bluetooth headset
 - *Reference:* [[https://old.reddit.com/r/archlinux/comments/wa3lhs/extremely_low_quality_sound_from_bluetooth/][Low quality on bluetooth headset @Reddit]]
 ** DONE Notification actions :NOTIFICATION:DUNST:
-DEADLINE: <2025-11-07 Fri> CLOSED: [2025-11-07 Fri 05:02]
+CLOSED: [2025-11-07 Fri 05:02] DEADLINE: <2025-11-07 Fri>
 - *OBJECTIVE:* Create actionable notifications
 - *Reference:*
   + [[https://wiki.archlinux.org/title/Dunst#Actions][Dunst action @Archwiki]]
@@ -293,7 +293,7 @@ CLOSED: [2025-09-19 Fri 13:56] DEADLINE: <2025-09-19 Fri>
 - *OBJECTIVE:* How to run =archlinux= on =termux=
 - *Reference:* [[https://github.com/SDRausty/termux-arch][Termux-archlinux @Github]]
 ** DONE Install Nerdfont on Termux :FONT:TERMUX:
-DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:06]
+CLOSED: [2025-10-20 Mon 00:06] DEADLINE: <2025-10-20 Mon>
 - *OBJECTIVE:* Install =nerdfont= on =termux=
 - *Reference:*
   + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
@@ -309,11 +309,11 @@ DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:06]
   + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
   + [[https://www.reddit.com/r/termux/comments/1bioon1/accessing_termux_usrbin_from_other_apps_terminal/][Termux bin @Reddit]]
 ** DONE Open Port :INTERNET:
-DEADLINE: <2025-10-15 Wed> CLOSED: [2025-10-15 Wed 04:28]
+CLOSED: [2025-10-15 Wed 04:28] DEADLINE: <2025-10-15 Wed>
 - *OBJECTIVE:* Open port at home
 - *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
 ** DONE Setup DDNS service :DNS:homelabsetup:
-DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:13]
+CLOSED: [2025-10-20 Mon 00:13] DEADLINE: <2025-10-20 Mon>
 - *OBJECTIVE:* Setup a DDNS service with =duckdns=
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
@@ -328,6 +328,6 @@ DEADLINE: <2025-10-20 Mon> CLOSED: [2025-10-20 Mon 00:13]
 - *Reference:*
   + [[https://www.duckdns.org/why.jsp][Why Duck DNS @Blog]]
   + [[https://www.reddit.com/r/homeassistant/comments/5o74ps/guide_setting_up_duckdns_ssl_and_push/][DuckDNS Guide @Reddit]]
-** TODO Merging With Org Feature with main
-DEADLINE: <2025-11-19 Wed 16:00>
+** DONE Merging With Org Feature with main
+CLOSED: [2025-11-19 Wed 23:19] DEADLINE: <2025-11-19 Wed 16:00>
 - *OBJECTIVE:* Merging =org_env= with =arch= branch
