@@ -30,7 +30,17 @@ CLOSED: [2025-11-09 Sun 21:34]
 ** TODO Categorize Notifications :NOTIFICATION:notificationsync:
 - *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
 - *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
-** TODO Get Notify When Systemd Service Failed :NOTIFICATION:SYSTEMD:systemmanage:
-DEADLINE: <2025-11-20 Thu 22:00>
+** PRTL Get Notify When Systemd Service Failed :NOTIFICATION:SYSTEMD:systemmanage:
+DEADLINE: <2025-11-22 Sat 21:30> CLOSED: [2025-11-22 Sat 21:22]
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-11-22 Sat 21:20] \\
+  Run =systemctl --failed --no-legend | awk '{print "5s ",$2; }'= to get status of failed =services=
+:END:
+#+html:</details>
 - *OBJECTIVE:* Get =notification= on systemd =service= failed
 - *Reference:* [[https://www.baeldung.com/linux/systemd-service-fail-notification][Systemd Service Fail Notification @Blog]]
+** PEND Limiting Process Memory :MEMORY:
+- *OBJECTIVE:* Limiting process memory usage on =archlinux=
+- *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=248765][Limiting process ram and zswap usage @Archlinux.org]]
