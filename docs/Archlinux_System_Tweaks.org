@@ -164,8 +164,8 @@ CLOSED: [2025-09-19 Fri 15:02]
     run = "plugin mount"
     #+END_SRC
   + Launch the /mount-manager/ inside =yazi= with =M=
-** DONE System Swap and Swappiness :ARCH:SWAP:
-DEADLINE: <2025-11-28 Fri> CLOSED: [2025-11-29 Sat 00:28]
+** OUTL System Swap and Swappiness :ARCH:SWAP:
+DEADLINE: <2025-11-28 Fri>
 /What are swap and swappiness and how to increase system performance by adjusting swappiness value/
 
 #+BEGIN_QUOTE
@@ -181,7 +181,7 @@ The amount of =physical memory= and =swap space= is the amount of virtual memory
 - *goto:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
 *** Swap Space & Swap Partition & Swap File
 A =swap space= can take the form of a disk partition or a file. =Swap space= can be used for 2 purposes:
-- To extend the =virtual memory= beyong the installed =physical memory=
+- To extend the =virtual memory= beyond the installed =physical memory=
 - And also add [[id:b827e129-f7ca-4f65-8043-460afe696107][Suspend-to-disk support @Org]]
   + To check swap status, use:
     #+BEGIN_SRC sh
@@ -192,3 +192,89 @@ A =swap space= can take the form of a disk partition or a file. =Swap space= can
     free -h
     #+END_SRC
 **** Swap Partition
+A =swap partition= is a dedicated disk partition used for =swap space=. To enable the device for paging
+#+BEGIN_SRC sh
+swapon /dev/sdxy
+#+END_SRC
+
+A brief comparison between =swap partition= and =swap file=: [[https://opencode.ai/s/N06P2jLo][Swap partition vs Swap file @Opencode-session]]
+**** Swap File
+As an alternative to create an entire =partition=
+- A =swap-file= offers the ability to vary its size /on-the-fly/
+- And is more easily removed altogether
+- This is desirable if the disk space is at premium (e.g. SSD)
+***** Swap File Creation
+
+#+NAME: btrfs swap file limitations
+#+BEGIN_QUOTE markdown
+[!WARNING]
+There are some limitations of the implementation in `btrfs` and linux swap subsystem
+- Swap files on file systems spanning multiple devices are not supported
+- Data profile must be single
+- `snapshot` cannot be create for sub-volumes containing active `swap-file`
+- `swap-files` must be pre-allocated
+- *copy-on-write* must be disabled individually for `swap-files` *(i.e., swap files must have to NOCOW attribute)*
+#+END_QUOTE
+
+To properly create a =swap-file= on =btrfs=
+- First, create /sub-volume/ as /snap-shots/ cannot be created for that sub-volume afterwards:
+  #+BEGIN_SRC sh
+  btrfs subvolume create /swap
+  #+END_SRC
+
+- Create a =4GB= swap-file =swap-file= in =/swap/=:
+  #+BEGIN_SRC sh
+  btrfs filesystem mkswapfile --size 4g --uuid clear /swap/swapfile
+  #+END_SRC
+
+- Activate the swap-file:
+  #+BEGIN_SRC sh
+  swapon /swap/swapfile
+  #+END_SRC
+
+- Finally, edit the =fstab= configuration to ad an entry for the swap-file:
+  #+NAME: /etc/fstab
+  #+BEGIN_SRC fstab
+  /swap/swapfile none swap defailts 0 0
+  #+END_SRC
+***** Swap File Removal
+To remove a swap-file, it must be turned off first and then can be removed:
+#+BEGIN_SRC sh
+swapoff /swap/swapfile
+rm -f /swap/swapfile
+#+END_SRC
+
+And remove the relevant entry from =/etc/fstab=
+*** System Swappiness
+#+BEGIN_QUOTE markdown
+When `memory` reaches a certain threshold, the kernel starts looking at active memory and seeing what it can free up
+- File data can be written out to the file system
+- unloaded and re-loaded later
+- Other data must be written to swap before it can be unloaded
+#+END_QUOTE
+
+The =swappiness= parameter represents the kernels preference for writing to swap instead of files.
+- It can have a value between /0/ and /200/
+- The default value is /60/
+  + A /low/ value causes the =kernel= to prefer freeing up open files
+  + a /high/ value causes the =kernel= to try to use swap space \\
+
+To check the current =swappiness= value:
+#+BEGIN_SRC sh
+sysctl vm.swappiness
+#+END_SRC
+
+To temporarily set the =swappiness= value:
+#+BEGIN_SRC sh
+sysctl -w vm.swappiness=20
+#+END_SRC
+
+To set the =swappiness= value permanently, create a =sysctl.d(5)= configuration file:
+#+BEGIN_SRC sh
+#/etc/sysctl.d/99-swappiness.conf
+
+vm.swappiness = 20
+#+END_SRC
+
+To have the =boot-loader= set the swappiness when loading the =kernel=
+- Add a =kernel-parameter= e.g. ~sysctl.vm.swappiness=20~
