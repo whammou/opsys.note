@@ -29,6 +29,9 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 ** OUTL Chroot from live USB
 /How to chroot from live USB stick/
 ** OUTL Arch Linux hibernation
+:PROPERTIES:
+:ID: b827e129-f7ca-4f65-8043-460afe696107
+:END:
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions
   
@@ -38,13 +41,16 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 /How to forward notification between machines/
 - *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
 - *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
-** OUTL System Swap and Swappiness :ARCH:SWAP:
-DEADLINE: <2025-11-27 Thu>
-/What are swap and swappiness and how to increase system performance by adjusting swappiness value/
-- *goto:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
 ** OUTL Run Service on Network Change :INTERNET:
 :PROPERTIES:
 :ID: b6113f7d-9ec6-49df-80ff-2c0d7546475f
 :END:
 /How to run script on network change/ \\
 /*Check-out:*/ [[https://unix.stackexchange.com/a/725928][Restart Service on Wifi Change @Overflow]]
+** OUTL Managing Long Running Process :MANAGEMENT:longrunningprocess:
+/What is the optimal way and suitable way to manage long-running processes/
+*** OUTL Docker vs Systemd :SYSTEMD:DOCKER:
+/Comparing =docker= vs =systemd= in managing long running processes/
+/Check-out:/
+  + [[https://dev.to/_russell/systemd-vs-docker-exploring-a-surprising-alternative-4pmm][Docker vs Systemd self-hosting @Dev.to]]
+  + [[https://opencode.ai/s/PHa6CQ7X][Docker vs Systemd overhead @Opencode-session]]

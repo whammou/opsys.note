@@ -44,3 +44,9 @@ DEADLINE: <2025-11-22 Sat 21:30> CLOSED: [2025-11-22 Sat 21:22]
 ** PEND Limiting Process Memory :MEMORY:
 - *OBJECTIVE:* Limiting process memory usage on =archlinux=
 - *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=248765][Limiting process ram and zswap usage @Archlinux.org]]
+** PEND Update Config Files :configfile:
+- *OBJECTIVE:* Update =dotfiles= repo
+*** PEND Restructure Scripts Directory
+- *OBJECTIVE:* Restructure =script= directory
+  + Follows =script= per =package=
+  + Modularize =script= repo

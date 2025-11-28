@@ -12,4 +12,57 @@
 
 * PEND System Proxies and DNS :DOC:META:OPSYS:LINUX:NETWORK:
 #+HTML:</details>
-Access blocked websites via ~proxy~ or changeing ~DNS~
+Access blocked websites via ~proxy~ or ~DNS~
+** DONE Reverse Tunneling :PROTOCOL:SSH:reversetunneling:
+DEADLINE: <2025-11-27 Thu> CLOSED: [2025-11-27 Thu 22:28]
+- Summary:
+  + Reverse =ssh-tunneling= is useful when you need to connect to a remote computer that is hard to reach dir to =firewall= or complex network configurations
+  + Reverse =ssh-tunneling= allows you to establish a new connection from your =local= computer back to the =remote= computer using the existing connection
+  + Set up =ssh-keys= to make it more convenient to connect from the =remote= computer tho the local computer without being challenged for a =password=
+#+html:<details><summary>Reverse ssh graph</summary>
+#+BEGIN_SRC plain
+                                                                    +-------------------+
+                                                                    |  Local Machine    |
+                                                                    | (Your Computer)   |
+                                                                    |                   |
+  Any SSH Client                                                    | +---------------+ |
+        |                                                           | | SSH Server    | |
+        |                                                           | | (Port 22)     | |
+        |                                                           | +---------------+ |
+        |                                                           +--------^----------+
+        |                                                                    |
+        | 1. Connects to remote server's port 2200                           | 4. The SSH client on your
+        |    (e.g., ssh user@remote-ip -p 2200)                              |    local machine forwards the
+        v                                                                    |    connection to its own
++---------------------------+                                                |    localhost:22.
+|      Remote Server        |                                                |
+|    (Remote Server IP)     |      2. SSH Tunnel established by your command |
+|                           | <--------------------------------------------> |
+| +-----------------------+ |                                                |
+| | SSHD listens on 2200  | |         3. Traffic arriving on port 2200 is    |
+| +-----------------------+ |            sent back through the tunnel.       |
+|                           | ---------------------------------------------> |
++---------------------------+
+#+END_SRC
+#+html:</details>
+- *Visit:* [[https://stackoverflow.com/a/76549625/25585364][Auto restart background ssh tunnel @Overflow]]
+*** What is Reverse SSH Tunneling?
+#+BEGIN_QUOTE
+Reverse SSH Tunneling allows user to use that established connection to set up a new connect from a =local= computer back to the =remote= computer
+#+END_QUOTE
+Because the original connection came from the remote computer to you, using it to go in the other direction using it /in reverse/. Thus the name =reverse ssh tunneling=
+
+*** How does SSH Tunneling Work?
+- Reverse SSH Tunneling relies on the remote computer to take advantage of an already established connection to listen for a new connection request from the =local= computer
+- The =remote= computer listens on a network port on the =local= computer. If it detects an =ssh= request on that port, it relays the connection request back to itself /or another device/ down the established connection. This provides a new connection from the =local= computer to the =remote= computer
+*** Using SSH Reverse Tunneling
+To establish a connection between the =remote= and =local= machine run:
+#+BEGIN_SRC sh
+ssh -o ControlMaster=auto -o ControlPath=/path/to/control/socket -NR 2200:localhost:22 user@remote-ip
+#+END_SRC
+- =-o= defines extra parameters for this =ssh= session /same as defining in =config= file/
+  + =ControlMaster= set control mode to =auto=
+  + =ControlPath= define path for =control socket=. /Requires for turning "off" an ssh connection/
+- =-N= Don't execute remote command
+- =-R= Tells =ssh= that the new SSH session must be created on the remote computer /this is a reverse session/
+- =2200:localhost:22= Tells =ssh= to open a listen port =2200= on the =remote= computer and if there is a request forward it to this =localhost= on port =22=
