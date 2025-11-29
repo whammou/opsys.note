@@ -30,7 +30,7 @@ CLOSED: [2025-11-29 Sat 15:21]
 CLOSED: [2025-11-29 Sat 15:21]
 - *Ease of Setup:*
   + =docker= offers a more streamlined setup wit fewer dependencies since it isolated the application within a =container=
-  * =systemd= requires setting up a =service-file=. Managing dependencies, and ensuring the application runs directly on the system. It's more of manual but offer deeper integration with the OS \\\\
+  * =systemd= requires setting up a =service-file=. Managing dependencies, and ensuring the application runs directly on the system. It's more of manual but offer deeper integration with the OS
     
 - *Isolation:*
   + =docker= provides full isolation for the application, meaning it runs in a self-contained environment. This is especially useful when you want to avoid conflicts with other applications
