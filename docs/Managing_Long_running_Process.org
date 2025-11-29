@@ -28,22 +28,22 @@ CLOSED: [2025-11-29 Sat 15:21]
   + =dependencies= are a set of packages required by the process the ensure its functionality
 ** DONE Docker vs Systemd :SYSTEMD:DOCKER:
 CLOSED: [2025-11-29 Sat 15:21]
-- *Ease of Setup:*
+*Ease of Setup:*
   + =docker= offers a more streamlined setup wit fewer dependencies since it isolated the application within a =container=
   * =systemd= requires setting up a =service-file=. Managing dependencies, and ensuring the application runs directly on the system. It's more of manual but offer deeper integration with the OS
------
-- *Isolation:*
+
+*Isolation:*
   + =docker= provides full isolation for the application, meaning it runs in a self-contained environment. This is especially useful when you want to avoid conflicts with other applications
   * =systemd= runs the application directly on the system, which can lead to potential conflicts with other system services
------
-- *Managing and Monitoring:*
+
+*Managing and Monitoring:*
   + =docker= simplifies management by encapsulating container. User can easily stop, restart, or even scale the application by interacting with the docker =container=
   * =systemd= gives the user more control over how the process interacts with the system. User can manage logging, resource allocation, and service dependencies more granularly
------
-- *Performance:*
+
+*Performance:*
   + =docker= adds a small overhead due to containerization, though the performance difference is usually negligible for most application
   * =systemd= typically offers better performance for =LRP= since there is not container overhead and it runs natively on host system
-   -----
+
 /Check-out:/
 + [[https://dev.to/_russell/systemd-vs-docker-exploring-a-surprising-alternative-4pmm][Docker vs Systemd self-hosting @Dev.to]]
 + [[https://opencode.ai/s/PHa6CQ7X][Docker vs Systemd overhead @Opencode-session]]
