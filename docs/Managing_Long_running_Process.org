@@ -12,10 +12,13 @@
 * Managing Long Running Process :DOC:META:MANAGEMENT:longrunningprocess:
 #+HTML:</details>
 - *Long-running Process -* is a program designed to run continuously in the background or an extended periods /hours, days, weeks/
+
+
 - *Managing LRP -* Is an act of keeping the *LRP* *LRPs* operate smoothly over a period of times
 ** DONE Managing LRP Strategies
 CLOSED: [2025-11-29 Sat 15:21]
 - *Process Monitoring -* Monitor resources of the machine and the =process=, output logs if error arises. Tools such as =bottom=, =htop=
+
   
 - *Task Scheduling -* define the behaviour of the =tasks=, schedule =process= startup =event=, linking behaviours between =processes=. Tools such as =systemd=, =docker=
   + =tasks= are referred to a set of /behaviours/ of the =process= e.g. 
@@ -23,6 +26,7 @@ CLOSED: [2025-11-29 Sat 15:21]
     * Restart on crash
     * Cleanup after finished
   + =events= are signals or notifications that something has happened
+
     
 - *Containerization -* Running the =process= in a container is a great way to isolate it and manage it =dependencies=. Tools such as =docker=
   + =dependencies= are a set of packages required by the process the ensure its functionality
@@ -32,17 +36,21 @@ CLOSED: [2025-11-29 Sat 15:21]
   + =docker= offers a more streamlined setup wit fewer dependencies since it isolated the application within a =container=
   * =systemd= requires setting up a =service-file=. Managing dependencies, and ensuring the application runs directly on the system. It's more of manual but offer deeper integration with the OS
     
+
 - *Isolation:*
   + =docker= provides full isolation for the application, meaning it runs in a self-contained environment. This is especially useful when you want to avoid conflicts with other applications
   * =systemd= runs the application directly on the system, which can lead to potential conflicts with other system services
     
+
 - *Managing and Monitoring:*
   + =docker= simplifies management by encapsulating container. User can easily stop, restart, or even scale the application by interacting with the docker =container=
   * =systemd= gives the user more control over how the process interacts with the system. User can manage logging, resource allocation, and service dependencies more granularly
     
+
 - *Performance:*
   + =docker= adds a small overhead due to containerization, though the performance difference is usually negligible for most application
   * =systemd= typically offers better performance for =LRP= since there is not container overhead and it runs natively on host system
+
     
 /Check-out:/
 + [[https://dev.to/_russell/systemd-vs-docker-exploring-a-surprising-alternative-4pmm][Docker vs Systemd self-hosting @Dev.to]]
