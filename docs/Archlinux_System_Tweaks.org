@@ -164,8 +164,8 @@ CLOSED: [2025-09-19 Fri 15:02]
     run = "plugin mount"
     #+END_SRC
   + Launch the /mount-manager/ inside =yazi= with =M=
-** OUTL System Swap and Swappiness :ARCH:SWAP:
-DEADLINE: <2025-11-28 Fri>
+** DONE System Swap and Swappiness :ARCH:SWAP:
+DEADLINE: <2025-11-28 Fri> CLOSED: [2025-11-29 Sat 01:16]
 /What are swap and swappiness and how to increase system performance by adjusting swappiness value/
 
 #+BEGIN_QUOTE

@@ -1,87 +1,49 @@
-#+TITLE: System Document Drafts
+:PROPERTIES:
+:ID: fb82b162-a41d-4f34-bde1-bf41b3e6883f
+:END:
+#+TITLE: Managing Long-running Process
 
-#+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
-#+FILETAGS: :DOC:DRAFT:OPSYS:
+#+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:META:MANAGEMENT:longrunningprocess:
 #+HTML:<details>
 
-* Document Drafts :DOC:DRAFT:OPSYS:META:
+* Managing Long Running Process :DOC:META:MANAGEMENT:longrunningprocess:
 #+HTML:</details>
-
-#+NAME:Warning Message
-#+BEGIN_QUOTE
-[!WARNING]
-Draft items are subjected to change and refile!
-#+END_QUOTE
-** OUTL CPU and IRQ scheduler :PERFORMANCE:
-- /Setup CPU and IRQ scheduler/ ~daemon~
-** OUTL Select io scheduler :PERFORMANCE:
-- /Change/ ~udev~ /rules for io-scheduler/
-** OUTL Disable Coredump :TWEAKS:
-/Documentation of disabling systemd coredump/
-** OUTL Running Tasks in Parallel
-:PROPERTIES:
-:ID: 2b964774-683a-4eaa-882d-a8f5e5dc714d
-:END:
-Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
-*** OUTL GNU-parallel vs xargs
-** OUTL Chroot from live USB
-/How to chroot from live USB stick/
-** OUTL Arch Linux hibernation
-:PROPERTIES:
-:ID: b827e129-f7ca-4f65-8043-460afe696107
-:END:
-- Note taken on [2025-01-06 Mon 01:48] \\
-  Hibernation for btrfs partitions
-  
-- *Goal(s):* setup ~hibernation~ for archlinux
-- *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
-** OUTL Notification Forwarding :NOTIFICATION:
-/How to forward notification between machines/
-- *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
-- *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
-** OUTL Run Service on Network Change :INTERNET:
-:PROPERTIES:
-:ID: b6113f7d-9ec6-49df-80ff-2c0d7546475f
-:END:
-/How to run script on network change/ \\
-/*Check-out:*/ [[https://unix.stackexchange.com/a/725928][Restart Service on Wifi Change @Overflow]]
-** DONE Managing Long Running Process :MANAGEMENT:longrunningprocess:
-DEADLINE: <2025-11-29 Sat 14:55> CLOSED: [2025-11-29 Sat 15:21]
 - *Long-running Process -* is a program designed to run continuously in the background or an extended periods /hours, days, weeks/
 - *Managing LRP -* Is an act of keeping the *LRP* *LRPs* operate smoothly over a period of times
-*** DONE Managing LRP Strategies
+** DONE Managing LRP Strategies
 CLOSED: [2025-11-29 Sat 15:21]
 - *Process Monitoring -* Monitor resources of the machine and the =process=, output logs if error arises. Tools such as =bottom=, =htop=
-
+  
 - *Task Scheduling -* define the behaviour of the =tasks=, schedule =process= startup =event=, linking behaviours between =processes=. Tools such as =systemd=, =docker=
   + =tasks= are referred to a set of /behaviours/ of the =process= e.g. 
     * Running at startup
     * Restart on crash
     * Cleanup after finished
   + =events= are signals or notifications that something has happened
-
+    
 - *Containerization -* Running the =process= in a container is a great way to isolate it and manage it =dependencies=. Tools such as =docker=
   + =dependencies= are a set of packages required by the process the ensure its functionality
-*** DONE Docker vs Systemd :SYSTEMD:DOCKER:
+** DONE Docker vs Systemd :SYSTEMD:DOCKER:
 CLOSED: [2025-11-29 Sat 15:21]
 - *Ease of Setup:*
   + =docker= offers a more streamlined setup wit fewer dependencies since it isolated the application within a =container=
   * =systemd= requires setting up a =service-file=. Managing dependencies, and ensuring the application runs directly on the system. It's more of manual but offer deeper integration with the OS
-
+    
 - *Isolation:*
   + =docker= provides full isolation for the application, meaning it runs in a self-contained environment. This is especially useful when you want to avoid conflicts with other applications
   * =systemd= runs the application directly on the system, which can lead to potential conflicts with other system services
-
+    
 - *Managing and Monitoring:*
   + =docker= simplifies management by encapsulating container. User can easily stop, restart, or even scale the application by interacting with the docker =container=
   * =systemd= gives the user more control over how the process interacts with the system. User can manage logging, resource allocation, and service dependencies more granularly
-
+    
 - *Performance:*
   + =docker= adds a small overhead due to containerization, though the performance difference is usually negligible for most application
   * =systemd= typically offers better performance for =LRP= since there is not container overhead and it runs natively on host system
-
+    
 /Check-out:/
-  + [[https://dev.to/_russell/systemd-vs-docker-exploring-a-surprising-alternative-4pmm][Docker vs Systemd self-hosting @Dev.to]]
-  + [[https://opencode.ai/s/PHa6CQ7X][Docker vs Systemd overhead @Opencode-session]]
++ [[https://dev.to/_russell/systemd-vs-docker-exploring-a-surprising-alternative-4pmm][Docker vs Systemd self-hosting @Dev.to]]
++ [[https://opencode.ai/s/PHa6CQ7X][Docker vs Systemd overhead @Opencode-session]]
