@@ -272,10 +272,6 @@ CLOSED: [2024-12-04 Wed 15:16]
 CLOSED: [2024-12-06 Fri 20:55]
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
-** DONE Systemd power supply detection :SYSTEMD:
-CLOSED: [2024-12-16 Mon 02:55] DEADLINE: <2024-12-15 Sun 20:00>
-- *Goal(s):* Adding power supply detection to systemd via udev rules
-- *Stumble upon:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
 ** DONE Systemd service :SYSTEMD:
 CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
 - *Goal:* set ~tlp~ on top most of shutdown target
