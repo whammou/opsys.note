@@ -1,0 +1,101 @@
+:PROPERTIES:
+:ID: c008d2c7-970a-4d5b-9168-36b3b908ffa3
+:END:
+#+TITLE: Process Containerization
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:META:MANAGEMENT:containerization:
+#+HTML:<details>
+
+* Process Containerization :DOC:META:MANAGEMENT:containerization:
+#+HTML:</details>
+** DOIN Containerization in Process Management :MANAGEMENT:containerization:
+DEADLINE: <2025-12-04 Thu 19:30>
+:PROPERTIES:
+:ID: 362cf886-09be-4964-b993-0ab110297d58
+:END:
+*Containerization:*
+- Containerization if a process of packaging your application together with its dependencies into one package
+- That can then be run almost *anywhere*, regardless of whether in the cloud, or a developer's laptop
+- By abstracting the infrastructure, containerization allow user to make the application truly portable and flexible
+  
+/Check-out:/ [[https://www.papertrail.com/solution/tips/what-are-containers-and-containerization-in-devops/][Containerization in Devop @Blog]]
+*** Containers vs. Virtual Machines
+#+BEGIN_QUOTE
+=containers= and =virtual machines= are very similar resource virtualization technologies.
+#+END_QUOTE
+
+*Virtualisation:*
+- is the process in which a system singular resource /RAM, CPU, DISK/ can be /virtualised/ and represented as multiple resources
+-----
+*Key differences:*
+- =virtual-machine= virtualise an entire machine down to the hardware layers
+- =containers= only virtualises software layers above the operating system level
+[[https://wac-cdn.atlassian.com/dam/jcr:92adde69-f728-4cfc-8bab-ba391c25ae58/SWTM-2060_Diagram_Containers_VirtualMachines_v03.png][virtual-machine vs. Container system level]]
+**** Containers in-depth
+Containers are lightweight software =packages= that contain all the =dependencies= required to execute the contained =software= application
+- =dependecies= include things like system =libraries=, external third party code =packages=, and other system level =applications=
+- The =depencies= included in a container exist in stack levels that are higher than the =os=
+***** Popular Container Providers
+- *Docker:* \\
+  =docker= is the most popular and widely used container runtime. =docker hub= is a giant public repository of popular containerized software and applications. Containers on =docker hub= can instantly downloaded and deployed to local =docker runtime=
+  -----
+- *CRI-O:* \\
+  =cri-o= is an implementation of the /Kubernetes Container Runtime Interface (CRI)/ that allows the use of /Open Container Initiative (OCI)/ com
+-----
+- *Podman:* \\
+  open-source alternative of =docker=, comes with integration for =systemd= and =kubernetes=
+**** Virtual-machines in-depth
+=virtual-machines= are heavy software packages that provide a complete emulation of low level hardware like /CPU, DISK, NETWORK/. =virtual-machine= may also include a complementary software =packages= combined produce a fully function snapshot of a computational system
+**** Containers vs. Pods
+#+BEGIN_QUOTE
+While both =containers= and =pods= play essential roles in /containerized/ deployments, They serve distinct purpose \\
+#+END_QUOTE
+
+-----
+*Isolation vs. cohesion:* \\
+- =containers= are designed for isolation, providing a self-contained environment for a single application. Each =container= has its own set of resources and dependencies, ensuring it runs independently without impacting other =containers=
++ =pod=, on other hand, promote cohesion. They group multiple =containers= that need to work together tightly, facilitating communication and resource sharing between them
+-----
+*Abstraction level:* \\
+- =container= has a /lower/ abstraction level. They focus on single application and its =dependencies= -> providing a consistent execution environment across different platforms
++ =pod= offers a /higher/ abstraction level. They manage a group of =container= as a single unit -> simplifying /deployment, scaling, and life cycle management/ of a complex application
+-----
+*Communication and resource sharing:* \\
+- =container= typically communicate with each other over network using mechanism like inter-container networking <- They generally don't share resources directly unless configured to do so
++ =pods= in contrast, enable seamless communication and resource sharing between =containers= <- They can communicate directly using =localhost= and share =storage volume=, allowing multiple =containers= to access the same persistent data
+-----
+*Lifetime management:* \\
+- =containers= are typically /short-lived/ -> they are create and destroyed on demand
++ =pods= can configured to have a specific /lifetime/ or /life-cycle/ -> Even if one =container= within a =pod= fails or restarts, the other =containers= in the =pod= can continue running depending on the pod's /configuration/
+***** Use Cases of Containers
+- *Micro-services architecture*
+- *Application deployment and Scaling*
+- *CI/CD*
+- *Legacy application modernisation*
+- *Batch Processing*
+- *Developing and testing cloud-native applications*
+***** Use Cases of Pods
+- *Multi-container applications*
+- *Managing complex applications*
+- *Stateful applications*
+- *Sidecar containers*
+- *Graceful degradation and self-healing*
+***** Choosing Between Container vs. Pod
+*Application architecture:* \\
+- =containers= are a natural fir if your application is built using =microservies acrchitecture= /Where each service runs independently/
++ =pods= are the way to go for applications with multiple interdependent =containers=. =Pods= provide a cohesive unit for managing these containers
+-----
+*Scalability Requirements:* \\
+- =container= prefer application that priorities /fine-grained/ control or /scaling/ individual components
++ =pods= are more suitable for applications where multiple =containers= need to be scaled together to maintain functionality
+-----
+*Communication and Resource Sharing Needs:* \\
+- =container= are sufficient if the application consists of loosely coupled serves that communicate primarily over a network
++ =pods= for applications where =containers= need to share resources or communicate frequently
+-----
+*Application Complexity:* \\
+- =containers= for straightforward applications with sing unit container
++ =pods= are ideal for complex application with multiple interdependent =containers=
