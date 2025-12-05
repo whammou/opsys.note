@@ -60,3 +60,7 @@ DEADLINE: <2025-12-02 Tue 21:15> CLOSED: [2025-12-02 Tue 13:19]
 ** TODO Containerize Process Services :PODMAN:SYSTEMD:
 - *OBJECTIVE:* Containerize individual process in =systemd=
 - *Check-out:*[[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
+** TODO Advanced Sleep Mode
+DEADLINE: <2025-12-06 Sat>
+- *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
+- *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
