@@ -11,8 +11,8 @@
 
 * Process Containerization :DOC:META:MANAGEMENT:containerization:
 #+HTML:</details>
-** DOIN Containerization in Process Management :MANAGEMENT:containerization:
-DEADLINE: <2025-12-04 Thu 19:30>
+** DONE DOIN Containerization in Process Management :MANAGEMENT:containerization:
+DEADLINE: <2025-12-04 Thu 19:30> CLOSED: [2025-12-04 Thu 20:48]
 :PROPERTIES:
 :ID: 362cf886-09be-4964-b993-0ab110297d58
 :END:
