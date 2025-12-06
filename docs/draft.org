@@ -50,3 +50,13 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 ** OUTL Systemd power supply detection :SYSTEMD:
 - *OBJECTIVE:* Adding power supply detection to systemd via udev rules
 - *Reference:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
+** OUTL Advanced Suspend Mode :PERFORMANCE:
+/Config advanced suspend mode on =archlinux= to optimize sleep time and power usage/ \\
+/Check-out:/ [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#High_level_interface_(systemd)][Power Management @Archlinux]]
+*** Suspend Mode on Event
+*Login Events:* \\
+- There are several listed login =events= .e.g., =LidSwitch=, =LidSwitchExternalPower=, =LidSwitchDocked=
+- Visit =manpage= for more =login-events=:
+  #+BEGIN_SRC sh
+  man 5 login.conf.d
+  #+END_SRC
