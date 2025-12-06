@@ -60,3 +60,11 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
   #+BEGIN_SRC sh
   man 5 login.conf.d
   #+END_SRC
+  + =hybrid-sleep= on =LidSwtich=, edit:
+    #+NAME:/etc/systemd/logind.conf
+    #+BEGIN_SRC conf
+    [Login]
+    HandleLidSwitch=hybrid-sleep
+    #+END_SRC
+*** Suspend-then-hibernate
+To change =timeout= of =hibernation= when suspending

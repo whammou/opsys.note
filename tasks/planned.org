@@ -31,7 +31,7 @@ CLOSED: [2025-11-09 Sun 21:34]
 - *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
 - *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
 ** PRTL Get Notify When Systemd Service Failed :NOTIFICATION:SYSTEMD:systemmanage:
-DEADLINE: <2025-11-22 Sat 21:30> CLOSED: [2025-11-22 Sat 21:22]
+CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
 :LOGBOOK:
@@ -55,12 +55,12 @@ DEADLINE: <2025-12-06 Sat 21:30>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
-DEADLINE: <2025-12-02 Tue 21:15> CLOSED: [2025-12-02 Tue 13:19]
+CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
 - *OBJECTIVE:* Convert non-essential system services to user mode
 ** TODO Containerize Process Services :PODMAN:SYSTEMD:
 - *OBJECTIVE:* Containerize individual process in =systemd=
 - *Check-out:*[[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
-** TODO Advanced Sleep Mode
-DEADLINE: <2025-12-06 Sat>
+** DONE Advanced Sleep Mode
+CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 - *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
 - *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
