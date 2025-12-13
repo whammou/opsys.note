@@ -68,3 +68,6 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
     #+END_SRC
 *** Suspend-then-hibernate
 To change =timeout= of =hibernation= when suspending
+** OUTL Podman Quadlet :PODMAN:containerization:
+/What is =podman= and =quadlet= and how they are used to with =systemd=/
+/Check-out:/ [[https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet][How to run podman container using quadlet @Blog]]
