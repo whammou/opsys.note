@@ -179,7 +179,11 @@ CLOSED: [2025-06-19 Thu 23:36]
 ** TODO Config Neomutt :NEOMUTT:
 DEADLINE: <2025-12-17 Wed>
 - *OBJECTIVE:* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
-- *Reference:* [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
+- *Reference:*
+  + [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
+  + [[https://gist.github.com/VladimirPal/9068b922c70a6b5e604c8d2eb099ddb7][Minimal Neomutt Setup @Github-gist]]
+  + [[https://www.youtube.com/watch?v=iwYL3JzVVXM][How to setup neomutt with gmail @Youtube]]
+    * [[https://github.com/LukeSmithxyz/mutt-wizard][Mutt-wizard @Github]]
 ** PEND Github workflow doc :GITHUB:
 - *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
 ** PEND Refactor dotfiles@github :GITHUB:
