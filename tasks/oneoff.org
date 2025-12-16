@@ -176,8 +176,10 @@ CLOSED: [2025-06-19 Thu 23:36]
 :END:
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
-** PEND Config Neomutt :NEOMUTT:
-- *Goal(s):* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
+** TODO Config Neomutt :NEOMUTT:
+DEADLINE: <2025-12-17 Wed>
+- *OBJECTIVE:* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
+- *Reference:* [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
 ** PEND Github workflow doc :GITHUB:
 - *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
 ** PEND Refactor dotfiles@github :GITHUB:
@@ -345,3 +347,5 @@ CLOSED: [2025-11-23 Sun 20:16] DEADLINE: <2025-11-23 Sun 19:30>
 #+html:</details>
 - *OBJECTIVE:* Resolve =systemd= start request repeated too quickly
 - *Reference:* [[https://stackoverflow.com/questions/35452591/start-request-repeated-too-quickly][Start request too quickly @Overflow]]
+** PEND Update dotfiles Packages :DOTFILES:
+- *OBJECTIVE:* Update my =dotfiles= packages configurations
