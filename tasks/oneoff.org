@@ -177,7 +177,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
 ** TODO Config Neomutt :NEOMUTT:
-DEADLINE: <2025-12-17 Wed>
+DEADLINE: <2025-12-18 Thu>
 - *OBJECTIVE:* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
 - *Reference:*
   + [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
