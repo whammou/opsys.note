@@ -177,7 +177,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
 ** WAIT Config Neomutt :NEOMUTT:
-DEADLINE: <2025-12-21 Sun>
+DEADLINE: <2025-12-22 Mon>
 - *OBJECTIVE:* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
 - *Reference:*
   + [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
@@ -185,11 +185,11 @@ DEADLINE: <2025-12-21 Sun>
   + [[https://www.youtube.com/watch?v=iwYL3JzVVXM][How to setup neomutt with gmail @Youtube]]
     * [[https://github.com/LukeSmithxyz/mutt-wizard][Mutt-wizard @Github]]
 *** WAIT Config Gmail Profile
-DEADLINE: <2025-12-21 Sun>
+DEADLINE: <2025-12-22 Mon>
 - *OBJECTIVE:* Config =gmail= minimal profile in =neomutt=
 - *Reference:* [[https://gist.github.com/carlcidromero/90c3b531d897bc6a1be9099f47373f3e][Minimal gmail profile guide @Gist]]
 **** DOIN Multiple Gmail Profiles
-DEADLINE: <2025-12-21 Sun>
+DEADLINE: <2025-12-22 Mon>
 - *OBJECTIVE:* Multiple =gmail= profiles management
 *** DONE Config Neomutt Theme
 DEADLINE: <2025-12-21 Sun> CLOSED: [2025-12-21 Sun 20:55]
@@ -198,6 +198,10 @@ DEADLINE: <2025-12-21 Sun> CLOSED: [2025-12-21 Sun 20:55]
 **** DONE Onedark Theming for Neomutt
 DEADLINE: <2025-12-21 Sun> CLOSED: [2025-12-21 Sun 20:55]
 - *OBJECTIVE:* Create =onedark= theme for =neomutt=
+*** TODO View Mail in Browser
+DEADLINE: <2025-12-22 Mon>
+- *OBJECTIVE:* View =html= mail in =browser=
+- *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=279980][Help viewing html mail in browser @Archlinux-forum]]
 ** PEND Github workflow doc :GITHUB:
 - *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
 ** PEND Refactor dotfiles@github :GITHUB:
