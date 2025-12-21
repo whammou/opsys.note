@@ -177,7 +177,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
 ** WAIT Config Neomutt :NEOMUTT:
-DEADLINE: <2025-12-20 Sat>
+DEADLINE: <2025-12-21 Sun>
 - *OBJECTIVE:* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
 - *Reference:*
   + [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
@@ -189,11 +189,11 @@ DEADLINE: <2025-12-19 Fri> CLOSED: [2025-12-19 Fri 18:42]
 - *OBJECTIVE:* Config =gmail= minimal profile in =neomutt=
 - *Reference:* [[https://gist.github.com/carlcidromero/90c3b531d897bc6a1be9099f47373f3e][Minimal gmail profile guide @Gist]]
 *** WAIT Config Neomutt Theme
-DEADLINE: <2025-12-20 Sat>
+DEADLINE: <2025-12-21 Sun>
 - *OBJECTIVE:* Config theme for =neomutt=
 - *Reference:* [[https://github.com/catppuccin/neomutt][Neomutt Cattpucchin Theme @Github]]
 **** DOIN Onedark Theming for Neomutt
-DEADLINE: <2025-12-20 Sat>
+DEADLINE: <2025-12-21 Sun>
 - *OBJECTIVE:* Create =onedark= theme for =neomutt=
 ** PEND Github workflow doc :GITHUB:
 - *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
