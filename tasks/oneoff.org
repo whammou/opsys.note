@@ -392,16 +392,19 @@ DEADLINE: <2025-12-25 Thu>
 #+html:</details>
 - *OBJECTIVE:* Manage system wise emails with =neomutt=
   + [[mailto:mckaysbackup@gmail.com]]
-*** TODO Custom Orgmode Link Type :NVIM:ORGMODE:
+*** DONE Custom Orgmode Link Type :NVIM:ORGMODE:
+CLOSED: [2025-12-25 Thu 16:56]
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
 :LOGBOOK:
 - Note taken on [2025-12-25 Thu 15:44] \\
   Test custom =hyperlink= type
     + [[ping:google.com]]
+    + [[my_custom_type:test.com]]
 :END:
 #+html:</details>
 - *OBJECTIVE:* Open =mailto:= link type using /nvim-orgmode/ =custom-hyperlink-type=
+  + [[mailto:mckaysbackup@gmail.com]]
 - *Reference:* [[https://nvim-orgmode.github.io/configuration#custom-hyperlink-types][Nvim-orgmode custom hyperlink type @Orgmode-nvim config]]
 - *Visit:* [[file:/home/whammou/Workspace/custom-hyperlink-type/ping.lua]]
 *** TODO Email Workflows
