@@ -64,3 +64,7 @@ CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
 CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 - *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
 - *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
+** PEND Integrate Text Browser :BROWSER:NVIM:textbrowser:
+- *OBJECTIVE:* Integrate /text-base/ browser to =editor=
+- *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
+  
