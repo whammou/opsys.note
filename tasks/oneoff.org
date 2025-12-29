@@ -381,8 +381,8 @@ CLOSED: [2025-11-23 Sun 20:16] DEADLINE: <2025-11-23 Sun 19:30>
 - *Reference:* [[https://stackoverflow.com/questions/35452591/start-request-repeated-too-quickly][Start request too quickly @Overflow]]
 ** PEND Update dotfiles Packages :DOTFILES:
 - *OBJECTIVE:* Update my =dotfiles= packages configurations
-** WAIT Manage Mails with Neomutt :NEOMUTT:MAIL:
-DEADLINE: <2025-12-29 Mon>
+** DONE Manage Mails with Neomutt :NEOMUTT:MAIL:
+DEADLINE: <2025-12-29 Mon> CLOSED: [2025-12-29 Mon 16:28]
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
 :LOGBOOK:
@@ -407,7 +407,8 @@ CLOSED: [2025-12-25 Thu 16:56]
   + [[mailto:mckaysbackup@gmail.com]]
 - *Reference:* [[https://nvim-orgmode.github.io/configuration#custom-hyperlink-types][Nvim-orgmode custom hyperlink type @Orgmode-nvim config]]
 - *Visit:* [[file:/home/whammou/Workspace/custom-hyperlink-type/ping.lua]]
-*** TODO Email Workflows
+*** DONE Email Workflows
+CLOSED: [2025-12-29 Mon 16:27]
 - *OBJECTIVE:* Develop a workflow with =emails=
 - *Reference:*
   + [[https://www.reddit.com/r/commandline/comments/f4rwix/email_workflow_demo_neovim_neomutt_ultisnips/][Email Workflow with Neomutt @Reddit]]
