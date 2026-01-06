@@ -73,3 +73,8 @@ DEADLINE: <2026-01-06 Tue>
 - *Reference:*
   + [[https://bendun.cc/archive/wayland-keyboard.html][Disable Wayland Keyboard @Blog]]
   + [[https://github.com/tahseenjamal/disable-native-keyboard][Disable native touchpad @Github]]
+** TODO Switching To Wayland :WAYLAND:
+DEADLINE: <2026-01-06 Tue>
+- *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
+- *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
+  
