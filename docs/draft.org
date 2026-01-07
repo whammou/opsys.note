@@ -71,3 +71,7 @@ To change =timeout= of =hibernation= when suspending
 ** OUTL Podman Quadlet :PODMAN:containerization:
 /What is =podman= and =quadlet= and how they are used to with =systemd=/
 /Check-out:/ [[https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet][How to run podman container using quadlet @Blog]]
+** Switching to Wayland Guide :WAYLAND:GUIDE:
+/Moving from =x11= to =wayland= guide/
+*** Managing Input Devices in Wayland
+/Check-out:/ [[id:345b5c3b-efd6-4434-bbda-f4a94f546806][Disable Devices on Wayland @Org]]

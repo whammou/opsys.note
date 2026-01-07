@@ -67,8 +67,11 @@ CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 ** PEND Integrate Text Browser :BROWSER:NVIM:textbrowser:
 - *OBJECTIVE:* Integrate /text-base/ browser to =editor=
 - *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
-** TODO Disable Devices on Wayland :WAYLAND:DEVICE:
-DEADLINE: <2026-01-07 Wed>
+** DONE Disable Devices on Wayland :WAYLAND:DEVICE:
+DEADLINE: <2026-01-07 Wed> CLOSED: [2026-01-07 Wed 11:33]
+:PROPERTIES:
+:ID: 345b5c3b-efd6-4434-bbda-f4a94f546806
+:END:
 - *OBJECTIVE:* Disable touchpad on =thinkpadx250= under =wayland=
 - *Reference:*
   + [[https://bendun.cc/archive/wayland-keyboard.html][Disable Wayland Keyboard @Blog]]
