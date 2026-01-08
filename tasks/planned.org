@@ -51,7 +51,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
   + Follows =script= per =package=
   + Modularize =script= repo
 ** TODO Grouping User Services :SYSTEMD:SERVICE:
-DEADLINE: <2026-01-08 Thu 21:30>
+DEADLINE: <2026-01-09 Fri 21:30>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
@@ -77,7 +77,7 @@ DEADLINE: <2026-01-07 Wed> CLOSED: [2026-01-07 Wed 11:33]
   + [[https://bendun.cc/archive/wayland-keyboard.html][Disable Wayland Keyboard @Blog]]
   + [[https://github.com/tahseenjamal/disable-native-keyboard][Disable native touchpad @Github]]
 ** TODO Switching To Wayland :WAYLAND:
-DEADLINE: <2026-01-08 Thu>
+DEADLINE: <2026-01-09 Fri>
 - *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
   
