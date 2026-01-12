@@ -80,4 +80,4 @@ DEADLINE: <2026-01-07 Wed> CLOSED: [2026-01-07 Wed 11:33]
 DEADLINE: <2026-01-12 Mon> CLOSED: [2026-01-12 Mon 19:46]
 - *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
-  
+- *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
