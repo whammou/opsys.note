@@ -78,5 +78,6 @@ To change =timeout= of =hibernation= when suspending
 /Moving from =x11= to =wayland= guide/
 *** Managing Input Devices in Wayland
 /Check-out:/ [[id:345b5c3b-efd6-4434-bbda-f4a94f546806][Disable Devices on Wayland @Org]]
+/Reference:/ [[https://gitlab.com/S410/noinputs][noinput @Gitlab]]
 *** Wayland Clipboard Manager
 /Enable =clipboard= manager on =wayland=/
