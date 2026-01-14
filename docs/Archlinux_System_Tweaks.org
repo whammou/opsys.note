@@ -11,6 +11,9 @@
 #+HTML:<details>
 
 * Archlinux System Tweaks :DOC:META:OPSYS:ARCH:TWEAKS:
+:PROPERTIES:
+:ID: 6ab8f5dd-cb7f-4ede-90e3-340881274a20
+:END:
 #+HTML:</details>
 - *Objective:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]

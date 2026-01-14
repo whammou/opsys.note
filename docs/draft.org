@@ -81,3 +81,10 @@ To change =timeout= of =hibernation= when suspending
 /Reference:/ [[https://gitlab.com/S410/noinputs][noinput @Gitlab]]
 *** Wayland Clipboard Manager
 /Enable =clipboard= manager on =wayland=/
+** OUTL Archlinux Security :ARCHLINUX:SECURITY:
+*** OUTL Firewall on Archlinux :firewall:
+:PROPERTIES:
+:ID: ab23a38d-229b-409a-be17-0153ded1a354
+:END:
+/config firewall on archlinux =client= and =server/
+/Goto:/ [[id:6ab8f5dd-cb7f-4ede-90e3-340881274a20][Archlinux System Tweaks @Org]]

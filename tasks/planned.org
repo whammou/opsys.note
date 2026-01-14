@@ -51,7 +51,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
   + Follows =script= per =package=
   + Modularize =script= repo
 ** TODO Grouping User Services :SYSTEMD:SERVICE:
-DEADLINE: <2026-01-13 Tue 21:30>
+DEADLINE: <2026-01-14 Wed 21:30>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
@@ -81,3 +81,11 @@ DEADLINE: <2026-01-12 Mon> CLOSED: [2026-01-12 Mon 19:46]
 - *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
 - *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
+** TODO Config Uncomplicated Firewall :SECURITY:firewall:
+DEADLINE: <2026-01-14 Wed>
+- *OBJECTIVE:* 
+  + [ ] Config =ufw= on archlinux =client=
+  + [ ] Config =ufw= on archlinux =server=
+- *Reference:* [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
+- *Visit:*     [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
+
