@@ -68,16 +68,16 @@ CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 - *OBJECTIVE:* Integrate /text-base/ browser to =editor=
 - *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
 ** DONE Disable Devices on Wayland :WAYLAND:DEVICE:
-DEADLINE: <2026-01-07 Wed> CLOSED: [2026-01-07 Wed 11:33]
+CLOSED: [2026-01-07 Wed 11:33] DEADLINE: <2026-01-07 Wed>
 :PROPERTIES:
-:ID: 345b5c3b-efd6-4434-bbda-f4a94f546806
+:ID:       345b5c3b-efd6-4434-bbda-f4a94f546806
 :END:
 - *OBJECTIVE:* Disable touchpad on =thinkpadx250= under =wayland=
 - *Reference:*
   + [[https://bendun.cc/archive/wayland-keyboard.html][Disable Wayland Keyboard @Blog]]
   + [[https://github.com/tahseenjamal/disable-native-keyboard][Disable native touchpad @Github]]
 ** DONE Switching To Wayland :WAYLAND:
-DEADLINE: <2026-01-12 Mon> CLOSED: [2026-01-12 Mon 19:46]
+CLOSED: [2026-01-12 Mon 19:46] DEADLINE: <2026-01-12 Mon>
 - *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
 - *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
@@ -88,4 +88,5 @@ DEADLINE: <2026-01-14 Wed>
   + [ ] Config =ufw= on archlinux =server=
 - *Reference:* [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
 - *Visit:*     [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
-
+** OUTL Server Security
+[[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/]]
