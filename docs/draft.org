@@ -99,14 +99,13 @@ Arch Linux comes with two options for managing a firewall, neither of which is e
 #+NAME:nftables front-end
 #+BEGIN_QUOTE markdown
 [!TIP]
-Most =iptables= front-ends feature no direct or indirect support of =nftables=, but may introduce it. One graphical front-end that supports both, =nftables= and =iptables=, is =firewalld=.. ufw is supported via a compatibility layer iptables-nft.
+Most =iptables= front-ends feature no direct or indirect support of =nftables=, but may introduce it. One graphical front-end that supports both, =nftables= and =iptables=, is =firewalld= ... =ufw= is supported via a compatibility layer =iptables-nft=.
 #+END_QUOTE
 /config firewall on archlinux =client= and =server=/
 /Goto:/ [[id:6ab8f5dd-cb7f-4ede-90e3-340881274a20][Archlinux System Tweaks @Org]]
-**** Firewall on Archlinux Desktop
-
-
-- Install =ufw= run: =pacman -S ufw=
+**** DONE Firewall on Archlinux Desktop
+CLOSED: [2026-01-14 Wed 22:38]
+- Install =ufw= run: =pacman -S ufw= /for archlinux/
 - Config =ufw= rules:
   + Recommendation Rules:
     #+BEGIN_SRC sh
@@ -117,3 +116,5 @@ Most =iptables= front-ends feature no direct or indirect support of =nftables=, 
     ufw default allow outgoing
     ufw enable
     #+END_SRC
+**** OUTL Firewall on Archlinux Server
+/Config firewall rules for archlinux server/
