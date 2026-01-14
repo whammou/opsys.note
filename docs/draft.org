@@ -82,9 +82,38 @@ To change =timeout= of =hibernation= when suspending
 *** Wayland Clipboard Manager
 /Enable =clipboard= manager on =wayland=/
 ** OUTL Archlinux Security :ARCHLINUX:SECURITY:
+/How to make archlinux =desktop= and =server= more secure/
+/Reference:/ [[https://www.youtube.com/watch?v=QxNsyrftJ8I][Security mistakes on linux @Youtube]]
 *** OUTL Firewall on Archlinux :firewall:
 :PROPERTIES:
 :ID: ab23a38d-229b-409a-be17-0153ded1a354
 :END:
-/config firewall on archlinux =client= and =server/
+#+NAME:Archlinux firewall
+#+BEGIN_QUOTE markdown
+[!NOTE]
+Arch Linux comes with two options for managing a firewall, neither of which is enabled automatically. The Stock linux =kernel= includes the =netfilter= packet filtering framework which can be managed by either of the following
+- =nftable= is the modern linux kernel packet classification framework. Configuration maybe managed directly through the user space utilities which featured parity performance benefits over iptables
+- =iptables= is the legacy user space utility for managing firewall .Configuration me be managed directly through the user space utilities or by installing one of the several GUI configuration tools
+#+END_QUOTE
+
+#+NAME:nftables front-end
+#+BEGIN_QUOTE markdown
+[!TIP]
+Most =iptables= front-ends feature no direct or indirect support of =nftables=, but may introduce it. One graphical front-end that supports both, =nftables= and =iptables=, is =firewalld=.. ufw is supported via a compatibility layer iptables-nft.
+#+END_QUOTE
+/config firewall on archlinux =client= and =server=/
 /Goto:/ [[id:6ab8f5dd-cb7f-4ede-90e3-340881274a20][Archlinux System Tweaks @Org]]
+**** Firewall on Archlinux Desktop
+
+
+- Install =ufw= run: =pacman -S ufw=
+- Config =ufw= rules:
+  + Recommendation Rules:
+    #+BEGIN_SRC sh
+    ufw limit ssh
+    ufw allow 80/tcp
+    ufw allow 443/tcp
+    ufw default deny incoming
+    ufw default allow outgoing
+    ufw enable
+    #+END_SRC

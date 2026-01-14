@@ -84,7 +84,7 @@ DEADLINE: <2026-01-12 Mon> CLOSED: [2026-01-12 Mon 19:46]
 ** TODO Config Uncomplicated Firewall :SECURITY:firewall:
 DEADLINE: <2026-01-14 Wed>
 - *OBJECTIVE:* 
-  + [ ] Config =ufw= on archlinux =client=
+  + [X] Config =ufw= on archlinux =client=
   + [ ] Config =ufw= on archlinux =server=
 - *Reference:* [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
 - *Visit:*     [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
