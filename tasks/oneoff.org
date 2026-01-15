@@ -413,6 +413,4 @@ CLOSED: [2025-12-29 Mon 16:27]
 - *Reference:*
   + [[https://www.reddit.com/r/commandline/comments/f4rwix/email_workflow_demo_neovim_neomutt_ultisnips/][Email Workflow with Neomutt @Reddit]]
   + [[https://gideonwolfe.com/posts/workflow/neomutt/intro/][Configuring Neomutt @Blog]]
-** TODO Foo Bar
-DEADLINE: <2026-01-16 Fri 03:00>
 

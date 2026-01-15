@@ -82,12 +82,14 @@ CLOSED: [2026-01-12 Mon 19:46] DEADLINE: <2026-01-12 Mon>
 - *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
 - *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
-** TODO Config Uncomplicated Firewall :SECURITY:firewall:
-DEADLINE: <2026-01-16 Fri>
+** DONE Config Uncomplicated Firewall :SECURITY:firewall:
+DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 03:37]
 - *OBJECTIVE:*
   + [X]  Config =ufw= on archlinux =client=
-  + [ ]  Config =ufw= on archlinux =server=
+  + [X]  Config =ufw= on archlinux =server=
 - *Reference:*  [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
 - *Visit:*      [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
-** OUTL Server Security
-[[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/]]
+** TODO Setup Fail2ban
+DEADLINE: <2026-01-16 Fri>
+- *OBJECTIVE:*  Config =fail2ban= on linux home server
+- *Reference:*  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
