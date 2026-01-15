@@ -64,7 +64,8 @@ CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
 CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 - *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
 - *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
-** PEND Integrate Text Browser :BROWSER:NVIM:textbrowser:
+** DONE Integrate Text Browser :BROWSER:NVIM:textbrowser:
+DEADLINE: <2026-01-15 Thu> CLOSED: [2026-01-15 Thu 23:35]
 - *OBJECTIVE:* Integrate /text-base/ browser to =editor=
 - *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
 ** DONE Disable Devices on Wayland :WAYLAND:DEVICE:
@@ -83,10 +84,10 @@ CLOSED: [2026-01-12 Mon 19:46] DEADLINE: <2026-01-12 Mon>
 - *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
 ** TODO Config Uncomplicated Firewall :SECURITY:firewall:
 DEADLINE: <2026-01-15 Thu>
-- *OBJECTIVE:* 
-  + [X] Config =ufw= on archlinux =client=
-  + [ ] Config =ufw= on archlinux =server=
-- *Reference:* [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
-- *Visit:*     [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
+- *OBJECTIVE:*
+  + [X]  Config =ufw= on archlinux =client=
+  + [ ]  Config =ufw= on archlinux =server=
+- *Reference:*  [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
+- *Visit:*      [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
 ** OUTL Server Security
 [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/]]
