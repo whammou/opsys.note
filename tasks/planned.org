@@ -92,4 +92,6 @@ DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 03:37]
 ** TODO Setup Fail2ban
 DEADLINE: <2026-01-16 Fri>
 - *OBJECTIVE:*  Config =fail2ban= on linux home server
-- *Reference:*  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
+- *Reference:*
+  +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
+  +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
