@@ -35,3 +35,27 @@ CLOSED: [2025-10-08 Wed 04:22]
   #+END_SRC
 -----
 - *Reference:* [[https://stackoverflow.com/a/34519826/25585364][Check if font is monospaced @Overflow]]
+** DONE Get =Screencast= to Work under Wayland :WAYLAND:Bug:
+DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 21:25]
+- *OBJECTIVE:*  Get webrtc =screencast= to work under wayland
+- *Reference:*  [[https://github.com/qtile/qtile/issues/5213][Qtile Unable to Share Screne Under Wayland @Github-issue]]
+*** DONE  Troubleshoot =Xdg-desktop-portal-wlr=
+CLOSED: [2026-01-16 Fri 21:25]
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-01-16 Fri 21:16] \\
+  For =xdg-desktop-portal-wlr= to work, the =XDG_CURRENT_DESKTOP= and =WAYLAND_DISPLAY= /environment variables/ have to be set in the [[https://wiki.archlinux.org/title/Systemd/User#Environment_variables][systemd user session]]
+:END:
+#+html:</details>
+- *OBJECTIVE:*  Troubleshoot =xdg-desktop-portal-wlr= start ungracefully
+- [[https://wiki.archlinux.org/title/XDG_Desktop_Portal#portal-does-not-start][Trouble shoot portal does not start @Archwiki]]
+**** DONE Config Systemd User Session Variable :SYSTEMD:
+CLOSED: [2026-01-16 Fri 21:25]
+- *OBJECTIVE:*  How to add new to /environment variable/ to current user session
+- *Reference:*  [[https://wiki.archlinux.org/title/Systemd/User#Environment_variables][Systemd User Session Environment Variables @Archwiki]]
+  + To set add new variable, run either the following command or via config
+    #+BEGIN_SRC sh
+    systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+    dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=compositor_name
+    #+END_SRC
