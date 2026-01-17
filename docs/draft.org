@@ -81,7 +81,7 @@ To change =timeout= of =hibernation= when suspending
 /Reference:/ [[https://gitlab.com/S410/noinputs][noinput @Gitlab]]
 *** Wayland Clipboard Manager
 /Enable =clipboard= manager on =wayland=/
-** OUTL Archlinux Security :ARCHLINUX:SECURITY:
+** OUTL Archlinux Security :ARCHLINUX:Security:
 /How to make archlinux =desktop= and =server= more secure/
 /Reference:/ [[https://www.youtube.com/watch?v=QxNsyrftJ8I][Security mistakes on linux @Youtube]]
 *** OUTL Firewall on Archlinux :firewall:
@@ -118,3 +118,43 @@ CLOSED: [2026-01-14 Wed 22:38]
     #+END_SRC
 **** OUTL Firewall on Archlinux Server
 /Config firewall rules for archlinux server/
+*** Server Safe-Guard :FAIL2BAN:Safeguarding:
+:PROPERTIES:
+:ID: c57c1c13-93a2-49a2-b530-609b4f75cb0f
+:END:
+#+BEGIN_QUOTE
+Fail2ban is an open-source software tool that protects against automated malicious activities like /brute-force/ server attacks \\
+
+It is lightweight on resources, so it doesn't burden the server that extra loads - critical for server with high handling and interacting
+#+END_QUOTE
+
+[[file:https://linuxiac.com/wp-content/uploads/2023/10/how-fail2ban-works2.jpg]]
+
+Reference:  [[https://github.com/fail2ban/fail2ban][Fail2ban @Github]]
+**** Fail2ban Installation
+To install =fail2ban= on archlinux run:
+#+BEGIN_SRC sh
+pacman -S fail2ban # or paru for git version
+#+END_SRC
+**** Configuring Fail2ban for SSH :SSH:
+Once installed the configuration file is located at [[file:/etc/fail2ban/jail.conf]] \\
+
+However the best practice is to config in a =.local= file /- to avoid merging problem when upgrading/
+1.  Create a =jail.local= at the same directory [[file:/etc/fail2ban/jail.local]]
+2.  Config the file:
+    #+NAME:Example
+    #+BEGIN_SRC confini
+    [sshd]
+
+    enabled = true
+    port    = ssh
+    backend = systemd
+    maxretry = 3
+    findtime = 300
+    bantime = 3600
+    ignoreip = 127.0.0.1
+    #+END_SRC
+3.  Start =fail2ban= systemd service:
+    #+BEGIN_SRC sh
+    systemctl start fail2ban # or enable to start by default
+    #+END_SRC
