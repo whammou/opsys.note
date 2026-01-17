@@ -51,7 +51,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
   + Follows =script= per =package=
   + Modularize =script= repo
 ** TODO Grouping User Services :SYSTEMD:SERVICE:
-DEADLINE: <2026-01-17 Sat 21:30>
+DEADLINE: <2026-01-18 Sun 21:30>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
@@ -65,7 +65,7 @@ CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 - *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
 - *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
 ** DONE Integrate Text Browser :BROWSER:NVIM:textbrowser:
-DEADLINE: <2026-01-15 Thu> CLOSED: [2026-01-15 Thu 23:35]
+CLOSED: [2026-01-15 Thu 23:35] DEADLINE: <2026-01-15 Thu>
 - *OBJECTIVE:* Integrate /text-base/ browser to =editor=
 - *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
 ** DONE Disable Devices on Wayland :WAYLAND:DEVICE:
@@ -83,20 +83,20 @@ CLOSED: [2026-01-12 Mon 19:46] DEADLINE: <2026-01-12 Mon>
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
 - *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
 ** DONE Config Uncomplicated Firewall :Security:firewall:
-DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 03:37]
+CLOSED: [2026-01-16 Fri 03:37] DEADLINE: <2026-01-16 Fri>
 - *OBJECTIVE:*
   + [X]  Config =ufw= on archlinux =client=
   + [X]  Config =ufw= on archlinux =server=
 - *Reference:*  [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
 - *Visit:*      [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
 ** DONE Setup Fail2ban :FAIL2BAN:Security:
-DEADLINE: <2026-01-17 Sat> CLOSED: [2026-01-17 Sat 19:09]
+CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 - *OBJECTIVE:*  Config =fail2ban= on linux home server
 - *Reference:*
   +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
   +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
 - *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
 ** TODO Homelab VPN :VPN:Security:
-DEADLINE: <2026-01-17 Sat>
+DEADLINE: <2026-01-18 Sun>
 - *OBJECTIVE:*  Explore option to connect to my =homelab= via =VPN=
 - *Reference:*  [[https://www.reddit.com/r/archlinux/comments/10sl30w/how_do_i_set_up_a_vpn_server/][Create your own VPN @Reddit]]
