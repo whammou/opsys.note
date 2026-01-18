@@ -96,7 +96,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
   +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
   +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
 - *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
-** TODO Homelab VPN :VPN:Security:
+** TODO Create Private VPN :VPN:Security:
 DEADLINE: <2026-01-18 Sun>
 - *OBJECTIVE:*  Explore option to connect to my =homelab= via =VPN=
 - *Reference:*  [[https://www.reddit.com/r/archlinux/comments/10sl30w/how_do_i_set_up_a_vpn_server/][Create your own VPN @Reddit]]
