@@ -102,3 +102,5 @@ DEADLINE: <2026-01-18 Sun>
 - *Reference:*
   + [[https://www.reddit.com/r/archlinux/comments/10sl30w/how_do_i_set_up_a_vpn_server/][Create your own VPN @Reddit]]
   + [[https://forum.level1techs.com/t/wireguard-perfect-remote-access/182250][Wireguard remote access @Blog]]
+- *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
+
