@@ -166,8 +166,37 @@ DEADLINE: <2026-01-18 Sun>
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
 *** VPN protocols
+
+Types of VPN protocols include:
+-  Internet Protocol Security /(IPSec)/
+-  Secure Socket Tunneling Protocol /(SSTP)/
+-  WireGuard
+-  OpenVPN
+-  SoftEnter
+-  Point-Point Tunneling Protocol /(PPTP)/
+-  Layer 2 Tunneling Protocol /(L2TP)/
+
+**** Internet Protocol Security (IPSec) :ipsec:
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/IPsec-v1.png]]
+
 #+BEGIN_QUOTE
-Internet Protocol Security (IPSec) is a set of protocols that supports secure commincation over Internet Protocol (IP) networkds through authentication and encryption. Its primary purpose is to ensure date integrity, data confidentiality, and data origin authentication between two communication parties
+Internet Protocol Security (IPSec) is a set of protocols that supports secure communication over Internet Protocol (IP) networks through authentication and encryption. Its primary purpose is to ensure date integrity, data confidentiality, and data origin authentication between two communication parties
 #+END_QUOTE
+
+-  =ipsec= operates by encrypting and authenticating all IP packet transfers
+-  =ipsec= is widely implemented in the formation of secure tunnels, especially for VPNs
+-  =ipsecs= advantages include its high security and versatility across different network layer protocols
+**** Secure Socket Tunneling Protocol (SSTP) :sstp:
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SSTP-v1.png]]
+
+#+BEGIN_QUOTE
+Secure Socket Tunneling Protocol (SSTP) is a VPN communication protocol developed to provide secure, encrypted connections over a network. SSTP uses SSL/TLS encryption, which is the same technology that underpins secure internet connections. SSL/TLS encryption ensures the privacy and cecurity of data as it travel across the internet
+#+END_QUOTE
+
+-  =SSTP=  works by channeling VPN traffic through the SSL 3.0 channel. This means it can benefir from features like SSL's integrated connection integrity and encryption capabilities
+-  =SSTP= is commonly used in scenarios where other VPN protocols might be blocked
+-  =SSTP= benefits include its high level of security, strong encryption methods, and the protocol's ability to traverse firewalls
+
+**** Layer 2 Tunneling Protocol
 
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/what-is-l2tp/l2tp-networking.png]]
