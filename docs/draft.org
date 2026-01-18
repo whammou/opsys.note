@@ -165,3 +165,9 @@ DEADLINE: <2026-01-18 Sun>
 :END:
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
+*** VPN protocols
+#+BEGIN_QUOTE
+Internet Protocol Security (IPSec) is a set of protocols that supports secure commincation over Internet Protocol (IP) networkds through authentication and encryption. Its primary purpose is to ensure date integrity, data confidentiality, and data origin authentication between two communication parties
+#+END_QUOTE
+
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/what-is-l2tp/l2tp-networking.png]]
