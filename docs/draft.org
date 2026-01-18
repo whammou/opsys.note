@@ -165,14 +165,14 @@ DEADLINE: <2026-01-18 Sun>
 :END:
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
-*** VPN protocols
+*** VPN protocols :vpnprotocol:
 
 Types of VPN protocols include:
 -  Internet Protocol Security /(IPSec)/
 -  Secure Socket Tunneling Protocol /(SSTP)/
 -  WireGuard
 -  OpenVPN
--  SoftEnter
+-  SoftEther
 -  Point-Point Tunneling Protocol /(PPTP)/
 -  Layer 2 Tunneling Protocol /(L2TP)/
 
@@ -193,9 +193,43 @@ Internet Protocol Security (IPSec) is a set of protocols that supports secure co
 Secure Socket Tunneling Protocol (SSTP) is a VPN communication protocol developed to provide secure, encrypted connections over a network. SSTP uses SSL/TLS encryption, which is the same technology that underpins secure internet connections. SSL/TLS encryption ensures the privacy and cecurity of data as it travel across the internet
 #+END_QUOTE
 
--  =SSTP=  works by channeling VPN traffic through the SSL 3.0 channel. This means it can benefir from features like SSL's integrated connection integrity and encryption capabilities
+-  =SSTP=  works by channeling VPN traffic through the SSL 3.0 channel. This means it can benefit from features like SSL's integrated connection integrity and encryption capabilities
 -  =SSTP= is commonly used in scenarios where other VPN protocols might be blocked
 -  =SSTP= benefits include its high level of security, strong encryption methods, and the protocol's ability to traverse firewalls
+
+**** WireGuard :wireguard:
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/WireGuard-v1.png]]
+
+#+BEGIN_QUOTE
+WireGuard is a cutting-edge VPN protocol known for its simplicity and high-speed performace. WireGuard is designed to much simpler and faster than legacy protocols, using state of the art cryptographic techniqures. As an open-source project. WireGuard's streamlined approach results in better effiency and ease of use.
+#+END_QUOTE
+
+-  =wireguard= functioning through a unique mechanism crypto key routing
+   +  Establishes secure VPN connections with remarkable speed and agility
+   +  Assigning static IP addresses to VPN clients and managing traffic through cryptographic keys
+   +  This approach simplifies the setup process, reduces latency and increase the protocol's performance over traditional VPN protocols
+-  WireGuard is beneficial for businesses with mobile workforce or requirements for fast, reliable connections for cloud service
+-  Drawbacks includes static IP address assignment can raise privacy concerns as it could potentially user activity. =wireguard= is still undergoing development, which means it may lack the extensive testing and wide-scale trust established older protocols
+
+**** OpenVPN :openvpn:
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/openvpn.png]]
+
+#+BEGIN_QUOTE
+OpenVPN is a robust, secure VPN protocol favored in the enteprise environment for its strong encryption and configurability. This protocol works by creating secure point-to-point or site-to-site connections is routed or bridged configurations. OpenVPN uses custom security protocols that ultilize SSL/TLS for key exchange
+#+END_QUOTE
+
+-  =OpenVPN= operated by encapsulating data SSL/TLS encrypted packets, which are then transmitted over the network. This protocol can run over
+   +  =TCP= (Transmission Control Protocol)
+   +  =UDP= (User Datagram Protocol)
+-  Businesses use =openvpn= for its adaptability to various network types and ability to establish a secure, reliable connection over intranet and internet
+-  =OpenVPN= advantages include its strong security profile, open-source nature (which allows for peer review and audits)
+
+**** SoftEther :softether:
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SoftEther-v1.png]]
+
+#+BEGIN_QUOTE
+SoftEther (Soft Ethernet), is a 
+#+END_QUOTE
 
 **** Layer 2 Tunneling Protocol
 
