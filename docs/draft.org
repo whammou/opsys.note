@@ -175,6 +175,7 @@ Types of VPN protocols include:
 -  SoftEther
 -  Point-Point Tunneling Protocol /(PPTP)/
 -  Layer 2 Tunneling Protocol /(L2TP)/
+/Reference:/  [[https://www.paloaltonetworks.com/cyberpedia/types-of-vpn-protocols][Types of VPN protocols @Blog]]
 
 **** Internet Protocol Security (IPSec) :ipsec:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/IPsec-v1.png]]
