@@ -158,14 +158,15 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
     #+BEGIN_SRC sh
     systemctl start fail2ban # or enable to start by default
     #+END_SRC
-** OUTL Homelab Remote Access Via VPN :VPN:WIREGUARD:
-DEADLINE: <2026-01-19 Mon>
+** DOIN Homelab Remote Access Via VPN :VPN:WIREGUARD:
+DEADLINE: <2026-01-21 Wed>
 :PROPERTIES:
 :ID: 4a0867d1-313e-4131-82f8-d1ebe07a1814
 :END:
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
-*** VPN protocols :vpnprotocol:
+*** DONE VPN protocols :vpnprotocol:
+CLOSED: [2026-01-21 Wed 20:27]
 
 Types of VPN protocols include:
 -  Internet Protocol Security /(IPSec)/
@@ -254,3 +255,6 @@ Developed by microsoft, point-to-point tunnneling protocol is on of the oldest V
 Layer e Tunnelling Protocol (L2TP) is a tunneling protocol. It does not provide encryption or confidentiality by itself. L2TP relies on an encryption protocol that it passes within the tunnel to provide privacy. =L2TP= is often paired with =IPSec=, which is reponsible for encryption and secure transport of data between endpoints
 #+END_QUOTE
 
+-  Works by encapsulating data packets within =L2TP= frames that are sent over the internet. When combined with =IPSec=, data packets are encrypted and authenticated, providing a secure conduit for transmitting sensitive information
+-  Typical use cases for =L2TP= include connecting branch offices to a central corporate network, access, and enhancing security for date transmission over the internet
+-  Benefits include compatibility and ability to work across multiple devices, =L2TP= has several disadvantages, including potential speed bottlenecks /(causes by double encapsulation)/ and difficulties traversing firewalls compared to protocols that uses stealth techniques
