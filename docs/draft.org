@@ -258,3 +258,5 @@ Layer e Tunnelling Protocol (L2TP) is a tunneling protocol. It does not provide 
 -  Works by encapsulating data packets within =L2TP= frames that are sent over the internet. When combined with =IPSec=, data packets are encrypted and authenticated, providing a secure conduit for transmitting sensitive information
 -  Typical use cases for =L2TP= include connecting branch offices to a central corporate network, access, and enhancing security for date transmission over the internet
 -  Benefits include compatibility and ability to work across multiple devices, =L2TP= has several disadvantages, including potential speed bottlenecks /(causes by double encapsulation)/ and difficulties traversing firewalls compared to protocols that uses stealth techniques
+*** Network Terminologies
+-  Gateway Peer
