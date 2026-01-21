@@ -229,9 +229,28 @@ OpenVPN is a robust, secure VPN protocol favored in the enteprise environment fo
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SoftEther-v1.png]]
 
 #+BEGIN_QUOTE
-SoftEther (Soft Ethernet), is a 
+SoftEther (Soft Ethernet), is a versatile VPN protocol for performance and interoperavility, Softether is an open-source multiprotocl VPN software that supports SSLVPN, L2TP/IPSec, OpenVPN, and SSTP, all within a single VPN server
 #+END_QUOTE
+
+-  The protocol operates by establishing secure client-server communication through SSL-VPN Tunnneling on HTTPS. Softether by passes firewall and NATs, making it highly effective for users within restricted network environment
+-  Works well in various scenarios, including individual remote access, corporate networks, and connecting multiple on-premises site securely
+-  Stands out for strong encryption, resistance to network restrictions, and support for various operating system
+**** Point-to-Point Tunneling Protocol :PPTP:
+[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/PPTP-v1.png]]
+
+#+BEGIN_QUOTE
+Developed by microsoft, point-to-point tunnneling protocol is on of the oldest VPN protocols, PPTP facilitaes secure data transmission by creating a tunnel for point-to-pont communication. The protocol encapsulates data packets within an IP evenlop, allowing them to sent across a network
+#+END_QUOTE
+
+-  Works by using a control channel over TCP and GRE tunnel operating to encapsulate PPP packets
+-  The primary use case for =PPTP= is scenarios where legacy support id required, or speed is more critical than security /- PPTP is not recommended for transmitting confidential enterprise data because of its known security vulnerabilities/
+-  Pros include speed and ease of setup
 
 **** Layer 2 Tunneling Protocol
 
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/what-is-l2tp/l2tp-networking.png]]
+
+#+BEGIN_QUOTE org
+Layer e Tunnelling Protocol (L2TP) is a tunneling protocol. It does not provide encryption or confidentiality by itself. L2TP relies on an encryption protocol that it passes within the tunnel to provide privacy. =L2TP= is often paired with =IPSec=, which is reponsible for encryption and secure transport of data between endpoints
+#+END_QUOTE
+
