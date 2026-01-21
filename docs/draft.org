@@ -16,8 +16,14 @@ Draft items are subjected to change and refile!
 #+END_QUOTE
 ** OUTL CPU and IRQ scheduler :PERFORMANCE:
 - /Setup CPU and IRQ scheduler/ ~daemon~
-*** OUTL Optimizing CPU Performance
+*** OUTL Optimizing CPU Performance :cpu-performance:
 /Optimize battery and performance usage on archlinux/
+**** TLP Battery Suite :TLP:
+=Tlp= is a feature-rich battery optimization suite for Linux. Saving laptop battery power without the need to delve deeper into technical details \
+/Reference:/  [[https://linrunner.de/tlp/index.html][TLP Documentation @Blog]]
+**** Automatic CPU Optimizer :ACF:
+=Auto-cpufreq= is a utility tools to optimize CPU frequency base on load and power usage \\
+/Reference:/  [[https://github.com/AdnanHodzic/auto-cpufreq][Auto-cpufreq upstream @Github]]
 ** OUTL Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
 ** OUTL Disable Coredump :TWEAKS:
