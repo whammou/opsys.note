@@ -16,6 +16,8 @@ Draft items are subjected to change and refile!
 #+END_QUOTE
 ** OUTL CPU and IRQ scheduler :PERFORMANCE:
 - /Setup CPU and IRQ scheduler/ ~daemon~
+*** OUTL Optimizing CPU Performance
+/Optimize battery and performance usage on archlinux/
 ** OUTL Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
 ** OUTL Disable Coredump :TWEAKS:
@@ -159,7 +161,7 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
     systemctl start fail2ban # or enable to start by default
     #+END_SRC
 ** DOIN Homelab Remote Access Via VPN :VPN:WIREGUARD:
-DEADLINE: <2026-01-21 Wed>
+DEADLINE: <2026-01-22 Thu>
 :PROPERTIES:
 :ID: 4a0867d1-313e-4131-82f8-d1ebe07a1814
 :END:
