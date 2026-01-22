@@ -30,7 +30,7 @@ Draft items are subjected to change and refile!
 /Documentation of disabling systemd coredump/
 ** OUTL Running Tasks in Parallel
 :PROPERTIES:
-:ID: 2b964774-683a-4eaa-882d-a8f5e5dc714d
+:ID:       2b964774-683a-4eaa-882d-a8f5e5dc714d
 :END:
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
 *** OUTL GNU-parallel vs xargs
@@ -38,7 +38,7 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 /How to chroot from live USB stick/
 ** OUTL Arch Linux hibernation
 :PROPERTIES:
-:ID: b827e129-f7ca-4f65-8043-460afe696107
+:ID:       b827e129-f7ca-4f65-8043-460afe696107
 :END:
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions
@@ -51,7 +51,7 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 - *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
 ** OUTL Run Service on Network Change :INTERNET:
 :PROPERTIES:
-:ID: b6113f7d-9ec6-49df-80ff-2c0d7546475f
+:ID:       b6113f7d-9ec6-49df-80ff-2c0d7546475f
 :END:
 /How to run script on network change/ \\
 /*Check-out:*/ [[https://unix.stackexchange.com/a/725928][Restart Service on Wifi Change @Overflow]]
@@ -81,7 +81,7 @@ To change =timeout= of =hibernation= when suspending
 /Check-out:/ [[https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet][How to run podman container using quadlet @Blog]]
 ** OUTL Switching to Wayland Guide :WAYLAND:GUIDE:
 :PROPERTIES:
-:ID: d398a743-eedb-4300-84e8-beab397e4b49
+:ID:       d398a743-eedb-4300-84e8-beab397e4b49
 :END:
 /Moving from =x11= to =wayland= guide/
 *** Managing Input Devices in Wayland
@@ -94,7 +94,7 @@ To change =timeout= of =hibernation= when suspending
 /Reference:/ [[https://www.youtube.com/watch?v=QxNsyrftJ8I][Security mistakes on linux @Youtube]]
 *** OUTL Firewall on Archlinux :firewall:
 :PROPERTIES:
-:ID: ab23a38d-229b-409a-be17-0153ded1a354
+:ID:       ab23a38d-229b-409a-be17-0153ded1a354
 :END:
 #+NAME:Archlinux firewall
 #+BEGIN_QUOTE markdown
@@ -128,7 +128,7 @@ CLOSED: [2026-01-14 Wed 22:38]
 /Config firewall rules for archlinux server/
 *** Server Safe-Guard :FAIL2BAN:Safeguarding:
 :PROPERTIES:
-:ID: c57c1c13-93a2-49a2-b530-609b4f75cb0f
+:ID:       c57c1c13-93a2-49a2-b530-609b4f75cb0f
 :END:
 #+BEGIN_QUOTE
 Fail2ban is an open-source software tool that protects against automated malicious activities like /brute-force/ server attacks \\
@@ -169,13 +169,12 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
 ** DOIN Homelab Remote Access Via VPN :VPN:WIREGUARD:
 DEADLINE: <2026-01-22 Thu>
 :PROPERTIES:
-:ID: 4a0867d1-313e-4131-82f8-d1ebe07a1814
+:ID:       4a0867d1-313e-4131-82f8-d1ebe07a1814
 :END:
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
 *** DONE VPN protocols :vpn-protocol:
 CLOSED: [2026-01-21 Wed 20:27]
-
 Types of VPN protocols include:
 -  Internet Protocol Security /(IPSec)/
 -  Secure Socket Tunneling Protocol /(SSTP)/
@@ -185,7 +184,6 @@ Types of VPN protocols include:
 -  Point-Point Tunneling Protocol /(PPTP)/
 -  Layer 2 Tunneling Protocol /(L2TP)/
 /Reference:/  [[https://www.paloaltonetworks.com/cyberpedia/types-of-vpn-protocols][Types of VPN protocols @Blog]]
-
 **** Internet Protocol Security (IPSec) :ipsec:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/IPsec-v1.png]]
 
@@ -206,7 +204,6 @@ Secure Socket Tunneling Protocol (SSTP) is a VPN communication protocol develope
 -  =SSTP=  works by channeling VPN traffic through the SSL 3.0 channel. This means it can benefit from features like SSL's integrated connection integrity and encryption capabilities
 -  =SSTP= is commonly used in scenarios where other VPN protocols might be blocked
 -  =SSTP= benefits include its high level of security, strong encryption methods, and the protocol's ability to traverse firewalls
-
 **** WireGuard :wireguard:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/WireGuard-v1.png]]
 
@@ -220,7 +217,6 @@ WireGuard is a cutting-edge VPN protocol known for its simplicity and high-speed
    +  This approach simplifies the setup process, reduces latency and increase the protocol's performance over traditional VPN protocols
 -  WireGuard is beneficial for businesses with mobile workforce or requirements for fast, reliable connections for cloud service
 -  Drawbacks includes static IP address assignment can raise privacy concerns as it could potentially user activity. =wireguard= is still undergoing development, which means it may lack the extensive testing and wide-scale trust established older protocols
-
 **** OpenVPN :openvpn:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/openvpn.png]]
 
@@ -233,9 +229,8 @@ OpenVPN is a robust, secure VPN protocol favored in the enteprise environment fo
    +  =UDP= (User Datagram Protocol)
 -  Businesses use =openvpn= for its adaptability to various network types and ability to establish a secure, reliable connection over intranet and internet
 -  =OpenVPN= advantages include its strong security profile, open-source nature (which allows for peer review and audits)
-
 **** SoftEther :softether:
-[[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SoftEther-v1.png]]
+[[https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SoftEther-v1.png]]
 
 #+BEGIN_QUOTE
 SoftEther (Soft Ethernet), is a versatile VPN protocol for performance and interoperavility, Softether is an open-source multiprotocl VPN software that supports SSLVPN, L2TP/IPSec, OpenVPN, and SSTP, all within a single VPN server
@@ -254,9 +249,7 @@ Developed by microsoft, point-to-point tunnneling protocol is on of the oldest V
 -  Works by using a control channel over TCP and GRE tunnel operating to encapsulate PPP packets
 -  The primary use case for =PPTP= is scenarios where legacy support id required, or speed is more critical than security /- PPTP is not recommended for transmitting confidential enterprise data because of its known security vulnerabilities/
 -  Pros include speed and ease of setup
-
 **** Layer 2 Tunneling Protocol
-
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/what-is-l2tp/l2tp-networking.png]]
 
 #+BEGIN_QUOTE org
