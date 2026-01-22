@@ -96,7 +96,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
   +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
   +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
 - *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
-** TODO Accessing Homelab via VPN :VPN:HOMELAB:Security:
+** EXPL Homelab Remote Access :HOMELAB:Security:
 DEADLINE: <2026-01-22 Thu>
 :PROPERTIES:
 :ID: d6b438dd-c2f9-4e21-8f0a-abd541f7154e
@@ -107,3 +107,6 @@ DEADLINE: <2026-01-22 Thu>
   + [[https://forum.level1techs.com/t/wireguard-perfect-remote-access/182250][Wireguard remote access @Blog]]
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
 
+*** Access Via VPN :VPN:
+- *OBJECTIVE:*  Connect to =home-network= via VPN
+- *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]

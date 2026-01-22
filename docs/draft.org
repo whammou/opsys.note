@@ -173,7 +173,7 @@ DEADLINE: <2026-01-22 Thu>
 :END:
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
-*** DONE VPN protocols :vpnprotocol:
+*** DONE VPN protocols :vpn-protocol:
 CLOSED: [2026-01-21 Wed 20:27]
 
 Types of VPN protocols include:
@@ -266,5 +266,14 @@ Layer e Tunnelling Protocol (L2TP) is a tunneling protocol. It does not provide 
 -  Works by encapsulating data packets within =L2TP= frames that are sent over the internet. When combined with =IPSec=, data packets are encrypted and authenticated, providing a secure conduit for transmitting sensitive information
 -  Typical use cases for =L2TP= include connecting branch offices to a central corporate network, access, and enhancing security for date transmission over the internet
 -  Benefits include compatibility and ability to work across multiple devices, =L2TP= has several disadvantages, including potential speed bottlenecks /(causes by double encapsulation)/ and difficulties traversing firewalls compared to protocols that uses stealth techniques
+*** Network Mask :network-mask:
+#+BEGIN_QUOTE org
+A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that distinguishes the network address from the host address within an IP address. It works in conjunction with an IP address to define the boundaries of a network
+#+END_QUOTE
+1.  *Purpose:* the primary purpose of a =network-mask= if to divide an IP address into two parts
+    -   *Network Portion:* Identifies the specific network to which the device belongs. All devices on the same local network share the same network portion of their IP
+    -   *Host Portion:* Identifies the specific device within that network. Each device on a network must have a unique portion
+2.  *Binary Logic:*:
+    - 
 *** OUTL Network Terminologies
 -  Gateway Peer
