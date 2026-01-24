@@ -96,7 +96,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
   +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
   +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
 - *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
-** EXPL Homelab Remote Access :HOMELAB:Security:
+** EXPL [#B] Homelab Remote Access :HOMELAB:Security:
 DEADLINE: <2026-01-24 Sat>
 :PROPERTIES:
 :ID: d6b438dd-c2f9-4e21-8f0a-abd541f7154e
