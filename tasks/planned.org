@@ -51,7 +51,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
   + Follows =script= per =package=
   + Modularize =script= repo
 ** TODO Grouping User Services :SYSTEMD:SERVICE:
-DEADLINE: <2026-01-27 Tue 21:30>
+DEADLINE: <2026-01-28 Wed 21:30>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
@@ -97,7 +97,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
   +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
 - *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
 ** EXPL [#B] Homelab Remote Access :HOMELAB:Security:
-DEADLINE: <2026-01-27 Tue>
+DEADLINE: <2026-01-28 Wed>
 :PROPERTIES:
 :ID: d6b438dd-c2f9-4e21-8f0a-abd541f7154e
 :END:
