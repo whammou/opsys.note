@@ -59,6 +59,10 @@ CLOSED: [2026-01-16 Fri 21:25]
     systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
     dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=compositor_name
     #+END_SRC
-** TODO Wayland Screen Timeout :WAYLAND:ARCHLINUX:
+** DOIN Wayland Screen Timeout :WAYLAND:ARCHLINUX:
 DEADLINE: <2026-01-29 Thu>
 - *OBJECTIVE:*  Implement screen timeout under =wayland= on =archlinux=
+- *Reference:*
+  + [[https://raspberrypi.stackexchange.com/questions/120974/set-custom-screen-blanking-time][Wayland Screen Timeout Swayidle @Stack]]
+  + [[https://github.com/swaywm/swayidle][Swayidle upstream @Github]]
+    * [[shell: man 1 swayidle]]
