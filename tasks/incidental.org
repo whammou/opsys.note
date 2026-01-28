@@ -60,5 +60,5 @@ CLOSED: [2026-01-16 Fri 21:25]
     dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=compositor_name
     #+END_SRC
 ** TODO Wayland Screen Timeout :WAYLAND:ARCHLINUX:
-DEADLINE: <2026-01-28 Wed>
+DEADLINE: <2026-01-29 Thu>
 - *OBJECTIVE:*  Implement screen timeout under =wayland= on =archlinux=
