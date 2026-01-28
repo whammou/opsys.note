@@ -59,10 +59,22 @@ CLOSED: [2026-01-16 Fri 21:25]
     systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
     dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=compositor_name
     #+END_SRC
-** DOIN Wayland Screen Timeout :WAYLAND:ARCHLINUX:
-DEADLINE: <2026-01-29 Thu>
+** DONE Wayland Screen Timeout :WAYLAND:ARCHLINUX:
+DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
+:PROPERTIES:
+:ID: 42f1f2f3-7ced-4803-b2af-74714bc55dc1
+:END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-01-29 Thu 04:21] \\
+  =swayidle= acts as screen lock inhibitor daemon and tells the screen to run command =swaylock -f= which locks the screen after X value
+:END:
+#+html:</details>
 - *OBJECTIVE:*  Implement screen timeout under =wayland= on =archlinux=
 - *Reference:*
   + [[https://raspberrypi.stackexchange.com/questions/120974/set-custom-screen-blanking-time][Wayland Screen Timeout Swayidle @Stack]]
   + [[https://github.com/swaywm/swayidle][Swayidle upstream @Github]]
-    * [[shell: man 1 swayidle]]
+    * [[shell:man 1 swayidle]]
+    * [[shell:man 1 swaylock]]
+

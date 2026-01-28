@@ -307,3 +307,6 @@ A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that disti
 #+html:</details>
 *** OUTL Network Terminologies
 -  Gateway Peer
+** OUTL Screen-saver and Screen-lock :WAYLAND:MONITOR:
+/Lock and turn off screen after X value/ \\
+/Visit:/  [[id:42f1f2f3-7ced-4803-b2af-74714bc55dc1][Wayland Screen Timeout @Org]]
