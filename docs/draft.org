@@ -167,7 +167,7 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
     systemctl start fail2ban # or enable to start by default
     #+END_SRC
 ** DOIN Homelab Remote Access Via VPN :VPN:WIREGUARD:HOMELAB:
-DEADLINE: <2026-02-05 Thu>
+DEADLINE: <2026-02-06 Fri>
 :PROPERTIES:
 :ID:       4a0867d1-313e-4131-82f8-d1ebe07a1814
 :END:
