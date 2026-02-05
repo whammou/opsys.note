@@ -77,4 +77,9 @@ DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
   + [[https://github.com/swaywm/swayidle][Swayidle upstream @Github]]
     * [[shell:man 1 swayidle]]
     * [[shell:man 1 swaylock]]
-
+** TODO [#A] Add TLP To Sudoer :SUDOER:TLP:
+DEADLINE: <2026-02-05 Thu>
+:PROPERTIES:
+:ID: 7912a304-83dd-4c62-8d1a-f02a6184318c
+:END:
+- *OBJECTIVE:*  Add =tlp= and some other packages to a =sudoer=
