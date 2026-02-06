@@ -107,5 +107,7 @@ DEADLINE: <2026-02-06 Fri>
 :ID: 209832e5-6531-4566-a5bf-934f3261c975
 :END:
 - *OBJECTIVE:*  Update =systemd= config to include =scripts= from user =$PATH=
-- *Reference:*  [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
+- *Reference:*
+  + [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
+  + [[https://askubuntu.com/questions/1014480/how-do-i-add-bin-to-path-for-a-systemd-service][Add custom bin to systemd service @Overflow]]
   
