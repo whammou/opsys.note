@@ -94,3 +94,17 @@ DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-06 Fri 11:20]
 :ID: 96e2f851-3acf-466a-a83a-ecf685535bdc
 :END:
 - *OBJECTIVE:*  Current =/usr/local/bin/= contains a user level scripts. Solve this vulnerability by changing =PATH=
+** TODO Manage System Privilege :SYSADMIN:
+DEADLINE: <2026-02-06 Fri>
+:PROPERTIES:
+:ID: aa195bda-a63c-4381-a2f0-d67256fb1f13
+:END:
+- *OBJECTIVE:*  Manage system privilege with =sudoer=
+** TODO Include Systemd Environment :SYSTEMD:
+DEADLINE: <2026-02-06 Fri>
+:PROPERTIES:
+:ID: 209832e5-6531-4566-a5bf-934f3261c975
+:END:
+- *OBJECTIVE:*  Update =systemd= config to include =scripts= from user =$PATH=
+- *Reference:*  [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
+  
