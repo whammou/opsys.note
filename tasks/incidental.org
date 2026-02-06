@@ -100,6 +100,7 @@ DEADLINE: <2026-02-06 Fri>
 :ID: aa195bda-a63c-4381-a2f0-d67256fb1f13
 :END:
 - *OBJECTIVE:*  Manage system privilege with =sudoer=
+- *Reference:*  [[https://superuser.com/questions/636283/how-to-allow-user-to-preserve-environment-with-sudo][Allow user to preserve the environment @Overflow]]
 ** TODO Include Systemd Environment :SYSTEMD:
 DEADLINE: <2026-02-06 Fri>
 :PROPERTIES:
