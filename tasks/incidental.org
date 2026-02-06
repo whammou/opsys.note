@@ -77,7 +77,7 @@ DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
   + [[https://github.com/swaywm/swayidle][Swayidle upstream @Github]]
     * [[shell:man 1 swayidle]]
     * [[shell:man 1 swaylock]]
-** DONE [#A] Add TLP To Sudoer :SUDOER:TLP:
+** DONE [#A] Add TLP To Sudoer :SYSADMIN:TLP:
 DEADLINE: <2026-02-05 Thu> CLOSED: [2026-02-05 Thu 23:34]
 :PROPERTIES:
 :ID: 7912a304-83dd-4c62-8d1a-f02a6184318c
@@ -88,3 +88,9 @@ DEADLINE: <2026-02-05 Thu> CLOSED: [2026-02-05 Thu 23:34]
 :ID: 8d3ada12-a93e-4e02-a84f-b013f8be2de7
 :END:
 - *OBJECTIVE:*  Create a =dotfiles= for headless =homelab=
+** DONE Solve Permission Mismatch Vulnerability :VULNERABILITY:
+DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-06 Fri 11:20]
+:PROPERTIES:
+:ID: 96e2f851-3acf-466a-a83a-ecf685535bdc
+:END:
+- *OBJECTIVE:*  Current =/usr/local/bin/= contains a user level scripts. Solve this vulnerability by changing =PATH=
