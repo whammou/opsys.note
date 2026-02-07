@@ -16,7 +16,7 @@ CLOSED: [2025-11-20 Thu 08:24]
 - *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
 *** NEXT [#C] Systemd Backup with Chezmoi :CHEIZMOI:
-DEADLINE: <2026-02-07 Sat>
+DEADLINE: <2026-02-08 Sun>
 - *OBJECTIVE:*  Backup systemd services using =chezmoi=
 - *Visit:*      [[id:58910689-be05-4304-8b9b-7d2c03fee002][Managing Dotfiles with Chezmoi @Org]]
 ** PEND Plain text music playlist :LINUX:
