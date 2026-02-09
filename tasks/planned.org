@@ -51,7 +51,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
   + Follows =script= per =package=
   + Modularize =script= repo
 ** TODO Grouping User Services :SYSTEMD:SERVICE:
-DEADLINE: <2026-02-09 Mon 21:30>
+DEADLINE: <2026-02-09 Mon>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
