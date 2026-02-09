@@ -94,7 +94,7 @@ DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-06 Fri 11:20]
 :ID: 96e2f851-3acf-466a-a83a-ecf685535bdc
 :END:
 - *OBJECTIVE:*  Current =/usr/local/bin/= contains a user level scripts. Solve this vulnerability by changing =PATH=
-** TODO [#B] Manage System Privilege :SYSADMIN:
+** TODO Manage System Privilege :SYSADMIN:
 DEADLINE: <2026-02-09 Mon>
 :PROPERTIES:
 :ID: aa195bda-a63c-4381-a2f0-d67256fb1f13

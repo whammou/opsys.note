@@ -15,8 +15,7 @@ CLOSED: [2025-11-20 Thu 08:24]
 ** TODO Backup systemd services :SYSTEMD:
 - *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
-*** NEXT [#C] Systemd Backup with Chezmoi :CHEIZMOI:
-DEADLINE: <2026-02-09 Mon>
+*** NEXT Systemd Backup with Chezmoi :CHEIZMOI:
 - *OBJECTIVE:*  Backup systemd services using =chezmoi=
 - *Visit:*      [[id:58910689-be05-4304-8b9b-7d2c03fee002][Managing Dotfiles with Chezmoi @Org]]
 ** PEND Plain text music playlist :LINUX:
@@ -117,7 +116,7 @@ CLOSED: [2025-06-04 Wed 09:07]
 ** NEXT Org2ical [0%] :DATA:ORGMODE:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
-*** NEXT [#B] Sync orgmode to CalDav [0%] :KHALORG:
+*** NEXT Sync orgmode to CalDav [0%] :KHALORG:
 - *OBJECTIVE:* /Successfully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
