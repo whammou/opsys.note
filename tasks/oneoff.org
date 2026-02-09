@@ -113,10 +113,10 @@ CLOSED: [2025-06-04 Wed 09:07]
   - Config title to look the same: =<content> - <appname>=
 ** PEND Pacman lock-file :PACMAN:BACKUP:
 - *OBJECTIVE:* /Create pacman lock-file/
-** NEXT Org2ical [0%] :DATA:ORGMODE:
+** PEND Org2ical [0%] :DATA:ORGMODE:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
-*** NEXT Sync orgmode to CalDav [0%] :KHALORG:
+*** PEND Sync orgmode to CalDav [0%] :KHALORG:
 - *OBJECTIVE:* /Successfully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
@@ -230,7 +230,7 @@ Merge arch to main branch
 - [[https://github.com/mfussenegger/nvim-dap][documentation]]
 ** PEND Github search query :GITHUB:
 - *Goal(s):* Learn github search queries
-** NEXT Resolve boot partition is full :ARCH:
+** PEND Resolve boot partition is full :ARCH:
 - *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
 - *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/697401/arch-linux-initramfs-unpacking-failed-zstd-compressed-data-is-truncated][Discussion initramfs unpack failed error @Overflow-discussion]]
 ** DONE Distinguish between task and doc :ORGMODE:PARA:
