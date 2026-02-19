@@ -118,4 +118,11 @@ DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-07 Sat 14:47]
   + [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
   + [[https://askubuntu.com/questions/1014480/how-do-i-add-bin-to-path-for-a-systemd-service][Add custom bin to systemd service @Overflow]]
   + [[https://askubuntu.com/a/1014501][Add PATH from bash to a systemd service @Overflow]]
+** TODO Blanking Screen on Wayland :WAYLAND:SWAYIDLE:screensaver:
+DEADLINE: <2026-02-20 Fri>
+:PROPERTIES:
+:ID: a903e09e-7243-46e4-82f7-96db5e802d85
+:END:
+- *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
+- *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Tracker]]
   
