@@ -9,26 +9,3 @@
 #+FILETAGS: :TRACKER:META:WAYLAND:screensaver:
 #+HTML:<details>
 
-* DONE Wayland Screen Blanking :TRACKER:META:WAYLAND:screensaver:
-CLOSED: [2026-02-20 Fri 05:09]
-#+HTML:</details>
-Blanking the screen via =swayidle=
-#+BEGIN_SRC sh
-timeout 180 'grep -q "RUNNING" /proc/asound/card*/pcm*/sub*/status || brightnessctl --save && brightnessctl set 0% && swaylock -f' resume 'brightnessctl --restore'
-timeout 900 'systemctl suspend-then-hibernate'
-before-sleep 'swaylock -f'
-#+END_SRC
-** Fixing Logic
-- Your current command is:
-  =grep -q "RUNNING" ... || brightnessctl --save && brightnessctl set 0% && swaylock -f=
-
-  In shell scripting, =||= and =&&= have *equal precedence* and are evaluated from left to right. This causes a major issue:
-  1.  If media *IS* playing, =grep= returns =0= (success).
-  2.  The shell sees =0 || brightnessctl --save=. Since the first part succeeded, it skips the =||= part. The result of this grouping is =0=.
-  3.  The shell then sees `0 && brightnessctl set 0%`. Since the previous result was =0=, *it executes the next command*.
-  4.  *Result:* Your screen blanks/locks *even when media is playing*.
-- Fix the Logic:
-  You need to ensure the locking commands are only executed if the "inhibit" check fails. The cleanest way is to use an =if= statement or a grouped block
-  #+BEGIN_SRC sh
-  timeout 180 'grep -q "RUNNING" /proc/asound/card*/pcm*/sub*/status || (brightnessctl --save && brightnessctl set 0% && swaylock -f)' resume 'brightnessctl --restore'
-  #+END_SRC
