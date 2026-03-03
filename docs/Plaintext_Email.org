@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID: 864c42ee-c003-4d4b-8e7e-ba65c7e8815f
+:END:
+#+TITLE: Plaintext Email
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:EMAIL:
+#+HTML:<details>
+
+* OUTL Plaintext Email :DOC:META:EMAIL:
+#+HTML:</details>
+/Setup an plaintext email workflow/
++ *Reference:* [[https://old.reddit.com/r/neovim/comments/1cuvd5k/can_anyone_share_experience_using_neomutt/][Experience using neomutt @Reddit]]

@@ -1,0 +1,283 @@
+:PROPERTIES:
+:ID: 0de1c55e-bc14-4f3c-b268-36ad6974f706
+:ROAM_ORIGIN: 882b4f23-d2f9-4274-87e5-fb041e4a0c48
+:END:
+#+TITLE: Archlinux System Tweaks
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
+#+FILETAGS: :DOC:PROJECT:OPSYS:ARCH:TWEAKS:
+#+HTML:<details>
+
+* Archlinux System Tweaks :DOC:META:OPSYS:ARCH:TWEAKS:
+:PROPERTIES:
+:ID: 6ab8f5dd-cb7f-4ede-90e3-340881274a20
+:END:
+#+HTML:</details>
+- *Objective:* recover linux from unexpected shutdown
+- *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
+** DONE Update grub parameters
+CLOSED: [2025-04-19 Sat 07:58]
+- *Goal(s):* update grub boot parameters to splash ~screen~ and hide grub ~menu~
+  - Add ~splash~ parameter to kernel parameter: ~GRUB_CMDLINE_LINUX_DEFAULT="... splash"~
+  - Add ~hidden~ parameter to ~GRUB_TIMEOUT_STYLE~: ~GRUB_TIMEOUT_STYLE=hidden~
+** DONE Enable zswap
+CLOSED: [2025-04-19 Sat 07:58]
+- *Goal(s):* enable system zswap on boot
+  - Add ~zswap.enable=1~ to kernel parameter: ~GRUB_CMDLINE_LINUX="... zswap.enabled=1"~
+** DONE Config ~pacman~
+CLOSED: [2025-04-19 Sat 07:58]
+- *Goal(s):* config ~pacman~ to:
+  - Output colors: ~Colors~
+  - have a funny animation ~IloveCandy~
+*** DONE Reverse Packages Upgrade :UPDATE:
+CLOSED: [2025-08-09 Sat 02:54]
+- To reverse an =official= package use [[https://wiki.archlinux.org/title/Arch_Linux_Archive][Archlinux Archive @Archwiki]]
+- To reverse an =AUR= package check out [[https://aur.archlinux.org/packages/downgrade][AUR Downgrade @AUR]]
+** DONE Fix screen tearing
+CLOSED: [2025-05-21 Wed 18:21]
+- *Objective:* /Rock archlinux without a compositor/
+  - *References:* [[id:263ea0db-b98c-4775-9628-220682a48918][Intel TearFree @Orgmode]]
+** DONE Screen Time Event :ARCH:DPMS:
+CLOSED: [2025-08-14 Thu 16:25] DEADLINE: <2025-08-14 Thu>
+- *OBJECTIVE:* Do not turn off screen when a media is playing =archlinux=
+-----
+- *[NOTE]* taken on [2025-08-14 16:24]: \\
+  - Suspending screen saving when a media is playing via: [[https://bbs.archlinux.org/viewtopic.php?pid=1951595#p1951595][Disable DPMS if ALSA is currently playing sound @Arch-forum]] \\
+  - Adopt a =cron-job= for =dpms=:
+    - Script to detect playing media and set timer for display off timer
+      #+NAME:Idle Script
+      #+html:<details>
+      #+html:<summary><b>Idle script</b></summary>
+      #+BEGIN_SRC bash
+      #!/bin/bash
+      # shellcheck disable=SC2155
+      set -euo pipefail
+      
+      declare -ir _timeout=600
+      declare -ir _current="$(xset -display :0.0 q | awk '/Standby:/ { print $2 }')"
+      
+      _enable() {
+      if [[ "${_current}" == "0" ]]
+      then
+      xset -display :0.0 dpms ${_timeout} ${_timeout} ${_timeout}
+      fi
+      }
+      
+      _disable() {
+      if [[ "${_current}" != "0" ]]
+      then
+      xset -display :0.0 dpms 0 0 0
+      fi
+      }
+      
+      if grep -q "RUNNING" /proc/asound/card*/pcm*/sub*/status
+      then
+      _disable
+      else
+      _enable
+      #+END_SRC
+      #+html:</details>
+    - Systemd =timer= and =service=
+      #+NAME: dpms timer
+      #+html:<details>
+      #+html:<summary><b>Timer</b></summary>
+      #+BEGIN_SRC systemd
+      [Unit]
+      Description=Timer to check for display screen off
+
+      [Timer]
+      OnBootSec=5
+      OnUnitActiveSec=1min
+      Unit=dpms.service
+
+      [Install]
+      WantedBy=timers.target
+      #+END_SRC
+      #+html:</details>
+      
+      #+NAME: dpms service
+      #+html:<details>
+      #+html:<summary><b>Servicer</b></summary>
+      #+BEGIN_SRC systemd
+      [Unit]
+      Description=A dmps checker for media files
+
+      [Service]
+      Type=oneshot
+      ExecStart=/usr/local/bin/dpms-media
+      #+END_SRC
+      #+html:</details>
+-----
+- *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=264737][Do Not Turn Display Off When a Media is Playing @Arch-forum]]
+** DONE Disable fallback initramfs generation :PERFORMANCE:
+CLOSED: [2025-08-20 Wed 12:35] DEADLINE: <2025-08-20 Wed>
+Generation of fall =initramfs= can lead to full =boot= drive and thus unable to upgrade system or packages. To disable to generation of fallback image [fn:disable-fallback-img]:
++ Change ~PRESETS('default' 'fallback')~ line to ~PRESETS=('default')~ in the repective /.preset/ files in =/etc/mkinitcpio.d/=
++ Remove the fallback initramfs images in =/boot/=
++ Update your boot loader configuration: =mkinicpio -P=
+  
+#+NAME:Deprive Boot option when default fails
+#+BEGIN_QUOTE markdown
+[!CAUTION]
+Disabling all fallback initramfs generation will leads to booting problems when the default image fails. Make sure you have to bootable installation medium for rescue purposes
+#+END_QUOTE
+
+Reference:* [[https://wiki.archlinux.org/title/USB_flash_installation_medium][USB flash installation medium]]
+** DONE User Service Proxy :SYSTEMD:SERVICE:
+CLOSED: [2025-09-06 Sat 20:53]
+Sometimes we want a =user-service= to run along with =system-services= on =systemd= init system. There are a few ways to tackle this problem.
+- Elevating service privileges
+- Create a proxy service that runs when a system-service started and signal the =user-service= to run on demand
+  #+NAME: systemd starts user target
+  #+BEGIN_SRC systemd
+  [Unit]
+  Description=Start user ac.target
+  After=powerup.service
+
+  [Service]
+  Type=oneshot
+  ExecStart=/sbin/systemctl --user --machine=%i@ start ac.target
+
+  [Install]
+  WantedBy=ac.target
+  #+END_SRC
+  + To start the proxy-service run:
+    #+NAME: Run cmd
+    #+BEGIN_SRC bash
+    systemctl enable --now ac@whammou.service
+    #+END_SRC
+** DONE Mounting USB Storage :DRIVE:
+CLOSED: [2025-09-19 Fri 15:02]
+- Auto-mounting with =udisks= - this is the easiest and most frequent used method
+  + *Installation:* Install the =udisks2= or =udisks2-btrfs= module via =pacman=
+  + *Usage:* To use mount a USB drive first define the block device:
+    * To lists all system mount points, run: =$ lsblk=
+    * To mount a drive, run: =$ udisksctl mount -b /dev/sdb1=
+    * or to unmount: =$ udisksctl unmount -b /dev/sdb2=
+
+- Mounting using =yazi=:
+  + Install plugin =mount.yazi= via =$ ya pkg add yazi-rs/plugins:mount=
+  + Create custom keybinds:
+    #+NAME:~/.config/yazi/keymap.toml
+    #+BEGIN_SRC toml
+    [[mgr.prepend_keymap]]
+    on  = "M"
+    run = "plugin mount"
+    #+END_SRC
+  + Launch the /mount-manager/ inside =yazi= with =M=
+** DONE System Swap and Swappiness :ARCH:SWAP:
+DEADLINE: <2025-11-28 Fri> CLOSED: [2025-11-29 Sat 01:16]
+/What are swap and swappiness and how to increase system performance by adjusting swappiness value/
+
+#+BEGIN_QUOTE
+=Linux= divides its physical =RAM= into chunks of memory called pages. =swapping= is a the process whereby a page of memory is copied to the preconfigured space on the hard disk /(a swap page)/, to free up that page of memory
+#+END_QUOTE
+
+#+NAME:Virtual memory
+#+BEGIN_QUOTE markdown
+[!NOTE]
+The amount of =physical memory= and =swap space= is the amount of virtual memory available
+#+END_QUOTE
+
+- *goto:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
+*** Swap Space & Swap Partition & Swap File
+A =swap space= can take the form of a disk partition or a file. =Swap space= can be used for 2 purposes:
+- To extend the =virtual memory= beyond the installed =physical memory=
+- And also add [[id:b827e129-f7ca-4f65-8043-460afe696107][Suspend-to-disk support @Org]]
+  + To check swap status, use:
+    #+BEGIN_SRC sh
+    swapon --show
+    #+END_SRC
+  + To show whole =virtual memory= as =swap= usage:
+    #+BEGIN_SRC sh
+    free -h
+    #+END_SRC
+**** Swap Partition
+A =swap partition= is a dedicated disk partition used for =swap space=. To enable the device for paging
+#+BEGIN_SRC sh
+swapon /dev/sdxy
+#+END_SRC
+
+A brief comparison between =swap partition= and =swap file=: [[https://opencode.ai/s/N06P2jLo][Swap partition vs Swap file @Opencode-session]]
+**** Swap File
+As an alternative to create an entire =partition=
+- A =swap-file= offers the ability to vary its size /on-the-fly/
+- And is more easily removed altogether
+- This is desirable if the disk space is at premium (e.g. SSD)
+***** Swap File Creation
+
+#+NAME: btrfs swap file limitations
+#+BEGIN_QUOTE markdown
+[!WARNING]
+There are some limitations of the implementation in `btrfs` and linux swap subsystem
+- Swap files on file systems spanning multiple devices are not supported
+- Data profile must be single
+- `snapshot` cannot be create for sub-volumes containing active `swap-file`
+- `swap-files` must be pre-allocated
+- *copy-on-write* must be disabled individually for `swap-files` *(i.e., swap files must have to NOCOW attribute)*
+#+END_QUOTE
+
+To properly create a =swap-file= on =btrfs=
+- First, create /sub-volume/ as /snap-shots/ cannot be created for that sub-volume afterwards:
+  #+BEGIN_SRC sh
+  btrfs subvolume create /swap
+  #+END_SRC
+
+- Create a =4GB= swap-file =swap-file= in =/swap/=:
+  #+BEGIN_SRC sh
+  btrfs filesystem mkswapfile --size 4g --uuid clear /swap/swapfile
+  #+END_SRC
+
+- Activate the swap-file:
+  #+BEGIN_SRC sh
+  swapon /swap/swapfile
+  #+END_SRC
+
+- Finally, edit the =fstab= configuration to ad an entry for the swap-file:
+  #+NAME: /etc/fstab
+  #+BEGIN_SRC fstab
+  /swap/swapfile none swap defailts 0 0
+  #+END_SRC
+***** Swap File Removal
+To remove a swap-file, it must be turned off first and then can be removed:
+#+BEGIN_SRC sh
+swapoff /swap/swapfile
+rm -f /swap/swapfile
+#+END_SRC
+
+And remove the relevant entry from =/etc/fstab=
+*** System Swappiness
+#+BEGIN_QUOTE markdown
+When `memory` reaches a certain threshold, the kernel starts looking at active memory and seeing what it can free up
+- File data can be written out to the file system
+- unloaded and re-loaded later
+- Other data must be written to swap before it can be unloaded
+#+END_QUOTE
+
+The =swappiness= parameter represents the kernels preference for writing to swap instead of files.
+- It can have a value between /0/ and /200/
+- The default value is /60/
+  + A /low/ value causes the =kernel= to prefer freeing up open files
+  + a /high/ value causes the =kernel= to try to use swap space \\
+
+To check the current =swappiness= value:
+#+BEGIN_SRC sh
+sysctl vm.swappiness
+#+END_SRC
+
+To temporarily set the =swappiness= value:
+#+BEGIN_SRC sh
+sysctl -w vm.swappiness=20
+#+END_SRC
+
+To set the =swappiness= value permanently, create a =sysctl.d(5)= configuration file:
+#+BEGIN_SRC sh
+#/etc/sysctl.d/99-swappiness.conf
+
+vm.swappiness = 20
+#+END_SRC
+
+To have the =boot-loader= set the swappiness when loading the =kernel=
+- Add a =kernel-parameter= e.g. ~sysctl.vm.swappiness=20~
