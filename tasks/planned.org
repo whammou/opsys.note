@@ -115,4 +115,5 @@ DEADLINE: <2026-03-05 Thu>
 :END:
 - *OBJECTIVE:*  Using =dunstctl history= to export notification history view and select it with =fzf=
 - *Reference:*  [[shell:dunstctl history][Dunst notification History @Shell]]
+- *Tracker:*    [[id:896857df-21d8-4f2d-ae75-708173d5f507][Notification History Viewer @Tracker]]
   

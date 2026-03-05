@@ -1,3 +1,15 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-* Trackers List :TRACKER:OPSYS:
+* Trackers List :TRACKER:OPSYS:META:
+** OPEN Notification History Viewer :NOTIFICATION:
+:PROPERTIES:
+:ID: 896857df-21d8-4f2d-ae75-708173d5f507
+:END:
+View system notifications with =fzf= and =dunst=
+*** Retrieve History Data
+Using =dunstctl= to retrieve history data
+#+name:get_history
+#+BEGIN_SRC sh :tangle yes :noweb yes
+dunstctl history
+#+END_SRC
+
