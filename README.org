@@ -1,0 +1,40 @@
+#+TITLE: Operating Systems – Overview
+#+DESCRIPTION: Operating system administration.
+#+FILETAGS: :OPSYS:
+
+* Overview
+  Operating system administration: configuration, troubleshooting, and maintenance.
+
+* Directory Layout
+  | Path          | Purpose                                                          |
+  |---------------+------------------------------------------------------------------|
+  | =README.org=  | This file – high‑level description (you are reading it)           |
+  | =docs/=       | Org/Markdown documents – notes, guides, references                |
+  | =tasks/=      | Task files (`recurring.org`, `oneoff.org`, …)                    |
+  | =lists/=      | Ordered collections (package lists, configs) – optional           |
+  | =assets/=     | Config files, scripts, or any binary material – optional           |
+  | =.logs/=      | Log file (`log.org`) – chronological change log                  |
+  | =.git/=       | Git submodule (managed by the super‑repo)                         |
+
+* Tag & State Conventions (inherited from the main repo)
+  - *States* – TODO, PEND, GOING, DONE, ARCHIVED, etc. (see main README).
+  - *Tags* – Use the hierarchical tag format:
+    :OPSYS:<CATEGORY>:<TYPE>:<DETAIL>:
+    Example: =:OPSYS:CONFIG:LINUX:=
+
+* Typical Files
+  - =docs/<something>.org= – setup guides, troubleshooting steps, configuration notes.
+  - =tasks/recurring.org= – regular system updates, backups, maintenance.
+  - =tasks/oneoff.org= – single‑time installations or migrations.
+  - =assets/…= – configuration files, scripts.
+
+* How to Use
+  1. *Add a note* – create a new Org file under =docs/= and link to it from a task if needed.
+  2. *Create a task* – add a headline under the appropriate file in =tasks/= using the standard TODO states.
+  3. *Tag it* – follow the tag anatomy described above so Org‑mode search works across the whole super‑repo.
+  4. *Commit* – daily commits are encouraged; the super‑repo pulls submodule updates automatically.
+
+* References
+  - Main repository README.org – overall philosophy, state & tag definitions:
+    [[file:../README.org::#STATES and TAGS][Main README – STATES & TAGS]]
+  - External tools: nvim‑orgmode, Orgzly‑android (see main README for integration tips).
