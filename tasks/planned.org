@@ -108,7 +108,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 *** Access Via VPN :VPN:
 - *OBJECTIVE:*  Connect to =home-network= via VPN
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
-** NEXT Implement Notification History View :DUNST:FZF:NOTIFICATION:
+** TODO Implement Notification History View :DUNST:FZF:NOTIFICATION:
 DEADLINE: <2026-03-05 Thu>
 :PROPERTIES:
 :ID: 2b4e96bb-2e2d-4099-821e-69e8cff914bb
