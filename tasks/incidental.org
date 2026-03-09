@@ -125,13 +125,13 @@ DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :END:
 - *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
 - *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Tracker]]
-** NEXT Change Username and Home Dir :STRUCTURE:
+** DOIN Change Username and Home Dir :STRUCTURE:
 DEADLINE: <2026-03-09 Mon>
 :PROPERTIES:
 :ID: 7b41b2a4-9073-4465-916f-6b0783d641f3
 :END:
 - *OBJECTIVE:*  Change the =username= of current user along with the =home= directory
-- *Tracker:*    [[id:407ddfe2-b174-4e4d-a080-16e17867dd23][Opencode Zen Workflow @Tracker]]
+- *Tracker:*    [[id:9fdb721a-3639-4c5a-bdb6-a69e518a52dc][Seamless File Sync @Tracker]]
 - *Reference:*
   + [[https://wiki.archlinux.org/title/Users_and_groups#Change_a_user's_login_name_or_home_directory][Change a user's login name or home directory @Archwiki]]
   + [[https://www.reddit.com/r/archlinux/comments/1bnqxwh/how_to_change_the_name_of_the_my_home_directory/][Change Home Directory @Reddit]]
