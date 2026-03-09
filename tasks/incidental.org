@@ -124,7 +124,7 @@ DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :END:
 - *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
 - *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Tracker]]
-** DOIN Change Username and Home Dir :STRUCTURE:
+** NEXT Change Username and Home Dir :STRUCTURE:
 DEADLINE: <2026-03-09 Mon>
 :PROPERTIES:
 :ID: 7b41b2a4-9073-4465-916f-6b0783d641f3
