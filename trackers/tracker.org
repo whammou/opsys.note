@@ -12,4 +12,8 @@ Using =dunstctl= to retrieve history data
 #+BEGIN_SRC sh :tangle yes :noweb yes
 dunstctl history
 #+END_SRC
-
+** OPEN Debug Quota Exceed Write Error :BUG:
+:PROPERTIES:
+:ID: a4b35c13-cdc7-459c-b4f3-0b92273dd284
+:END:
+/System freeze and refuse to spawn new tasks with error:/ =write error: quota exceeded /tmp=
