@@ -134,7 +134,8 @@ DEADLINE: <2026-03-09 Mon> CLOSED: [2026-03-11 Wed 16:30]
 - *Reference:*
   + [[https://wiki.archlinux.org/title/Users_and_groups#Change_a_user's_login_name_or_home_directory][Change a user's login name or home directory @Archwiki]]
   + [[https://www.reddit.com/r/archlinux/comments/1bnqxwh/how_to_change_the_name_of_the_my_home_directory/][Change Home Directory @Reddit]]
-** PEND Quota Write Error :ARCHLINUX:
+** DONE Quota Write Error :ARCHLINUX:
+DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 :PROPERTIES:
 :ID: 9480e0e0-3fd3-4243-b951-46865d8f4f2e
 :END:
