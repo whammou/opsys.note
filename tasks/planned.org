@@ -4,7 +4,7 @@
 #+TITLE: System Planned Tasks
 
 * List of Planned Tasks :TASK:PLANNED:OPSYS:META:
-** TODO Install Windows 11 :SERVER:
+** PEND Install Windows 11 :SERVER:
 - *OBJECTIVE:* Install =tiny11= on server
 - *Reference:* [[https://github.com/ntdevlabs/tiny11builder#instructions][Tiny 11 Script @Github]]
 ** DONE Connect Windows Samba :SAMBA:WINDOWS:DRIVE:
@@ -27,7 +27,8 @@ CLOSED: [2025-11-09 Sun 21:34]
 :END:
 #+html:</details>
 - *OBJECTIVE:* High memory usage after =hibernation=
-** TODO Categorize Notifications :NOTIFICATION:notificationsync:
+** DONE Categorize Notifications :NOTIFICATION:notificationsync:
+CLOSED: [2026-03-17 Tue 04:34]
 - *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
 - *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
 ** PRTL Get Notify When Systemd Service Failed :NOTIFICATION:SYSTEMD:systemmanage:
@@ -51,7 +52,6 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
   + Follows =script= per =package=
   + Modularize =script= repo
 ** TODO Grouping User Services :SYSTEMD:SERVICE:
-DEADLINE: <2026-02-12 Thu>
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
@@ -109,7 +109,6 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 - *OBJECTIVE:*  Connect to =home-network= via VPN
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
 ** TODO Implement Notification History View :DUNST:FZF:NOTIFICATION:
-DEADLINE: <2026-03-05 Thu>
 :PROPERTIES:
 :ID: 2b4e96bb-2e2d-4099-821e-69e8cff914bb
 :END:

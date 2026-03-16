@@ -12,7 +12,8 @@
 ** PEND Control nvim instances
 - *Objective:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
-** TODO Shareable documents content :PARA:
+** DONE Shareable documents content :PARA:
+CLOSED: [2026-03-17 Tue 04:33]
 - *OBJECTIVE:* Re-format docs file for friendly and quick export to share among peers
 - *Reference:* [[https://old.reddit.com/r/blender/comments/16qtuy0/2_questions_how_do_i_share_my_materials_and_how/][Shareable material and good workflow @Reddit-discussion]]
 ** DONE Font Test Script :FONT:
@@ -93,8 +94,8 @@ DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-06 Fri 11:20]
 :ID: 96e2f851-3acf-466a-a83a-ecf685535bdc
 :END:
 - *OBJECTIVE:*  Current =/usr/local/bin/= contains a user level scripts. Solve this vulnerability by changing =PATH=
-** TODO Manage System Privilege :SYSADMIN:
-DEADLINE: <2026-02-12 Thu>
+** DONE Manage System Privilege :SYSADMIN:
+CLOSED: [2026-03-17 Tue 04:34]
 :PROPERTIES:
 :ID: aa195bda-a63c-4381-a2f0-d67256fb1f13
 :END:
