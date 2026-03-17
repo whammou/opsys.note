@@ -660,7 +660,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 CLOSED: [2025-07-14 Mon 23:51]
 - *OBJECTIVE:* Record terminal session for demonstrations
 - *Visit:* [[https://github.com/asciinema/asciinema][Terminal recording asciinema @Github]]
-** PRTL Repo Root Dir :@Packages:GIT:ORGZlY:PLATFORM:GITHUB:
+** PRTL Repo Root Dir :@Packages:GIT:ORGZlY:@Platform:GITHUB:
 DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Issue:* Conflict between *system* and *github* relative path detection e.g running =xdg= in =pwd= return file not found

@@ -3,7 +3,7 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: System Oneoff Tasks
 
-* List of Oneoff Tasks :TASK:ONEOFF:@Opsys:#Meta:
+* List of Oneoff Tasks :%Task:ONEOFF:@Opsys:#Meta:
 ** PEND Open-source application :LINUX:
 - /List of FOSS AI/
 ** PEND Qtile ssh-tmux method :LINUX:
@@ -163,7 +163,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 *** Org-ruby document config [0/1]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
-** PEND Spreadsheet data visualize :DATA:DOC:
+** PEND Spreadsheet data visualize :DATA:%Doc:
 :PROPERTIES:
 :CUSTOM_ID: visidata
 :END:
