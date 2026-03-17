@@ -6,10 +6,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
-#+FILETAGS: :DOC:META:MANAGEMENT:containerization:
+#+FILETAGS: :DOC:#Meta:MANAGEMENT:containerization:
 #+HTML:<details>
 
-* Process Containerization :DOC:META:MANAGEMENT:containerization:
+* Process Containerization :DOC:#Meta:MANAGEMENT:containerization:
 #+HTML:</details>
 ** DONE Containerization in Process Management :MANAGEMENT:containerization:
 DEADLINE: <2025-12-04 Thu 19:30> CLOSED: [2025-12-04 Thu 20:48]

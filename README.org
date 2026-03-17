@@ -1,6 +1,6 @@
 #+TITLE: Operating Systems – Overview
 #+DESCRIPTION: Operating system administration.
-#+FILETAGS: :OPSYS:
+#+FILETAGS: :@Opsys:
 
 * Overview
   Operating system administration: configuration, troubleshooting, and maintenance.
@@ -19,8 +19,8 @@
 * Tag & State Conventions (inherited from the main repo)
   - *States* – TODO, PEND, GOING, DONE, ARCHIVED, etc. (see main README).
   - *Tags* – Use the hierarchical tag format:
-    :OPSYS:<CATEGORY>:<TYPE>:<DETAIL>:
-    Example: =:OPSYS:CONFIG:LINUX:=
+    :@Opsys:<CATEGORY>:<TYPE>:<DETAIL>:
+    Example: =:@Opsys:CONFIG:LINUX:=
 
 * Typical Files
   - =docs/<something>.org= – setup guides, troubleshooting steps, configuration notes.

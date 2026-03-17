@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:OPSYS:LINUX:NETWORK:
+#+FILETAGS: :DOC:PROJECT:@Opsys:LINUX:NETWORK:
 #+HTML:<details>
 
-* PEND System Proxies and DNS :DOC:META:OPSYS:LINUX:NETWORK:
+* PEND System Proxies and DNS :DOC:#Meta:@Opsys:LINUX:NETWORK:
 #+HTML:</details>
 Access blocked websites via ~proxy~ or ~DNS~
 ** DONE Reverse Tunneling :PROTOCOL:SSH:reversetunneling:

@@ -1,7 +1,7 @@
 #+TITLE: System Logs
 #+DESCRIPTION: Description for archive here
 
-* Logs :LOG:OPSYS:
+* Logs :LOG:@Opsys:
 - /Store finished tasks/
 ** DONE Vim buffer workflow :VIM:
 CLOSED: [2024-09-08 Sun 04:17]
@@ -308,7 +308,7 @@ CLOSED: [2024-09-29 Sun 22:07]
 :ARCHIVE_CATEGORY: orgmode
 :ARCHIVE_TODO: ABRT
 :END:
-** DONE [#B] Dual boot :OPSYS:
+** DONE [#B] Dual boot :@Opsys:
 CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>
 ** DONE Qutebrowser CSS :QUTEBROWSER:
 CLOSED: [2025-01-18 Sat 23:03]
@@ -643,7 +643,7 @@ CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
 :END:
 - /Test nerdfont on Orgzly/
-** ABRT Openai API :OPSYS:
+** ABRT Openai API :@Opsys:
 CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :PROPERTIES:
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4
@@ -660,7 +660,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 CLOSED: [2025-07-14 Mon 23:51]
 - *OBJECTIVE:* Record terminal session for demonstrations
 - *Visit:* [[https://github.com/asciinema/asciinema][Terminal recording asciinema @Github]]
-** PRTL Repo Root Dir :PACKAGES:GIT:ORGZlY:PLATFORM:GITHUB:
+** PRTL Repo Root Dir :@Packages:GIT:ORGZlY:PLATFORM:GITHUB:
 DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Issue:* Conflict between *system* and *github* relative path detection e.g running =xdg= in =pwd= return file not found
