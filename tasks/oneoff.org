@@ -3,9 +3,11 @@
 #+TITLE: System Oneoff Tasks
 
 * List of Oneoff Tasks :typTask:catOneoff:OPSYS:meta:
-** PEND Open-source application :LINUX:
+** ABRT Open-source application :LINUX:
+CLOSED: [2026-03-19 Thu 00:46]
 - /List of FOSS AI/
-** PEND Qtile ssh-tmux method :LINUX:
+** ABRT Qtile ssh-tmux method :LINUX:
+CLOSED: [2026-03-19 Thu 00:46]
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
 ** ABRT Notification through ssh :LINUX:@Notification:
@@ -17,7 +19,8 @@ CLOSED: [2025-11-20 Thu 08:24]
 *** TODO Systemd Backup with Chezmoi :@Chezmoi:
 - *OBJECTIVE:*  Backup systemd services using =chezmoi=
 - *Visit:*      [[id:58910689-be05-4304-8b9b-7d2c03fee002][Managing Dotfiles with Chezmoi @Org]]
-** PEND Plain text music playlist :LINUX:
+** DONE Plain text music playlist :LINUX:
+CLOSED: [2026-03-19 Thu 00:46]
 **Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 ** PEND Search more efficiently :LINUX:
 :PROPERTIES:
@@ -50,7 +53,8 @@ CLOSED: [2025-05-12 Mon 09:04]
 ** PEND Toggle program :BASH:
 - *Objective:* /Toggle command using bash script/
 - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
-** PEND Magic Tape sessions :MAGICTAPE:
+** ABRT Magic Tape sessions :MAGICTAPE:
+CLOSED: [2026-03-19 Thu 00:45]
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
@@ -61,7 +65,8 @@ CLOSED: [2025-09-17 Wed 08:37]
   - [X] Adding ~TASK~ tag (including all type of tasks)
   - [X] Adding ~LIB~ and remove ~Archives~ headline
   - [X] Create new template
-** PEND Re-write smb-mount command
+** ABRT Re-write smb-mount command
+CLOSED: [2026-03-19 Thu 00:45]
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
 ** PEND Json database :JSON:
@@ -122,7 +127,8 @@ CLOSED: [2025-06-04 Wed 09:07]
 **** PEND Config vdirsyncer :@Vdirsyncer:
 - *OBJECTIVE:* /Config vdirsyncer to work sync calendar to google cal/
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
-** PEND Orgmode quicknote script :@Orgmode:
+** ABRT Orgmode quicknote script :@Orgmode:
+CLOSED: [2026-03-19 Thu 00:45]
 - *OBJECTIVE:* Quickly output new note directory
 ** PEND Orgmode toggle archived items :@Orgmode:
 - *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
