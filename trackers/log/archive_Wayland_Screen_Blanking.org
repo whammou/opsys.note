@@ -1,4 +1,4 @@
-* DONE Wayland Screen Blanking :%Tracker:meta:WAYLAND:screensaver:
+* DONE Wayland Screen Blanking :typTracker:meta:@Wayland:screensaver:
 CLOSED: [2026-02-20 Fri 05:09]
 :PROPERTIES:
 :ARCHIVE_TIME: 2026-02-20 Fri 21:31

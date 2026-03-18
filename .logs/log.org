@@ -23,7 +23,7 @@ CLOSED: [2024-09-08 Sun 06:35]
 :END:
 - *Goal:* Achieve faster workflow in vim with vim-mark
 - *Stumble upon:* [[https://github.com/chentoast/marks.nvim][chentoast/marks.nvim]]
-** DONE Refactor notes@github :GITHUB:ORGMODE:
+** DONE Refactor notes@github :@Github:@Orgmode:
 CLOSED: [2024-10-07 Mon 02:39] SCHEDULED: <2024-10-05 Sat 00:00>
 - *Goal(s):* 
   - [X] Rebase #trunk to #main [[https://github.com/whammou/notes][notes@github]]
@@ -41,7 +41,7 @@ CLOSED: [2024-09-08 Sun 04:15]
 :ARCHIVE_TODO: TODO
 :END:
 - *Goal*: Look for a way to printout file full path at cursor location
-** DONE Systemd run task on shutdown :SYSTEMD:
+** DONE Systemd run task on shutdown :@Systemd:
 CLOSED: [2024-09-08 Sun 04:17]
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-09-11 Wed 04:59
@@ -138,7 +138,7 @@ CLOSED: [2024-09-27 Fri 01:16] DEADLINE: <2024-09-26 Thu 22:00>
 **Stumble upon:* [[https://github.com/junegunn/fzf/issues/70][Using fzf as selection menu@github]]
 ***** Passing shell variables
 ~fzf~ uses ~FZF_DEFAULT_OPTS~ as config, run ~export~ to pass variable to sub-shells
-** DONE Vim-fugitive workflow :GIT:NVIM:
+** DONE Vim-fugitive workflow :@Git:@Nvim:
 CLOSED: [2024-10-07 Mon 22:27]
 - *Goal:* Improve git workflow and merge conflicts
 - *Stumble upon:* [[https://www.youtube.com/playlist?list=PLmcTCfaoOo_jP2mViI_3d1aZrbueLyArh][DevOps git playlist]]
@@ -169,7 +169,7 @@ d. ~crc~ to revert the commit under the cursor
 :END:
 - /*Objective: Better git workflow with nvim/
 - *References:* [[https://www.youtube.com/watch?v=zOQMwWqdp9w&t=1#__preview][Nvim git workflow]]
-** DONE Git workflow keybind :GIT:ARCHIVE:
+** DONE Git workflow keybind :@Git:ARCHIVE:
 CLOSED: [2024-10-07 Mon 22:27]
 - *Goal(s):* Add vim-fugitive keybinds to optimize workflow
 - *Stumble upon:* [[https://youtube.com/watch?v=57x4ZzzCr2Y][nvim+fugitive+lazygit@youtube]] [[https://github.com/jesseduffield/lazygit][lazygit@github]]
@@ -177,20 +177,20 @@ CLOSED: [2024-10-07 Mon 22:27]
 CLOSED: [2024-10-07 Mon 04:39]
 - *Source:* [[https://wiki.termux.com/wiki/Internal_and_external_storage][termux wiki]]
   run: ~termux-setup-storage~
-** DONE Tmux selection-panel script :TMUX:
+** DONE Tmux selection-panel script :@Tmux:
 CLOSED: [2024-10-07 Mon 04:38]
 - *Goal(s):* Config tmux selection panel with qtile scratch board for quick access
 - *Stumble upon:*  [[https://linuxier.com/how-to-list-sessions-in-tmux/][How to list tmux sessions]]  [[https://gist.github.com/vaughany/483324b983ac51281ef63bb672f6c1ed][.tmux.conf]]
 ** DONE Config xdg-open :LINUX:
 CLOSED: [2024-10-07 Mon 22:27]
 - *Goal:* Config xdg-open to open demanding file types
-** DONE Integrate Github link :NVIM:GITHUB:
+** DONE Integrate Github link :@Nvim:@Github:
 CLOSED: [2024-12-26 Thu 22:27]
 **Goal:* Integrate github orgmode render for android
 *** Git-link snippet
 **Goal(s):* Write an ultilsnip snippet for repo link on github at current cursor location
 **Stumble upon:* [[https://github.com/jltwheeler/nvim-git-link]]
-** DONE Script orgmode scratchpad :NVIM:ORGMODE:
+** DONE Script orgmode scratchpad :@Nvim:@Orgmode:
 CLOSED: [2024-10-07 Mon 02:06]
 - *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
 - *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]
@@ -222,7 +222,7 @@ Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain v
 Run ~Export VARIABLE_NAME=value~ to define a variable 
 **** Fcitx5 with nvim
 Install [[https://github.com/pysan3/fcitx5.nvim][fcitx5.nvim]] for better workflow
-** DONE Install Latex nvim-treesitter parser :NVIM:
+** DONE Install Latex nvim-treesitter parser :@Nvim:
 CLOSED: [2024-10-31 Thu 01:38]
 - *Goal(s):* Integrate latex parser to nvim to write tex math in markdown
 - *Source(s):* [[https://github.com/latex-lsp/tree-sitter-latex]]
@@ -235,11 +235,11 @@ CLOSED: [2024-10-31 Thu 01:38]
   
   - [[https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation][nvim-treesitter installation]] installation in config
   
-  ** Open markdown at headline :NVIM:
+  ** Open markdown at headline :@Nvim:
   
   - *Goal(s):* find a way to open markdown at certain headline
   - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/51187658/markdown-reference-to-section-from-another-file][cross file reference]]
-** Neovim auto completion :NVIM:
+** Neovim auto completion :@Nvim:
 - *Goal(s):* config nvim-lspconfig to work with  [[https://github.com/ms-jpq/coq_nvim][coq.nvim@github]]
 - *Stumble upon:*  [[https://neovim.io/doc/user/lsp.html][docs]]
 *** Differences between LSP and code completion
@@ -251,7 +251,7 @@ LSP stands for "Language server protocol" and it is standardized information on 
 ** DONE Terminal rework :LINUX:
 CLOSED: [2024-12-06 Fri 20:56]
 - *Goal:* rework linux terminal
-*** DONE Implement nvim image :LINUX:NVIM:
+*** DONE Implement nvim image :LINUX:@Nvim:
 CLOSED: [2024-12-05 Thu 01:48]
 - *Goal(s):* adding image support to nvim for better documentation render
 - *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
@@ -268,15 +268,15 @@ CLOSED: [2024-12-04 Wed 19:37] DEADLINE: <2024-12-04 Wed 07:00>
 **** DONE Render html in markdown
 CLOSED: [2024-12-04 Wed 15:16]
 - *Goal(s):* render html syntax image inside markdown
-*** DONE Integrate markdown headline :LINUX:NVIM:GITHUB:
+*** DONE Integrate markdown headline :LINUX:@Nvim:@Github:
 CLOSED: [2024-12-06 Fri 20:55]
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
-** DONE Systemd service :SYSTEMD:
+** DONE Systemd service :@Systemd:
 CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
 - *Goal:* set ~tlp~ on top most of shutdown target
 - *Solution:* [[https://old.reddit.com/r/linuxquestions/comments/udr7ch/running_systemd_service_on_shutdown_before/][systemd service on shutdown]]
-*** DONE Systemd multiple triggers :SYSTEMD:
+*** DONE Systemd multiple triggers :@Systemd:
 CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
 - *Goal:* implement multiple triggers for a systemd service
 ** ABRT [#C] Config xfcit5
@@ -310,16 +310,16 @@ CLOSED: [2024-09-29 Sun 22:07]
 :END:
 ** DONE [#B] Dual boot :OPSYS:
 CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>
-** DONE Qutebrowser CSS :QUTEBROWSER:
+** DONE Qutebrowser CSS :@Qutebrowser:
 CLOSED: [2025-01-18 Sat 23:03]
 - *Goal:* custom css for qutebrowser
 - *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]
-** DONE Solve conflict Markdown Flow plugin :NVIM:
+** DONE Solve conflict Markdown Flow plugin :@Nvim:
 CLOSED: [2024-12-25 Wed 22:23] DEADLINE: <2024-12-21 Sat 22:00>
 - Note taken on [2024-12-21 Sat 02:47] \\
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
-** DONE Implement ripgrep :NVIM:
+** DONE Implement ripgrep :@Nvim:
 CLOSED: [2024-11-07 Thu 06:08]
 - *Goal(s):* implement ripgrep for faster documentation search
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
@@ -338,7 +338,7 @@ CLOSED: [2025-01-27 Mon 22:16]
   - Visit: [[https://github.com/fish-shell/fish-shell/issues/7152][binding /cZ]]
 
 - *Goal:* unbind ~send_to_background~ (~cZ~) or rebind to other keys
-** DONE Re-config systemd battery :SYSTEMD:
+** DONE Re-config systemd battery :@Systemd:
 CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 /Adjust battery and adapter behaviour, add:/
 - [x] Plugin behaviour
@@ -347,10 +347,10 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 - *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
 - *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
-** DONE Config nvim auto-pairs :NVIM:
+** DONE Config nvim auto-pairs :@Nvim:
 CLOSED: [2025-01-24 Fri 21:35]
 - *Goal(s):* config nvim-auto pairs hotkeys
-** DONE Tmux title :TMUX:
+** DONE Tmux title :@Tmux:
 CLOSED: [2025-04-07 Mon 16:06]
 - /Change tmux title to same as/ ~WMclass~
 - *Visit:* [[https://o.iii.st/exchange/superuser.com/questions/1098077/how-to-keep-terminal-window-title-in-sync-with-tmux-window][tmux window title]]
@@ -371,7 +371,7 @@ CLOSED: [2025-04-08 Tue 21:21] DEADLINE: <2025-04-08 Tue 22:00>
   #+BEGIN_confini
   ytdl-format = 'bestvideo[vcodec=h264][height<=720]+bestaudio/best[height<=720]' # Youtube format
   #+END_confini
-** DONE lazygit colors diff :NVIM:LAZYGIT:SHELL:
+** DONE lazygit colors diff :@Nvim:LAZYGIT:SHELL:
 CLOSED: [2025-04-17 Thu 04:40] DEADLINE: <2025-04-17 Thu>
 - /Different colors between/ ~standalone~ /and/ ~nvim~
 - *Solution:* [[https://github.com/LazyVim/LazyVim/discussions/4251][github issue]]
@@ -394,7 +394,7 @@ CLOSED: [2025-04-12 Sat 20:58]
 - /Which hardeware acceleration my system support to decode AV1 video file format/
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
   - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
-** DONE Qtile spawn keybind :QTILE:
+** DONE Qtile spawn keybind :@Qtile:
 CLOSED: [2025-04-23 Wed 23:01] DEADLINE: <2025-04-23 Wed 22:00>
 - /Create ~lazy.spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
   - Created ~lazy.spawn~ method
@@ -416,7 +416,7 @@ CLOSED: [2025-04-23 Wed 23:01] DEADLINE: <2025-04-23 Wed 22:00>
     # print(position_bind)
     return [position_bind]
     #+END_SRC
-** DONE Lazyvim disable plugins :NVIM:
+** DONE Lazyvim disable plugins :@Nvim:
 CLOSED: [2025-04-23 Wed 23:03]
 - /Disable unused plugins in ~lazyvim~/
   - *Visit:* [[https://www.lazyvim.org/configuration/plugins#-disabling-plugins][Disable plugins - Lazyvim]]
@@ -430,10 +430,10 @@ CLOSED: [2025-04-23 Wed 23:03]
 CLOSED: [2025-05-23 Fri 17:49]
 - *Goal:* /Dicover how github interprets orgmode/
 - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]
-** ABRT Config nvim-supertab and nvim-cmp :NVIM:
+** ABRT Config nvim-supertab and nvim-cmp :@Nvim:
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
-** DONE Integrate lazygit [100%] :GIT:
+** DONE Integrate lazygit [100%] :@Git:
 CLOSED: [2025-04-19 Sat 17:50]
 Replace ~vim-fugitive~ with ~lazygit~
 *** DONE Setup git
@@ -466,14 +466,14 @@ CLOSED: [2025-04-19 Sat 17:52]
 - *Visit:* 
   - [[https://github.com/danielmiessler/fabric][Fabric@github]]
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
-** DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
+** DONE [#B] Orgmode-nvim agenda custom commands :@Nvim:@Orgmode:
 CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
   
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
-** DONE Orgmode desktop notification :ORGMODE:
+** DONE Orgmode desktop notification :@Orgmode:
 CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
@@ -484,7 +484,7 @@ CLOSED: [2025-04-09 Wed 17:46]
   - [x] No support for av1 codec profile 0
   - [x] yt-dl [[file:~/.config/ytdl/conf][config]]
   - [x] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
-** ABRT Systemd config :SYSTEMD:
+** ABRT Systemd config :@Systemd:
 CLOSED: [2025-05-24 Sat 01:13]
 - *Goal:* /Config systemd/
 *** ABRT Setup systemd user-config
@@ -507,7 +507,7 @@ CLOSED: [2025-05-27 Tue 09:07] DEADLINE: <2025-05-27 Tue>
   DHCP=yes
   DNS=<DNS>
   #+END_SRC
-** DONE Improve kitty worflow :SHELL:KITTY:
+** DONE Improve kitty worflow :SHELL:@Kitty:
 CLOSED: [2025-06-01 Sun 09:42]
 :PROPERTIES:
 :ID:       90a03e2c-edb3-4afd-8252-462b6d912cbe
@@ -523,7 +523,7 @@ CLOSED: [2025-06-08 Sun 05:17]
 3. [X] /*Objective:*/ /Config feh vim-keybinds/
    - *Visit:* [[file:/usr/share/applications/feh.desktop][feh.desktop]]
 - *References:* [[https://github.com/derf/feh/blob/master/examples/keys][Feh vim keymap @Github]]
-** DONE Test github render [100%] :GITHUB:
+** DONE Test github render [100%] :@Github:
 CLOSED: [2025-06-12 Thu 05:01]
 - /*Objective:* Test github orgmode render capability for math equations/
 *** ABRT Render math equations :LATEX:
@@ -584,7 +584,7 @@ CLOSED: [2025-06-09 Mon 23:53]
 - *Reference:*
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
-** ABRT Qutebrowser edit-text :QUTEBROWSER:
+** ABRT Qutebrowser edit-text :@Qutebrowser:
 CLOSED: [2025-06-14 Sat 21:23] DEADLINE: <2025-06-14 Sat 21:21>
 :LOGBOOK:
 CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
@@ -593,7 +593,7 @@ CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
 - *Reference:*
   - [[qute://help/settings.html#bindings.commands][Qutebrowser binding commend documentation @Qute]]
   - [[https://l.opnxng.com/r/qutebrowser/comments/jdu8co/use_case_of_open_editor/][Edit-txt does not work parameter @Reddit]]
-** ABRT Treesitter highlight :NVIM:
+** ABRT Treesitter highlight :@Nvim:
 CLOSED: [2025-06-16 Mon 01:36]
 :PROPERTIES:
 :ID:       8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
@@ -621,10 +621,10 @@ CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 - *References:*
   - [[https://l.opnxng.com/r/linuxmint/comments/pcmpwh/cool_icon_packs/][Icon packs suggestions @Reddit]]
   - [[https://github.com/gusbemacbe/suru-plus-aspromauros][Suru-plus icon pack @Github]]
-** DONE Migrate orgmode options to config :ORGMODE:
+** DONE Migrate orgmode options to config :@Orgmode:
 CLOSED: [2025-06-15 Sun 15:27]
 - *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-** DONE Clean-up capture :HOUSEKEEPING:
+** DONE Clean-up capture :_Cleanup:
 CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
 - *Objective:* /Clean up/ [[file:../capture.org][capture.org]]
 ** DONE Connect to Samba drive :LINUX:
@@ -634,10 +634,10 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [x] Remove aliases
 - [x] Update [[file:/usr/local/bin/smb-mount][smb-mount]]
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
-** DONE Learn nvim-orgmode_capture :NVIM:
+** DONE Learn nvim-orgmode_capture :@Nvim:
 CLOSED: [2025-05-23 Fri 01:43]
 - *Objective:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
-** ABRT Orgzly nerdfont :ORGMODE:
+** ABRT Orgzly nerdfont :@Orgmode:
 CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 :PROPERTIES:
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
@@ -660,7 +660,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 CLOSED: [2025-07-14 Mon 23:51]
 - *OBJECTIVE:* Record terminal session for demonstrations
 - *Visit:* [[https://github.com/asciinema/asciinema][Terminal recording asciinema @Github]]
-** PRTL Repo Root Dir :PACKAGES:GIT:ORGZlY:PLATFORM:GITHUB:
+** PRTL Repo Root Dir :PACKAGES:@Git:ORGZlY:PLATFORM:@Github:
 DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Issue:* Conflict between *system* and *github* relative path detection e.g running =xdg= in =pwd= return file not found

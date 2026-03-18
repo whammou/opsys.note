@@ -6,6 +6,6 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-#+FILETAGS: :%Tracker:meta:WAYLAND:screensaver:
+#+FILETAGS: :typTracker:meta:@Wayland:screensaver:
 #+HTML:<details>
 

@@ -3,19 +3,19 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: System Planned Tasks
 
-* List of Planned Tasks :%Task:_Planned:OPSYS:meta:
-** PEND Install Windows 11 :SERVER:
+* List of Planned Tasks :typTask:catPlanned:OPSYS:meta:
+** PEND Install Windows 11 :@Server:
 - *OBJECTIVE:* Install =tiny11= on server
 - *Reference:* [[https://github.com/ntdevlabs/tiny11builder#instructions][Tiny 11 Script @Github]]
 ** DONE Connect Windows Samba :SAMBA:WINDOWS:DRIVE:
 CLOSED: [2025-10-25 Sat 03:27] DEADLINE: <2025-10-25 Sat>
 - *OBJECTIVE:* Mount Shared drive on Windows
 - *Reference:* [[https://www.linuxfordevices.com/tutorials/setup-and-mount-samba-share-on-windows][Mount Samba on Windows @Redhat]]
-** DONE Notifications Sync :NOTIFICATION:notificationsync:
+** DONE Notifications Sync :@Notification:NotificationSync:
 CLOSED: [2025-11-09 Sun 21:34]
 - *OBJECTIVE:* Sync notifications across platforms
 - *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
-** FDBK Debugging System High Memory Usage :MEMORY:
+** FDBK Debugging System High Memory Usage :_Memory:
 :PROPERTIES:
 :ID:       42edd3e3-33eb-4cb3-8038-46eabec2a86c
 :END:
@@ -27,11 +27,11 @@ CLOSED: [2025-11-09 Sun 21:34]
 :END:
 #+html:</details>
 - *OBJECTIVE:* High memory usage after =hibernation=
-** DONE Categorize Notifications :NOTIFICATION:notificationsync:
+** DONE Categorize Notifications :@Notification:NotificationSync:
 CLOSED: [2026-03-17 Tue 04:34]
 - *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
 - *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
-** PRTL Get Notify When Systemd Service Failed :NOTIFICATION:SYSTEMD:systemmanage:
+** PRTL Get Notify When Systemd Service Failed :@Notification:@Systemd:systemmanage:
 CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
@@ -42,7 +42,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 #+html:</details>
 - *OBJECTIVE:* Get =notification= on systemd =service= failed
 - *Reference:* [[https://www.baeldung.com/linux/systemd-service-fail-notification][Systemd Service Fail Notification @Blog]]
-** PEND Limiting Process Memory :MEMORY:
+** PEND Limiting Process Memory :_Memory:
 - *OBJECTIVE:* Limiting process memory usage on =archlinux=
 - *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=248765][Limiting process ram and zswap usage @Archlinux.org]]
 ** PEND Update Config Files :configfile:
@@ -51,24 +51,24 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 - *OBJECTIVE:* Restructure =script= directory
   + Follows =script= per =package=
   + Modularize =script= repo
-** TODO Grouping User Services :SYSTEMD:SERVICE:
+** TODO Grouping User Services :@Systemd:_Service:
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services
 CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
 - *OBJECTIVE:* Convert non-essential system services to user mode
-** TODO Containerize Process Services :PODMAN:SYSTEMD:
+** TODO Containerize Process Services :PODMAN:@Systemd:
 - *OBJECTIVE:* Containerize individual process in =systemd=
 - *Check-out:*[[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
 ** DONE Advanced Sleep Mode
 CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
 - *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
 - *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
-** DONE Integrate Text Browser :BROWSER:NVIM:textbrowser:
+** DONE Integrate Text Browser :BROWSER:@Nvim:textbrowser:
 CLOSED: [2026-01-15 Thu 23:35] DEADLINE: <2026-01-15 Thu>
 - *OBJECTIVE:* Integrate /text-base/ browser to =editor=
 - *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
-** DONE Disable Devices on Wayland :WAYLAND:DEVICE:
+** DONE Disable Devices on Wayland :@Wayland:DEVICE:
 CLOSED: [2026-01-07 Wed 11:33] DEADLINE: <2026-01-07 Wed>
 :PROPERTIES:
 :ID:       345b5c3b-efd6-4434-bbda-f4a94f546806
@@ -77,7 +77,7 @@ CLOSED: [2026-01-07 Wed 11:33] DEADLINE: <2026-01-07 Wed>
 - *Reference:*
   + [[https://bendun.cc/archive/wayland-keyboard.html][Disable Wayland Keyboard @Blog]]
   + [[https://github.com/tahseenjamal/disable-native-keyboard][Disable native touchpad @Github]]
-** DONE Switching To Wayland :WAYLAND:
+** DONE Switching To Wayland :@Wayland:
 CLOSED: [2026-01-12 Mon 19:46] DEADLINE: <2026-01-12 Mon>
 - *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
 - *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
@@ -96,7 +96,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
   +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
   +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
 - *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
-** EXPL [#B] Homelab Remote Access :HOMELAB:Security:
+** EXPL [#B] Homelab Remote Access :@Homelab:Security:
 :PROPERTIES:
 :ID:       d6b438dd-c2f9-4e21-8f0a-abd541f7154e
 :END:
@@ -108,7 +108,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 *** Access Via VPN :VPN:
 - *OBJECTIVE:*  Connect to =home-network= via VPN
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
-** TODO Implement Notification History View :DUNST:FZF:NOTIFICATION:
+** TODO Implement Notification History View :@Dunst:FZF:@Notification:
 :PROPERTIES:
 :ID: 2b4e96bb-2e2d-4099-821e-69e8cff914bb
 :END:

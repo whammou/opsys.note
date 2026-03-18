@@ -2,11 +2,11 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: System Incidental Tasks
 
-* List of Incidental Tasks :%Task:_Incidental:OPSYS:meta:
+* List of Incidental Tasks :typTask:catIncidental:OPSYS:meta:
 ** PEND Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
-** PEND Automatic git sync :ORGMODE:
+** PEND Automatic git sync :@Orgmode:
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
 ** PEND Control nvim instances
@@ -35,7 +35,7 @@ CLOSED: [2025-10-08 Wed 04:22]
   #+END_SRC
 -----
 - *Reference:* [[https://stackoverflow.com/a/34519826/25585364][Check if font is monospaced @Overflow]]
-** DONE Get =Screencast= to Work under Wayland :WAYLAND:Bug:
+** DONE Get =Screencast= to Work under Wayland :@Wayland:Bug:
 DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 21:25]
 - *OBJECTIVE:*  Get webrtc =screencast= to work under wayland
 - *Reference:*  [[https://github.com/qtile/qtile/issues/5213][Qtile Unable to Share Screne Under Wayland @Github-issue]]
@@ -50,7 +50,7 @@ CLOSED: [2026-01-16 Fri 21:25]
 #+html:</details>
 - *OBJECTIVE:*  Troubleshoot =xdg-desktop-portal-wlr= start ungracefully
 - [[https://wiki.archlinux.org/title/XDG_Desktop_Portal#portal-does-not-start][Trouble shoot portal does not start @Archwiki]]
-**** DONE Config Systemd User Session Variable :SYSTEMD:
+**** DONE Config Systemd User Session Variable :@Systemd:
 CLOSED: [2026-01-16 Fri 21:25]
 - *OBJECTIVE:*  How to add new to /environment variable/ to current user session
 - *Reference:*  [[https://wiki.archlinux.org/title/Systemd/User#Environment_variables][Systemd User Session Environment Variables @Archwiki]]
@@ -59,7 +59,7 @@ CLOSED: [2026-01-16 Fri 21:25]
     systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
     dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=compositor_name
     #+END_SRC
-** DONE Wayland Screen Timeout :WAYLAND:ARCHLINUX:
+** DONE Wayland Screen Timeout :@Wayland:ARCHLINUX:
 DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
 :PROPERTIES:
 :ID: 42f1f2f3-7ced-4803-b2af-74714bc55dc1
@@ -83,7 +83,7 @@ DEADLINE: <2026-02-05 Thu> CLOSED: [2026-02-05 Thu 23:34]
 :ID: 7912a304-83dd-4c62-8d1a-f02a6184318c
 :END:
 - *OBJECTIVE:*  Add =tlp= and some other packages to a =sudoer=
-** PEND Make Home Server Headless :HOMELAB:
+** PEND Make Home Server Headless :@Homelab:
 :PROPERTIES:
 :ID: 8d3ada12-a93e-4e02-a84f-b013f8be2de7
 :END:
@@ -101,7 +101,7 @@ CLOSED: [2026-03-17 Tue 04:34]
 :END:
 - *OBJECTIVE:*  Manage system privilege with =sudoer=
 - *Reference:*  [[https://superuser.com/questions/636283/how-to-allow-user-to-preserve-environment-with-sudo][Allow user to preserve the environment @Overflow]]
-** DONE [#A] Include Systemd Environment :SYSTEMD:
+** DONE [#A] Include Systemd Environment :@Systemd:
 DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-07 Sat 14:47]
 :PROPERTIES:
 :ID: 209832e5-6531-4566-a5bf-934f3261c975
@@ -118,14 +118,14 @@ DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-07 Sat 14:47]
   + [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
   + [[https://askubuntu.com/questions/1014480/how-do-i-add-bin-to-path-for-a-systemd-service][Add custom bin to systemd service @Overflow]]
   + [[https://askubuntu.com/a/1014501][Add PATH from bash to a systemd service @Overflow]]
-** DONE Blanking Screen on Wayland :WAYLAND:SWAYIDLE:screensaver:
+** DONE Blanking Screen on Wayland :@Wayland:SWAYIDLE:screensaver:
 DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :PROPERTIES:
 :ID: a903e09e-7243-46e4-82f7-96db5e802d85
 :END:
 - *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
 - *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Tracker]]
-** DONE Change Username and Home Dir :STRUCTURE:
+** DONE Change Username and Home Dir :_Structure:
 DEADLINE: <2026-03-09 Mon> CLOSED: [2026-03-11 Wed 16:30]
 :PROPERTIES:
 :ID: 7b41b2a4-9073-4465-916f-6b0783d641f3

@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :%Doc:@Project:OPSYS:LINUX:
+#+FILETAGS: :typDoc:@Project:OPSYS:LINUX:
 #+HTML:<details>
 
-* DONE Application Open Method [100%] :%Doc:meta:OPSYS:LINUX:
+* DONE Application Open Method [100%] :typDoc:meta:OPSYS:LINUX:
 CLOSED: [2025-05-24 Sat 01:20]
 :PROPERTIES:
 :ID:       0a3f8238-97cd-4aa2-a8dc-6ecea163efac
@@ -18,7 +18,7 @@ CLOSED: [2025-05-24 Sat 01:20]
 #+HTML:</details>
 - [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~
   - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
-** DONE Open with handlr :HANDLR:
+** DONE Open with handlr :@Handlr:
 CLOSED: [2025-04-22 Tue 03:09]
 :PROPERTIES:
 :ID:       670f557e-c6f4-4392-aa0c-be18d7ae49a9
@@ -29,7 +29,7 @@ CLOSED: [2025-04-22 Tue 03:09]
 CLOSED: [2025-04-22 Tue 03:09]
 - /Open files in mime types using regular expression/
   - *Project-link:* [[https://xyne.dev/projects/mimeo/][mineo documentation]]
-** DONE Integrate mpv youtube link :MPV:HANDLR:
+** DONE Integrate mpv youtube link :MPV:@Handlr:
 CLOSED: [2025-04-22 Tue 03:08]
 :PROPERTIES:
 :ID:       20071104-5e85-4d24-82a5-cf897074ac96
