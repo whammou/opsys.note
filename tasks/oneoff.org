@@ -113,14 +113,14 @@ CLOSED: [2025-06-04 Wed 09:07]
   - Config title to look the same: =<content> - <appname>=
 ** PEND Pacman lock-file :PACMAN:BACKUP:
 - *OBJECTIVE:* /Create pacman lock-file/
-** PEND Org2ical [0%] :DATA:@Orgmode:
+** PEND Org2ical [0%] :_Data:@Orgmode:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
-*** PEND Sync orgmode to CalDav [0%] :KHALORG:
+*** PEND Sync orgmode to CalDav [0%] :@Khalorg:
 - *OBJECTIVE:* /Successfully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
-**** PEND Config vdirsyncer :VDIRSYNCER:
+**** PEND Config vdirsyncer :@Vdirsyncer:
 - *OBJECTIVE:* /Config vdirsyncer to work sync calendar to google cal/
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** PEND Orgmode quicknote script :@Orgmode:
@@ -163,7 +163,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 *** Org-ruby document config [0/1]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
-** PEND Spreadsheet data visualize :DATA:typDoc:
+** PEND Spreadsheet data visualize :_Data:typDoc:
 :PROPERTIES:
 :CUSTOM_ID: visidata
 :END:
