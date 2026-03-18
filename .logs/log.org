@@ -32,7 +32,7 @@ CLOSED: [2024-10-07 Mon 02:39] SCHEDULED: <2024-10-05 Sat 00:00>
 - *Goal(s):* Successfully solve merge conflicts and merge git-trunk to git-main
 *** Write README page
 - *Goal(s):* Write a comprehensive README for [[https://github.com/whammou/notes][notes@github]]
-** DONE [#B] nvim-fzf :FZF:
+** DONE [#B] nvim-fzf :@Fzf:
 CLOSED: [2024-09-08 Sun 04:15]
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-09-11 Wed 04:59
@@ -100,7 +100,7 @@ Setting ~bat~ as ~man~ output pager, run the following commands:
 ~set -U MANPAGER "sh -c 'col -bx | bat -l man -p'"~
 Might also need to run:
 ~set -U MANROFFOPT "-c"~
-*** Config ~fzf~ theme :FZF:
+*** Config ~fzf~ theme :@Fzf:
 Modify [[https://github.com/catppuccin/fzf][catpuccin-fzf]] theme
 
 #+NAME: catpuccin-fzf theme

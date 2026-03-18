@@ -57,7 +57,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 *** DONE Convert to User Services
 CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
 - *OBJECTIVE:* Convert non-essential system services to user mode
-** TODO Containerize Process Services :PODMAN:@Systemd:
+** TODO Containerize Process Services :@Podman:@Systemd:
 - *OBJECTIVE:* Containerize individual process in =systemd=
 - *Check-out:*[[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
 ** DONE Advanced Sleep Mode
@@ -108,7 +108,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 *** Access Via VPN :VPN:
 - *OBJECTIVE:*  Connect to =home-network= via VPN
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
-** TODO Implement Notification History View :@Dunst:FZF:@Notification:
+** TODO Implement Notification History View :@Dunst:@Fzf:@Notification:
 :PROPERTIES:
 :ID: 2b4e96bb-2e2d-4099-821e-69e8cff914bb
 :END:
