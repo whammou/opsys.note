@@ -6,10 +6,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
-#+FILETAGS: :%Doc:#Meta:MANAGEMENT:longrunningprocess:
+#+FILETAGS: :%Doc:meta:MANAGEMENT:longrunningprocess:
 #+HTML:<details>
 
-* Managing Long Running Process :%Doc:#Meta:MANAGEMENT:longrunningprocess:
+* Managing Long Running Process :%Doc:meta:MANAGEMENT:longrunningprocess:
 #+HTML:</details>
 - *Long-running Process -* is a program designed to run continuously in the background or an extended periods /hours, days, weeks/
 - *Managing LRP -* Is an act of keeping the *LRP* *LRPs* operate smoothly over a period of times

@@ -3,7 +3,7 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: System Oneoff Tasks
 
-* List of Oneoff Tasks :%Task:_Oneoff:@Opsys:#Meta:
+* List of Oneoff Tasks :%Task:_Oneoff:OPSYS:meta:
 ** PEND Open-source application :LINUX:
 - /List of FOSS AI/
 ** PEND Qtile ssh-tmux method :LINUX:
@@ -149,7 +149,7 @@ CLOSED: [2025-10-15 Wed 22:13]
 #+html:</details>
 - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
 - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-** PRTL Prettify orgmode documents [100%] :@Packages:ORGMODE:GITHUB:
+** PRTL Prettify orgmode documents [100%] :PACKAGES:ORGMODE:GITHUB:
 CLOSED: [2025-07-12 Sat 07:41]
 - *OBJECTIVE:* Prettify my org documents
 - *Reference:* [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
