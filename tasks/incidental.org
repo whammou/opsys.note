@@ -124,14 +124,14 @@ DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :ID: a903e09e-7243-46e4-82f7-96db5e802d85
 :END:
 - *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
-- *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Tracker]]
+- *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Issue]]
 ** DONE Change Username and Home Dir :_Structure:
 DEADLINE: <2026-03-09 Mon> CLOSED: [2026-03-11 Wed 16:30]
 :PROPERTIES:
 :ID: 7b41b2a4-9073-4465-916f-6b0783d641f3
 :END:
 - *OBJECTIVE:*  Change the =username= of current user along with the =home= directory
-- *Tracker:*    [[id:9fdb721a-3639-4c5a-bdb6-a69e518a52dc][Seamless File Sync @Tracker]]
+- *Tracker:*    [[id:9fdb721a-3639-4c5a-bdb6-a69e518a52dc][Seamless File Sync @Issue]]
 - *Reference:*
   + [[https://wiki.archlinux.org/title/Users_and_groups#Change_a_user's_login_name_or_home_directory][Change a user's login name or home directory @Archwiki]]
   + [[https://www.reddit.com/r/archlinux/comments/1bnqxwh/how_to_change_the_name_of_the_my_home_directory/][Change Home Directory @Reddit]]
@@ -142,7 +142,7 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 :END:
 - *OBJECTIVE:*  Fix =write error: quota exceeded /tmp= error on archlinux
 - *Reference:*  [[https://superuser.com/questions/959175/disk-quota-exceeded-when-writing-to-tmp-but-plenty-of-space-linux][Quota exceeded write error archlinux @Overflow]]
-- *Tracker:*   [[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][Debug Quota Exceed Write Error @Tracker]]
+- *Tracker:*   [[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][Debug Quota Exceed Write Error @Issue]]
 ** TODO Fix Device Failed to Sleep :SystemError:
 :PROPERTIES:
 :ID: 12d23d98-94b6-42ea-a36d-66d2e5a42bfb
