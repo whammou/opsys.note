@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID: c95113eb-b5fd-41fe-a657-1eabb2b8e3c3
+:END:
+
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
+* Enhancements List :typDev:catEnhancement:meta:OPSYS:
+** CLSD Notification History Viewer :@Notification:
+CLOSED: [2026-03-15 Sun 08:47]
+:PROPERTIES:
+:ID: 896857df-21d8-4f2d-ae75-708173d5f507
+:END:
+View system notifications with =fzf= and =dunst=
+*** Retrieve History Data
+Using =dunstctl= to retrieve history data
+#+name:get_history
+#+BEGIN_SRC sh :tangle yes :noweb yes
+dunstctl history
+#+END_SRC
+*** FZF Viewer with Clipboard Copy
+Format: ~$TITLE - $SUMMARY~ and copy to clipboard via fzf
+#+name:fzf_notifications
+#+BEGIN_SRC sh :tangle yes :noweb yes
+#!/usr/bin/env bash
+# FZF-based notification viewer with clipboard copy
+# Format: $TITLE - $SUMMARY
+
+# Get notification history as JSON
+history_json=$(dunstctl history)
+
+# Parse JSON and format for fzf
+# Each line: "TITLE - SUMMARY"
+echo "$history_json" | jq -r '
+  .data[] | 
+  .[] | 
+  select(.summary != null) |
+  "\(.summary.data) - \(.body.data // "")"
+' | awk 'NF > 0' | fzf --prompt="Select notification: " \
+  --preview='echo "Selected: {}"' \
+  --bind='enter:execute(echo "{}" | wl-copy)+abort' \
+  --header='Press Enter to copy to clipboard'
+#+END_SRC
+

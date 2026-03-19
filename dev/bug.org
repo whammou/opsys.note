@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID: 08d08599-c755-4619-b49f-d694eebd7ba2
+:END:
+
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
+* Bugs List :typDev:catBug:meta:OPSYS:
+** CLSD BUG! Quota Exceed Write Error
+CLOSED: [2026-03-15 Sun 08:18]
+:PROPERTIES:
+:ID: a4b35c13-cdc7-459c-b4f3-0b92273dd284
+:END:
+
+/System freeze and refuse to spawn new tasks with error:/ =write error: quota exceeded /tmp= \\
+The issue is likely:
+1. *Pending writes* - rclone is try to to flush writes to cache before unmounting
+2. *Cache full* - The VFS cache (=/tmp/rclone/$ACCOUNT=) may have git the 30G limit
+[[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][BUG! Quota Exceed Write Error @Bug]]
