@@ -148,3 +148,8 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 :ID: 12d23d98-94b6-42ea-a36d-66d2e5a42bfb
 :END:
 - *OBJECTIVE:*  Fix error when device sometimes failed to sleep
+** TODO Service Fallbacks :_Server:
+:PROPERTIES:
+:ID: 66fdb731-27e9-41be-b20c-917250e6e6f9
+:END:
+- *OBJECTIVE:*  Fall back to default workflow when server is down
