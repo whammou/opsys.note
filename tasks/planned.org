@@ -114,4 +114,8 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 - *OBJECTIVE:*  Using =dunstctl history= to export notification history view and select it with =fzf=
 - *Reference:*  [[shell:dunstctl history][Dunst notification History @Shell]]
 - *Tracker:*    [[id:896857df-21d8-4f2d-ae75-708173d5f507][Notification History Viewer @Issue]]
-  
+** TODO Desec Solution for Homelab :@Server:@Desec:
+:PROPERTIES:
+:ID: 7fa9748c-a979-4051-b3dd-e9400da786d0
+:END:
+- *OBJECTIVE:*  Free DNS solution for homelab server DNS
