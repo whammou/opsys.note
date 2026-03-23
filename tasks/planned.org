@@ -119,3 +119,5 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 :ID: 7fa9748c-a979-4051-b3dd-e9400da786d0
 :END:
 - *OBJECTIVE:*  Free DNS solution for homelab server DNS
+- *Sub-Task:*   [[id:a45e7440-e6f0-4b47-aa6c-3ed97673cf5f][Investigate Desec @Oneoff]]
+
