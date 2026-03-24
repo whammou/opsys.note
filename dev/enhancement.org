@@ -46,3 +46,21 @@ echo "$history_json" | jq -r '
 :ID: d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e
 :END:
 /Sending a notification on systemd service failure/
+-----
+
+Achieving by:
+- Creating a service =notify-on-failure@= that send notification via =notify-send=
+- Run the service =notify-on-failure@%n= on main service failure
+  + =%n= parse the main service name
+  + =%i= in notification service parse whole main service name as variable
+- Send notification with failed service name
+
+#+name: notifi-on-failure@.service
+#+begin_src systemd
+[Unit]
+Description=Notify on service failure - receives failed unit name via instance
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/dunstify -u critical "Systemd" "Service Failed: Unit '%i' has failed — check logs for details"
+#+end_src
