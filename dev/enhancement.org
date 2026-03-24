@@ -46,8 +46,9 @@ CLOSED: [2026-03-24 Tue 13:46]
 :PROPERTIES:
 :ID: d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e
 :END:
+#+begin_quote markdown
 /Sending a notification on systemd service failure/
------
+#+end_quote
 
 Achieving by:
 - Creating a service =notify-on-failure@= that send notification via =notify-send=
