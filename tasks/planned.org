@@ -121,8 +121,8 @@ CLOSED: [2026-03-24 Tue 12:23]
 :END:
 - *OBJECTIVE:*  Free DNS solution for homelab server DNS
 - *Sub-Task:*   [[id:a45e7440-e6f0-4b47-aa6c-3ed97673cf5f][Investigate Desec @Oneoff]]
-** TODO Systemd Service Notification :@Systemd:
-DEADLINE: <2026-03-24 Tue>
+** DONE Systemd Service Notification :@Systemd:
+DEADLINE: <2026-03-24 Tue> CLOSED: [2026-03-24 Tue 13:54]
 :PROPERTIES:
 :ID: 6e0bd8d8-2678-49e6-8d39-322171c0e85d
 :END:
