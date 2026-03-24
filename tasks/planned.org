@@ -107,7 +107,8 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 *** Access Via VPN :VPN:
 - *OBJECTIVE:*  Connect to =home-network= via VPN
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
-** TODO Implement Notification History View :@Dunst:@Fzf:@Notification:
+** DONE Implement Notification History View :@Dunst:@Fzf:@Notification:
+CLOSED: [2026-03-24 Tue 12:23]
 :PROPERTIES:
 :ID: 2b4e96bb-2e2d-4099-821e-69e8cff914bb
 :END:
@@ -120,4 +121,11 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
 :END:
 - *OBJECTIVE:*  Free DNS solution for homelab server DNS
 - *Sub-Task:*   [[id:a45e7440-e6f0-4b47-aa6c-3ed97673cf5f][Investigate Desec @Oneoff]]
-
+** TODO Systemd Service Notification :@Systemd:
+DEADLINE: <2026-03-24 Tue>
+:PROPERTIES:
+:ID: 6e0bd8d8-2678-49e6-8d39-322171c0e85d
+:END:
+- *OBJECTIVE:*  Send notification on systemd =service= failure
+- *Issue:*      [[id:d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e][Systemd Service Failure Notification @Issue]]
+  
