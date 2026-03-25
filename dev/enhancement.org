@@ -74,6 +74,14 @@ ExecStart=/usr/bin/dunstify -u critical "Systemd" "Service Failed: Unit '%i' has
 #+begin_quote markdown
 There several events that is not in the systemd built-in system /e.g. qtile resume session/. Create custom =target= or =services= for these event. Run services on these event
 #+end_quote
+
+#+name: Goal note
+#+begin_quote markdown
+[!NOTE]
+Systemd already has a sleep.target, however, that's a system-level target, and your user-level units can't rely on it. The one included in this package should not conflict, but rather compliments that one
+#+end_quote
+
+/Reference:/  [[https://sr.ht/~whynothugo/systemd-lock-handler/][Systemd Lock Handler @SourceHut]]
 *** Qtile Session Resume Target :subQtile:
 :PROPERTIES:
 :ID: e4145752-5fe2-430a-9528-00f502e7c203
