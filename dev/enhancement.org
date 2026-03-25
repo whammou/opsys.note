@@ -66,3 +66,21 @@ Description=Notify on service failure - receives failed unit name via instance
 Type=oneshot
 ExecStart=/usr/bin/dunstify -u critical "Systemd" "Service Failed: Unit '%i' has failed — check logs for details"
 #+end_src
+** OPEN !ENHANCEMENT Systemd Custom Event Hooks :subSystemd:
+:PROPERTIES:
+:ID: f4db4075-4741-45d8-bcc0-ff9df7f43dbf
+:END:
+#+name: Description
+#+begin_quote markdown
+There several events that is not in the systemd built-in system /e.g. qtile resume session/. Create custom =target= or =services= for these event. Run services on these event
+#+end_quote
+*** Qtile Session Resume Target :subQtile:
+:PROPERTIES:
+:ID: e4145752-5fe2-430a-9528-00f502e7c203
+:END:
+#+name: Description
+#+begin_quote markdown
+Qtile lock session on user session logged out. There are currently no hook for this case thus services sometimes fire incorrectly. Create a custom hook on this event
+#+end_quote
+
+/Delegate:/ [[id:68f4414f-404b-45a0-b846-cade3d4ced48][!IMPLEMENT Qtile Custom and Built-in Hooks]]
