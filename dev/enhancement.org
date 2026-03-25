@@ -91,4 +91,17 @@ Systemd already has a sleep.target, however, that's a system-level target, and y
 Qtile lock session on user session logged out. There are currently no hook for this case thus services sometimes fire incorrectly. Create a custom hook on this event
 #+end_quote
 
+- Called when the user session in unlocked
+- Currently only available on =wayland=
+
+#+name: subscribe.unlocked()
+#+begin_src python
+from libqtile import hook, qtile
+
+@hook.subscribe.unlocked
+def play_resume_sound():
+    qtile.spawn("ffplay resume.wav")
+#+end_src
+
 /Delegate:/ [[id:68f4414f-404b-45a0-b846-cade3d4ced48][!IMPLEMENT Qtile Custom and Built-in Hooks]]
+/Reference:/  [[https://docs.qtile.org/en/latest/manual/ref/hooks.html#libqtile.hook.subscribe.unlocked][Qtile Built-in hooks @Doc]]
