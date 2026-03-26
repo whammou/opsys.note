@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:@Project:OPSYS:ANDROID:LINUX:SYNC:
+#+FILETAGS: :typDoc:subProject:OPSYS:ANDROID:LINUX:SYNC:
 #+HTML:<details>
 
 * PRTL Syncing Android and Linux :typDoc:meta:OPSYS:ANDROID:LINUX:SYNC:

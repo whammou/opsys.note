@@ -25,7 +25,7 @@ CLOSED: [2025-11-29 Sat 15:21]
 -----
 - *Containerization -* Running the =process= in a container is a great way to isolate it and manage it =dependencies=. Tools such as =docker=
   + =dependencies= are a set of packages required by the process the ensure its functionality
-** DONE Docker vs Systemd :@Systemd:DOCKER:
+** DONE Docker vs Systemd :subSystemd:DOCKER:
 CLOSED: [2025-11-29 Sat 15:21]
 - *Ease of Setup:*
   + =docker= offers a more streamlined setup wit fewer dependencies since it isolated the application within a =container=

@@ -5,7 +5,7 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
 * Enhancements List :typDev:catEnhancement:meta:OPSYS:
-** CLSD Notification History Viewer :@Notification:
+** CLSD Notification History Viewer :subNotification:
 CLOSED: [2026-03-15 Sun 08:47]
 :PROPERTIES:
 :ID: 896857df-21d8-4f2d-ae75-708173d5f507
@@ -41,7 +41,7 @@ echo "$history_json" | jq -r '
   --bind='enter:execute(echo "{}" | wl-copy)+abort' \
   --header='Press Enter to copy to clipboard'
 #+END_SRC
-** DONE Systemd Service Failure Notification :@Systemd:
+** DONE Systemd Service Failure Notification :subSystemd:
 CLOSED: [2026-03-24 Tue 13:46]
 :PROPERTIES:
 :ID: d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e

@@ -5,14 +5,14 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:@Project:OPSYS:REMOTE:DRIVE:
+#+FILETAGS: :typDoc:subProject:OPSYS:REMOTE:DRIVE:
 #+HTML:<details>
 
 * DONE Cloud Drives :typDoc:meta:OPSYS:REMOTE:DRIVE:
 CLOSED: [2025-06-10 Tue 01:10]
 #+HTML:</details>
 - *OBJECTIVE:* /Manage data in cloud drives/
-** PRTL Config rclone [100%] :@Rclone:
+** PRTL Config rclone [100%] :subRclone:
 CLOSED: [2025-06-01 Sun 23:02]
 - *OBJECTIVE:* /Config rclone to sync with google-drive/
   - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
@@ -21,7 +21,7 @@ CLOSED: [2025-06-01 Sun 23:02]
 CLOSED: [2025-06-01 Sun 22:46]
 - *OBJECTIVE:* /Obtain gdrive API for rclone/
 - *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
-** DONE Quickly toggle drive :@Rofi:
+** DONE Quickly toggle drive :subRofi:
 CLOSED: [2025-06-10 Tue 01:10]
 - *OBJECTIVE:* /Write script to quickly toggle drive/
 - *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]

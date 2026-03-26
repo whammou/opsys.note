@@ -44,7 +44,7 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
   
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
-** OUTL Notification Forwarding :@Notification:
+** OUTL Notification Forwarding :subNotification:
 /How to forward notification between machines/
 - *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
 - *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
@@ -54,7 +54,7 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
 :END:
 /How to run script on network change/ \\
 /*Check-out:*/ [[https://unix.stackexchange.com/a/725928][Restart Service on Wifi Change @Overflow]]
-** OUTL Systemd power supply detection :@Systemd:
+** OUTL Systemd power supply detection :subSystemd:
 - *OBJECTIVE:* Adding power supply detection to systemd via udev rules
 - *Reference:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
 ** OUTL Advanced Suspend Mode :PERFORMANCE:
@@ -75,10 +75,10 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
     #+END_SRC
 *** Suspend-then-hibernate
 To change =timeout= of =hibernation= when suspending
-** OUTL Podman Quadlet :@Podman:containerization:
+** OUTL Podman Quadlet :subPodman:containerization:
 /What is =podman= and =quadlet= and how they are used to with =systemd=/
 /Check-out:/ [[https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet][How to run podman container using quadlet @Blog]]
-** OUTL Switching to Wayland Guide :@Wayland:GUIDE:
+** OUTL Switching to Wayland Guide :subWayland:GUIDE:
 :PROPERTIES:
 :ID:       d398a743-eedb-4300-84e8-beab397e4b49
 :END:
@@ -143,7 +143,7 @@ To install =fail2ban= on archlinux run:
 #+BEGIN_SRC sh
 pacman -S fail2ban # or paru for git version
 #+END_SRC
-**** Configuring Fail2ban for SSH :@Ssh:
+**** Configuring Fail2ban for SSH :subSsh:
 Once installed the configuration file is located at [[file:/etc/fail2ban/jail.conf]] \\
 
 However the best practice is to config in a =.local= file /- to avoid merging problem when upgrading/
@@ -165,7 +165,7 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
     #+BEGIN_SRC sh
     systemctl start fail2ban # or enable to start by default
     #+END_SRC
-** DOIN Homelab Remote Access Via VPN :VPN:WIREGUARD:@Homelab:
+** DOIN Homelab Remote Access Via VPN :VPN:WIREGUARD:subHomelab:
 DEADLINE: <2026-02-09 Mon>
 :PROPERTIES:
 :ID:       4a0867d1-313e-4131-82f8-d1ebe07a1814
@@ -306,6 +306,6 @@ A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that disti
 #+html:</details>
 *** OUTL Network Terminologies
 -  Gateway Peer
-** OUTL Screen-saver and Screen-lock :@Wayland:MONITOR:
+** OUTL Screen-saver and Screen-lock :subWayland:MONITOR:
 /Lock and turn off screen after X value/ \\
 /Visit:/  [[id:42f1f2f3-7ced-4803-b2af-74714bc55dc1][Wayland Screen Timeout @Org]]

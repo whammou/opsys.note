@@ -6,13 +6,13 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:@Project:OPSYS:LINUX:NETWORK:
+#+FILETAGS: :typDoc:subProject:OPSYS:LINUX:NETWORK:
 #+HTML:<details>
 
 * PEND System Proxies and DNS :typDoc:meta:OPSYS:LINUX:NETWORK:
 #+HTML:</details>
 Access blocked websites via ~proxy~ or ~DNS~
-** DONE Reverse Tunneling :PROTOCOL:@Ssh:reversetunneling:
+** DONE Reverse Tunneling :PROTOCOL:subSsh:reversetunneling:
 DEADLINE: <2025-11-27 Thu> CLOSED: [2025-11-27 Thu 22:28]
 - Summary:
   + Reverse =ssh-tunneling= is useful when you need to connect to a remote computer that is hard to reach dir to =firewall= or complex network configurations

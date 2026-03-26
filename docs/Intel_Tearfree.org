@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:@Project:OPSYS:LINUX:INTEL:
+#+FILETAGS: :typDoc:subProject:OPSYS:LINUX:INTEL:
 #+HTML:<details>
 
 * DONE Linux Screen Tear [100%] :typDoc:meta:OPSYS:LINUX:INTEL:
@@ -25,12 +25,12 @@ CLOSED: [2025-05-20 Tue 16:34]
   - *References:* 
     - [[https://bbs.archlinux.org/viewtopic.php?id=227609][TearFree doesn't work @Archforum]]
     - [[https://wiki.archlinux.org/title/Intel_graphics#Tearing][Troubleshooting-tearing @Archwiki]]
-** DONE Fix kitty tear free :@Kitty:
+** DONE Fix kitty tear free :subKitty:
 CLOSED: [2025-05-20 Tue 16:33]
 - *Objective:* /Achieve tearless with kitty/
   - *Config:* Add this to your config file: [[file:~/.config/kitty/kitty.conf][config @kitty]]
   - *Run:* ~sync_to_monitor = yes~
-** DONE Fix qutebrowser tear free :@Qutebrowser:
+** DONE Fix qutebrowser tear free :subQutebrowser:
 CLOSED: [2025-05-21 Wed 18:01]
 - *Objective:* /Achieve tearless with qutebrowser/
 ** DONE Fix mpv tear :MPV:

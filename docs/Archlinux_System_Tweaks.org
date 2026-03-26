@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:@Project:OPSYS:ARCH:TWEAKS:
+#+FILETAGS: :typDoc:subProject:OPSYS:ARCH:TWEAKS:
 #+HTML:<details>
 
 * Archlinux System Tweaks :typDoc:meta:OPSYS:ARCH:TWEAKS:
@@ -124,7 +124,7 @@ Disabling all fallback initramfs generation will leads to booting problems when 
 #+END_QUOTE
 
 Reference:* [[https://wiki.archlinux.org/title/USB_flash_installation_medium][USB flash installation medium]]
-** DONE User Service Proxy :@Systemd:_Service:
+** DONE User Service Proxy :subSystemd:_Service:
 CLOSED: [2025-09-06 Sat 20:53]
 Sometimes we want a =user-service= to run along with =system-services= on =systemd= init system. There are a few ways to tackle this problem.
 - Elevating service privileges
