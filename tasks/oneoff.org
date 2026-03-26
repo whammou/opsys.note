@@ -246,7 +246,8 @@ DEADLINE: <2025-07-14 Mon>
 - *Reference:*
   - [[https://www.orgzly.com/docs#search][Advanced searchh in orgzly @Doc-orgzly]]
   - [[https://nvim-orgmode.github.io/configuration#advanced-search][Advanced search in nvim-orgmmode @Doc-nvim-orgmode]]
-** PEND Bluetooth sound quality :BLUETOOTH:
+** DONE Bluetooth sound quality :BLUETOOTH:
+CLOSED: [2026-03-26 Thu 16:58]
 - *OBJECTIVE:* Fix sound quality on bluetooth headset
 - *Reference:* [[https://old.reddit.com/r/archlinux/comments/wa3lhs/extremely_low_quality_sound_from_bluetooth/][Low quality on bluetooth headset @Reddit]]
 ** DONE Notification actions :@Notification:@Dunst:
