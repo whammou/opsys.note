@@ -117,7 +117,7 @@ CLOSED: [2025-06-04 Wed 09:07]
   - Config title to look the same: =<content> - <appname>=
 ** PEND Pacman lock-file :PACMAN:BACKUP:
 - *OBJECTIVE:* /Create pacman lock-file/
-** PEND Org2ical [0%] :_Data:subOrgmode:
+** PEND Org2ical [0%] :opData:subOrgmode:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 *** PEND Sync orgmode to CalDav [0%] :subKhalorg:
@@ -168,7 +168,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 *** Org-ruby document config [0/1]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
-** PEND Spreadsheet data visualize :_Data:typDoc:
+** PEND Spreadsheet data visualize :opData:typDoc:
 :PROPERTIES:
 :CUSTOM_ID: visidata
 :END:
@@ -294,7 +294,7 @@ CLOSED: [2025-08-25 Mon 21:24] DEADLINE: <2025-08-25 Mon>
 + *Reference:*
   * [[https://github.com/neomutt/samples][Neomutt sample config @Github]]
   * [[id:864c42ee-c003-4d4b-8e7e-ba65c7e8815f][Plaintext Email @Org]]
-** PEND Config Clean Up :_Cleanup:
+** PEND Config Clean Up :opCleanup:
 - *OBJECTIVE:* Clean up configs
   + [ ] =neovim= config
   + [ ] =qtile= config

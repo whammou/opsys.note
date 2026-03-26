@@ -124,7 +124,7 @@ Disabling all fallback initramfs generation will leads to booting problems when 
 #+END_QUOTE
 
 Reference:* [[https://wiki.archlinux.org/title/USB_flash_installation_medium][USB flash installation medium]]
-** DONE User Service Proxy :subSystemd:_Service:
+** DONE User Service Proxy :subSystemd:opService:
 CLOSED: [2025-09-06 Sat 20:53]
 Sometimes we want a =user-service= to run along with =system-services= on =systemd= init system. There are a few ways to tackle this problem.
 - Elevating service privileges

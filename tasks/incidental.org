@@ -125,7 +125,7 @@ DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :END:
 - *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
 - *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Issue]]
-** DONE Change Username and Home Dir :_Structure:
+** DONE Change Username and Home Dir :opStructure:
 DEADLINE: <2026-03-09 Mon> CLOSED: [2026-03-11 Wed 16:30]
 :PROPERTIES:
 :ID: 7b41b2a4-9073-4465-916f-6b0783d641f3
@@ -148,7 +148,7 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 :ID: 12d23d98-94b6-42ea-a36d-66d2e5a42bfb
 :END:
 - *OBJECTIVE:*  Fix error when device sometimes failed to sleep
-** DONE Service Fallbacks :_Server:subOpenCode:
+** DONE Service Fallbacks :opServer:subOpenCode:
 DEADLINE: <2026-03-23 Mon> CLOSED: [2026-03-23 Mon 02:27]
 :PROPERTIES:
 :ID: 66fdb731-27e9-41be-b20c-917250e6e6f9

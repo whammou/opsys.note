@@ -17,7 +17,7 @@ CLOSED: [2025-06-01 Sun 23:02]
 - *OBJECTIVE:* /Config rclone to sync with google-drive/
   - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
 - *References:* [[id:3700b025-3d42-4516-a17d-0eb37366d087][Working with rclone @Orgmode]]
-** DONE Obtain google-drive API key :_Drive:
+** DONE Obtain google-drive API key :opDrive:
 CLOSED: [2025-06-01 Sun 22:46]
 - *OBJECTIVE:* /Obtain gdrive API for rclone/
 - *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]

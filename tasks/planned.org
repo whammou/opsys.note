@@ -14,7 +14,7 @@ CLOSED: [2025-10-25 Sat 03:27] DEADLINE: <2025-10-25 Sat>
 CLOSED: [2025-11-09 Sun 21:34]
 - *OBJECTIVE:* Sync notifications across platforms
 - *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
-** FDBK Debugging System High Memory Usage :_Memory:
+** FDBK Debugging System High Memory Usage :opMemory:
 :PROPERTIES:
 :ID:       42edd3e3-33eb-4cb3-8038-46eabec2a86c
 :END:
@@ -41,7 +41,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 #+html:</details>
 - *OBJECTIVE:* Get =notification= on systemd =service= failed
 - *Reference:* [[https://www.baeldung.com/linux/systemd-service-fail-notification][Systemd Service Fail Notification @Blog]]
-** PEND Limiting Process Memory :_Memory:
+** PEND Limiting Process Memory :opMemory:
 - *OBJECTIVE:* Limiting process memory usage on =archlinux=
 - *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=248765][Limiting process ram and zswap usage @Archlinux.org]]
 ** PEND Update Config Files :configfile:
@@ -50,7 +50,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 - *OBJECTIVE:* Restructure =script= directory
   + Follows =script= per =package=
   + Modularize =script= repo
-** TODO Grouping User Services :subSystemd:_Service:
+** TODO Grouping User Services :subSystemd:opService:
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 *** DONE Convert to User Services

@@ -53,7 +53,7 @@ CLOSED: [2024-09-08 Sun 04:17]
 *** Resources
 - Visit [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/39226/how-to-run-a-script-with-systemd-right-before-shutdown][overflow answer]]
 - Visit [[https://www.freedesktop.org/software/systemd/man/latest/systemd.special.html][systemd special targets]]
-** DONE Big Data Languages :_Data:
+** DONE Big Data Languages :opData:
 CLOSED: [2024-08-29 Thu 22:52]
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-09-11 Wed 04:59
@@ -63,7 +63,7 @@ CLOSED: [2024-08-29 Thu 22:52]
 :END:
 - *Goal:* Store data of monitored workout sessions
 - *Resources:* [[https://www.youtube.com/watch?v=LkriaLlkByM&t=66][yt: csv vs json vs xml]]
-** DONE Keep Public IP address after reboot :_Data:
+** DONE Keep Public IP address after reboot :opData:
 CLOSED: [2024-09-07 Sat 21:24] DEADLINE: <2024-09-11 Wed 22:00>
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-09-11 Wed 04:59
@@ -73,7 +73,7 @@ CLOSED: [2024-09-07 Sat 21:24] DEADLINE: <2024-09-11 Wed 22:00>
 :END:
 - *Goal:* Keep router public IP address across reboots
 - Contact Viettel tel:18008098
-** DONE Create folder in webdav dir :_Data:
+** DONE Create folder in webdav dir :opData:
 CLOSED: [2024-09-10 Tue 20:33]
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-09-11 Wed 04:59
@@ -624,7 +624,7 @@ CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 ** DONE Migrate orgmode options to config :subOrgmode:
 CLOSED: [2025-06-15 Sun 15:27]
 - *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-** DONE Clean-up capture :_Cleanup:
+** DONE Clean-up capture :opCleanup:
 CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
 - *Objective:* /Clean up/ [[file:../capture.org][capture.org]]
 ** DONE Connect to Samba drive :LINUX:
