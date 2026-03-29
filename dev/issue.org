@@ -1,3 +1,12 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
 * Issues List :typDev:catIssue:OPSYS:meta:
+** OPEN Manage Systemd Service Secrets :subSystemd@SecretManagement:
+:PROPERTIES:
+:ID: f719e976-b9c5-4d2f-b067-065ca2f2dbda
+:END:
+
+#+begin_quote markdown
+Managing systemd =secrets= and in units using =pass=
+#+end_quote
+

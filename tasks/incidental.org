@@ -161,5 +161,5 @@ DEADLINE: <2026-03-29 Sun>
 :ID: ebbbe5ef-25bf-4ea0-a073-c1957eac10cf
 :END:
 - *OBJECTIVE:*  Create a systemd service that renew Desec DNS every minute
-- *Reference:* [[https://desec.readthedocs.io/en/latest/dns/rrsets.html][Desec Doc @Blog]]
-  
+- *Reference:*  [[https://desec.readthedocs.io/en/latest/dns/rrsets.html][Desec Doc @Blog]]
+- /Delegate:/   [[id:f719e976-b9c5-4d2f-b067-065ca2f2dbda][Manage Systemd Service Secrets @Issue]]
