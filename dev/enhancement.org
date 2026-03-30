@@ -114,5 +114,5 @@ def session_resume():
     qtile.spawn("systemctl --user start qtile-session.target")
 #+end_src
 
-/Delegate:/ [[id:68f4414f-404b-45a0-b846-cade3d4ced48][!IMPLEMENT Qtile Custom and Built-in Hooks]]
+/Delegate:/ [[id:68f4414f-404b-45a0-b846-cade3d4ced48][!IMPLEMENT Qtile Custom and Built-in Hooks]] \\
 /Reference:/  [[https://docs.qtile.org/en/latest/manual/ref/hooks.html#libqtile.hook.subscribe.unlocked][Qtile Built-in hooks @Doc]]
