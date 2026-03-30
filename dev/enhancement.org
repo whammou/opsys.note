@@ -82,7 +82,7 @@ Systemd already has a sleep.target, however, that's a system-level target, and y
 #+end_quote
 
 /Reference:/  [[https://sr.ht/~whynothugo/systemd-lock-handler/][Systemd Lock Handler @SourceHut]]
-*** Qtile Session Resume Target :subQtile:
+*** OPEN Qtile Session Resume Target :subQtile:
 :PROPERTIES:
 :ID: e4145752-5fe2-430a-9528-00f502e7c203
 :END:

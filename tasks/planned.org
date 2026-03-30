@@ -128,9 +128,16 @@ DEADLINE: <2026-03-24 Tue> CLOSED: [2026-03-24 Tue 13:54]
 :END:
 - *OBJECTIVE:*  Send notification on systemd =service= failure
 - *Issue:*      [[id:d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e][Systemd Service Failure Notification @Issue]]
-** TODO Establish Systemd Device Event Hook :subSystemd:
+** DOIN Establish Systemd Device Event Hook :subSystemd:
 :PROPERTIES:
 :ID: c92d6d50-92ab-4416-832e-9df0a0ba8fd0
 :END:
 - *OBJECTIVE:*  Create and run systemd custom =event-hook= 
 - *Delegate:*   [[id:f4db4075-4741-45d8-bcc0-ff9df7f43dbf][!ENHANCEMENT Systemd Custom Event Hooks]]
+*** NEXT Bluetooth Hooks on Session Unlocked :subBluetooth:subQtile:
+:PROPERTIES:
+:ID: 22c4abee-f177-471c-aaa9-acee95253353
+:END:
+- *OBJECTIVE:*  Create a hook to auto connect to trusted device on session unlock
+- /Delegate:/   [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target @Enhancement]]
+
