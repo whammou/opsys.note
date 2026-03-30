@@ -66,10 +66,20 @@ Description=Notify on service failure - receives failed unit name via instance
 Type=oneshot
 ExecStart=/usr/bin/dunstify -u critical "Systemd" "Service Failed: Unit '%i' has failed — check logs for details"
 #+end_src
-** OPEN !ENHANCEMENT Systemd Custom Event Hooks :subSystemd:
+** DONE !ENHANCEMENT Systemd Custom Event Hooks :subSystemd:
+CLOSED: [2026-03-30 Mon 21:17]
 :PROPERTIES:
 :ID: f4db4075-4741-45d8-bcc0-ff9df7f43dbf
 :END:
+#+name:LOGBOOK
+#+html:<details>
+#+html:<summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-03-30 Mon 21:17] \\
+  Using =qtile= built-in hooks to expose a systemd proxy target to reflect to qtile state. Checkout: [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target]]
+:END:
+#+html:</details>
+
 #+name: Description
 #+begin_quote markdown
 There several events that is not in the systemd built-in system /e.g. qtile resume session/. Create custom =target= or =services= for these event. Run services on these event
@@ -81,8 +91,9 @@ There several events that is not in the systemd built-in system /e.g. qtile resu
 Systemd already has a sleep.target, however, that's a system-level target, and your user-level units can't rely on it. The one included in this package should not conflict, but rather compliments that one
 #+end_quote
 
-/Reference:/  [[https://sr.ht/~whynothugo/systemd-lock-handler/][Systemd Lock Handler @SourceHut]]
-*** OPEN Qtile Session Resume Target :subQtile:
+- [-] /Reference:/  [[https://sr.ht/~whynothugo/systemd-lock-handler/][Systemd Lock Handler @SourceHut]]
+*** DONE Qtile Session Resume Target :subQtile:
+CLOSED: [2026-03-30 Mon 21:17]
 :PROPERTIES:
 :ID: e4145752-5fe2-430a-9528-00f502e7c203
 :END:
@@ -99,8 +110,8 @@ Qtile lock session on user session logged out. There are currently no hook for t
 from libqtile import hook, qtile
 
 @hook.subscribe.unlocked
-def play_resume_sound():
-    qtile.spawn("ffplay resume.wav")
+def session_resume():
+    qtile.spawn("systemctl --user start qtile-session.target")
 #+end_src
 
 /Delegate:/ [[id:68f4414f-404b-45a0-b846-cade3d4ced48][!IMPLEMENT Qtile Custom and Built-in Hooks]]
