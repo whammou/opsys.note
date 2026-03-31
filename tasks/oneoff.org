@@ -433,3 +433,11 @@ DEADLINE: <2026-03-31 Tue>
 :ID: e46afc5b-c15a-4da4-b469-14c450b00141
 :END:
 - *OBJECTIVE:*  Update =dunst= notification bell
+** TODO Start a Cockpit Service :subCockpit:subHomelab@Monitor:
+:PROPERTIES:
+:ID: 76d999fa-9d9c-45af-80db-0b8f23cccb35
+:END:
+- *OBJECTIVE:*  Start a =cockpit= service on =main= domain
+- *Reference:*  [[https://cockpit-project.org/guide/latest/guide.html#_author_7][Cockpit Guide @Doc]]
+- /Delegate:/   [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
+  

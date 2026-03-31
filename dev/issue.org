@@ -9,4 +9,12 @@
 #+begin_quote markdown
 Managing systemd =secrets= and in units using =pass=
 #+end_quote
+** OPEN Cockpit Authentication Timeout :subCockpit:
+:PROPERTIES:
+:ID: 89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25
+:END:
+#+begin_quote markdown
+Cockpit returns 502 bad gateways and authentication timeout
+#+end_quote
 
+!Configure authenticated user on cockpit
