@@ -18,3 +18,14 @@ Cockpit returns 502 bad gateways and authentication timeout
 #+end_quote
 
 !Configure authenticated user on cockpit
+** OPEN Workaround Dunst Script Parameter Syntax :subDunst@Syntax:
+:PROPERTIES:
+:ID: 82337fb0-a3a8-466b-8099-7e75f0ecdbfd
+:END:
+
+#+name: Scripting Parameter
+#+begin_quote markdown
+The script parameter is expanded according to wordexp(3) with command substitution disabled. If the expanded value is not an absolute path, the directories in the PATH variable will be searched for an executable of the same name.
+#+end_quote
+
+!Dunst does not support =command subtitution= thus there is not way for =positional argument= 
