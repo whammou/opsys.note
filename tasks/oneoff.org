@@ -422,13 +422,14 @@ CLOSED: [2025-12-29 Mon 16:27]
 - *Reference:*
   + [[https://www.reddit.com/r/commandline/comments/f4rwix/email_workflow_demo_neovim_neomutt_ultisnips/][Email Workflow with Neomutt @Reddit]]
   + [[https://gideonwolfe.com/posts/workflow/neomutt/intro/][Configuring Neomutt @Blog]]
-** DOIN Add Notification Sound :subNotification@Bell:
-DEADLINE: <2026-04-02 Thu 04:52>
+** NEXT Add Notification Sound :subNotification@Bell:
+DEADLINE: <2026-04-03 Fri 04:52>
 :PROPERTIES:
 :ID: 73683978-a3c2-4df3-bc59-d3e48abe2081
 :END:
 - *OBJECTIVE:*  Add a sound for each notification type
-*** NEXT Config Dunst Bell :subDunst:
+*** DOIN Config Dunst Bell :subDunst:
+DEADLINE: <2026-04-03 Fri 01:30>
 :PROPERTIES:
 :ID: e46afc5b-c15a-4da4-b469-14c450b00141
 :END:
