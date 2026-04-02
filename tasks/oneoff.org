@@ -423,23 +423,30 @@ CLOSED: [2025-12-29 Mon 16:27]
   + [[https://www.reddit.com/r/commandline/comments/f4rwix/email_workflow_demo_neovim_neomutt_ultisnips/][Email Workflow with Neomutt @Reddit]]
   + [[https://gideonwolfe.com/posts/workflow/neomutt/intro/][Configuring Neomutt @Blog]]
 ** NEXT Add Notification Sound :subNotification@Bell:
-DEADLINE: <2026-04-03 Fri 04:52>
+DEADLINE: <2026-04-03 Fri 19:00>
 :PROPERTIES:
 :ID: 73683978-a3c2-4df3-bc59-d3e48abe2081
 :END:
 - *OBJECTIVE:*  Add a sound for each notification type
-*** DOIN Config Dunst Bell :subDunst:
-DEADLINE: <2026-04-03 Fri 01:30>
+*** TODO Config Dunst Bell :subDunst:
+DEADLINE: <2026-04-03 Fri 18:00>
 :PROPERTIES:
 :ID: e46afc5b-c15a-4da4-b469-14c450b00141
 :END:
 - *OBJECTIVE:*  Update =dunst= notification bell
-- /Delegate:/   [[id:82337fb0-a3a8-466b-8099-7e75f0ecdbfd][Workaround Dunst Script Parameter Syntax @Issue]]
+- /Ticket:/     [[id:82337fb0-a3a8-466b-8099-7e75f0ecdbfd][Workaround Dunst Script Parameter Syntax @Issue]]
 ** TODO Start a Cockpit Service :subCockpit:subHomelab@Monitor:
 :PROPERTIES:
 :ID: 76d999fa-9d9c-45af-80db-0b8f23cccb35
 :END:
 - *OBJECTIVE:*  Start a =cockpit= service on =main= domain
 - *Reference:*  [[https://cockpit-project.org/guide/latest/guide.html#_author_7][Cockpit Guide @Doc]]
-- /Delegate:/   [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
+- /Ticket:/   [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
+** DOIN Rework System Notification Handling :subNotification:
+:PROPERTIES:
+:ID: 0e7134e0-0219-49b2-a526-fd0cfc04a945
+:END:
+- *OBJECTIVE:*  Rework system notifications to handle different =notification-stream= e.g. ntfy, dunstify, local, or remote
+- /Delegate:/   [[id:fe877f17-f182-446e-9b65-8cace2ea9523][Rewrite Dunst and Ntfy Configs @Task]]
+- /Ticket:/     [[id:6d9d718c-f394-42c0-82a0-b182fb7cf7a1][!ENHANCEMENT Network Notifications Handling @Enhancement]]
   

@@ -141,5 +141,5 @@ CLOSED: [2026-03-30 Mon 21:20]
 :ID: 22c4abee-f177-471c-aaa9-acee95253353
 :END:
 - *OBJECTIVE:*  Create a hook to auto connect to trusted device on session unlock
-- /Delegate:/   [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target @Enhancement]]
+- /Ticket:/   [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target @Enhancement]]
 
