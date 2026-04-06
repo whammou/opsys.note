@@ -18,7 +18,8 @@ Cockpit returns 502 bad gateways and authentication timeout
 #+end_quote
 
 !Configure authenticated user on cockpit
-** OPEN Workaround Dunst Script Parameter Syntax :subDunst@Syntax:
+** DONE Workaround Dunst Script Parameter Syntax :subDunst@Syntax:
+CLOSED: [2026-04-06 Mon 17:40]
 :PROPERTIES:
 :ID: 82337fb0-a3a8-466b-8099-7e75f0ecdbfd
 :END:
@@ -29,3 +30,48 @@ The script parameter is expanded according to wordexp(3) with command substituti
 #+end_quote
 
 !Dunst does not support =command subtitution= thus there is not way for =positional argument= 
+
+-----
+!RESOLVED:
+Instead of parse =sound-name= as positional argument. Generate a simple dispatch script uses dunst matching rules as filter for sound effects
+
+#+name: Dispatch script example
+#+begin_src bash
+#!/usr/bin/env bash
+
+BELL_DIR=~/.local/share/bell
+VOLUME=0.5
+
+# Matching groups (use with [[ $var =~ ^($GROUP)$ ]])
+CHAT="Beeper|Zalo"
+MUSIC="Mpv|SimpMusic"
+
+play_sound() {
+  pw-play \
+    --media-role="Notification" \
+    --volume=$VOLUME "$1"
+}
+
+case "$DUNST_CATEGORY" in
+ntfy-script)
+  exit 0
+  ;;
+esac
+
+if [[ "$DUNST_SUMMARY" =~ ^($CHAT)$ ]]; then
+  play_sound $BELL_DIR/bip-bop-05.wav
+  exit 0
+fi
+
+if [[ "$DUNST_SUMMARY" =~ ^($MUSIC)$ ]]; then
+  exit 0
+fi
+
+# Default sound for all other notifications
+case "$DUNST_URGENCY" in
+LOW) play_sound $BELL_DIR/bip-bop-05.wav ;;
+NORMAL) play_sound $BELL_DIR/staplebops-01.wav ;;
+CRITICAL) play_sound $BELL_DIR/alert-01.wav ;;
+esac
+#+end_src
+-----
