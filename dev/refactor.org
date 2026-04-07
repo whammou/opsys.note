@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID: 5fd78b05-4289-46a7-80cc-ef5e0d9264c4
+:END:
+
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
+* Refactor Tickets :typDev:catRefactor:meta:OPSYS:
+** OPEN Network Dispatcher Triggers Services :subNetworkManager@Config:
+:PROPERTIES:
+:ID: d669c41b-5cd3-493c-81cf-c957ab9b7d59
+:END:
+#+begin_quote markdown
+Create a second layer of =event-triggers=. Instead of directly trigger =systemd= services behaviour. Expose an event e.g. =internet.target= which then triggers services and let service determine how to behave
+#+end_quote
+
