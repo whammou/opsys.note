@@ -176,7 +176,7 @@ DEADLINE: <2025-11-28 Fri> CLOSED: [2025-11-29 Sat 01:16]
 
 #+NAME:Virtual memory
 #+BEGIN_QUOTE markdown
-[!NOTE]
+[!NOTE] \\
 The amount of =physical memory= and =swap space= is the amount of virtual memory available
 #+END_QUOTE
 
