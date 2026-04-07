@@ -13,3 +13,41 @@
 Create a second layer of =event-triggers=. Instead of directly trigger =systemd= services behaviour. Expose an event e.g. =internet.target= which then triggers services and let service determine how to behave
 #+end_quote
 
+-----
+- Note taken on [2026-04-08 04:42]: 
+  + Update dispatcher script to expose =internet.target=
+  + Target becomes active when internet connection becomes available
+  + And killed after internet becomes unavailable
+  #+name: NetworkManager Dispatcher script
+  #+begin_src bash
+  DEVICE=${1}
+  STATE=${2}
+
+  if [ "$DEVICE" = "wlan0" ]; then
+
+    if [ "$STATE" = "down" ]; then
+      systemctl --user --machine=whammou@.host stop internet.target
+
+    elif [ "$STATE" = "up" ]; then
+      systemctl --user --machine=whammou@.host start internet.target
+    fi
+  fi
+  #+end_src
+
+  + =service= dependencies example:
+  #+name: service
+  #+begin_src systemd
+  [Unit]
+  Description=Update qtile widget %i
+  #After=qtile-session.target internet.target
+  BindsTo=qtile-session.target internet.target
+
+  [Service]
+  Type=oneshot
+  ExecStart=/sbin/qtile cmd-obj -o widget %i -f force_update
+  ExecStop=/sbin/qtile cmd-obj -o widget %i -f force_update
+
+  [Install]
+  WantedBy=qtile-session.target internet.target
+  #+end_src
+-----
