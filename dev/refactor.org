@@ -52,3 +52,11 @@ Create a second layer of =event-triggers=. Instead of directly trigger =systemd=
   WantedBy=qtile-session.target internet.target
   #+end_src
 -----
+** OPEN Systemd Service Extension :subSystemd@Structure:
+:PROPERTIES:
+:ID: 1f723950-33ea-4682-b349-caf30d109401
+:END:
+
+#+begin_quote markdown
+How to extend an =systemd= service without overriding the original service
+#+end_quote
