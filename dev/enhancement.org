@@ -124,10 +124,19 @@ def session_resume():
 #+begin_quote markdown
 Design a system to handle different incomes of notifications
 #+end_quote
-** OPEN !ENHANCEMENT Notification Ducking Config :subWireplumber:subNotification@Ducking:
+** CLSD !ENHANCEMENT Notification Ducking Config :subWireplumber:subNotification@Ducking:
+CLOSED: [2026-04-08 Wed 12:51]
 :PROPERTIES:
 :ID: b6cf9f02-0f12-4e09-ab83-e7ea6bc35a1f
 :END:
+#+name:LOGBOOK
+#+html:<details>
+#+html:<summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-04-08 Wed 12:51] \\
+  Currently too complicated, need more time research on this subject
+:END:
+#+html:</details>
 
 #+name: Desciption
 #+begin_quote markdown
