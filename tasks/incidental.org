@@ -163,8 +163,8 @@ DEADLINE: <2026-03-30 Mon> CLOSED: [2026-03-30 Mon 19:34]
 - *OBJECTIVE:*  Create a systemd service that renew Desec DNS every minute
 - *Reference:*  [[https://desec.readthedocs.io/en/latest/dns/rrsets.html][Desec Doc @Blog]]
 - /Ticket:/   [[id:f719e976-b9c5-4d2f-b067-065ca2f2dbda][Manage Systemd Service Secrets @Issue]]
-** TODO Update Network Dispatcher Script :subSystemd@Event:
-DEADLINE: <2026-04-08 Wed 05:10>
+** DONE Update Network Dispatcher Script :subSystemd@Event:
+DEADLINE: <2026-04-08 Wed 05:10> CLOSED: [2026-04-08 Wed 06:06]
 :PROPERTIES:
 :ID: 7bd74a09-e141-474d-8514-15f919d2f6e8
 :END:

@@ -5,7 +5,8 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
 * Refactor Tickets :typDev:catRefactor:meta:OPSYS:
-** OPEN Network Dispatcher Triggers Services :subNetworkManager@Config:
+** DONE Network Dispatcher Triggers Services :subNetworkManager@Config:
+CLOSED: [2026-04-08 Wed 06:06]
 :PROPERTIES:
 :ID: d669c41b-5cd3-493c-81cf-c957ab9b7d59
 :END:
