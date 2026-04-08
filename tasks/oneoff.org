@@ -449,4 +449,12 @@ DEADLINE: <2026-04-06 Mon 18:00> CLOSED: [2026-04-06 Mon 17:40]
 - *OBJECTIVE:*  Rework system notifications to handle different =notification-stream= e.g. ntfy, dunstify, local, or remote
 - /Delegate:/   [[id:fe877f17-f182-446e-9b65-8cace2ea9523][Rewrite Dunst and Ntfy Configs @Task]]
 - /Ticket:/     [[id:6d9d718c-f394-42c0-82a0-b182fb7cf7a1][!ENHANCEMENT Network Notifications Handling @Enhancement]]
-  
+** TODO Config Notification Ducking :subNotification@Config:subWireplumber:
+DEADLINE: <2026-04-08 Wed 11:09>
+:PROPERTIES:
+:ID: 6194f97b-dfc6-4270-831a-f3add739f34d
+:END:
+- *OBJECTIVE:*  Deploy =wireplumber= config for notification =media.role=
+- *Reference:*  [[https://mazunki.pages.freedesktop.org/wireplumber/configuration/main.html][Wireplumber main cofig file @Doc]]
+- /Ticket:/     [[id:b6cf9f02-0f12-4e09-ab83-e7ea6bc35a1f][!ENHANCEMENT Notification Ducking Config @Enhancement]]
+

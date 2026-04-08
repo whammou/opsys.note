@@ -124,3 +124,12 @@ def session_resume():
 #+begin_quote markdown
 Design a system to handle different incomes of notifications
 #+end_quote
+** OPEN !ENHANCEMENT Notification Ducking Config :subWireplumber:subNotification@Ducking:
+:PROPERTIES:
+:ID: b6cf9f02-0f12-4e09-ab83-e7ea6bc35a1f
+:END:
+
+#+name: Desciption
+#+begin_quote markdown
+Adding =ducking= effect to notifications via =wireplumber= daemon 
+#+end_quote
