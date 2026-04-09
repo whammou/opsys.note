@@ -460,4 +460,10 @@ DEADLINE: <2026-04-08 Wed 11:09> CLOSED: [2026-04-08 Wed 12:52]
 - *OBJECTIVE:*  Deploy =wireplumber= config for notification =media.role=
 - *Reference:*  [[https://mazunki.pages.freedesktop.org/wireplumber/configuration/main.html][Wireplumber main config file @Doc]]
 - /Ticket:/     [[id:b6cf9f02-0f12-4e09-ab83-e7ea6bc35a1f][!ENHANCEMENT Notification Ducking Config @Enhancement]]
-
+** DONE Fix Systemd Service Misbehave :subSystemd:subNetworkManager@Dispatch:
+DEADLINE: <2026-04-09 Thu> CLOSED: [2026-04-09 Thu 21:44]
+:PROPERTIES:
+:ID: ea3bc60e-54e5-4788-8a39-039fd88bb2af
+:END:
+- *OBJECTIVE:*  Fix systemd =services= depends on =internet.target= fails after system suspend
+- /Ticket:/     [[id:d669c41b-5cd3-493c-81cf-c957ab9b7d59][Network Dispatcher Triggers Services @Dev]]

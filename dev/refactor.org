@@ -10,6 +10,15 @@ CLOSED: [2026-04-08 Wed 06:06]
 :PROPERTIES:
 :ID: d669c41b-5cd3-493c-81cf-c957ab9b7d59
 :END:
+#+name:LOGBOOK
+#+html:<details>
+#+html:<summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-04-09 Thu 21:43] \\
+  Service depends on this =target= sometimes fail due to an unknown reason (likely due a race condition with DNS resolve) -> Workaround by implementing a sleep timer (ideally 5s)
+:END:
+#+html:</details>
+
 #+begin_quote markdown
 Create a second layer of =event-triggers=. Instead of directly trigger =systemd= services behaviour. Expose an event e.g. =internet.target= which then triggers services and let service determine how to behave
 #+end_quote
