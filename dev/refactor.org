@@ -84,6 +84,7 @@ How to extend an =systemd= service without overriding the original service
     [!NOTE]
     The service is manage by upstream =ntfy.sh= via =pacman= and update frequently
     #+end_quote
+
   + Modified version:
     #+name: modified service
     #+begin_src systemd
@@ -107,6 +108,7 @@ How to extend an =systemd= service without overriding the original service
     [!WARNING]
     This service will not get any updates from upstream since it is managed locally
     #+end_quote
+
   + Drop-ins version:
     #+name: drop-in version
     #+begin_src systemd
