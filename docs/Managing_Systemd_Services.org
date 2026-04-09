@@ -10,7 +10,8 @@
 * Managing Systemd Services :typDoc:meta:subSystemd:subSystemd@Structure:
 
 #+HTML:</details>
-** Service Drop-in Override
+** DONE Service Drop-in Override
+CLOSED: [2026-04-09 Thu 15:21]
 :PROPERTIES:
 :ID: 2b1bd424-ef43-4f2b-8b80-6c7dac4ba9ff
 :END:
@@ -40,6 +41,5 @@ It lets you modify behaviour of =ntfy-client= without touching =/usr/lib/systemd
 #+begin_quote markdown
 [!TIP]
 Another way to edit drop-in file is to run: \\
-=systemctl --user edit unit --drop-in=<name>= \\
-Alternatively: =systemctl edit <unit>=
+=systemctl --user edit unit --drop-in=<name>= Or alternatively: =systemctl edit <unit>=
 #+end_quote
