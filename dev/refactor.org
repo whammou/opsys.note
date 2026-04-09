@@ -52,10 +52,19 @@ Create a second layer of =event-triggers=. Instead of directly trigger =systemd=
   WantedBy=qtile-session.target internet.target
   #+end_src
 -----
-** OPEN Systemd Service Extension :subSystemd@Structure:
+** DONE Systemd Service Extension :subSystemd@Structure:
+CLOSED: [2026-04-09 Thu 14:52]
 :PROPERTIES:
 :ID: 1f723950-33ea-4682-b349-caf30d109401
 :END:
+#+name:LOGBOOK
+#+html:<details>
+#+html:<summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-04-09 Thu 14:58] \\
+  Visit [[id:2b1bd424-ef43-4f2b-8b80-6c7dac4ba9ff][Service Drop-in Override]] for more information on drop-in overrides
+:END:
+#+html:</details>
 
 #+begin_quote markdown
 How to extend an =systemd= service without overriding the original service
@@ -124,5 +133,5 @@ This service will not get any updates from upstream since it is managed locally
     [Install]
     WantedBy=qtile-session.target internet.target
     #+end_src
-    This services get updates from upstream and behave exactly how it should defined parameter
+    This services get updates from upstream and behave expectedly on local machine
 -----

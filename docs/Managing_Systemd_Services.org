@@ -10,3 +10,12 @@
 * Managing Systemd Services :typDoc:meta:subSystemd:subSystemd@Structure:
 
 #+HTML:</details>
+** Service Drop-in Override
+:PROPERTIES:
+:ID: 2b1bd424-ef43-4f2b-8b80-6c7dac4ba9ff
+:END:
+
+#+begin_quote markdown
+A drop-in override is an additional configuration file placed under =$SYSTEMD_DIR/<unit>.d/*conf= that supplements or overrides the main unit definition
+#+end_quote
+
