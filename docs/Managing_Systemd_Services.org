@@ -19,3 +19,27 @@
 A drop-in override is an additional configuration file placed under =$SYSTEMD_DIR/<unit>.d/*conf= that supplements or overrides the main unit definition
 #+end_quote
 
+For example:
+#+name: ~/.config/systemd/user/ntfy-client.service.d/override.conf
+#+begin_src systemd
+[Unit]
+After=internet.target
+BindsTo=internet.target
+
+[Service]
+ExecStartPre=/usr/bin/bash -c '/usr/bin/ntfy subscribe --from-config --poll=true --since $(/usr/bin/cat ~/.cache/ntfy/downtime)'
+ExecStop=/usr/bin/bash -c '/usr/bin/date +%%s > ~/.cache/ntfy/downtime'
+Restart=on-failure
+
+[Install]
+WantedBy=qtile-session.target internet.target
+#+end_src
+It lets you modify behaviour of =ntfy-client= without touching =/usr/lib/systemd/user/ntfy-client.service=
+
+#+name: Open drop-in via commandline
+#+begin_quote markdown
+[!TIP]
+Another way to edit drop-in file is to run: \\
+=systemctl --user edit unit --drop-in=<name>= \\
+Alternatively: =systemctl edit <unit>=
+#+end_quote
