@@ -435,7 +435,7 @@ DEADLINE: <2026-04-06 Mon 18:00> CLOSED: [2026-04-06 Mon 17:40]
 :END:
 - *OBJECTIVE:*  Update =dunst= notification bell
 - /Ticket:/     [[id:82337fb0-a3a8-466b-8099-7e75f0ecdbfd][Workaround Dunst Script Parameter Syntax @Issue]]
-** TODO [#B] Start a Cockpit Service :subCockpit:subHomelab@Monitor:
+** NEXT [#B] Start a Cockpit Service :subCockpit:subHomelab@Monitor:
 :PROPERTIES:
 :ID: 76d999fa-9d9c-45af-80db-0b8f23cccb35
 :END:
