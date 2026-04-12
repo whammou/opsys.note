@@ -280,3 +280,15 @@ vm.swappiness = 20
 
 To have the =boot-loader= set the swappiness when loading the =kernel=
 - Add a =kernel-parameter= e.g. ~sysctl.vm.swappiness=20~
+** OUTL Disable Internet on Sleep :subSystemd:
+:PROPERTIES:
+:ID: b3f0627d-14ce-4edc-9fe4-7b05f842c12d
+:END:
+
+#+name: Change Sleep Mode
+#+begin_quote markdown
+[!NOTE]
+There are different sleep method supported on [Changing Suspend Method @Archwiki](https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate)
+#+end_quote
+
+Currently using =deep= method to ensure internet is turned off on =sleep=
