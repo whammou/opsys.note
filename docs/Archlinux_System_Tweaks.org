@@ -292,3 +292,49 @@ There are different sleep method supported on [Changing Suspend Method @Archwiki
 #+end_quote
 
 Currently using =deep= method to ensure internet is turned off on =sleep=
+*** Advertise Internet Service :subSystemd@Config:
+:PROPERTIES:
+:ID: b26e865d-fdc1-4539-9715-f90fef085fbc
+:END:
+
+To advertise that internet service is available /(unavailable)/, use NetworkManager =dispatch-script= [[file:/etc/NetworkManager/dispatcher.d/]] to run a script on interface state is up/down.
+
+#+name: /etc/NetworkManager/dispatcher.d/10-homelab-dispatcher.sh
+#+begin_src sh
+#!/usr/bin/env bash
+
+DEVICE=${1}
+STATE=${2}
+check_internet() {
+  # Ping gateway first (faster), then external IP if needed
+  #  ping -c 1 -W 2 "$IP4_GATEWAY" &>/dev/null ||
+  #    ping -c 1 -W 3 8.8.8.8 &>/dev/null
+  ping -c 1 -W 2 google.com &>/dev/null
+}
+if [ "$DEVICE" = "wlan0" ]; then
+  if [ "$STATE" = "up" ]; then
+    if check_internet; then
+      systemctl --user --machine=whammou@.host start internet.target
+    else
+      exit 0
+    fi
+  elif [ "$STATE" = "down" ]; then
+    systemctl --user --machine=whammou@.host stop internet.target
+  fi
+fi
+#+end_src
+
+
+#+name: Networkmanager failed to turn off gracfully
+#+begin_quote markdown
+[!WARNING]
+Under certain conditions NetworkManager will fail to turn off gracefully especially when running in a long session
+#+end_quote
+
+To workaround this problem - advertise =internet.target= unit in systemd =sleep= targets e.g =suspend=, =sleep=, =suspend-then-hibernate=
+
+#+name: Suspend-to-hibernate Override
+#+begin_src systemd
+[Service]
+ExecStartPre=/usr/sbin/systemctl --user --machine=whammou@.host stop internet.target
+#+end_src
