@@ -287,9 +287,9 @@ CLOSED: [2026-04-12 Sun 17:02]
 :END:
 
 #+name: Change Sleep Mode
-#+begin_quote markdown
+#+begin_quote org
 [!NOTE]
-There are different sleep method supported on [Changing Suspend Method @Archwiki](https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate)
+There are different sleep method supported on [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate][Power Management methods @Archwiki]]
 #+end_quote
 
 Currently using =deep= method to ensure internet is turned off on =sleep=
