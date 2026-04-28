@@ -143,7 +143,8 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 - *OBJECTIVE:*  Fix =write error: quota exceeded /tmp= error on archlinux
 - *Reference:*  [[https://superuser.com/questions/959175/disk-quota-exceeded-when-writing-to-tmp-but-plenty-of-space-linux][Quota exceeded write error archlinux @Overflow]]
 - *Tracker:*   [[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][Debug Quota Exceed Write Error @Issue]]
-** TODO Fix Device Failed to Sleep :SystemError:
+** DONE Fix Device Failed to Sleep :SystemError:
+CLOSED: [2026-04-28 Tue 15:19]
 :PROPERTIES:
 :ID: 12d23d98-94b6-42ea-a36d-66d2e5a42bfb
 :END:
