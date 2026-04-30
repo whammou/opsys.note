@@ -1,0 +1,56 @@
+* DONE Fix Device Failed to Sleep :SystemError:
+CLOSED: [2026-04-28 Tue 15:19]
+:PROPERTIES:
+:ID: 12d23d98-94b6-42ea-a36d-66d2e5a42bfb
+:ARCHIVE_TIME: 2026-04-30 Thu 21:14
+:ARCHIVE_FILE: /home/whammou/Journal/topics/opsys/tasks/incidental.org
+:ARCHIVE_OLPATH: List of Incidental Tasks
+:ARCHIVE_CATEGORY: incidental
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Fix error when device sometimes failed to sleep
+* DONE Update Network Dispatcher Script :subSystemd@Event:
+DEADLINE: <2026-04-08 Wed 05:10> CLOSED: [2026-04-08 Wed 06:06]
+:PROPERTIES:
+:ID: 7bd74a09-e141-474d-8514-15f919d2f6e8
+:ARCHIVE_TIME: 2026-04-30 Thu 21:14
+:ARCHIVE_FILE: /home/whammou/Journal/topics/opsys/tasks/incidental.org
+:ARCHIVE_OLPATH: List of Incidental Tasks
+:ARCHIVE_CATEGORY: incidental
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Trigger systemd event with =dispatcher= script
+- /Delegate:/   [[id:d669c41b-5cd3-493c-81cf-c957ab9b7d59][Network Dispatcher Triggers Services @Dev]]
+* DONE [#A] Add TLP To Sudoer :SYSADMIN:TLP:
+DEADLINE: <2026-02-05 Thu> CLOSED: [2026-02-05 Thu 23:34]
+:PROPERTIES:
+:ID: 7912a304-83dd-4c62-8d1a-f02a6184318c
+:ARCHIVE_TIME: 2026-04-30 Thu 21:21
+:ARCHIVE_FILE: /home/whammou/Journal/topics/opsys/tasks/incidental.org
+:ARCHIVE_OLPATH: List of Incidental Tasks
+:ARCHIVE_CATEGORY: incidental
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Add =tlp= and some other packages to a =sudoer=
+* DONE [#A] Include Systemd Environment :subSystemd:
+DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-07 Sat 14:47]
+:PROPERTIES:
+:ID: 209832e5-6531-4566-a5bf-934f3261c975
+:ARCHIVE_TIME: 2026-04-30 Thu 21:21
+:ARCHIVE_FILE: /home/whammou/Journal/topics/opsys/tasks/incidental.org
+:ARCHIVE_OLPATH: List of Incidental Tasks
+:ARCHIVE_CATEGORY: incidental
+:ARCHIVE_TODO: DONE
+:END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-02-07 Sat 14:44] \\
+To include bash =environment variable= in a systemd service, use =bash -c ..=
+:END:
+#+html:</details>
+- *OBJECTIVE:*  Update =systemd= config to include =scripts= from user =$PATH=
+- *Reference:*
+  + [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
+  + [[https://askubuntu.com/questions/1014480/how-do-i-add-bin-to-path-for-a-systemd-service][Add custom bin to systemd service @Overflow]]
+  + [[https://askubuntu.com/a/1014501][Add PATH from bash to a systemd service @Overflow]]

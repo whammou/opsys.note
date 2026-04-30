@@ -77,12 +77,6 @@ DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
   + [[https://github.com/swaywm/swayidle][Swayidle upstream @Github]]
     * [[shell:man 1 swayidle]]
     * [[shell:man 1 swaylock]]
-** DONE [#A] Add TLP To Sudoer :SYSADMIN:TLP:
-DEADLINE: <2026-02-05 Thu> CLOSED: [2026-02-05 Thu 23:34]
-:PROPERTIES:
-:ID: 7912a304-83dd-4c62-8d1a-f02a6184318c
-:END:
-- *OBJECTIVE:*  Add =tlp= and some other packages to a =sudoer=
 ** PEND Make Home Server Headless :subHomelab:
 :PROPERTIES:
 :ID: 8d3ada12-a93e-4e02-a84f-b013f8be2de7
@@ -101,23 +95,6 @@ CLOSED: [2026-03-17 Tue 04:34]
 :END:
 - *OBJECTIVE:*  Manage system privilege with =sudoer=
 - *Reference:*  [[https://superuser.com/questions/636283/how-to-allow-user-to-preserve-environment-with-sudo][Allow user to preserve the environment @Overflow]]
-** DONE [#A] Include Systemd Environment :subSystemd:
-DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-07 Sat 14:47]
-:PROPERTIES:
-:ID: 209832e5-6531-4566-a5bf-934f3261c975
-:END:
-#+name:LOGBOOK
-#+html:<details><summary>LOGBOOK</summary>
-:LOGBOOK:
-- Note taken on [2026-02-07 Sat 14:44] \\
-  To include bash =environment variable= in a systemd service, use =bash -c ..=
-:END:
-#+html:</details>
-- *OBJECTIVE:*  Update =systemd= config to include =scripts= from user =$PATH=
-- *Reference:*
-  + [[https://stackoverflow.com/questions/77878400/how-to-configure-systemd-path-to-match-user-path][Config systemd PATH to match user PATH @Overflow]]
-  + [[https://askubuntu.com/questions/1014480/how-do-i-add-bin-to-path-for-a-systemd-service][Add custom bin to systemd service @Overflow]]
-  + [[https://askubuntu.com/a/1014501][Add PATH from bash to a systemd service @Overflow]]
 ** DONE Blanking Screen on Wayland :subWayland:SWAYIDLE:screensaver:
 DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :PROPERTIES:
@@ -143,12 +120,6 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 - *OBJECTIVE:*  Fix =write error: quota exceeded /tmp= error on archlinux
 - *Reference:*  [[https://superuser.com/questions/959175/disk-quota-exceeded-when-writing-to-tmp-but-plenty-of-space-linux][Quota exceeded write error archlinux @Overflow]]
 - *Tracker:*   [[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][Debug Quota Exceed Write Error @Issue]]
-** DONE Fix Device Failed to Sleep :SystemError:
-CLOSED: [2026-04-28 Tue 15:19]
-:PROPERTIES:
-:ID: 12d23d98-94b6-42ea-a36d-66d2e5a42bfb
-:END:
-- *OBJECTIVE:*  Fix error when device sometimes failed to sleep
 ** DONE Service Fallbacks :opServer:subOpenCode:
 DEADLINE: <2026-03-23 Mon> CLOSED: [2026-03-23 Mon 02:27]
 :PROPERTIES:
@@ -164,11 +135,3 @@ DEADLINE: <2026-03-30 Mon> CLOSED: [2026-03-30 Mon 19:34]
 - *OBJECTIVE:*  Create a systemd service that renew Desec DNS every minute
 - *Reference:*  [[https://desec.readthedocs.io/en/latest/dns/rrsets.html][Desec Doc @Blog]]
 - /Ticket:/   [[id:f719e976-b9c5-4d2f-b067-065ca2f2dbda][Manage Systemd Service Secrets @Issue]]
-** DONE Update Network Dispatcher Script :subSystemd@Event:
-DEADLINE: <2026-04-08 Wed 05:10> CLOSED: [2026-04-08 Wed 06:06]
-:PROPERTIES:
-:ID: 7bd74a09-e141-474d-8514-15f919d2f6e8
-:END:
-- *OBJECTIVE:*  Trigger systemd event with =dispatcher= script
-- /Delegate:/   [[id:d669c41b-5cd3-493c-81cf-c957ab9b7d59][Network Dispatcher Triggers Services @Dev]]
-  

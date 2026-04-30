@@ -422,19 +422,6 @@ CLOSED: [2025-12-29 Mon 16:27]
 - *Reference:*
   + [[https://www.reddit.com/r/commandline/comments/f4rwix/email_workflow_demo_neovim_neomutt_ultisnips/][Email Workflow with Neomutt @Reddit]]
   + [[https://gideonwolfe.com/posts/workflow/neomutt/intro/][Configuring Neomutt @Blog]]
-** DONE Add Notification Sound :subNotification@Bell:
-DEADLINE: <2026-04-08 Wed 19:00> CLOSED: [2026-04-08 Wed 20:45]
-:PROPERTIES:
-:ID: 73683978-a3c2-4df3-bc59-d3e48abe2081
-:END:
-- *OBJECTIVE:*  Add a sound for each notification type
-*** DONE Config Dunst Bell :subDunst:
-DEADLINE: <2026-04-06 Mon 18:00> CLOSED: [2026-04-06 Mon 17:40]
-:PROPERTIES:
-:ID: e46afc5b-c15a-4da4-b469-14c450b00141
-:END:
-- *OBJECTIVE:*  Update =dunst= notification bell
-- /Ticket:/     [[id:82337fb0-a3a8-466b-8099-7e75f0ecdbfd][Workaround Dunst Script Parameter Syntax @Issue]]
 ** NEXT [#B] Start a Cockpit Service :subCockpit:subHomelab@Monitor:
 :PROPERTIES:
 :ID: 76d999fa-9d9c-45af-80db-0b8f23cccb35
@@ -444,26 +431,3 @@ DEADLINE: <2026-04-06 Mon 18:00> CLOSED: [2026-04-06 Mon 17:40]
   + [[https://cockpit-project.org/guide/latest/guide.html#_author_7][Cockpit Guide @Doc]]
   + [[https://cockpit-project.org/external/wiki/Proxying-Cockpit-over-NGINX][Proxying cockpit over nginx @Guide]]
 - /Ticket:/     [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
-** DONE Rework System Notification Handling :subNotification:
-CLOSED: [2026-04-08 Wed 20:47]
-:PROPERTIES:
-:ID: 0e7134e0-0219-49b2-a526-fd0cfc04a945
-:END:
-- *OBJECTIVE:*  Rework system notifications to handle different =notification-stream= e.g. ntfy, dunstify, local, or remote
-- /Delegate:/   [[id:fe877f17-f182-446e-9b65-8cace2ea9523][Rewrite Dunst and Ntfy Configs @Task]]
-- /Ticket:/     [[id:6d9d718c-f394-42c0-82a0-b182fb7cf7a1][!ENHANCEMENT Network Notifications Handling @Enhancement]]
-** ABRT Config Notification Ducking :subNotification@Config:subWireplumber:
-DEADLINE: <2026-04-08 Wed 11:09> CLOSED: [2026-04-08 Wed 12:52]
-:PROPERTIES:
-:ID: 6194f97b-dfc6-4270-831a-f3add739f34d
-:END:
-- *OBJECTIVE:*  Deploy =wireplumber= config for notification =media.role=
-- *Reference:*  [[https://mazunki.pages.freedesktop.org/wireplumber/configuration/main.html][Wireplumber main config file @Doc]]
-- /Ticket:/     [[id:b6cf9f02-0f12-4e09-ab83-e7ea6bc35a1f][!ENHANCEMENT Notification Ducking Config @Enhancement]]
-** DONE Fix Systemd Service Misbehave :subSystemd:subNetworkManager@Dispatch:
-DEADLINE: <2026-04-09 Thu> CLOSED: [2026-04-09 Thu 21:44]
-:PROPERTIES:
-:ID: ea3bc60e-54e5-4788-8a39-039fd88bb2af
-:END:
-- *OBJECTIVE:*  Fix systemd =services= depends on =internet.target= fails after system suspend
-- /Ticket:/     [[id:d669c41b-5cd3-493c-81cf-c957ab9b7d59][Network Dispatcher Triggers Services @Dev]]
