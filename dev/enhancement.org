@@ -116,32 +116,3 @@ def session_resume():
 
 /Ticket:/ [[id:68f4414f-404b-45a0-b846-cade3d4ced48][!IMPLEMENT Qtile Custom and Built-in Hooks]] \\
 /Reference:/  [[https://docs.qtile.org/en/latest/manual/ref/hooks.html#libqtile.hook.subscribe.unlocked][Qtile Built-in hooks @Doc]]
-** CLSD !ENHANCEMENT Network Notifications Handling :subNotification@Management:
-CLOSED: [2026-04-08 Wed 20:47]
-:PROPERTIES:
-:ID: 6d9d718c-f394-42c0-82a0-b182fb7cf7a1
-:END:
-
-#+begin_quote markdown
-Design a system to handle different incomes of notifications
-#+end_quote
-
-- /Delegate:/     [[id:82337fb0-a3a8-466b-8099-7e75f0ecdbfd][Workaround Dunst Script Parameter Syntax @Issue]]
-** CLSD !ENHANCEMENT Notification Ducking Config :subWireplumber:subNotification@Ducking:
-CLOSED: [2026-04-08 Wed 12:51]
-:PROPERTIES:
-:ID: b6cf9f02-0f12-4e09-ab83-e7ea6bc35a1f
-:END:
-#+name:LOGBOOK
-#+html:<details>
-#+html:<summary>LOGBOOK</summary>
-:LOGBOOK:
-- Note taken on [2026-04-08 Wed 12:51] \\
-  Currently too complicated, need more time research on this subject
-:END:
-#+html:</details>
-
-#+name: Desciption
-#+begin_quote markdown
-Adding =ducking= effect to notifications via =wireplumber= daemon 
-#+end_quote
