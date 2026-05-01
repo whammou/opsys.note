@@ -81,12 +81,12 @@ CLOSED: [2026-03-30 Mon 21:17]
 #+html:</details>
 
 #+name: Description
-#+begin_quote markdown
+#+begin_quote org
 There several events that is not in the systemd built-in system /e.g. qtile resume session/. Create custom =target= or =services= for these event. Run services on these event
 #+end_quote
 
 #+name: Goal note
-#+begin_quote markdown
+#+begin_quote org
 [!NOTE]
 Systemd already has a sleep.target, however, that's a system-level target, and your user-level units can't rely on it. The one included in this package should not conflict, but rather compliments that one
 #+end_quote
