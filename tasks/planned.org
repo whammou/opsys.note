@@ -142,15 +142,15 @@ CLOSED: [2026-03-30 Mon 21:20]
 :END:
 - *OBJECTIVE:*  Create a hook to auto connect to trusted device on session unlock
 - /Ticket:/   [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target @Enhancement]]
-** PROG Allow Some User to Edit Systemfile :subPermission:
-DEADLINE: <2026-05-08 Fri> SCHEDULED: <2026-05-07 Thu 21:30>
+** DONE Allow Some User to Edit Systemfile :subPermission:
+DEADLINE: <2026-05-08 Fri> CLOSED: [2026-05-09 Sat 17:00] SCHEDULED: <2026-05-07 Thu 21:30>
 :PROPERTIES:
 :ID: 51f8acb2-e767-4e03-8089-2a7769b65604
 :END:
 - *OBJECTIVE:*  Allowing specific =user= to edit some =systemfile=
 - *Reference:*  [[https://askubuntu.com/questions/505050/how-can-i-allow-a-user-to-edit-a-specific-system-file-normally-restricted-to-roo][Allow a user to edit a specific system file @Overflow]]
-*** DOIN Setfacl Over SSH :subSsh:
-DEADLINE: <2026-05-07 Thu> SCHEDULED: <2026-05-07 Thu 21:30>
+*** DONE Setfacl Over SSH :subSsh:
+DEADLINE: <2026-05-07 Thu> CLOSED: [2026-05-09 Sat 17:00] SCHEDULED: <2026-05-07 Thu 21:30>
 :PROPERTIES:
 :ID: 209d7eaf-5d7b-4806-a56e-457c6858ce8e
 :END:
