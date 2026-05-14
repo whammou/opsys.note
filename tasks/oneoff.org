@@ -431,8 +431,8 @@ CLOSED: [2025-12-29 Mon 16:27]
   + [[https://cockpit-project.org/guide/latest/guide.html#_author_7][Cockpit Guide @Doc]]
   + [[https://cockpit-project.org/external/wiki/Proxying-Cockpit-over-NGINX][Proxying cockpit over nginx @Guide]]
 - /Ticket:/     [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
-** TODO Change System Theme :@Theme:
-SCHEDULED: <2026-05-14 Thu>
+** DONE Change System Theme :@Theme:
+SCHEDULED: <2026-05-14 Thu> CLOSED: [2026-05-14 Thu 20:44]
 :PROPERTIES:
 :ID: 2ce80491-a804-425b-b970-efcc22a88623
 :END:
