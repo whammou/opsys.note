@@ -323,7 +323,7 @@ CLOSED: [2025-09-25 Thu 13:55]
 ** DONE Rework Browser Open Script :subQutebrowser:FILE:
 CLOSED: [2025-09-13 Sat 09:43] DEADLINE: <2025-09-13 Sat>
 - *OBJECTIVE:* Rework [[file:/home/whammou/dotfiles/scripts/qutebrowser_quick][qutebrowser_quick]] script
-** PEND Add VPN to System :ARCHLINUX:VPN:
+** PEND Add VPN to System :ARCHLINUX:subVPN:
 - *OBJECTIVE:* Get =VPN= to work on current system
 - *Reference:* [[https://wiki.archlinux.org/title/OpenVPN][OpenVPN Guide @Archwiki]]
 ** DONE Identify USB drive :DRIVE:

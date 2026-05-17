@@ -104,7 +104,7 @@ CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
   + [[https://www.reddit.com/r/archlinux/comments/10sl30w/how_do_i_set_up_a_vpn_server/][Create your own VPN @Reddit]]
   + [[https://forum.level1techs.com/t/wireguard-perfect-remote-access/182250][Wireguard remote access @Blog]]
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
-*** Access Via VPN :VPN:
+*** Access Via VPN :subVPN:
 - *OBJECTIVE:*  Connect to =home-network= via VPN
 - *Visit:*      [[id:4a0867d1-313e-4131-82f8-d1ebe07a1814][Homelab Remote Access Via VPN @Org]]
 ** DONE Implement Notification History View :subDunst:subFzf:subNotification:
@@ -156,4 +156,10 @@ DEADLINE: <2026-05-07 Thu> CLOSED: [2026-05-09 Sat 17:00] SCHEDULED: <2026-05-07
 :END:
 - *OBJECTIVE:*  Allowing file operation over =ssh=
 - *Reference:*  [[https://serverfault.com/questions/1085568/acl-settings-works-when-using-ssh-but-not-with-scp-command][ACL works over ssh but not scp @Overflow]]
-
+** TODO Setup Home Network VPN :subVpn:
+:PROPERTIES:
+:ID: 8d0e1f07-bc74-41ff-9b48-8320660fa69a
+:END:
+- *OBJECTIVE:*  Setup Home Network VPN
+- /Delegate:/   [[id:c9c7fb4d-e56d-45ae-8c56-2e402cc1d623][Configure WireGuard VPN @Org]]
+  
