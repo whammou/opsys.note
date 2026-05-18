@@ -162,4 +162,11 @@ DEADLINE: <2026-05-07 Thu> CLOSED: [2026-05-09 Sat 17:00] SCHEDULED: <2026-05-07
 :END:
 - *OBJECTIVE:*  Setup Home Network VPN
 - /Delegate:/   [[id:c9c7fb4d-e56d-45ae-8c56-2e402cc1d623][Configure WireGuard VPN @Org]]
+** TODO Bypassing Public NAT Restrictions :subSecurity:
+SCHEDULED: <2026-05-19 Tue>
+:PROPERTIES:
+:ID: 5dce3849-74c8-4033-a061-2479249e8e37
+:END:
+- *OBJECTIVE:*  Try bypassing some public NAT that blocked common ports
+- *Reference:*  [[https://isaiahnullbyte.github.io/cybernautblog/posts/redteam_1_9-16-23/][Bypassing with reverse proxy @Blog]]
   
