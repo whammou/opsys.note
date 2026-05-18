@@ -437,3 +437,9 @@ SCHEDULED: <2026-05-14 Thu> CLOSED: [2026-05-14 Thu 20:44]
 :ID: 2ce80491-a804-425b-b970-efcc22a88623
 :END:
 - *OBJECTIVE:*  Change system theme to onedark =dark= variation
+** TODO Change Boot Theme :@Theme:
+SCHEDULED: <2026-05-18 Mon>
+:PROPERTIES:
+:ID: 4a9df61c-060a-41e6-ba91-d6fc3e32152a
+:END:
+- *OBJECTIVE:*  Change =ly= and =grub= theme to onedark-dark
