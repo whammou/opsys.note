@@ -169,4 +169,4 @@ SCHEDULED: <2026-05-19 Tue>
 :END:
 - *OBJECTIVE:*  Try bypassing some public NAT that blocked common ports
 - *Reference:*  [[https://isaiahnullbyte.github.io/cybernautblog/posts/redteam_1_9-16-23/][Bypassing with reverse proxy @Blog]]
-  
+- /Delegate:/   [[id:667b5919-0382-422a-ab2f-c001bb9c4ab6][Encapsulating Traffic @Org]]
