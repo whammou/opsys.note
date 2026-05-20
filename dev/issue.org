@@ -1,7 +1,8 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-* Issues List :typDev:catIssue:OPSYS:meta:
-** OPEN Manage Systemd Service Secrets :subSystemd@SecretManagement:
+#+FILTAGS: :typDev:catIssue:OPSYS:meta:
+
+* OPEN Manage Systemd Service Secrets :subSystemd@SecretManagement:
 :PROPERTIES:
 :ID: f719e976-b9c5-4d2f-b067-065ca2f2dbda
 :END:
@@ -9,7 +10,7 @@
 #+begin_quote markdown
 Managing systemd =secrets= and in units using =pass=
 #+end_quote
-** OPEN Cockpit Authentication Timeout :subCockpit:
+* OPEN Cockpit Authentication Timeout :subCockpit:
 :PROPERTIES:
 :ID: 89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25
 :END:
@@ -18,15 +19,15 @@ Cockpit returns 502 bad gateways and authentication timeout
 #+end_quote
 
 !Configure authenticated user on cockpit
-*** Proxying Cockpit over Nginx :subNginx@Proxy:
+* Proxying Cockpit over Nginx :subNginx@Proxy:
 :PROPERTIES:
 :ID: 2540dc04-7d99-4f88-86b1-ecd558989dda
 :END:
 -----
 - Note taken on [2026-04-09 16:34]: \\
-
+  
 -----
-** OPEN Encapsulating Traffic :subNetwork:subSecurity:
+* OPEN Encapsulating Traffic :subNetwork:subSecurity:
 :PROPERTIES:
 :ID: 667b5919-0382-422a-ab2f-c001bb9c4ab6
 :END:
@@ -36,7 +37,7 @@ Cockpit returns 502 bad gateways and authentication timeout
 Usually when behind a public or locked down firewall majority of the outbound traffic allowed id port 80(http) and port 443(https). Due to mostly security concerns. With this reverse proxy setup we can mask all of our traffic to appear as essentially HTTPS and traffic which allows us to bypass a lot of these restrictions
 #+end_quote
 
-#+name: Illustration
+#+name: SSH Tunnel within Stunnel traffic for Firewall Bypass
 #+begin_src mermaid
 flowchart TB
     subgraph CLIENT[" Client Machine (Kali)"]
