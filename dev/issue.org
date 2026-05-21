@@ -70,3 +70,37 @@ flowchart TB
     SSH_PROXY -.-> L2
     STUNNEL_CLIENT -.-> L3
 #+end_src
+
+#+name: Setup and Bypass Sequence
+#+begin_src mermaid
+sequenceDiagram
+    participant Client as  Client Machine
+    participant FW as  Firewall
+    participant VPS as  Reverse Proxy VPS
+    participant LE as Let's Encrypt
+
+    Note over VPS: Phase 1: Server Setup
+    VPS->>VPS: Install Apache2 + open ports 22,80,443
+    VPS->>LE: Request SSL cert via Certbot<br/>(domain → VPS IP)
+    LE-->>VPS: Signed SSL cert (fullchain.pem, privkey.pem)
+    VPS->>VPS: Stop Apache2 (frees port 443)
+    VPS->>VPS: Install stunnel4 (server mode)
+    VPS->>VPS: Config: accept=443, connect=localhost:22
+
+    Note over Client: Phase 2: Client Setup
+    Client->>Client: Install stunnel4 (client mode)
+    Client->>Client: Config: accept=9443, connect=domain:443
+
+    Note over Client,VPS: Phase 3: SSL Tunnel Established
+    Client->>FW: stunnel connects on port 443 (SSL/TLS)
+    FW->>VPS:  Allowed — looks like normal HTTPS
+    VPS->>VPS: Stunnel decrypts, forwards to localhost:22
+    VPS-->>Client: SSL tunnel established 
+
+    Note over Client: Phase 4: SSH Tunnel inside SSL
+    Client->>Client: ssh -D 9090 user@127.0.0.1 -p 9443
+    activate Client
+    Client->>Client: SSH socks proxy on port 9090
+    Note right of Client: App traffic → SOCKS:9090 → SSH tunnel<br/>→ Stunnel SSL:443 → VPS → Internet
+    deactivate Client
+#+end_src
