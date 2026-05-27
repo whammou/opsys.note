@@ -3,14 +3,10 @@
 :END:
 #+TITLE: Managing Systemd Services
 
-#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :typDoc:meta:subSystemd:subSystemd@Structure
-#+HTML:<details>
-* Managing Systemd Services :typDoc:meta:subSystemd:subSystemd@Structure:
-
-#+HTML:</details>
-** DONE Service Drop-in Override
+* DONE [#A] Service Drop-in Override
 CLOSED: [2026-04-09 Thu 15:21]
 :PROPERTIES:
 :ID: 2b1bd424-ef43-4f2b-8b80-6c7dac4ba9ff

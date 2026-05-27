@@ -3,14 +3,10 @@
 :END:
 #+TITLE: Process Containerization
 
-#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
 #+FILETAGS: :typDoc:meta:MANAGEMENT:containerization:
-#+HTML:<details>
-
-* Process Containerization :typDoc:meta:MANAGEMENT:containerization:
-#+HTML:</details>
-** DONE Containerization in Process Management :MANAGEMENT:containerization:
+* DONE [#A] Containerization in Process Management :MANAGEMENT:containerization:
 DEADLINE: <2025-12-04 Thu 19:30> CLOSED: [2025-12-04 Thu 20:48]
 :PROPERTIES:
 :ID: 362cf886-09be-4964-b993-0ab110297d58
@@ -21,7 +17,7 @@ DEADLINE: <2025-12-04 Thu 19:30> CLOSED: [2025-12-04 Thu 20:48]
 - By abstracting the infrastructure, containerization allow user to make the application truly portable and flexible
   
 /Check-out:/ [[https://www.papertrail.com/solution/tips/what-are-containers-and-containerization-in-devops/][Containerization in Devop @Blog]]
-*** Containers vs. Virtual Machines
+** Containers vs. Virtual Machines
 #+BEGIN_QUOTE
 =containers= and =virtual machines= are very similar resource virtualization technologies.
 #+END_QUOTE
@@ -33,11 +29,11 @@ DEADLINE: <2025-12-04 Thu 19:30> CLOSED: [2025-12-04 Thu 20:48]
 - =virtual-machine= virtualise an entire machine down to the hardware layers
 - =containers= only virtualises software layers above the operating system level
 [[https://wac-cdn.atlassian.com/dam/jcr:92adde69-f728-4cfc-8bab-ba391c25ae58/SWTM-2060_Diagram_Containers_VirtualMachines_v03.png][virtual-machine vs. Container system level]]
-**** Containers in-depth
+*** Containers in-depth
 Containers are lightweight software =packages= that contain all the =dependencies= required to execute the contained =software= application
 - =dependecies= include things like system =libraries=, external third party code =packages=, and other system level =applications=
 - The =depencies= included in a container exist in stack levels that are higher than the =os=
-***** Popular Container Providers
+**** Popular Container Providers
 - *Docker:* \\
   =docker= is the most popular and widely used container runtime. =docker hub= is a giant public repository of popular containerized software and applications. Containers on =docker hub= can instantly downloaded and deployed to local =docker runtime=
   -----
@@ -46,9 +42,9 @@ Containers are lightweight software =packages= that contain all the =dependencie
 -----
 - *Podman:* \\
   open-source alternative of =docker=, comes with integration for =systemd= and =kubernetes=
-**** Virtual-machines in-depth
+*** Virtual-machines in-depth
 =virtual-machines= are heavy software packages that provide a complete emulation of low level hardware like /CPU, DISK, NETWORK/. =virtual-machine= may also include a complementary software =packages= combined produce a fully function snapshot of a computational system
-**** Containers vs. Pods
+*** Containers vs. Pods
 #+BEGIN_QUOTE
 While both =containers= and =pods= play essential roles in /containerized/ deployments, They serve distinct purpose \\
 #+END_QUOTE
@@ -69,20 +65,20 @@ While both =containers= and =pods= play essential roles in /containerized/ deplo
 *Lifetime management:* \\
 - =containers= are typically /short-lived/ -> they are create and destroyed on demand
 + =pods= can configured to have a specific /lifetime/ or /life-cycle/ -> Even if one =container= within a =pod= fails or restarts, the other =containers= in the =pod= can continue running depending on the pod's /configuration/
-***** Use Cases of Containers
+**** Use Cases of Containers
 - *Micro-services architecture*
 - *Application deployment and Scaling*
 - *CI/CD*
 - *Legacy application modernisation*
 - *Batch Processing*
 - *Developing and testing cloud-native applications*
-***** Use Cases of Pods
+**** Use Cases of Pods
 - *Multi-container applications*
 - *Managing complex applications*
 - *Stateful applications*
 - *Sidecar containers*
 - *Graceful degradation and self-healing*
-***** Choosing Between Container vs. Pod
+**** Choosing Between Container vs. Pod
 *Application architecture:* \\
 - =containers= are a natural fir if your application is built using =microservies acrchitecture= /Where each service runs independently/
 + =pods= are the way to go for applications with multiple interdependent =containers=. =Pods= provide a cohesive unit for managing these containers

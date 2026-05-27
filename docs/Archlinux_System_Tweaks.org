@@ -4,41 +4,34 @@
 :END:
 #+TITLE: Archlinux System Tweaks
 
-#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :typDoc:subProject:OPSYS:ARCH:TWEAKS:
-#+HTML:<details>
-
-* Archlinux System Tweaks :typDoc:meta:OPSYS:ARCH:TWEAKS:
-:PROPERTIES:
-:ID: 6ab8f5dd-cb7f-4ede-90e3-340881274a20
-:END:
-#+HTML:</details>
 - *Objective:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
-** DONE Update grub parameters
+* DONE [#A] Update grub parameters
 CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* update grub boot parameters to splash ~screen~ and hide grub ~menu~
   - Add ~splash~ parameter to kernel parameter: ~GRUB_CMDLINE_LINUX_DEFAULT="... splash"~
   - Add ~hidden~ parameter to ~GRUB_TIMEOUT_STYLE~: ~GRUB_TIMEOUT_STYLE=hidden~
-** DONE Enable zswap
+* DONE [#A] Enable zswap
 CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* enable system zswap on boot
   - Add ~zswap.enable=1~ to kernel parameter: ~GRUB_CMDLINE_LINUX="... zswap.enabled=1"~
-** DONE Config ~pacman~
+* DONE [#A] Config ~pacman~
 CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* config ~pacman~ to:
   - Output colors: ~Colors~
   - have a funny animation ~IloveCandy~
-*** DONE Reverse Packages Upgrade :UPDATE:
+** DONE Reverse Packages Upgrade :UPDATE:
 CLOSED: [2025-08-09 Sat 02:54]
 - To reverse an =official= package use [[https://wiki.archlinux.org/title/Arch_Linux_Archive][Archlinux Archive @Archwiki]]
 - To reverse an =AUR= package check out [[https://aur.archlinux.org/packages/downgrade][AUR Downgrade @AUR]]
-** DONE Fix screen tearing
+* DONE [#A] Fix screen tearing
 CLOSED: [2025-05-21 Wed 18:21]
 - *Objective:* /Rock archlinux without a compositor/
   - *References:* [[id:263ea0db-b98c-4775-9628-220682a48918][Intel TearFree @Orgmode]]
-** DONE Screen Time Event :ARCH:DPMS:
+* DONE [#A] Screen Time Event :ARCH:DPMS:
 CLOSED: [2025-08-14 Thu 16:25] DEADLINE: <2025-08-14 Thu>
 - *OBJECTIVE:* Do not turn off screen when a media is playing =archlinux=
 -----
@@ -110,7 +103,7 @@ CLOSED: [2025-08-14 Thu 16:25] DEADLINE: <2025-08-14 Thu>
       #+html:</details>
 -----
 - *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=264737][Do Not Turn Display Off When a Media is Playing @Arch-forum]]
-** DONE Disable fallback initramfs generation :PERFORMANCE:
+* DONE [#A] Disable fallback initramfs generation :PERFORMANCE:
 CLOSED: [2025-08-20 Wed 12:35] DEADLINE: <2025-08-20 Wed>
 Generation of fall =initramfs= can lead to full =boot= drive and thus unable to upgrade system or packages. To disable to generation of fallback image [fn:disable-fallback-img]:
 + Change ~PRESETS('default' 'fallback')~ line to ~PRESETS=('default')~ in the repective /.preset/ files in =/etc/mkinitcpio.d/=
@@ -124,7 +117,7 @@ Disabling all fallback initramfs generation will leads to booting problems when 
 #+END_QUOTE
 
 Reference:* [[https://wiki.archlinux.org/title/USB_flash_installation_medium][USB flash installation medium]]
-** DONE User Service Proxy :subSystemd:opService:
+* DONE [#A] User Service Proxy :subSystemd:opService:
 CLOSED: [2025-09-06 Sat 20:53]
 Sometimes we want a =user-service= to run along with =system-services= on =systemd= init system. There are a few ways to tackle this problem.
 - Elevating service privileges
@@ -147,7 +140,7 @@ Sometimes we want a =user-service= to run along with =system-services= on =syste
     #+BEGIN_SRC bash
     systemctl enable --now ac@whammou.service
     #+END_SRC
-** DONE Mounting USB Storage :DRIVE:
+* DONE [#A] Mounting USB Storage :DRIVE:
 CLOSED: [2025-09-19 Fri 15:02]
 - Auto-mounting with =udisks= - this is the easiest and most frequent used method
   + *Installation:* Install the =udisks2= or =udisks2-btrfs= module via =pacman=
@@ -166,7 +159,7 @@ CLOSED: [2025-09-19 Fri 15:02]
     run = "plugin mount"
     #+END_SRC
   + Launch the /mount-manager/ inside =yazi= with =M=
-** DONE System Swap and Swappiness :ARCH:SWAP:
+* DONE [#A] System Swap and Swappiness :ARCH:SWAP:
 DEADLINE: <2025-11-28 Fri> CLOSED: [2025-11-29 Sat 01:16]
 /What are swap and swappiness and how to increase system performance by adjusting swappiness value/
 
@@ -181,7 +174,7 @@ The amount of =physical memory= and =swap space= is the amount of virtual memory
 #+END_QUOTE
 
 - *goto:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
-*** Swap Space & Swap Partition & Swap File
+** Swap Space & Swap Partition & Swap File
 A =swap space= can take the form of a disk partition or a file. =Swap space= can be used for 2 purposes:
 - To extend the =virtual memory= beyond the installed =physical memory=
 - And also add [[id:b827e129-f7ca-4f65-8043-460afe696107][Suspend-to-disk support @Org]]
@@ -193,19 +186,19 @@ A =swap space= can take the form of a disk partition or a file. =Swap space= can
     #+BEGIN_SRC sh
     free -h
     #+END_SRC
-**** Swap Partition
+*** Swap Partition
 A =swap partition= is a dedicated disk partition used for =swap space=. To enable the device for paging
 #+BEGIN_SRC sh
 swapon /dev/sdxy
 #+END_SRC
 
 A brief comparison between =swap partition= and =swap file=: [[https://opencode.ai/s/N06P2jLo][Swap partition vs Swap file @Opencode-session]]
-**** Swap File
+*** Swap File
 As an alternative to create an entire =partition=
 - A =swap-file= offers the ability to vary its size /on-the-fly/
 - And is more easily removed altogether
 - This is desirable if the disk space is at premium (e.g. SSD)
-***** Swap File Creation
+**** Swap File Creation
 
 #+NAME: btrfs swap file limitations
 #+BEGIN_QUOTE markdown
@@ -239,7 +232,7 @@ To properly create a =swap-file= on =btrfs=
   #+BEGIN_SRC fstab
   /swap/swapfile none swap defailts 0 0
   #+END_SRC
-***** Swap File Removal
+**** Swap File Removal
 To remove a swap-file, it must be turned off first and then can be removed:
 #+BEGIN_SRC sh
 swapoff /swap/swapfile
@@ -247,7 +240,7 @@ rm -f /swap/swapfile
 #+END_SRC
 
 And remove the relevant entry from =/etc/fstab=
-*** System Swappiness
+** System Swappiness
 #+BEGIN_QUOTE markdown
 When `memory` reaches a certain threshold, the kernel starts looking at active memory and seeing what it can free up
 - File data can be written out to the file system
@@ -280,7 +273,7 @@ vm.swappiness = 20
 
 To have the =boot-loader= set the swappiness when loading the =kernel=
 - Add a =kernel-parameter= e.g. ~sysctl.vm.swappiness=20~
-** DONE Disable Internet on Sleep :subSystemd:
+* DONE [#A] Disable Internet on Sleep :subSystemd:
 CLOSED: [2026-04-12 Sun 17:02]
 :PROPERTIES:
 :ID: b3f0627d-14ce-4edc-9fe4-7b05f842c12d
@@ -293,7 +286,7 @@ There are different sleep method supported on [[https://wiki.archlinux.org/title
 #+end_quote
 
 Currently using =deep= method to ensure internet is turned off on =sleep=
-*** DONE Advertise Internet Service :subSystemd@Config:
+** DONE Advertise Internet Service :subSystemd@Config:
 CLOSED: [2026-04-12 Sun 17:02]
 :PROPERTIES:
 :ID: b26e865d-fdc1-4539-9715-f90fef085fbc

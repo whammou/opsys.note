@@ -3,7 +3,7 @@
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+FILETAGS: :typDoc:catDraft:OPSYS:
-* OUTL CPU and IRQ scheduler :PERFORMANCE:
+* OUTL [#A] CPU and IRQ scheduler :PERFORMANCE:
 - /Setup CPU and IRQ scheduler/ ~daemon~
 ** OUTL Optimizing CPU Performance :cpu-performance:
 /Optimize battery and performance usage on archlinux/
@@ -13,19 +13,19 @@
 *** Automatic CPU Optimizer :ACF:
 =Auto-cpufreq= is a utility tools to optimize CPU frequency base on load and power usage \\
 /Reference:/  [[https://github.com/AdnanHodzic/auto-cpufreq][Auto-cpufreq upstream @Github]]
-* OUTL Select io scheduler :PERFORMANCE:
+* OUTL [#A] Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
-* OUTL Disable Coredump :TWEAKS:
+* OUTL [#A] Disable Coredump :TWEAKS:
 /Documentation of disabling systemd coredump/
-* OUTL Running Tasks in Parallel
+* OUTL [#A] Running Tasks in Parallel
 :PROPERTIES:
 :ID:       2b964774-683a-4eaa-882d-a8f5e5dc714d
 :END:
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
 ** OUTL GNU-parallel vs xargs
-* OUTL Chroot from live USB
+* OUTL [#A] Chroot from live USB
 /How to chroot from live USB stick/
-* OUTL Arch Linux hibernation
+* OUTL [#A] Arch Linux hibernation
 :PROPERTIES:
 :ID:       b827e129-f7ca-4f65-8043-460afe696107
 :END:
@@ -34,20 +34,20 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
   
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
-* OUTL Notification Forwarding :subNotification:
+* OUTL [#A] Notification Forwarding :subNotification:
 /How to forward notification between machines/
 - *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
 - *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
-* OUTL Run Service on Network Change :INTERNET:
+* OUTL [#A] Run Service on Network Change :INTERNET:
 :PROPERTIES:
 :ID:       b6113f7d-9ec6-49df-80ff-2c0d7546475f
 :END:
 /How to run script on network change/ \\
 /*Check-out:*/ [[https://unix.stackexchange.com/a/725928][Restart Service on Wifi Change @Overflow]]
-* OUTL Systemd power supply detection :subSystemd:
+* OUTL [#A] Systemd power supply detection :subSystemd:
 - *OBJECTIVE:* Adding power supply detection to systemd via udev rules
 - *Reference:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
-* OUTL Advanced Suspend Mode :PERFORMANCE:
+* OUTL [#A] Advanced Suspend Mode :PERFORMANCE:
 /Config advanced suspend mode on =archlinux= to optimize sleep time and power usage/ \\
 /Check-out:/ [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#High_level_interface_(systemd)][Power Management @Archlinux]]
 ** Suspend Mode on Event
@@ -65,10 +65,10 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
     #+END_SRC
 ** Suspend-then-hibernate
 To change =timeout= of =hibernation= when suspending
-* OUTL Podman Quadlet :subPodman:containerization:
+* OUTL [#A] Podman Quadlet :subPodman:containerization:
 /What is =podman= and =quadlet= and how they are used to with =systemd=/
 /Check-out:/ [[https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet][How to run podman container using quadlet @Blog]]
-* OUTL Switching to Wayland Guide :subWayland:GUIDE:
+* OUTL [#A] Switching to Wayland Guide :subWayland:GUIDE:
 :PROPERTIES:
 :ID:       d398a743-eedb-4300-84e8-beab397e4b49
 :END:
@@ -78,7 +78,7 @@ To change =timeout= of =hibernation= when suspending
 /Reference:/ [[https://gitlab.com/S410/noinputs][noinput @Gitlab]]
 ** Wayland Clipboard Manager
 /Enable =clipboard= manager on =wayland=/
-* OUTL Archlinux Security :ARCHLINUX:Security:
+* OUTL [#A] Archlinux Security :ARCHLINUX:Security:
 /How to make archlinux =desktop= and =server= more secure/
 /Reference:/ [[https://www.youtube.com/watch?v=QxNsyrftJ8I][Security mistakes on linux @Youtube]]
 ** OUTL Firewall on Archlinux :firewall:
@@ -155,7 +155,7 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
     #+BEGIN_SRC sh
     systemctl start fail2ban # or enable to start by default
     #+END_SRC
-* DOIN Homelab Remote Access Via VPN :subVPN:subWireGuard:subHomelab:
+* DOIN [#A] Homelab Remote Access Via VPN :subVPN:subWireGuard:subHomelab:
 DEADLINE: <2026-02-09 Mon>
 :PROPERTIES:
 :ID:       4a0867d1-313e-4131-82f8-d1ebe07a1814
@@ -296,6 +296,6 @@ A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that disti
 #+html:</details>
 ** OUTL Network Terminologies
 -  Gateway Peer
-* OUTL Screen-saver and Screen-lock :subWayland:MONITOR:
+* OUTL [#A] Screen-saver and Screen-lock :subWayland:MONITOR:
 /Lock and turn off screen after X value/ \\
 /Visit:/  [[id:42f1f2f3-7ced-4803-b2af-74714bc55dc1][Wayland Screen Timeout @Org]]

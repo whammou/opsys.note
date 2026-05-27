@@ -4,15 +4,11 @@
 :END:
 #+TITLE: System Proxies and DNS
 
-#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :typDoc:subProject:OPSYS:LINUX:NETWORK:
-#+HTML:<details>
-
-* PEND System Proxies and DNS :typDoc:meta:OPSYS:LINUX:NETWORK:
-#+HTML:</details>
 Access blocked websites via ~proxy~ or ~DNS~
-** DONE Reverse Tunneling :PROTOCOL:subSsh:reversetunneling:
+* DONE [#A] Reverse Tunneling :PROTOCOL:subSsh:reversetunneling:
 DEADLINE: <2025-11-27 Thu> CLOSED: [2025-11-27 Thu 22:28]
 - Summary:
   + Reverse =ssh-tunneling= is useful when you need to connect to a remote computer that is hard to reach dir to =firewall= or complex network configurations
@@ -45,16 +41,16 @@ DEADLINE: <2025-11-27 Thu> CLOSED: [2025-11-27 Thu 22:28]
 #+END_SRC
 #+html:</details>
 - *Visit:* [[https://stackoverflow.com/a/76549625/25585364][Auto restart background ssh tunnel @Overflow]]
-*** What is Reverse SSH Tunneling?
+** What is Reverse SSH Tunneling?
 #+BEGIN_QUOTE
 Reverse SSH Tunneling allows user to use that established connection to set up a new connect from a =local= computer back to the =remote= computer
 #+END_QUOTE
 Because the original connection came from the remote computer to you, using it to go in the other direction using it /in reverse/. Thus the name =reverse ssh tunneling=
 
-*** How does SSH Tunneling Work?
+** How does SSH Tunneling Work?
 - Reverse SSH Tunneling relies on the remote computer to take advantage of an already established connection to listen for a new connection request from the =local= computer
 - The =remote= computer listens on a network port on the =local= computer. If it detects an =ssh= request on that port, it relays the connection request back to itself /or another device/ down the established connection. This provides a new connection from the =local= computer to the =remote= computer
-*** Using SSH Reverse Tunneling
+** Using SSH Reverse Tunneling
 To establish a connection between the =remote= and =local= machine run:
 #+BEGIN_SRC sh
 ssh -o ControlMaster=auto -o ControlPath=/path/to/control/socket -NR 2200:localhost:22 user@remote-ip
