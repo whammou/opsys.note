@@ -1,22 +1,21 @@
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
-#+TITLE: System Incidental Tasks
+#+FILETAGS: :typTask:catIncidental:OPSYS:
 
-* List of Incidental Tasks :typTask:catIncidental:OPSYS:meta:
-** PEND Termux ssh :LINUX:TERMUX:
+* PEND Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
-** PEND Automatic git sync :subOrgmode:
+* PEND Automatic git sync :subOrgmode:
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
-** PEND Control nvim instances
+* PEND Control nvim instances
 - *Objective:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
-** DONE Shareable documents content :PARA:
+* DONE Shareable documents content :PARA:
 CLOSED: [2026-03-17 Tue 04:33]
 - *OBJECTIVE:* Re-format docs file for friendly and quick export to share among peers
 - *Reference:* [[https://old.reddit.com/r/blender/comments/16qtuy0/2_questions_how_do_i_share_my_materials_and_how/][Shareable material and good workflow @Reddit-discussion]]
-** DONE Font Test Script :FONT:
+* DONE Font Test Script :FONT:
 CLOSED: [2025-10-08 Wed 04:22]
 - *OBJECTIVE:* Script to test whether the font is =monospaced= or not
 -----
@@ -35,11 +34,11 @@ CLOSED: [2025-10-08 Wed 04:22]
   #+END_SRC
 -----
 - *Reference:* [[https://stackoverflow.com/a/34519826/25585364][Check if font is monospaced @Overflow]]
-** DONE Get =Screencast= to Work under Wayland :subWayland:Bug:
+* DONE Get =Screencast= to Work under Wayland :subWayland:Bug:
 DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 21:25]
 - *OBJECTIVE:*  Get webrtc =screencast= to work under wayland
 - *Reference:*  [[https://github.com/qtile/qtile/issues/5213][Qtile Unable to Share Screne Under Wayland @Github-issue]]
-*** DONE  Troubleshoot =Xdg-desktop-portal-wlr=
+** DONE  Troubleshoot =Xdg-desktop-portal-wlr=
 CLOSED: [2026-01-16 Fri 21:25]
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
@@ -50,7 +49,7 @@ CLOSED: [2026-01-16 Fri 21:25]
 #+html:</details>
 - *OBJECTIVE:*  Troubleshoot =xdg-desktop-portal-wlr= start ungracefully
 - [[https://wiki.archlinux.org/title/XDG_Desktop_Portal#portal-does-not-start][Trouble shoot portal does not start @Archwiki]]
-**** DONE Config Systemd User Session Variable :subSystemd:
+*** DONE Config Systemd User Session Variable :subSystemd:
 CLOSED: [2026-01-16 Fri 21:25]
 - *OBJECTIVE:*  How to add new to /environment variable/ to current user session
 - *Reference:*  [[https://wiki.archlinux.org/title/Systemd/User#Environment_variables][Systemd User Session Environment Variables @Archwiki]]
@@ -59,7 +58,7 @@ CLOSED: [2026-01-16 Fri 21:25]
     systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
     dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=compositor_name
     #+END_SRC
-** DONE Wayland Screen Timeout :subWayland:ARCHLINUX:
+* DONE Wayland Screen Timeout :subWayland:ARCHLINUX:
 DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
 :PROPERTIES:
 :ID: 42f1f2f3-7ced-4803-b2af-74714bc55dc1
@@ -77,32 +76,32 @@ DEADLINE: <2026-01-29 Thu> CLOSED: [2026-01-29 Thu 04:23]
   + [[https://github.com/swaywm/swayidle][Swayidle upstream @Github]]
     * [[shell:man 1 swayidle]]
     * [[shell:man 1 swaylock]]
-** PEND Make Home Server Headless :subHomelab:
+* PEND Make Home Server Headless :subHomelab:
 :PROPERTIES:
 :ID: 8d3ada12-a93e-4e02-a84f-b013f8be2de7
 :END:
 - *OBJECTIVE:*  Create a =dotfiles= for headless =homelab=
-** DONE Solve Permission Mismatch Vulnerability :VULNERABILITY:
+* DONE Solve Permission Mismatch Vulnerability :VULNERABILITY:
 DEADLINE: <2026-02-06 Fri> CLOSED: [2026-02-06 Fri 11:20]
 :PROPERTIES:
 :ID: 96e2f851-3acf-466a-a83a-ecf685535bdc
 :END:
 - *OBJECTIVE:*  Current =/usr/local/bin/= contains a user level scripts. Solve this vulnerability by changing =PATH=
-** DONE Manage System Privilege :SYSADMIN:
+* DONE Manage System Privilege :SYSADMIN:
 CLOSED: [2026-03-17 Tue 04:34]
 :PROPERTIES:
 :ID: aa195bda-a63c-4381-a2f0-d67256fb1f13
 :END:
 - *OBJECTIVE:*  Manage system privilege with =sudoer=
 - *Reference:*  [[https://superuser.com/questions/636283/how-to-allow-user-to-preserve-environment-with-sudo][Allow user to preserve the environment @Overflow]]
-** DONE Blanking Screen on Wayland :subWayland:SWAYIDLE:screensaver:
+* DONE Blanking Screen on Wayland :subWayland:SWAYIDLE:screensaver:
 DEADLINE: <2026-02-20 Fri> CLOSED: [2026-02-20 Fri 05:09]
 :PROPERTIES:
 :ID: a903e09e-7243-46e4-82f7-96db5e802d85
 :END:
 - *OBJECTIVE:*  Blanking the monitor on =wayland= using =swayidle=
 - *Tracker:*    [[id:0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9][Wayland Screen Blanking @Issue]]
-** DONE Change Username and Home Dir :opStructure:
+* DONE Change Username and Home Dir :opStructure:
 DEADLINE: <2026-03-09 Mon> CLOSED: [2026-03-11 Wed 16:30]
 :PROPERTIES:
 :ID: 7b41b2a4-9073-4465-916f-6b0783d641f3
@@ -112,7 +111,7 @@ DEADLINE: <2026-03-09 Mon> CLOSED: [2026-03-11 Wed 16:30]
 - *Reference:*
   + [[https://wiki.archlinux.org/title/Users_and_groups#Change_a_user's_login_name_or_home_directory][Change a user's login name or home directory @Archwiki]]
   + [[https://www.reddit.com/r/archlinux/comments/1bnqxwh/how_to_change_the_name_of_the_my_home_directory/][Change Home Directory @Reddit]]
-** DONE Quota Write Error :ARCHLINUX:
+* DONE Quota Write Error :ARCHLINUX:
 DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 :PROPERTIES:
 :ID: 9480e0e0-3fd3-4243-b951-46865d8f4f2e
@@ -120,14 +119,14 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 - *OBJECTIVE:*  Fix =write error: quota exceeded /tmp= error on archlinux
 - *Reference:*  [[https://superuser.com/questions/959175/disk-quota-exceeded-when-writing-to-tmp-but-plenty-of-space-linux][Quota exceeded write error archlinux @Overflow]]
 - *Tracker:*   [[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][Debug Quota Exceed Write Error @Issue]]
-** DONE Service Fallbacks :opServer:subOpenCode:
+* DONE Service Fallbacks :opServer:subOpenCode:
 DEADLINE: <2026-03-23 Mon> CLOSED: [2026-03-23 Mon 02:27]
 :PROPERTIES:
 :ID: 66fdb731-27e9-41be-b20c-917250e6e6f9
 :END:
 - *OBJECTIVE:*  Fall back to default workflow when server is down
 - *Issue:*      [[id:d4aaa9cb-c153-40f9-80ac-5707a985116e][Nvim Opencode Condition @Issue]]
-** DONE Create deSec Renewal Service :subDeSec@subDDNS:subSystemd:
+* DONE Create deSec Renewal Service :subDeSec@subDDNS:subSystemd:
 DEADLINE: <2026-03-30 Mon> CLOSED: [2026-03-30 Mon 19:34]
 :PROPERTIES:
 :ID: ebbbe5ef-25bf-4ea0-a073-c1957eac10cf
