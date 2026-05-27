@@ -3,39 +3,29 @@
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+FILETAGS: :typDoc:catDraft:OPSYS:
-#+HTML:<details>
-
-* Document Drafts :typDoc:catDraft:OPSYS:meta:
-#+HTML:</details>
-
-#+NAME:Warning Message
-#+BEGIN_QUOTE
-[!WARNING]
-Draft items are subjected to change and refile!
-#+END_QUOTE
-** OUTL CPU and IRQ scheduler :PERFORMANCE:
+* OUTL CPU and IRQ scheduler :PERFORMANCE:
 - /Setup CPU and IRQ scheduler/ ~daemon~
-*** OUTL Optimizing CPU Performance :cpu-performance:
+** OUTL Optimizing CPU Performance :cpu-performance:
 /Optimize battery and performance usage on archlinux/
-**** TLP Battery Suite :TLP:
+*** TLP Battery Suite :TLP:
 =Tlp= is a feature-rich battery optimization suite for Linux. Saving laptop battery power without the need to delve deeper into technical details \\
 /Reference:/  [[https://linrunner.de/tlp/index.html][TLP Documentation @Blog]]
-**** Automatic CPU Optimizer :ACF:
+*** Automatic CPU Optimizer :ACF:
 =Auto-cpufreq= is a utility tools to optimize CPU frequency base on load and power usage \\
 /Reference:/  [[https://github.com/AdnanHodzic/auto-cpufreq][Auto-cpufreq upstream @Github]]
-** OUTL Select io scheduler :PERFORMANCE:
+* OUTL Select io scheduler :PERFORMANCE:
 - /Change/ ~udev~ /rules for io-scheduler/
-** OUTL Disable Coredump :TWEAKS:
+* OUTL Disable Coredump :TWEAKS:
 /Documentation of disabling systemd coredump/
-** OUTL Running Tasks in Parallel
+* OUTL Running Tasks in Parallel
 :PROPERTIES:
 :ID:       2b964774-683a-4eaa-882d-a8f5e5dc714d
 :END:
 Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times. That is when tool like =gnu-parallel= or =xargs= comes in handy
-*** OUTL GNU-parallel vs xargs
-** OUTL Chroot from live USB
+** OUTL GNU-parallel vs xargs
+* OUTL Chroot from live USB
 /How to chroot from live USB stick/
-** OUTL Arch Linux hibernation
+* OUTL Arch Linux hibernation
 :PROPERTIES:
 :ID:       b827e129-f7ca-4f65-8043-460afe696107
 :END:
@@ -44,23 +34,23 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
   
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
-** OUTL Notification Forwarding :subNotification:
+* OUTL Notification Forwarding :subNotification:
 /How to forward notification between machines/
 - *Visit:* [[https://nikhilism.com/post/2023/remote-dbus-notifications/][Remote Dbus Notification @Blog]]
 - *Goes-to:* [[id:0de1c55e-bc14-4f3c-b268-36ad6974f706][Archlinux System Tweaks @Org]]
-** OUTL Run Service on Network Change :INTERNET:
+* OUTL Run Service on Network Change :INTERNET:
 :PROPERTIES:
 :ID:       b6113f7d-9ec6-49df-80ff-2c0d7546475f
 :END:
 /How to run script on network change/ \\
 /*Check-out:*/ [[https://unix.stackexchange.com/a/725928][Restart Service on Wifi Change @Overflow]]
-** OUTL Systemd power supply detection :subSystemd:
+* OUTL Systemd power supply detection :subSystemd:
 - *OBJECTIVE:* Adding power supply detection to systemd via udev rules
 - *Reference:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
-** OUTL Advanced Suspend Mode :PERFORMANCE:
+* OUTL Advanced Suspend Mode :PERFORMANCE:
 /Config advanced suspend mode on =archlinux= to optimize sleep time and power usage/ \\
 /Check-out:/ [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#High_level_interface_(systemd)][Power Management @Archlinux]]
-*** Suspend Mode on Event
+** Suspend Mode on Event
 *Login Events:* \\
 - There are several listed login =events= .e.g., =LidSwitch=, =LidSwitchExternalPower=, =LidSwitchDocked=
 - Visit =manpage= for more =login-events=:
@@ -73,25 +63,25 @@ Sometimes running a serial of =jobs= (tasks) in /sequence/ takes a lot of times.
     [Login]
     HandleLidSwitch=hybrid-sleep
     #+END_SRC
-*** Suspend-then-hibernate
+** Suspend-then-hibernate
 To change =timeout= of =hibernation= when suspending
-** OUTL Podman Quadlet :subPodman:containerization:
+* OUTL Podman Quadlet :subPodman:containerization:
 /What is =podman= and =quadlet= and how they are used to with =systemd=/
 /Check-out:/ [[https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet][How to run podman container using quadlet @Blog]]
-** OUTL Switching to Wayland Guide :subWayland:GUIDE:
+* OUTL Switching to Wayland Guide :subWayland:GUIDE:
 :PROPERTIES:
 :ID:       d398a743-eedb-4300-84e8-beab397e4b49
 :END:
 /Moving from =x11= to =wayland= guide/
-*** Managing Input Devices in Wayland
+** Managing Input Devices in Wayland
 /Check-out:/ [[id:345b5c3b-efd6-4434-bbda-f4a94f546806][Disable Devices on Wayland @Org]]
 /Reference:/ [[https://gitlab.com/S410/noinputs][noinput @Gitlab]]
-*** Wayland Clipboard Manager
+** Wayland Clipboard Manager
 /Enable =clipboard= manager on =wayland=/
-** OUTL Archlinux Security :ARCHLINUX:Security:
+* OUTL Archlinux Security :ARCHLINUX:Security:
 /How to make archlinux =desktop= and =server= more secure/
 /Reference:/ [[https://www.youtube.com/watch?v=QxNsyrftJ8I][Security mistakes on linux @Youtube]]
-*** OUTL Firewall on Archlinux :firewall:
+** OUTL Firewall on Archlinux :firewall:
 :PROPERTIES:
 :ID:       ab23a38d-229b-409a-be17-0153ded1a354
 :END:
@@ -110,7 +100,7 @@ Most =iptables= front-ends feature no direct or indirect support of =nftables=, 
 #+END_QUOTE
 /config firewall on archlinux =client= and =server=/
 /Goto:/ [[id:6ab8f5dd-cb7f-4ede-90e3-340881274a20][Archlinux System Tweaks @Org]]
-**** DONE Firewall on Archlinux Desktop
+*** DONE Firewall on Archlinux Desktop
 CLOSED: [2026-01-14 Wed 22:38]
 - Install =ufw= run: =pacman -S ufw= /for archlinux/
 - Config =ufw= rules:
@@ -123,9 +113,9 @@ CLOSED: [2026-01-14 Wed 22:38]
     ufw default allow outgoing
     ufw enable
     #+END_SRC
-**** OUTL Firewall on Archlinux Server
+*** OUTL Firewall on Archlinux Server
 /Config firewall rules for archlinux server/
-*** Server Safe-Guard :FAIL2BAN:Safeguarding:
+** Server Safe-Guard :FAIL2BAN:Safeguarding:
 :PROPERTIES:
 :ID:       c57c1c13-93a2-49a2-b530-609b4f75cb0f
 :END:
@@ -138,12 +128,12 @@ It is lightweight on resources, so it doesn't burden the server that extra loads
 [[file:https://linuxiac.com/wp-content/uploads/2023/10/how-fail2ban-works2.jpg]]
 
 Reference:  [[https://github.com/fail2ban/fail2ban][Fail2ban @Github]]
-**** Fail2ban Installation
+*** Fail2ban Installation
 To install =fail2ban= on archlinux run:
 #+BEGIN_SRC sh
 pacman -S fail2ban # or paru for git version
 #+END_SRC
-**** Configuring Fail2ban for SSH :subSsh:
+*** Configuring Fail2ban for SSH :subSsh:
 Once installed the configuration file is located at [[file:/etc/fail2ban/jail.conf]] \\
 
 However the best practice is to config in a =.local= file /- to avoid merging problem when upgrading/
@@ -165,14 +155,14 @@ However the best practice is to config in a =.local= file /- to avoid merging pr
     #+BEGIN_SRC sh
     systemctl start fail2ban # or enable to start by default
     #+END_SRC
-** DOIN Homelab Remote Access Via VPN :subVPN:subWireGuard:subHomelab:
+* DOIN Homelab Remote Access Via VPN :subVPN:subWireGuard:subHomelab:
 DEADLINE: <2026-02-09 Mon>
 :PROPERTIES:
 :ID:       4a0867d1-313e-4131-82f8-d1ebe07a1814
 :END:
 /Learn how to tunneling traffic back to homelab via VPN/ \\
 Reference:  [[https://www.wireguard.com/quickstart/][Wireguard quick-start @Blog]]
-*** DONE VPN protocols :VpnProtocol:
+** DONE VPN protocols :VpnProtocol:
 CLOSED: [2026-01-21 Wed 20:27]
 Types of VPN protocols include:
 -  Internet Protocol Security /(IPSec)/
@@ -183,7 +173,7 @@ Types of VPN protocols include:
 -  Point-Point Tunneling Protocol /(PPTP)/
 -  Layer 2 Tunneling Protocol /(L2TP)/
 /Reference:/  [[https://www.paloaltonetworks.com/cyberpedia/types-of-vpn-protocols][Types of VPN protocols @Blog]]
-**** Internet Protocol Security (IPSec) :ipsec:
+*** Internet Protocol Security (IPSec) :ipsec:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/IPsec-v1.png]]
 
 #+BEGIN_QUOTE
@@ -193,7 +183,7 @@ Internet Protocol Security (IPSec) is a set of protocols that supports secure co
 -  =ipsec= operates by encrypting and authenticating all IP packet transfers
 -  =ipsec= is widely implemented in the formation of secure tunnels, especially for VPNs
 -  =ipsecs= advantages include its high security and versatility across different network layer protocols
-**** Secure Socket Tunneling Protocol (SSTP) :sstp:
+*** Secure Socket Tunneling Protocol (SSTP) :sstp:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SSTP-v1.png]]
 
 #+BEGIN_QUOTE
@@ -203,7 +193,7 @@ Secure Socket Tunneling Protocol (SSTP) is a VPN communication protocol develope
 -  =SSTP=  works by channeling VPN traffic through the SSL 3.0 channel. This means it can benefit from features like SSL's integrated connection integrity and encryption capabilities
 -  =SSTP= is commonly used in scenarios where other VPN protocols might be blocked
 -  =SSTP= benefits include its high level of security, strong encryption methods, and the protocol's ability to traverse firewalls
-**** WireGuard :wireguard:
+*** WireGuard :wireguard:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/WireGuard-v1.png]]
 
 #+BEGIN_QUOTE
@@ -216,7 +206,7 @@ WireGuard is a cutting-edge VPN protocol known for its simplicity and high-speed
    +  This approach simplifies the setup process, reduces latency and increase the protocol's performance over traditional VPN protocols
 -  WireGuard is beneficial for businesses with mobile workforce or requirements for fast, reliable connections for cloud service
 -  Drawbacks includes static IP address assignment can raise privacy concerns as it could potentially user activity. =wireguard= is still undergoing development, which means it may lack the extensive testing and wide-scale trust established older protocols
-**** OpenVPN :openvpn:
+*** OpenVPN :openvpn:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/openvpn.png]]
 
 #+BEGIN_QUOTE
@@ -228,7 +218,7 @@ OpenVPN is a robust, secure VPN protocol favored in the enteprise environment fo
    +  =UDP= (User Datagram Protocol)
 -  Businesses use =openvpn= for its adaptability to various network types and ability to establish a secure, reliable connection over intranet and internet
 -  =OpenVPN= advantages include its strong security profile, open-source nature (which allows for peer review and audits)
-**** SoftEther :softether:
+*** SoftEther :softether:
 [[https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/SoftEther-v1.png]]
 
 #+BEGIN_QUOTE
@@ -238,7 +228,7 @@ SoftEther (Soft Ethernet), is a versatile VPN protocol for performance and inter
 -  The protocol operates by establishing secure client-server communication through SSL-VPN Tunnneling on HTTPS. Softether by passes firewall and NATs, making it highly effective for users within restricted network environment
 -  Works well in various scenarios, including individual remote access, corporate networks, and connecting multiple on-premises site securely
 -  Stands out for strong encryption, resistance to network restrictions, and support for various operating system
-**** Point-to-Point Tunneling Protocol :PPTP:
+*** Point-to-Point Tunneling Protocol :PPTP:
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/PPTP-v1.png]]
 
 #+BEGIN_QUOTE
@@ -248,7 +238,7 @@ Developed by microsoft, point-to-point tunnneling protocol is on of the oldest V
 -  Works by using a control channel over TCP and GRE tunnel operating to encapsulate PPP packets
 -  The primary use case for =PPTP= is scenarios where legacy support id required, or speed is more critical than security /- PPTP is not recommended for transmitting confidential enterprise data because of its known security vulnerabilities/
 -  Pros include speed and ease of setup
-**** Layer 2 Tunneling Protocol
+*** Layer 2 Tunneling Protocol
 [[file:https://www.paloaltonetworks.com/content/dam/pan/en_US/images/cyberpedia/what-is-l2tp/l2tp-networking.png]]
 
 #+BEGIN_QUOTE org
@@ -258,8 +248,8 @@ Layer e Tunnelling Protocol (L2TP) is a tunneling protocol. It does not provide 
 -  Works by encapsulating data packets within =L2TP= frames that are sent over the internet. When combined with =IPSec=, data packets are encrypted and authenticated, providing a secure conduit for transmitting sensitive information
 -  Typical use cases for =L2TP= include connecting branch offices to a central corporate network, access, and enhancing security for date transmission over the internet
 -  Benefits include compatibility and ability to work across multiple devices, =L2TP= has several disadvantages, including potential speed bottlenecks /(causes by double encapsulation)/ and difficulties traversing firewalls compared to protocols that uses stealth techniques
-*** Subnetting :NETWORK:subnet:
-**** DONE Subnet Mask :NETWORK:subnet:netmask:
+** Subnetting :NETWORK:subnet:
+*** DONE Subnet Mask :NETWORK:subnet:netmask:
 CLOSED: [2026-01-23 Fri 00:47]
 #+BEGIN_QUOTE org
 A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that distinguishes the network address from the host address within an IP address. It works in conjunction with an IP address to define the boundaries of a network
@@ -304,8 +294,8 @@ A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that disti
   
 :END:
 #+html:</details>
-*** OUTL Network Terminologies
+** OUTL Network Terminologies
 -  Gateway Peer
-** OUTL Screen-saver and Screen-lock :subWayland:MONITOR:
+* OUTL Screen-saver and Screen-lock :subWayland:MONITOR:
 /Lock and turn off screen after X value/ \\
 /Visit:/  [[id:42f1f2f3-7ced-4803-b2af-74714bc55dc1][Wayland Screen Timeout @Org]]

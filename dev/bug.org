@@ -4,8 +4,8 @@
 
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-* Bugs List :typDev:catBug:meta:OPSYS:
-** CLSD BUG! Quota Exceed Write Error
+#+FILETAGS: :typDev:catBug:OPSYS:
+* CLSD BUG! Quota Exceed Write Error
 CLOSED: [2026-03-15 Sun 08:18]
 :PROPERTIES:
 :ID: a4b35c13-cdc7-459c-b4f3-0b92273dd284

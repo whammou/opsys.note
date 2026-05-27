@@ -4,20 +4,20 @@
 
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-* Enhancements List :typDev:catEnhancement:meta:OPSYS:
-** CLSD Notification History Viewer :subNotification:
+#+FILETAGS: :typDev:catEnhancement:OPSYS:
+* CLSD Notification History Viewer :subNotification:
 CLOSED: [2026-03-15 Sun 08:47]
 :PROPERTIES:
 :ID: 896857df-21d8-4f2d-ae75-708173d5f507
 :END:
 View system notifications with =fzf= and =dunst=
-*** Retrieve History Data
+** Retrieve History Data
 Using =dunstctl= to retrieve history data
 #+name:get_history
 #+BEGIN_SRC sh :tangle yes :noweb yes
 dunstctl history
 #+END_SRC
-*** DONE FZF Viewer with Clipboard Copy
+** DONE FZF Viewer with Clipboard Copy
 CLOSED: [2026-03-24 Tue 12:23]
 Format: ~$TITLE - $SUMMARY~ and copy to clipboard via fzf
 #+name:fzf_notifications
@@ -41,7 +41,7 @@ echo "$history_json" | jq -r '
   --bind='enter:execute(echo "{}" | wl-copy)+abort' \
   --header='Press Enter to copy to clipboard'
 #+END_SRC
-** DONE Systemd Service Failure Notification :subSystemd:
+* DONE Systemd Service Failure Notification :subSystemd:
 CLOSED: [2026-03-24 Tue 13:46]
 :PROPERTIES:
 :ID: d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e
@@ -66,7 +66,7 @@ Description=Notify on service failure - receives failed unit name via instance
 Type=oneshot
 ExecStart=/usr/bin/dunstify -u critical "Systemd" "Service Failed: Unit '%i' has failed — check logs for details"
 #+end_src
-** DONE !ENHANCEMENT Systemd Custom Event Hooks :subSystemd:
+* DONE !ENHANCEMENT Systemd Custom Event Hooks :subSystemd:
 CLOSED: [2026-03-30 Mon 21:17]
 :PROPERTIES:
 :ID: f4db4075-4741-45d8-bcc0-ff9df7f43dbf
@@ -92,7 +92,7 @@ Systemd already has a sleep.target, however, that's a system-level target, and y
 #+end_quote
 
 - [-] /Reference:/  [[https://sr.ht/~whynothugo/systemd-lock-handler/][Systemd Lock Handler @SourceHut]]
-*** DONE Qtile Session Resume Target :subQtile:
+** DONE Qtile Session Resume Target :subQtile:
 CLOSED: [2026-03-30 Mon 21:17]
 :PROPERTIES:
 :ID: e4145752-5fe2-430a-9528-00f502e7c203
