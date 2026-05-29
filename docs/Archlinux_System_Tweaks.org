@@ -203,7 +203,9 @@ As an alternative to create an entire =partition=
 #+NAME: btrfs swap file limitations
 #+BEGIN_QUOTE org
 [!WARNING]
-There are some limitations of the implementation in `btrfs` and linux swap subsystem. Swap files on file systems spanning multiple devices are not supported. Data profile must be single
+There are some limitations of the implementation in `btrfs` and linux swap subsystem
+- Swap files on file systems spanning multiple devices are not supported
+- Data profile must be single
 - `snapshot` cannot be create for sub-volumes containing active `swap-file`
 - `swap-files` must be pre-allocated
 - *copy-on-write* must be disabled individually for `swap-files` *(i.e., swap files must have to NOCOW attribute)*
