@@ -168,8 +168,8 @@ DEADLINE: <2025-11-28 Fri> CLOSED: [2025-11-29 Sat 01:16]
 #+END_QUOTE
 
 #+NAME:Virtual memory
-#+BEGIN_QUOTE markdown
-[!NOTE] \\
+#+BEGIN_QUOTE org
+[!NOTE]
 The amount of =physical memory= and =swap space= is the amount of virtual memory available
 #+END_QUOTE
 
@@ -201,11 +201,9 @@ As an alternative to create an entire =partition=
 **** Swap File Creation
 
 #+NAME: btrfs swap file limitations
-#+BEGIN_QUOTE markdown
+#+BEGIN_QUOTE org
 [!WARNING]
-There are some limitations of the implementation in `btrfs` and linux swap subsystem
-- Swap files on file systems spanning multiple devices are not supported
-- Data profile must be single
+There are some limitations of the implementation in `btrfs` and linux swap subsystem. Swap files on file systems spanning multiple devices are not supported. Data profile must be single
 - `snapshot` cannot be create for sub-volumes containing active `swap-file`
 - `swap-files` must be pre-allocated
 - *copy-on-write* must be disabled individually for `swap-files` *(i.e., swap files must have to NOCOW attribute)*
