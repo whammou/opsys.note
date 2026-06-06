@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:subProject:OPSYS:ANDROID:LINUX:SYNC:
+#+FILETAGS: :OPSYS:typDoc:subProject:ANDROID:LINUX:SYNC:
 - [ ] *OBJECTIVE:* /Android and linux sync-up workflow/ [%]
   - [ ]  [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
   - [ ]  [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]

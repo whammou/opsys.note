@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:subProject:OPSYS:LINUX:
+#+FILETAGS: :OPSYS:typDoc:subProject:LINUX:
 - [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~
   - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
 * DONE [#A] Open with handlr :subHandlr:

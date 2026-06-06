@@ -1,6 +1,6 @@
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
-#+FILETAGS: :typTask:catOneoff:OPSYS:
+#+FILETAGS: :OPSYS:typTask:catOneoff:
 
 * ABRT Open-source application :LINUX:
 CLOSED: [2026-03-19 Thu 00:46]

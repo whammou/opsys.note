@@ -4,8 +4,8 @@
 #+TITLE: Process Containerization
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
-#+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
-#+FILETAGS: :typDoc:meta:MANAGEMENT:containerization:
+#+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
+#+FILETAGS: :OPSYS:typDoc:meta:MANAGEMENT:containerization:
 * DONE [#A] Containerization in Process Management :MANAGEMENT:containerization:
 DEADLINE: <2025-12-04 Thu 19:30> CLOSED: [2025-12-04 Thu 20:48]
 :PROPERTIES:

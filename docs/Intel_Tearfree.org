@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:subProject:OPSYS:LINUX:INTEL:
+#+FILETAGS: :OPSYS:typDoc:subProject:LINUX:INTEL:
 - *Objective:* /Dicide to run with a ~compositor~ or without/
   - *References:* 
     - [[https://l.opnxng.com/r/archlinux/comments/bs1ban/compositor_or_no_compositor/][Compositor or not @Reddit]]

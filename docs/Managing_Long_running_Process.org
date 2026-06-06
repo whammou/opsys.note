@@ -4,8 +4,8 @@
 #+TITLE: Managing Long-running Process
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
-#+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
-#+FILETAGS: :typDoc:meta:MANAGEMENT:longrunningprocess:
+#+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
+#+FILETAGS: :OPSYS:typDoc:meta:MANAGEMENT:longrunningprocess:
 - *Long-running Process -* is a program designed to run continuously in the background or an extended periods /hours, days, weeks/
 - *Managing LRP -* Is an act of keeping the *LRP* *LRPs* operate smoothly over a period of times
 * DONE [#A] Managing LRP Strategies
