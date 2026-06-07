@@ -1,5 +1,6 @@
-#+TITLE: System Logs
-#+DESCRIPTION: Description for archive here
+#+TITLE: Opsys Log
+#+DESCRIPTION: Logs of finished items
+#+FILETAGS: :OPSYS:LOG:
 
 * Logs :LOG:OPSYS:
 - /Store finished tasks/
