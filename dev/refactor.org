@@ -5,3 +5,12 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
 #+FILETAGS: :OPSYS:typDev:catRefactor:
+* TODO Re-work Note Export Workflow :@Workflow:@Export:
+:PROPERTIES:
+:ID: 63644031-d79f-4192-bd45-3c0950fa0b34
+:END:
+
+#+name: Description
+#+begin_quote org
+Rework export workflow of =notes.note=. Lean towards automation rather than manual like current management workflow
+#+end_quote
