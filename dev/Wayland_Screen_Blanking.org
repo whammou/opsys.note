@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID: 0a030a2e-1f83-4b5a-b7bb-0c51c2fd48d9
-:END:
-
-#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
-#+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-#+FILETAGS: :OPSYS:typDev:catWaylandScreenBlanking:subWayland:screensaver:
-#+HTML:<details>
-
