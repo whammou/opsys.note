@@ -2,7 +2,6 @@
 :ID: 864c42ee-c003-4d4b-8e7e-ba65c7e8815f
 :END:
 #+TITLE: Plaintext Email
-
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :topOpsys:typDoc:subProject:EMAIL:

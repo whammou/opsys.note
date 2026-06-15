@@ -3,7 +3,6 @@
 :ROAM_ORIGIN: 882b4f23-d2f9-4274-87e5-fb041e4a0c48
 :END:
 #+TITLE: Archlinux System Tweaks
-
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :topOpsys:typDoc:subProject:ARCH:TWEAKS:

@@ -2,7 +2,6 @@
 :ID: 39c198c0-ec23-4193-872d-c541dd76c069
 :END:
 #+TITLE: Managing Systemd Services
-
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :topOpsys:typDoc:meta:subSystemd:subSystemd@Structure:

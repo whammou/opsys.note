@@ -3,7 +3,6 @@
 :ROAM_ORIGIN: 0a3f8238-97cd-4aa2-a8dc-6ecea163efac
 :END:
 #+TITLE: Linux Screen Tear
-
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :topOpsys:typDoc:subProject:LINUX:INTEL:
