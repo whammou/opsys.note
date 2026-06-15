@@ -1,6 +1,6 @@
 #+TODO: RECR(l) TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
-#+FILETAGS: :OPSYS:typTask:catRecurring:
+#+FILETAGS: :topOpsys:typTask:catRecurring:
 
 * PEND Clean up $HOME :LINUX:
 - *Goal(s):* clean up $HOME dir

@@ -6,7 +6,7 @@
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :OPSYS:typDoc:subProject:LINUX:NETWORK:
+#+FILETAGS: :topOpsys:typDoc:subProject:LINUX:NETWORK:
 Access blocked websites via ~proxy~ or ~DNS~
 * DONE [#A] Reverse Tunneling :PROTOCOL:subSsh:reversetunneling:
 DEADLINE: <2025-11-27 Thu> CLOSED: [2025-11-27 Thu 22:28]

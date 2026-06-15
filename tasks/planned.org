@@ -1,6 +1,6 @@
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
-#+FILETAGS: :OPSYS:typTask:catPlanned:
+#+FILETAGS: :topOpsys:typTask:catPlanned:
 
 * PEND Install Windows 11 :subServer:
 - *OBJECTIVE:* Install =tiny11= on server
