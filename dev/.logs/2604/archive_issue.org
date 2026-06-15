@@ -1,3 +1,6 @@
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+FILETAGS: :topOpsys:typArchive:typDev:catIssue:
+
 * DONE Workaround Dunst Script Parameter Syntax :subDunst@Syntax:
 CLOSED: [2026-04-06 Mon 17:40]
 :PROPERTIES:

@@ -1,3 +1,6 @@
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+FILETAGS: :topOpsys:typArchive:typDev:catRefactor:
+
 * DONE Network Dispatcher Triggers Services :subNetworkManager@Config:
 CLOSED: [2026-04-08 Wed 06:06]
 :PROPERTIES:
