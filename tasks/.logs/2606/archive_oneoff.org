@@ -259,3 +259,101 @@ CLOSED: [2025-10-15 Wed 04:28] DEADLINE: <2025-10-15 Wed>
 :END:
 - *OBJECTIVE:* Open port at home
 - *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
+* DONE Setup DDNS service :DNS:HomelabSetup:
+CLOSED: [2025-10-20 Mon 00:13] DEADLINE: <2025-10-20 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Setup a DDNS service with =duckdns=
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-10-20 Mon 00:08] \\
+  Forward =DDNS= using =DuckDNS= script
+  #+BEGIN_SRC bash
+  echo url="https://www.duckdns.org/update?domains=whamarchlab&token=beade41c-245a-48da-9ae8-b29b6b2356b4&ip=" | curl --silent -k -o ~/projects/duckdns/duck.log -K -
+  #+END_SRC
+:END:
+#+html:</details>
+- *Reference:*
+  + [[https://www.duckdns.org/why.jsp][Why Duck DNS @Blog]]
+  + [[https://www.reddit.com/r/homeassistant/comments/5o74ps/guide_setting_up_duckdns_ssl_and_push/][DuckDNS Guide @Reddit]]
+* DONE Merging With Org Feature with main
+CLOSED: [2025-11-19 Wed 23:19] DEADLINE: <2025-11-19 Wed 16:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Merging =org_env= with =arch= branch
+* DONE Resolve Systemd Start Too Quickly Error
+CLOSED: [2025-11-23 Sun 20:16] DEADLINE: <2025-11-23 Sun 19:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-11-23 Sun 20:14] \\
+  This is not a =systemd= service error but rather =ssh= it self
+    + Turns out in order to stop a =forward tunnel= you need a =ControlPath=
+    + Create a =ControlPath= on =start= with ~ssh -o ControlPath=path/to/control~
+:END:
+#+html:</details>
+- *OBJECTIVE:* Resolve =systemd= start request repeated too quickly
+- *Reference:* [[https://stackoverflow.com/questions/35452591/start-request-repeated-too-quickly][Start request too quickly @Overflow]]
+* DONE Manage Mails with Neomutt :NEOMUTT:MAIL:
+DEADLINE: <2025-12-29 Mon> CLOSED: [2025-12-29 Mon 16:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-12-25 Thu 04:07] \\
+  Currently =nvim-orgmode= does not support link type =mailto:=
+:END:
+#+html:</details>
+- *OBJECTIVE:* Manage system wise emails with =neomutt=
+  + [[mailto:mckaysbackup@gmail.com,khoabui.ld99@gmail.com]]
+** DONE Custom Orgmode Link Type :subNvim:subOrgmode:
+CLOSED: [2025-12-25 Thu 16:56]
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-12-25 Thu 15:44] \\
+  Test custom =hyperlink= type
+    + [[ping:google.com]]
+    + [[my_custom_type:test.com]]
+:END:
+#+html:</details>
+- *OBJECTIVE:* Open =mailto:= link type using /nvim-orgmode/ =custom-hyperlink-type=
+  + [[mailto:mckaysbackup@gmail.com]]
+- *Reference:* [[https://nvim-orgmode.github.io/configuration#custom-hyperlink-types][Nvim-orgmode custom hyperlink type @Orgmode-nvim config]]
+- *Visit:* [[file:/home/whammou/Workspace/custom-hyperlink-type/ping.lua]]
+** DONE Email Workflows
+CLOSED: [2025-12-29 Mon 16:27]
+- *OBJECTIVE:* Develop a workflow with =emails=
+- *Reference:*
+  + [[https://www.reddit.com/r/commandline/comments/f4rwix/email_workflow_demo_neovim_neomutt_ultisnips/][Email Workflow with Neomutt @Reddit]]
+  + [[https://gideonwolfe.com/posts/workflow/neomutt/intro/][Configuring Neomutt @Blog]]
+* DONE Change System Theme :@Theme:
+SCHEDULED: <2026-05-14 Thu> CLOSED: [2026-05-14 Thu 20:44]
+:PROPERTIES:
+:ID: 2ce80491-a804-425b-b970-efcc22a88623
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Change system theme to onedark =dark= variation
