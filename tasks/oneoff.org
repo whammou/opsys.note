@@ -43,12 +43,6 @@ CLOSED: [2026-03-19 Thu 00:45]
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
 - *Objective:* /Create multiple magic-tape sessions using git/
-* DONE Update repo hierarchy :subOrgmode:
-CLOSED: [2025-09-17 Wed 08:37]
-- *Objective:* /Adding new hierarchy to this repo/
-  - [X] Adding ~TASK~ tag (including all type of tasks)
-  - [X] Adding ~LIB~ and remove ~Archives~ headline
-  - [X] Create new template
 * ABRT Re-write smb-mount command
 CLOSED: [2026-03-19 Thu 00:45]
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
@@ -84,13 +78,6 @@ CLOSED: [2025-06-28 Sat 22:43] DEADLINE: <2025-06-28 Sat>
   - *File:* [[file:=/.config/dunst/dunstrc][dunst config @Confini]]
   - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
 - *Reference:* [[https://www.youtube.com/watch?v=cBx9P3bvDCk#__preview][Linux notification system manager @Youtube]]
-** DONE Dunst notification stacking [100%] :subDunst:
-CLOSED: [2025-06-04 Wed 09:07]
-- [X] *OBJECTIVE:* /Stack notifications/
-- +[ ] *OBJECTIVE:* /Interacte with stacked+ notifications/
-- *References:*
-  - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
-  - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
 ** PEND Notification colorscheme
 :PROPERTIES:
 :ID:       f8ffc50b-03a6-4be9-842a-2c6278a62b86
@@ -142,13 +129,6 @@ CLOSED: [2025-10-15 Wed 22:13]
 CLOSED: [2025-07-12 Sat 07:41]
 - *OBJECTIVE:* Prettify my org documents
 - *Reference:* [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
-** DONE Github orgmode feature :subGithub:
-CLOSED: [2025-06-19 Thu 23:36]
-- *OBJECTIVE:* Testing github render and feature for org notes
-- *Checkout:* [[id:7fd3eabc-0cd2-43bb-b3b3-a31c018163b2][Github render tests [100%] @Orgmode]]
-- *Reference:*
-  - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
-  - [[https://github.com/novoid/github-orgmode-tests][Github readme.org test repo @Github]]
 ** Org-ruby document config [0/1]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]

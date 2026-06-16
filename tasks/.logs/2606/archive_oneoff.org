@@ -25,3 +25,43 @@ CLOSED: [2025-10-11 Sat 22:18] DEADLINE: <2025-10-11 Sat>
 - *Checkout:* [[id:35ff8cc5-522d-423e-b9e1-0d4e067e737b][Git Submodules Approach @Org]]
 - +[ ] *Objective:* /Auto commit repo via external packages/+
 - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
+* DONE Update repo hierarchy :subOrgmode:
+CLOSED: [2025-09-17 Wed 08:37]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *Objective:* /Adding new hierarchy to this repo/
+  - [X] Adding ~TASK~ tag (including all type of tasks)
+  - [X] Adding ~LIB~ and remove ~Archives~ headline
+  - [X] Create new template
+* DONE Dunst notification stacking [100%] :subDunst:
+CLOSED: [2025-06-04 Wed 09:07]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_OLPATH: Config system notification [50%]
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- [X] *OBJECTIVE:* /Stack notifications/
+- +[ ] *OBJECTIVE:* /Interacte with stacked+ notifications/
+- *References:*
+  - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
+  - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
+* DONE Github orgmode feature :subGithub:
+CLOSED: [2025-06-19 Thu 23:36]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_OLPATH: Prettify orgmode documents [100%]
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Testing github render and feature for org notes
+- *Checkout:* [[id:7fd3eabc-0cd2-43bb-b3b3-a31c018163b2][Github render tests [100%] @Orgmode]]
+- *Reference:*
+  - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
+  - [[https://github.com/novoid/github-orgmode-tests][Github readme.org test repo @Github]]
