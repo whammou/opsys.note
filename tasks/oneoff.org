@@ -148,42 +148,6 @@ CLOSED: [2025-07-12 Sat 07:41]
 :END:
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
-* DONE Config Neomutt :NEOMUTT:
-DEADLINE: <2025-12-24 Wed> CLOSED: [2025-12-24 Wed 01:00]
-- *OBJECTIVE:* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
-- *Reference:*
-  + [[https://www.jonathanh.co.uk/blog/mutt-setup/][Neomutt setup @Blog]]
-  + [[https://gist.github.com/VladimirPal/9068b922c70a6b5e604c8d2eb099ddb7][Minimal Neomutt Setup @Github-gist]]
-  + [[https://www.youtube.com/watch?v=iwYL3JzVVXM][How to setup neomutt with gmail @Youtube]]
-    * [[https://github.com/LukeSmithxyz/mutt-wizard][Mutt-wizard @Github]]
-** DONE Config Gmail Profile
-DEADLINE: <2025-12-24 Wed> CLOSED: [2025-12-24 Wed 01:00]
-- *OBJECTIVE:* Config =gmail= minimal profile in =neomutt=
-- *Reference:* [[https://gist.github.com/carlcidromero/90c3b531d897bc6a1be9099f47373f3e][Minimal gmail profile guide @Gist]]
-*** DONE Multiple Gmail Profiles
-DEADLINE: <2025-12-24 Wed> CLOSED: [2025-12-24 Wed 01:00]
-- *OBJECTIVE:* Multiple =gmail= profiles management
-** DONE Config Neomutt Theme
-DEADLINE: <2025-12-21 Sun> CLOSED: [2025-12-21 Sun 20:55]
-- *OBJECTIVE:* Config theme for =neomutt=
-- *Reference:* [[https://github.com/catppuccin/neomutt][Neomutt Cattpucchin Theme @Github]]
-*** DONE Onedark Theming for Neomutt
-DEADLINE: <2025-12-21 Sun> CLOSED: [2025-12-21 Sun 20:55]
-- *OBJECTIVE:* Create =onedark= theme for =neomutt=
-** DONE View Mail in Browser
-DEADLINE: <2025-12-24 Wed> CLOSED: [2025-12-24 Wed 01:00]
-#+name:LOGBOOK
-#+html:<details><summary>LOGBOOK</summary>
-:LOGBOOK:
-- Note taken on [2025-12-24 Wed 00:59] \\
-  Viewing =html= mail either use:
-  - Text Base browser =lynx=
-  - Script to convert to =.html= and view by =qutebrowser=
-  
-:END:
-#+html:</details>
-- *OBJECTIVE:* View =html= mail in =browser=
-- *Reference:* [[https://bbs.archlinux.org/viewtopic.php?id=279980][Help viewing html mail in browser @Archlinux-forum]]
 * PEND Github workflow doc :subGithub:
 - *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
 * PEND Refactor dotfiles@github :subGithub:
@@ -202,14 +166,6 @@ Merge arch to main branch
 * PEND Resolve boot partition is full :ARCH:
 - *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
 - *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/697401/arch-linux-initramfs-unpacking-failed-zstd-compressed-data-is-truncated][Discussion initramfs unpack failed error @Overflow-discussion]]
-* DONE Distinguish between task and doc :subOrgmode:PARA:
-DEADLINE: <2025-07-14 Mon>
-- *OBJECTIVE:* Distinguish between =document= task and =task= task
-- *[NOTE]* taken on [2025-07-12 08:28]:
-  Document task and Task share the same state TODO but in different context. Try to distinguish them using more advanced search presets
-- *Reference:*
-  - [[https://www.orgzly.com/docs#search][Advanced searchh in orgzly @Doc-orgzly]]
-  - [[https://nvim-orgmode.github.io/configuration#advanced-search][Advanced search in nvim-orgmmode @Doc-nvim-orgmode]]
 * DONE Bluetooth sound quality :BLUETOOTH:
 CLOSED: [2026-03-26 Thu 16:58]
 - *OBJECTIVE:* Fix sound quality on bluetooth headset
