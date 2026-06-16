@@ -166,49 +166,13 @@ Merge arch to main branch
 * PEND Resolve boot partition is full :ARCH:
 - *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
 - *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/697401/arch-linux-initramfs-unpacking-failed-zstd-compressed-data-is-truncated][Discussion initramfs unpack failed error @Overflow-discussion]]
-* DONE Bluetooth sound quality :BLUETOOTH:
-CLOSED: [2026-03-26 Thu 16:58]
-- *OBJECTIVE:* Fix sound quality on bluetooth headset
-- *Reference:* [[https://old.reddit.com/r/archlinux/comments/wa3lhs/extremely_low_quality_sound_from_bluetooth/][Low quality on bluetooth headset @Reddit]]
-* DONE Notification actions :subNotification:subDunst:
-CLOSED: [2025-11-07 Fri 05:02] DEADLINE: <2025-11-07 Fri>
-- *OBJECTIVE:* Create actionable notifications
-- *Reference:*
-  + [[https://wiki.archlinux.org/title/Dunst#Actions][Dunst action @Archwiki]]
-  + [[https://www.youtube.com/embed/LxQXLJdZ2mM?start=34m6s#__preview][Advanced dunst setup @Youtube]]
-  + [[https://github.com/dunst-project/dunst/discussions/1251][Dunst notification example @Github-issue]]
-- *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
 * ABRT Fonts in different context :FONT:
 CLOSED: [2025-08-24 Sun 20:47]
 - *OBJECTIVE:* Determine when to use which fonts
-* DONE Backup system packages :BACKUP:PACMAN:
-CLOSED: [2025-08-04 Mon 20:45] DEADLINE: <2025-08-04 Mon>
-- *OBJECTIVE:* Backup lock file for system packages
-- *Reference:* [[https://old.reddit.com/r/archlinux/comments/k7t6x4/two_computers_with_arch_sync/][Package sync archlinux @Reddit]]
-** DONE Create Packages List
-CLOSED: [2025-08-04 Mon 20:44] DEADLINE: <2025-08-04 Mon>
-- *OBJECTIVE:* Install packages from packages list using pacman
------
-- *[NOTE]* taken on <2025-08-04 20:45>:
-  - Added =pacman= package list to =dotfiles= [[https://github.com/whammou/dotfiles/commit/cf1b2cc72c44330a08c7c7d09c29ea4d58c6a650][Commit]]
------
-- *Reference:* [[https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list][Install from package list @Archwiki]]
-** DONE Install Packages List
-CLOSED: [2025-08-04 Mon 20:44] DEADLINE: <2025-08-04 Mon>
-- *OBJECTIVE:* List install packages on archlinux system
-- *Reference:* [[https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#List_of_installed_packages][List of installed packages @Archwiki]]
 * ABRT Implement Plaintext Systray :SYSTRAY:FCITX:subQtile:
 CLOSED: [2025-09-06 Sat 14:32]
 - *OBJECTIVE:* Implement a plaintext systray for fcitx using qtile =widget.TextBox=
 - *Reference:* [[https://github.com/qtile/qtile][Qtile textbox widget @Qtile-doc]]
-* DONE Change tty font :FONT:TTY:
-CLOSED: [2025-08-24 Sun 20:51] DEADLINE: <2025-08-24 Sun>
-+ *OBJECTIVE:* Change TTY (/Linux Console/)
-+ *Reference:* [[https://wiki.archlinux.org/title/Linux_console#fonts][About fonts in linux console @Archwiki]]
-** ABRT Convert ttf font to psf fonts
-CLOSED: [2025-08-25 Mon 21:24] DEADLINE: <2025-08-25 Mon>
-+ *OBJECTIVE:* Convert ttf fonts to psf font for tty
-+ *Reference:* [[https://old.reddit.com/r/linuxquestions/comments/7st7hz/any_way_to_convert_ttf_files_to_psf_files/][Convert ttf fonts to psf @Reddit]]
 * PEND Create a Plaintext Email Workflow :EMAIL:
 + *OBJECTIVE:* Create and config an email workflow that can integrate with =orgmode= and =nvim=
 + *Reference:*
@@ -218,14 +182,6 @@ CLOSED: [2025-08-25 Mon 21:24] DEADLINE: <2025-08-25 Mon>
 - *OBJECTIVE:* Clean up configs
   + [ ] =neovim= config
   + [ ] =qtile= config
-* DONE Run script when on AC :ARCH:
-CLOSED: [2025-09-06 Sat 20:27]
-- *OBJECTIVE:* Run a script when device on AC
------
-- *[NOTE]* taken on [2025-09-06 20:24]: \\
-  To run a script on AC create a systemd --user =service= and declare current machine's socket
-  *Checkout:* [[https://github.com/whammou/dotfiles/commit/7d357aa2f4c85b697ecc70f853e20cb2edad4289][update scripts and services @Commit]]
------
 * DONE Manage Git on Android :ANDROID:subGit:
 CLOSED: [2025-09-25 Thu 13:55]
 - *OBJECTIVE:* Manage and solve git conflicts on =android=
