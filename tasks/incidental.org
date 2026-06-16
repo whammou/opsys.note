@@ -11,29 +11,6 @@
 * PEND Control nvim instances
 - *Objective:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
-* DONE Shareable documents content :PARA:
-CLOSED: [2026-03-17 Tue 04:33]
-- *OBJECTIVE:* Re-format docs file for friendly and quick export to share among peers
-- *Reference:* [[https://old.reddit.com/r/blender/comments/16qtuy0/2_questions_how_do_i_share_my_materials_and_how/][Shareable material and good workflow @Reddit-discussion]]
-* DONE Font Test Script :FONT:
-CLOSED: [2025-10-08 Wed 04:22]
-- *OBJECTIVE:* Script to test whether the font is =monospaced= or not
------
-- *[NOTE]* taken on [2025-10-08 04:22]: \\
-  Quick scrip to test if font is monospaced using /python/ with =sys= and =fontforge=
-  #+BEGIN_SRC python
-  import sys
-  import fontforge
-
-  f = fontforge.open(sys.argv[1])
-  i = f["i"]
-  m = f["m"]
-
-  if i.width == m.width:
-      print("Monospace!")
-  #+END_SRC
------
-- *Reference:* [[https://stackoverflow.com/a/34519826/25585364][Check if font is monospaced @Overflow]]
 * DONE Get =Screencast= to Work under Wayland :subWayland:Bug:
 DEADLINE: <2026-01-16 Fri> CLOSED: [2026-01-16 Fri 21:25]
 - *OBJECTIVE:*  Get webrtc =screencast= to work under wayland
