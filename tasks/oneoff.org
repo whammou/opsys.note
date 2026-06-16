@@ -13,30 +13,9 @@
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
 - /Use advances search methods in search engines/
-* ABRT System file-tag :LINUX:
-CLOSED: [2025-05-08 Thu 14:27]
-- *Objective:* /Assign attribute to a file/
-  - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
-* ABRT Markdown folding :subNvim:MARKDOWN:
-CLOSED: [2025-05-12 Mon 09:04]
-- *Objective:* /Markdown folding folds incorrectly when in a list/
-  - *References:*
-    - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sub-lists instead of lists in markdown @Github-issue]]
-    - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
-    - [[https://linkarzu.com/][Resources @Linkarzu]]
 * PEND Toggle program :BASH:
 - *Objective:* /Toggle command using bash script/
 - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
-* ABRT Magic Tape sessions :MAGICTAPE:
-CLOSED: [2026-03-19 Thu 00:45]
-:PROPERTIES:
-:ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
-:END:
-- *Objective:* /Create multiple magic-tape sessions using git/
-* ABRT Re-write smb-mount command
-CLOSED: [2026-03-19 Thu 00:45]
-- *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
-- *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
 * PEND Json database :JSON:
 :PROPERTIES:
 :ID:       27fdd8c2-5435-466b-9856-407ade06d893

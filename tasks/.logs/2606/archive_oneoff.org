@@ -395,3 +395,46 @@ CLOSED: [2025-11-20 Thu 08:24]
 :ARCHIVE_TODO: ABRT
 :END:
 - /Pipe notification socket through ssh/
+* ABRT System file-tag :LINUX:
+CLOSED: [2025-05-08 Thu 14:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *Objective:* /Assign attribute to a file/
+  - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
+* ABRT Markdown folding :subNvim:MARKDOWN:
+CLOSED: [2025-05-12 Mon 09:04]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *Objective:* /Markdown folding folds incorrectly when in a list/
+  - *References:*
+    - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sub-lists instead of lists in markdown @Github-issue]]
+    - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
+    - [[https://linkarzu.com/][Resources @Linkarzu]]
+* ABRT Magic Tape sessions :MAGICTAPE:
+CLOSED: [2026-03-19 Thu 00:45]
+:PROPERTIES:
+:ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *Objective:* /Create multiple magic-tape sessions using git/
+* ABRT Re-write smb-mount command
+CLOSED: [2026-03-19 Thu 00:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
+- *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
