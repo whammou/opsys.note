@@ -182,13 +182,6 @@ CLOSED: [2025-09-06 Sat 14:32]
 - *OBJECTIVE:* Clean up configs
   + [ ] =neovim= config
   + [ ] =qtile= config
-* DONE Manage Git on Android :ANDROID:subGit:
-CLOSED: [2025-09-25 Thu 13:55]
-- *OBJECTIVE:* Manage and solve git conflicts on =android=
------
-- *[NOTE]* taken on [2025-09-25 13:54]: \\
-  =termux= is a good and effective way to manage =git= projects on android
------
 * PEND Implement Open File With :FILE:subHandlr:
 - *OBJECTIVE:* Open =mime-type= with =applications=
 -----
@@ -196,42 +189,15 @@ CLOSED: [2025-09-25 Thu 13:55]
   Use =handlr-regex= combines with =rofi= to choose =application= or =script= to open a file with
 -----
 - *Reference:* [[https://github.com/Anomalocaridid/handlr-regex#setting-multiple-handlers][Handlr open with @Github]]
-* DONE Rework Browser Open Script :subQutebrowser:FILE:
-CLOSED: [2025-09-13 Sat 09:43] DEADLINE: <2025-09-13 Sat>
-- *OBJECTIVE:* Rework [[file:/home/whammou/dotfiles/scripts/qutebrowser_quick][qutebrowser_quick]] script
 * PEND Add VPN to System :ARCHLINUX:subVPN:
 - *OBJECTIVE:* Get =VPN= to work on current system
 - *Reference:* [[https://wiki.archlinux.org/title/OpenVPN][OpenVPN Guide @Archwiki]]
-* DONE Identify USB drive :DRIVE:
-CLOSED: [2025-09-19 Fri 13:56] DEADLINE: <2025-09-19 Fri>
-- *OBJECTIVE:* How to identify and mount a /USB drive/ on =archlinux=
-- *Reference:* [[https://ejmastnak.com/tutorials/arch/usb/][Achlinux USB @Blog]]
 * PEND Run Termux Command from Home-screen :ANDROID:TERMUX:
 - *OBJECTIVE:* Run Termux commands from =android= home-screen
 - *Reference:* [[https://github.com/termux/termux-widget][Termux widget @Github]]
 * PEND Archlinux on Termux :TERMUX:ARCHLINUX:
 - *OBJECTIVE:* How to run =archlinux= on =termux=
 - *Reference:* [[https://github.com/SDRausty/termux-arch][Termux-archlinux @Github]]
-* DONE Install Nerdfont on Termux :FONT:TERMUX:
-CLOSED: [2025-10-20 Mon 00:06] DEADLINE: <2025-10-20 Mon>
-- *OBJECTIVE:* Install =nerdfont= on =termux=
-- *Reference:*
-  + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
-  + [[https://gist.github.com/barbarbar338/895d79413e56819c498aa6a39ca9e531][Install nerdfont via termux-nerd-install @Github]]
-  + [[https://github.com/notflawffles/termux-nerd-install][Termux-nerd-install.git @Github]]
-** PEND Termux Make Permission
-- *OBJECTIVE:* Run =make= on =termux=
------
-- *[NOTE]* taken on [2025-10-11 16:47]: \\
-  *Issue:* =make= install parameter cannot access =/usr/local/bin= on =termux=
------
-- *Reference:*
-  + [[https://blog.chaitanyashahare.com/posts/nerd-font-termux/][Install Nerdfont on termux @Blog]]
-  + [[https://www.reddit.com/r/termux/comments/1bioon1/accessing_termux_usrbin_from_other_apps_terminal/][Termux bin @Reddit]]
-* DONE Open Port :INTERNET:
-CLOSED: [2025-10-15 Wed 04:28] DEADLINE: <2025-10-15 Wed>
-- *OBJECTIVE:* Open port at home
-- *Reference:* [[https://www.youtube.com/watch?v=ug2IaojvUHI][Viettel Open Port @Youtube]]
 * DONE Setup DDNS service :DNS:HomelabSetup:
 CLOSED: [2025-10-20 Mon 00:13] DEADLINE: <2025-10-20 Mon>
 - *OBJECTIVE:* Setup a DDNS service with =duckdns=
