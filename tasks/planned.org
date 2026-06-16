@@ -5,10 +5,6 @@
 * PEND Install Windows 11 :subServer:
 - *OBJECTIVE:* Install =tiny11= on server
 - *Reference:* [[https://github.com/ntdevlabs/tiny11builder#instructions][Tiny 11 Script @Github]]
-* DONE Notifications Sync :subNotification:NotificationSync:
-CLOSED: [2025-11-09 Sun 21:34]
-- *OBJECTIVE:* Sync notifications across platforms
-- *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
 * FDBK Debugging System High Memory Usage :opMemory:
 :PROPERTIES:
 :ID:       42edd3e3-33eb-4cb3-8038-46eabec2a86c
@@ -21,10 +17,6 @@ CLOSED: [2025-11-09 Sun 21:34]
 :END:
 #+html:</details>
 - *OBJECTIVE:* High memory usage after =hibernation=
-* DONE Categorize Notifications :subNotification:NotificationSync:
-CLOSED: [2026-03-17 Tue 04:34]
-- *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
-- *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
 * PRTL Get Notify When Systemd Service Failed :subNotification:subSystemd:systemmanage:
 CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 #+name:LOGBOOK
@@ -48,20 +40,9 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 * TODO Grouping User Services :subSystemd:opService:
 - *OBJECTIVE:* Group =systemd= services on =remote= and =local=
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
-** DONE Convert to User Services
-CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
-- *OBJECTIVE:* Convert non-essential system services to user mode
 * TODO Containerize Process Services :subPodman:subSystemd:
 - *OBJECTIVE:* Containerize individual process in =systemd=
 - *Check-out:*[[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
-* DONE Advanced Sleep Mode
-CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
-- *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
-- *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
-* DONE Integrate Text Browser :BROWSER:subNvim:textbrowser:
-CLOSED: [2026-01-15 Thu 23:35] DEADLINE: <2026-01-15 Thu>
-- *OBJECTIVE:* Integrate /text-base/ browser to =editor=
-- *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
 * DONE Disable Devices on Wayland :subWayland:DEVICE:
 CLOSED: [2026-01-07 Wed 11:33] DEADLINE: <2026-01-07 Wed>
 :PROPERTIES:

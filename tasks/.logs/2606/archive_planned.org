@@ -20,3 +20,43 @@ CLOSED: [2025-11-09 Sun 21:34]
 :END:
 - *OBJECTIVE:* Sync notifications across platforms
 - *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
+* DONE Categorize Notifications :subNotification:NotificationSync:
+CLOSED: [2026-03-17 Tue 04:34]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Keep incoming =ntfy= notifications in categories
+- *Check-out:* [[id:4ea4c71e-c2c7-47c5-9e4d-65e203aaf725][Learn Dunst Scripting @Org]]
+* DONE Convert to User Services
+CLOSED: [2025-12-02 Tue 13:19] DEADLINE: <2025-12-02 Tue 21:15>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_OLPATH: Grouping User Services
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Convert non-essential system services to user mode
+* DONE Advanced Sleep Mode
+CLOSED: [2025-12-06 Sat 22:22] DEADLINE: <2025-12-06 Sat>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Achieve =suspend-then-hibernate= mode on =archlinux=
+- *Reference:* [[https://www.reddit.com/r/archlinux/comments/mr790a/hybridsleep_with_suspendthenhibernate/][Sleep to Hibernate @Reddit]]
+* DONE Integrate Text Browser :BROWSER:subNvim:textbrowser:
+CLOSED: [2026-01-15 Thu 23:35] DEADLINE: <2026-01-15 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Integrate /text-base/ browser to =editor=
+- *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
