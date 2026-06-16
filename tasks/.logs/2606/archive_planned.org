@@ -122,3 +122,14 @@ CLOSED: [2026-03-24 Tue 12:23]
 - *OBJECTIVE:*  Using =dunstctl history= to export notification history view and select it with =fzf=
 - *Reference:*  [[shell:dunstctl history][Dunst notification History @Shell]]
 - *Tracker:*    [[id:896857df-21d8-4f2d-ae75-708173d5f507][Notification History Viewer @Issue]]
+* DONE Systemd Service Notification :subSystemd:
+DEADLINE: <2026-03-24 Tue> CLOSED: [2026-03-24 Tue 13:54]
+:PROPERTIES:
+:ID: 6e0bd8d8-2678-49e6-8d39-322171c0e85d
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Send notification on systemd =service= failure
+- *Issue:*      [[id:d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e][Systemd Service Failure Notification @Issue]]
