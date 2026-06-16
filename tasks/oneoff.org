@@ -209,9 +209,3 @@ CLOSED: [2025-09-06 Sat 14:32]
   + [[https://cockpit-project.org/guide/latest/guide.html#_author_7][Cockpit Guide @Doc]]
   + [[https://cockpit-project.org/external/wiki/Proxying-Cockpit-over-NGINX][Proxying cockpit over nginx @Guide]]
 - /Ticket:/     [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
-* DONE Change Boot Theme :@Theme:
-SCHEDULED: <2026-05-18 Mon> CLOSED: [2026-05-20 Wed 20:02]
-:PROPERTIES:
-:ID: 4a9df61c-060a-41e6-ba91-d6fc3e32152a
-:END:
-- *OBJECTIVE:*  Change =ly= and =grub= theme to onedark-dark

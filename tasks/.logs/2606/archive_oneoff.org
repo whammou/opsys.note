@@ -357,3 +357,13 @@ SCHEDULED: <2026-05-14 Thu> CLOSED: [2026-05-14 Thu 20:44]
 :ARCHIVE_TODO: DONE
 :END:
 - *OBJECTIVE:*  Change system theme to onedark =dark= variation
+* DONE Change Boot Theme :@Theme:
+SCHEDULED: <2026-05-18 Mon> CLOSED: [2026-05-20 Wed 20:02]
+:PROPERTIES:
+:ID: 4a9df61c-060a-41e6-ba91-d6fc3e32152a
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Change =ly= and =grub= theme to onedark-dark

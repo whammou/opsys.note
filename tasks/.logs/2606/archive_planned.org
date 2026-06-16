@@ -1,0 +1,22 @@
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+FILETAGS: :typArchive:typTask:catPlanned:
+* DONE Connect Windows Samba :SAMBA:WINDOWS:DRIVE:
+CLOSED: [2025-10-25 Sat 03:27] DEADLINE: <2025-10-25 Sat>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Mount Shared drive on Windows
+- *Reference:* [[https://www.linuxfordevices.com/tutorials/setup-and-mount-samba-share-on-windows][Mount Samba on Windows @Redhat]]
+* DONE Notifications Sync :subNotification:NotificationSync:
+CLOSED: [2025-11-09 Sun 21:34]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Sync notifications across platforms
+- *Check-out:* [[id:9a7dbd81-b9e2-44ff-83f9-d8cdcc123767][Config ntfy Server @Org]]
