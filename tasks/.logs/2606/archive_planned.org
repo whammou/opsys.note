@@ -133,3 +133,39 @@ DEADLINE: <2026-03-24 Tue> CLOSED: [2026-03-24 Tue 13:54]
 :END:
 - *OBJECTIVE:*  Send notification on systemd =service= failure
 - *Issue:*      [[id:d24dbee5-3ebe-4b62-bc61-ad13bfadbd6e][Systemd Service Failure Notification @Issue]]
+* DONE Establish Systemd Device Event Hook :subSystemd:
+DEADLINE: <2026-03-30 Mon> CLOSED: [2026-03-30 Mon 21:20]
+:PROPERTIES:
+:ID: c92d6d50-92ab-4416-832e-9df0a0ba8fd0
+:ARCHIVE_TIME: 2026-06-16 Tue 17:32
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Create and run systemd custom =event-hook= 
+- *Delegate:*   [[id:f4db4075-4741-45d8-bcc0-ff9df7f43dbf][!ENHANCEMENT Systemd Custom Event Hooks]]
+** DONE Bluetooth Hooks on Session Unlocked :subBluetooth:subQtile:
+CLOSED: [2026-03-30 Mon 21:20]
+:PROPERTIES:
+:ID: 22c4abee-f177-471c-aaa9-acee95253353
+:END:
+- *OBJECTIVE:*  Create a hook to auto connect to trusted device on session unlock
+- /Ticket:/   [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target @Enhancement]]
+* DONE Allow Some User to Edit Systemfile :subPermission:
+DEADLINE: <2026-05-08 Fri> CLOSED: [2026-05-09 Sat 17:00] SCHEDULED: <2026-05-07 Thu 21:30>
+:PROPERTIES:
+:ID: 51f8acb2-e767-4e03-8089-2a7769b65604
+:ARCHIVE_TIME: 2026-06-16 Tue 17:32
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Allowing specific =user= to edit some =systemfile=
+- *Reference:*  [[https://askubuntu.com/questions/505050/how-can-i-allow-a-user-to-edit-a-specific-system-file-normally-restricted-to-roo][Allow a user to edit a specific system file @Overflow]]
+** DONE Setfacl Over SSH :subSsh:
+DEADLINE: <2026-05-07 Thu> CLOSED: [2026-05-09 Sat 17:00] SCHEDULED: <2026-05-07 Thu 21:30>
+:PROPERTIES:
+:ID: 209d7eaf-5d7b-4806-a56e-457c6858ce8e
+:END:
+- *OBJECTIVE:*  Allowing file operation over =ssh=
+- *Reference:*  [[https://serverfault.com/questions/1085568/acl-settings-works-when-using-ssh-but-not-with-scp-command][ACL works over ssh but not scp @Overflow]]
