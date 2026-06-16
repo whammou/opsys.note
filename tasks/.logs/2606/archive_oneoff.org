@@ -438,3 +438,50 @@ CLOSED: [2026-03-19 Thu 00:45]
 :END:
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
+* ABRT Orgmode quicknote script :subOrgmode:
+CLOSED: [2026-03-19 Thu 00:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *OBJECTIVE:* Quickly output new note directory
+* ABRT Redirect URL :subQutebrowser:
+CLOSED: [2025-10-15 Wed 22:13]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *OBJECTIVE:* /Redirect URL via user-scripts/
+#+html:<details><summary>LOGBOOK</summary>
+-----
+:LOGBOOK:
+- Note taken on [2025-10-15 Wed 21:55] \\
+  Do *not* redirect =url= as =mutated-url= likely get outdated as opposed to =original-link=
+:END:
+-----
+#+html:</details>
+- *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+- *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
+* ABRT Fonts in different context :FONT:
+CLOSED: [2025-08-24 Sun 20:47]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *OBJECTIVE:* Determine when to use which fonts
+* ABRT Implement Plaintext Systray :SYSTRAY:FCITX:subQtile:
+CLOSED: [2025-09-06 Sat 14:32]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:39
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *OBJECTIVE:* Implement a plaintext systray for fcitx using qtile =widget.TextBox=
+- *Reference:* [[https://github.com/qtile/qtile][Qtile textbox widget @Qtile-doc]]

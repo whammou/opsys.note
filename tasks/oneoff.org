@@ -67,9 +67,6 @@ CLOSED: [2025-06-28 Sat 22:43] DEADLINE: <2025-06-28 Sat>
 *** PEND Config vdirsyncer :subVdirsyncer:
 - *OBJECTIVE:* /Config vdirsyncer to work sync calendar to google cal/
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
-* ABRT Orgmode quicknote script :subOrgmode:
-CLOSED: [2026-03-19 Thu 00:45]
-- *OBJECTIVE:* Quickly output new note directory
 * PEND Orgmode toggle archived items :subOrgmode:
 - *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
 - *Reference:* [[https://nvim-orgmode.github.io/configuration#org_agenda_archive][Archiving in nvim-orgmode @Doc-orgmode]]
@@ -81,19 +78,6 @@ CLOSED: [2026-03-19 Thu 00:45]
 - *Reference:*
   - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
   - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
-* ABRT Redirect URL :subQutebrowser:
-CLOSED: [2025-10-15 Wed 22:13]
-- *OBJECTIVE:* /Redirect URL via user-scripts/
-#+html:<details><summary>LOGBOOK</summary>
------
-:LOGBOOK:
-- Note taken on [2025-10-15 Wed 21:55] \\
-  Do *not* redirect =url= as =mutated-url= likely get outdated as opposed to =original-link=
-:END:
------
-#+html:</details>
-- *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-- *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
 * PRTL Prettify orgmode documents [100%] :topPackages:subOrgmode:subGithub:
 CLOSED: [2025-07-12 Sat 07:41]
 - *OBJECTIVE:* Prettify my org documents
@@ -135,13 +119,6 @@ Merge arch to main branch
 * PEND Resolve boot partition is full :ARCH:
 - *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
 - *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/697401/arch-linux-initramfs-unpacking-failed-zstd-compressed-data-is-truncated][Discussion initramfs unpack failed error @Overflow-discussion]]
-* ABRT Fonts in different context :FONT:
-CLOSED: [2025-08-24 Sun 20:47]
-- *OBJECTIVE:* Determine when to use which fonts
-* ABRT Implement Plaintext Systray :SYSTRAY:FCITX:subQtile:
-CLOSED: [2025-09-06 Sat 14:32]
-- *OBJECTIVE:* Implement a plaintext systray for fcitx using qtile =widget.TextBox=
-- *Reference:* [[https://github.com/qtile/qtile][Qtile textbox widget @Qtile-doc]]
 * PEND Create a Plaintext Email Workflow :EMAIL:
 + *OBJECTIVE:* Create and config an email workflow that can integrate with =orgmode= and =nvim=
 + *Reference:*
