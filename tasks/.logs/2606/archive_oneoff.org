@@ -1,0 +1,27 @@
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+FILETAGS: :typArchive:typTask:catOneoff:
+* DONE Plain text music playlist :LINUX:
+CLOSED: [2026-03-19 Thu 00:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+**Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
+* DONE Git Auto Commit :subGit:FileSync:
+CLOSED: [2025-10-11 Sat 22:18] DEADLINE: <2025-10-11 Sat>
+:PROPERTIES:
+:ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- [X] *Objective:* /Write scripts for:/
+  + [X] Write auto commit message
+  + [X] Auto pulling
+  + [X] Auto pushing
+- *Checkout:* [[id:35ff8cc5-522d-423e-b9e1-0d4e067e737b][Git Submodules Approach @Org]]
+- +[ ] *Objective:* /Auto commit repo via external packages/+
+- *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]

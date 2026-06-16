@@ -18,26 +18,11 @@ CLOSED: [2025-11-20 Thu 08:24]
 ** TODO Systemd Backup with Chezmoi :subChezmoi:
 - *OBJECTIVE:*  Backup systemd services using =chezmoi=
 - *Visit:*      [[id:58910689-be05-4304-8b9b-7d2c03fee002][Managing Dotfiles with Chezmoi @Org]]
-* DONE Plain text music playlist :LINUX:
-CLOSED: [2026-03-19 Thu 00:46]
-**Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 * PEND Search more efficiently :LINUX:
 :PROPERTIES:
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
 - /Use advances search methods in search engines/
-* DONE Git Auto Commit :subGit:FileSync:
-CLOSED: [2025-10-11 Sat 22:18] DEADLINE: <2025-10-11 Sat>
-:PROPERTIES:
-:ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
-:END:
-- [X] *Objective:* /Write scripts for:/
-  + [X] Write auto commit message
-  + [X] Auto pulling
-  + [X] Auto pushing
-- *Checkout:* [[id:35ff8cc5-522d-423e-b9e1-0d4e067e737b][Git Submodules Approach @Org]]
-- +[ ] *Objective:* /Auto commit repo via external packages/+
-- *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
 * ABRT System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
 - *Objective:* /Assign attribute to a file/

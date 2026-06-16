@@ -145,3 +145,26 @@ DEADLINE: <2026-03-15 Sun> CLOSED: [2026-03-15 Sun 08:30]
 - *OBJECTIVE:*  Fix =write error: quota exceeded /tmp= error on archlinux
 - *Reference:*  [[https://superuser.com/questions/959175/disk-quota-exceeded-when-writing-to-tmp-but-plenty-of-space-linux][Quota exceeded write error archlinux @Overflow]]
 - *Tracker:*   [[id:a4b35c13-cdc7-459c-b4f3-0b92273dd284][Debug Quota Exceed Write Error @Issue]]
+* DONE Service Fallbacks :opServer:subOpenCode:
+DEADLINE: <2026-03-23 Mon> CLOSED: [2026-03-23 Mon 02:27]
+:PROPERTIES:
+:ID: 66fdb731-27e9-41be-b20c-917250e6e6f9
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/incidental.org
+:ARCHIVE_CATEGORY: incidental
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Fall back to default workflow when server is down
+- *Issue:*      [[id:d4aaa9cb-c153-40f9-80ac-5707a985116e][Nvim Opencode Condition @Issue]]
+* DONE Create deSec Renewal Service :subDeSec@subDDNS:subSystemd:
+DEADLINE: <2026-03-30 Mon> CLOSED: [2026-03-30 Mon 19:34]
+:PROPERTIES:
+:ID: ebbbe5ef-25bf-4ea0-a073-c1957eac10cf
+:ARCHIVE_TIME: 2026-06-16 Tue 17:30
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/incidental.org
+:ARCHIVE_CATEGORY: incidental
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Create a systemd service that renew Desec DNS every minute
+- *Reference:*  [[https://desec.readthedocs.io/en/latest/dns/rrsets.html][Desec Doc @Blog]]
+- /Ticket:/   [[id:f719e976-b9c5-4d2f-b067-065ca2f2dbda][Manage Systemd Service Secrets @Issue]]

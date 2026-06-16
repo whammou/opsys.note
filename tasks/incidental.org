@@ -16,18 +16,3 @@
 :ID: 8d3ada12-a93e-4e02-a84f-b013f8be2de7
 :END:
 - *OBJECTIVE:*  Create a =dotfiles= for headless =homelab=
-* DONE Service Fallbacks :opServer:subOpenCode:
-DEADLINE: <2026-03-23 Mon> CLOSED: [2026-03-23 Mon 02:27]
-:PROPERTIES:
-:ID: 66fdb731-27e9-41be-b20c-917250e6e6f9
-:END:
-- *OBJECTIVE:*  Fall back to default workflow when server is down
-- *Issue:*      [[id:d4aaa9cb-c153-40f9-80ac-5707a985116e][Nvim Opencode Condition @Issue]]
-* DONE Create deSec Renewal Service :subDeSec@subDDNS:subSystemd:
-DEADLINE: <2026-03-30 Mon> CLOSED: [2026-03-30 Mon 19:34]
-:PROPERTIES:
-:ID: ebbbe5ef-25bf-4ea0-a073-c1957eac10cf
-:END:
-- *OBJECTIVE:*  Create a systemd service that renew Desec DNS every minute
-- *Reference:*  [[https://desec.readthedocs.io/en/latest/dns/rrsets.html][Desec Doc @Blog]]
-- /Ticket:/   [[id:f719e976-b9c5-4d2f-b067-065ca2f2dbda][Manage Systemd Service Secrets @Issue]]
