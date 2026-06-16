@@ -60,3 +60,65 @@ CLOSED: [2026-01-15 Thu 23:35] DEADLINE: <2026-01-15 Thu>
 :END:
 - *OBJECTIVE:* Integrate /text-base/ browser to =editor=
 - *Reference:* [[https://github.com/neovim/neovim/blob/master/runtime/syntax/lynx.vim][Lynx.vim @Github]]
+* DONE Disable Devices on Wayland :subWayland:DEVICE:
+CLOSED: [2026-01-07 Wed 11:33] DEADLINE: <2026-01-07 Wed>
+:PROPERTIES:
+:ID:       345b5c3b-efd6-4434-bbda-f4a94f546806
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Disable touchpad on =thinkpadx250= under =wayland=
+- *Reference:*
+  + [[https://bendun.cc/archive/wayland-keyboard.html][Disable Wayland Keyboard @Blog]]
+  + [[https://github.com/tahseenjamal/disable-native-keyboard][Disable native touchpad @Github]]
+* DONE Switching To Wayland :subWayland:
+CLOSED: [2026-01-12 Mon 19:46] DEADLINE: <2026-01-12 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Migrating my workflow from =x11= to =wayland=
+- *Reference:* [[https://itsfoss.gitlab.io/blog/guide-to-set-up-full-wayland-with-arch-linux/][Guide to setup full wayland with archlinux @Foss]]
+- *Visit:* [[id:d398a743-eedb-4300-84e8-beab397e4b49][Switching to Wayland Guide @Org]]
+* DONE Config Uncomplicated Firewall :Security:firewall:
+CLOSED: [2026-01-16 Fri 03:37] DEADLINE: <2026-01-16 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*
+  + [X]  Config =ufw= on archlinux =client=
+  + [X]  Config =ufw= on archlinux =server=
+- *Reference:*  [[https://wiki.archlinux.org/title/Uncomplicated_Firewall][Uncomplicated Firewall Guide @Arch-wiki]]
+- *Visit:*      [[id:ab23a38d-229b-409a-be17-0153ded1a354][Firewall on Archlinux @Org]]
+* DONE Setup Fail2ban :FAIL2BAN:Security:
+CLOSED: [2026-01-17 Sat 19:09] DEADLINE: <2026-01-17 Sat>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Config =fail2ban= on linux home server
+- *Reference:*
+  +  [[https://www.reddit.com/r/selfhosted/comments/1f3y16m/guide_securing_a_linux_server/][Homelab Security Guide @Reddit]]
+  +  [[https://linuxiac.com/how-to-protect-ssh-with-fail2ban/][Fail2ban Beginner Guide @Blog]]
+- *Visit:*      [[id:c57c1c13-93a2-49a2-b530-609b4f75cb0f][Server Safe-Guard @Org]]
+* DONE Implement Notification History View :subDunst:subFzf:subNotification:
+CLOSED: [2026-03-24 Tue 12:23]
+:PROPERTIES:
+:ID: 2b4e96bb-2e2d-4099-821e-69e8cff914bb
+:ARCHIVE_TIME: 2026-06-16 Tue 17:31
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/opsys/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Using =dunstctl history= to export notification history view and select it with =fzf=
+- *Reference:*  [[shell:dunstctl history][Dunst notification History @Shell]]
+- *Tracker:*    [[id:896857df-21d8-4f2d-ae75-708173d5f507][Notification History Viewer @Issue]]
