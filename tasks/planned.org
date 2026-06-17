@@ -42,7 +42,7 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 - *Reference:* [[https://unix.stackexchange.com/questions/228277/grouping-systemd-services][Grouping systemd services @Overflow]]
 * TODO Containerize Process Services :subPodman:subSystemd:
 - *OBJECTIVE:* Containerize individual process in =systemd=
-- *Check-out:*[[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
+- *Check-out:*  [[id:362cf886-09be-4964-b993-0ab110297d58][Container Manger @Org]]
 * EXPL [#B] Homelab Remote Access :subHomelab:Security:
 :PROPERTIES:
 :ID:       d6b438dd-c2f9-4e21-8f0a-abd541f7154e
