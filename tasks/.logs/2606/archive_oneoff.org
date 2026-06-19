@@ -22,7 +22,9 @@ CLOSED: [2025-10-11 Sat 22:18] DEADLINE: <2025-10-11 Sat>
   + [X] Write auto commit message
   + [X] Auto pulling
   + [X] Auto pushing
-- *Checkout:* [[id:35ff8cc5-522d-423e-b9e1-0d4e067e737b][Git Submodules Approach @Org]]
+- *Checkout:*
+  + [[id:35ff8cc5-522d-423e-b9e1-0d4e067e737b][Git Submodules Approach @Org]]
+  + [[id:d7307e0c-e134-439e-bfa0-8cf6bda8064b][Bi-directional Git Repo Sync @internal]]
 - +[ ] *Objective:* /Auto commit repo via external packages/+
 - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
 * DONE Update repo hierarchy :subOrgmode:

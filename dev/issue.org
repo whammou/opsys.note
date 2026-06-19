@@ -107,3 +107,14 @@ sequenceDiagram
     Note right of Client: App traffic → SOCKS:9090 → SSH tunnel<br/>→ Stunnel SSL:443 → VPS → Internet
     deactivate Client
 #+end_src
+* OPEN Choosing Linktype for Data Structure :subLinux@Structure@Feature:
+:PROPERTIES:
+:ID: 5715d15a-526e-4004-b34e-a9de5072dd4f
+:END:
+
+#+name: Descriptio
+#+begin_quote org
+How to choose the right type of link for data structure
+#+end_quote
+
+- /Doc:/ [[id:9af75cf0-05ad-4828-abf7-cc327f027b84][Linux Hard vs Soft Link @Doc]]
