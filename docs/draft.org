@@ -298,7 +298,8 @@ A =network-mask=, often refers as a =subnet-mask=, is a 32-bit number that disti
 * OUTL [#A] Screen-saver and Screen-lock :subWayland:MONITOR:
 /Lock and turn off screen after X value/ \\
 /Visit:/  [[id:42f1f2f3-7ced-4803-b2af-74714bc55dc1][Wayland Screen Timeout @Org]]
-* OUTL Linux Hard vs Soft Link :subLinux@Structure@Feature:
+* DONE Linux Hard vs Soft Link :subLinux@Structure@Feature:
+CLOSED: [2026-06-21 Sun 20:05]
 :PROPERTIES:
 :ID: 9af75cf0-05ad-4828-abf7-cc327f027b84
 :END:
@@ -311,3 +312,8 @@ In Linux, the primary difference between a soft link and a hard link is what the
 #+end_quote
 
 
+#+name: Note Admonition - Hardlink limitation
+#+begin_quote org
+[!NOTE]
+Linux only allows hard link to files and not directories
+#+end_quote
