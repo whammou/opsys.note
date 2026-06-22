@@ -9,7 +9,7 @@ CLOSED: [2026-03-19 Thu 00:46]
 :ARCHIVE_TODO: DONE
 :END:
 **Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
-* DONE Git Auto Commit :subGit:FileSync:
+* DONE Git Auto Commit :subGit:subFileSync:
 CLOSED: [2025-10-11 Sat 22:18] DEADLINE: <2025-10-11 Sat>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0

@@ -155,3 +155,9 @@ Merge arch to main branch
   + [[https://cockpit-project.org/guide/latest/guide.html#_author_7][Cockpit Guide @Doc]]
   + [[https://cockpit-project.org/external/wiki/Proxying-Cockpit-over-NGINX][Proxying cockpit over nginx @Guide]]
 - /Ticket:/     [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
+* TODO Resolve Syncing Conflicts :subFileSync:
+SCHEDULED: <2026-06-22 Mon>
+:PROPERTIES:
+:ID: b537c271-9410-4c36-8213-4596e4622f37
+:END:
+- *OBJECTIVE:*  Streamline syncs processes /(too many sync process)/
