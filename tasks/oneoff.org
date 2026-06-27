@@ -174,5 +174,5 @@ SCHEDULED: <2026-06-27 Sat>
 :ID: 5bd5c898-39d2-4490-b111-b8d4c54a4c91
 :END:
 - *OBJECTIVE:*  Config dunst config to handle separated notification =raw= and =display= formats
-- /Delegate:/   
+- /Delegate:/   [[id:d3867936-c592-4079-a114-7b0ac7b66ded][Notification Dispatch @internal]]
 
