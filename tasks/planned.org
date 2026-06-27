@@ -17,7 +17,7 @@
 :END:
 #+html:</details>
 - *OBJECTIVE:* High memory usage after =hibernation=
-* PRTL Get Notify When Systemd Service Failed :subNotification:subSystemd:systemmanage:
+* DONE Get Notify When Systemd Service Failed :subNotification:subSystemd:systemmanage:
 CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>

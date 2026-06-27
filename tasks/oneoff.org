@@ -40,14 +40,15 @@ CLOSED: [2025-05-24 Sat 01:19]
 - *Reference:*
   - [[https://l.opnxng.com/r/linux4noobs/comments/148dko9/looking_for_remote_software_for_linux_laptop_to/][Remote software for linux desktop @Reddit]]
   - [[https://www.youtube.com/watch?v=EXL8mMUXs88#__preview][Remote desktops foss @Youtube-preview]]
-* PRTL Config system notification [50%] :subNotification:
+* PRTL Config system notification [100%] :subNotification:
 CLOSED: [2025-06-28 Sat 22:43] DEADLINE: <2025-06-28 Sat>
 - *OBJECTIVE:* /Config system notifications with dunst/
   - *Run:* =man dunst=
   - *File:* [[file:=/.config/dunst/dunstrc][dunst config @Confini]]
   - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
 - *Reference:* [[https://www.youtube.com/watch?v=cBx9P3bvDCk#__preview][Linux notification system manager @Youtube]]
-** PEND Notification colorscheme
+** DONE Notification colorscheme
+CLOSED: [2026-06-27 Sat 16:11]
 :PROPERTIES:
 :ID:       f8ffc50b-03a6-4be9-842a-2c6278a62b86
 :END:
@@ -156,7 +157,7 @@ Merge arch to main branch
   + [[https://cockpit-project.org/external/wiki/Proxying-Cockpit-over-NGINX][Proxying cockpit over nginx @Guide]]
 - /Ticket:/     [[id:89395e88-7ebf-4cc4-8f2b-0a3a4ac14e25][Cockpit Authentication Timeout @Issue]]
 * TODO Resolve Syncing Conflicts :subFileSync:
-SCHEDULED: <2026-06-26 Fri>
+SCHEDULED: <2026-06-27 Sat>
 :PROPERTIES:
 :ID: b537c271-9410-4c36-8213-4596e4622f37
 :END:
