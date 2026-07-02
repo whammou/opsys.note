@@ -162,13 +162,13 @@ SCHEDULED: <2026-07-02 Thu>
 :ID: b537c271-9410-4c36-8213-4596e4622f37
 :END:
 - *OBJECTIVE:*  Streamline syncs processes /(too many sync process)/
-* TODO Separate System Notifications Flow :subNotification:
-SCHEDULED: <2026-07-02 Thu>
+* PROG Separate System Notifications Flow :subNotification:
+SCHEDULED: <2026-07-03 Fri>
 :PROPERTIES:
 :ID: 547f89d9-4820-4439-ae12-3208618168f5
 :END:
 - *OBJECTIVE:*  Notification should comes in =raw= and =display= format
-** TODO Dunst Handle For Notification with Separate Flow :subDunst:
+** DOIN Dunst Handle For Notification with Separate Flow :subDunst:
 SCHEDULED: <2026-07-02 Thu>
 :PROPERTIES:
 :ID: 5bd5c898-39d2-4490-b111-b8d4c54a4c91
