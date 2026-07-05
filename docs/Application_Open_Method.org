@@ -8,7 +8,7 @@
 #+FILETAGS: :topOpsys:typDoc:subProject:LINUX:
 - [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~
   - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
-* DONE [#A] Open with handlr :subHandlr:
+* DONE [#A] Open with Handlr :subHandlr:
 CLOSED: [2025-04-22 Tue 03:09]
 :PROPERTIES:
 :ID:       670f557e-c6f4-4392-aa0c-be18d7ae49a9

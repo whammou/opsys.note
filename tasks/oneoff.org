@@ -129,7 +129,11 @@ Merge arch to main branch
 - *OBJECTIVE:* Clean up configs
   + [ ] =neovim= config
   + [ ] =qtile= config
-* PEND Implement Open File With :FILE:subHandlr:
+* DONE Implement Open File With :FILE:subHandlr:
+CLOSED: [2026-07-06 Mon 03:11]
+:PROPERTIES:
+:ID: 4fefd3a0-2471-4361-84da-fe32bc494f4f
+:END:
 - *OBJECTIVE:* Open =mime-type= with =applications=
 -----
 - *[NOTE]* taken on [2025-09-12 05:27]: \\

@@ -74,3 +74,18 @@ CLOSED: [2025-11-22 Sat 21:22] DEADLINE: <2025-11-22 Sat 21:30>
 - *OBJECTIVE:*  Try bypassing some public NAT that blocked common ports
 - *Reference:*  [[https://isaiahnullbyte.github.io/cybernautblog/posts/redteam_1_9-16-23/][Bypassing with reverse proxy @Blog]]
 - /Delegate:/   [[id:667b5919-0382-422a-ab2f-c001bb9c4ab6][Encapsulating Traffic @Org]]
+* TODO Open Files Online Files :subOpen:subHandlr:
+SCHEDULED: <2026-07-06 Mon>
+:PROPERTIES:
+:ID: e9c82b39-c718-4b81-97a7-d15cdd619287
+:END:
+#+name:LOGBOOK
+#+html:<details>
+#+html:<summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-07-06 Mon 03:09] \\
+  Rework how system should open online/offline files using =handlr-regex=
+:END:
+#+html:</details>
+- *OBJECTIVE:*  Opening online an offline files with =xdg-open=
+- /Related:/    [[id:4fefd3a0-2471-4361-84da-fe32bc494f4f][Implement Open File With @internal]]
