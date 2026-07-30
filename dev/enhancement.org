@@ -77,8 +77,8 @@ CLOSED: [2026-03-30 Mon 21:17]
 :LOGBOOK:
 - Note taken on [2026-03-30 Mon 21:17] \\
   Using =qtile= built-in hooks to expose a systemd proxy target to reflect to qtile state. Checkout: [[id:e4145752-5fe2-430a-9528-00f502e7c203][Qtile Session Resume Target]]
-:END:
 #+html:</details>
+:END:
 
 #+name: Description
 #+begin_quote org
