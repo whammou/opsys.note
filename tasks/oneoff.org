@@ -185,3 +185,11 @@ SCHEDULED: <2026-08-18 Tue>
 :ID: c94832cc-015f-4da3-ae9b-0a6773da53f3
 :END:
 - *OBJECTIVE:*  Adding sub category to browser utilities =which-key=
+* TODO Biweekly System Update :subSystemUpdate@Reminder:
+SCHEDULED: <2026-08-22 Sat>
+:PROPERTIES:
+:ID: 8ce3cec5-7c5a-44c1-802e-7cbc5e10615d
+:END:
+- *OBJECTIVE:*  System update and resolve:
+  + [ ] Qtile new systemd inplementation
+  + [ ] Qtile swaylock crash
