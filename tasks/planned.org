@@ -89,3 +89,10 @@ SCHEDULED: <2026-07-06 Mon> CLOSED: [2026-07-06 Mon 14:13]
 #+html:</details>
 - *OBJECTIVE:*  Opening online an offline files with =xdg-open=
 - /Related:/    [[id:4fefd3a0-2471-4361-84da-fe32bc494f4f][Implement Open File With @internal]]
+* TODO Rework System Keybinds :subKey:
+SCHEDULED: <2026-08-20 Thu>
+:PROPERTIES:
+:ID: 62402dff-0f9a-41db-acfc-34632396122a
+:END:
+- *OBJECTIVE:*  Implement a seamless keybinds between =WM= and =keyd=
+- /Delegate:/   [[id:d556223a-1e86-470b-84db-d85b5c98d21b][Rework Keybindings @Internal]]
