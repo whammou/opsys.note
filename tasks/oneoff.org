@@ -186,7 +186,7 @@ SCHEDULED: <2026-08-19 Wed> CLOSED: [2026-08-19 Wed 10:51]
 :END:
 - *OBJECTIVE:*  Adding sub category to browser utilities =which-key=
 * TODO Biweekly System Update :subSystemUpdate@Reminder:
-SCHEDULED: <2026-08-22 Sat>
+SCHEDULED: <2026-09-01 Tue>
 :PROPERTIES:
 :ID: 8ce3cec5-7c5a-44c1-802e-7cbc5e10615d
 :END:
