@@ -193,3 +193,9 @@ SCHEDULED: <2026-09-01 Tue> CLOSED: [2026-09-01 Tue 18:56]
 - *OBJECTIVE:*  System update and resolve:
   + [ ] Qtile new systemd inplementation
   + [ ] Qtile swaylock crash
+* TODO Updating System Wallpapers :subQtile@subWallpaper:subWallpaper:
+SCHEDULED: <2026-09-01 Tue>
+:PROPERTIES:
+:ID: d8ed7348-bab2-4663-af74-9857ae692cdc
+:END:
+- *OBJECTIVE:*  Matching system wallpaper using =imagegonord=
