@@ -90,7 +90,7 @@ SCHEDULED: <2026-07-06 Mon> CLOSED: [2026-07-06 Mon 14:13]
 - *OBJECTIVE:*  Opening online an offline files with =xdg-open=
 - /Related:/    [[id:4fefd3a0-2471-4361-84da-fe32bc494f4f][Implement Open File With @internal]]
 * TODO Rework System Keybinds :subKey:
-SCHEDULED: <2026-08-20 Thu>
+SCHEDULED: <2026-09-02 Wed>
 :PROPERTIES:
 :ID: 62402dff-0f9a-41db-acfc-34632396122a
 :END:
