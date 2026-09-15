@@ -96,3 +96,10 @@ SCHEDULED: <2026-09-02 Wed>
 :END:
 - *OBJECTIVE:*  Implement a seamless keybinds between =WM= and =keyd=
 - /Delegate:/   [[id:d556223a-1e86-470b-84db-d85b5c98d21b][Rework Keybindings @Internal]]
+* TODO Cross-platform Bootstrap System :subBootstrap:
+SCHEDULED: <2026-09-15 Tue>
+:PROPERTIES:
+:ID: 7a59b23d-687d-40d7-a846-7e15b4da893c
+:END:
+- *OBJECTIVE:*  Research on creating a bootstrapping system across platforms
+- *Reference:*  [[https://github.com/Patruxs/dotfiles][Example dotfiles @Github]]
