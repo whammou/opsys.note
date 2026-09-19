@@ -167,13 +167,13 @@ SCHEDULED: <2026-07-10 Fri> CLOSED: [2026-07-10 Fri 15:02]
 :END:
 - *OBJECTIVE:*  Streamline syncs processes /(too many sync process)/
 * PROG Separate System Notifications Flow :subNotification:
-SCHEDULED: <2026-09-02 Wed>
+SCHEDULED: <2026-09-19 Sat>
 :PROPERTIES:
 :ID: 547f89d9-4820-4439-ae12-3208618168f5
 :END:
 - *OBJECTIVE:*  Notification should comes in =raw= and =display= format
 ** DOIN Dunst Handle For Notification with Separate Flow :subDunst:
-SCHEDULED: <2026-09-02 Wed>
+SCHEDULED: <2026-09-19 Sat>
 :PROPERTIES:
 :ID: 5bd5c898-39d2-4490-b111-b8d4c54a4c91
 :END:
@@ -194,7 +194,7 @@ SCHEDULED: <2026-09-01 Tue> CLOSED: [2026-09-01 Tue 18:56]
   + [ ] Qtile new systemd inplementation
   + [ ] Qtile swaylock crash
 * TODO Updating System Wallpapers :subQtile@subWallpaper:subWallpaper:
-SCHEDULED: <2026-09-14 Mon>
+SCHEDULED: <2026-09-19 Sat>
 :PROPERTIES:
 :ID: d8ed7348-bab2-4663-af74-9857ae692cdc
 :END:
