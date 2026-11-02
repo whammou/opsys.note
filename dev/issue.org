@@ -118,3 +118,66 @@ How to choose the right type of link for data structure
 #+end_quote
 
 - /Doc:/ [[id:9af75cf0-05ad-4828-abf7-cc327f027b84][Linux Hard vs Soft Link @Doc]]
+* OPEN System Shell Env Var Source Process :subEnvironmentVariable:
+:PROPERTIES:
+:ID: 2cfa8fdc-3e3a-4f4e-902b-bfc1b327c7a5
+:END:
+#+name: Description
+#+begin_quote org
+How archlinux under =wayland= with =systemd= source =environment variable=
+#+end_quote
+
+#+name: default-bash
+#+begin_src mermaid
+flowchart TD
+    S(["bash process starts"]) --> L{"login?<br/>argv[0] starts with '-'<br/>or --login"}
+    L -->|yes| A1["read /etc/profile"]
+    A1 --> A2{"first existing of:<br/>~/.bash_profile<br/>~/.bash_login<br/>~/.profile"}
+    A2 --> A3(["no ~/.bashrc here —<br/>bash does NOT read it in login mode"])
+    L -->|no| N1{"interactive?<br/>$- contains i"}
+    N1 -->|yes| N2["read /etc/bash.bashrc<br/>then ~/.bashrc"]
+    N1 -->|no| N3{"BASH_ENV set?"}
+    N3 -->|yes| N4["source $BASH_ENV"]
+    N3 -->|no| N5(["no startup file at all"])
+#+end_src
+
+#+name: modified-bash
+#+begin_src mermaid
+flowchart TD
+    subgraph DISK["on disk"]
+        C1["~/.config/environment.d/*.conf"]
+        C2["/etc/environment.d<br/>/run/environment.d<br/>/usr/lib/environment.d ..."]
+    end
+
+    subgraph SYS["systemd side"]
+        GEN["30-systemd-environment-d-generator"]
+        MGR["systemd --user manager env"]
+        UNIT["units: qtile.service, timers"]
+        C1 --> GEN
+        C2 --> GEN
+        GEN --> MGR --> UNIT
+    end
+
+    subgraph LOGIN["login shell path"]
+        BP["~/.bash_profile"] -->|"L6"| PR["~/.profile"]
+        BP -->|"L9"| SEC["~/.env/secrets"]
+        BP -->|"L18"| BR["~/.bashrc"]
+    end
+
+    subgraph NOLOGIN["non-login interactive path"]
+        BR2["~/.bashrc"] -->|"L5"| PR2["~/.profile"]
+    end
+
+    PR --> UE["set -a; source ~/.config/user-env"]
+    UE --> LOADER{"_ENVD_LOADED set?"}
+    LOADER -->|no| RUN["run generator, export each KEY<br/>skip PATH"]
+    LOADER -->|"yes (2nd pass)"| SKIP(["skip"])
+    RUN --> PATHX["export PATH=$PATH:~/.local/bin:~/.cargo/bin"]
+
+    GEN -.->|"newline-separated KEY=VALUE<br/>invoked at every shell start"| RUN
+    PR2 --> UE
+    UNIT -->|"starts compositor"| KITTY["terminal spawned by qtile"]
+    KITTY -.->|"already inherits manager env"| SHELL
+    PATHX --> SHELL(["shell environment"])
+#+end_src
+
